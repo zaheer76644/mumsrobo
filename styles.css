@@ -1,0 +1,4039 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:snow;
+}
+div{
+  display: block;
+}
+@media only screen and (max-width: 500px){
+.wrapper{
+  width: 100%;
+}
+
+.firstimage {
+  width: 130%;
+  top: 66px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  position: absolute;
+}
+
+#For_Kids_Age_5-18 {
+  top: 388px;
+    left: 93px;
+    font-family: Segoe UI;
+    padding: 40px 50px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+    position: relative;
+
+}
+
+h1 {
+  top: 555px;
+    left: 40px;
+    font-family: Segoe UI;
+    padding: 40px 50px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ff6161;
+    position: relative;
+}
+h2{
+  top: 470px;
+  left: 45px;
+  font-family: Segoe UI;
+  padding: 40px 50px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #ff6161;
+  position: relative;
+}
+
+img.Screenshot_16 {
+  width: 50%;
+  display: block;
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+a.btn{
+  left: 95px;
+    top: 765px;
+    margin: 30px 20px;
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+
+}
+
+a.btn-first{
+  background-color: #5bd7ff;
+  color: white;
+}
+
+#BOOK_FREE_DEMO {
+  left: 131px;
+    top: 798px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: white; 
+}
+#Worlds_1st_AIML__Data_Science_ {
+  left: 85px;
+    top: 850px;
+    position: absolute;
+    overflow: visible;
+    width: 423px;
+    height: 156px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 20px;
+    color: black; 
+}
+
+a.btn1{
+  left: 115px;
+  top: 933px;
+  margin: 30px 20px;
+  width: 175px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+a.btn-second{
+  background-color: #fff9c0;
+  color: white;
+}
+
+#Our_Courses {
+  left: 160px;
+    top: 963px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#second {
+  position: absolute;
+    width: 294px;
+    height: 255px;
+    left: 87px;
+    top: 1038px;
+    overflow: visible;
+    border-radius: 60px;
+}
+
+#Coding_Concepts {
+  left: 120px;
+    top: 1300px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+}
+
+#third {
+  display: none;
+}
+
+#fourth{
+  display: none;
+}
+
+#fifth{
+  display: none;
+}
+
+#Robotics {
+  display: none;
+}
+#AI {
+  display: none;
+}
+
+a.btn3{
+  left: 115px;
+  top: 1360px;
+  margin: 30px 20px;
+  width: 175px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+a.btn-third{
+  background-color: #52dce5; 
+  color: white;
+}
+
+#Why_Edurific_ {
+  left: 150px;
+    top: 1390px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#seventh{
+  position: absolute;
+    width: 426px;
+    height: 300px;
+    left: 40px;
+    top: 1450px;
+    overflow: visible;
+}
+
+#girl{
+  position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 1774px;
+}
+
+#Learn_from_Domain_Leaders_who_ {
+  left: 126px;
+  top: 1785px;
+  position: absolute;
+  overflow: visible;
+  width: 426px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+#chatting{
+  position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 1865px;
+
+}
+#Live_11_Interactive_Teaching_t {
+  left: 126px;
+  top: 1890px;
+  position: absolute;
+  overflow: visible;
+  width: 426px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+#world{
+  position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 1964px;
+
+}
+
+#World-Class_Curriculum_Designe {
+  left: 126px;
+  top: 1980px;
+  position: absolute;
+  overflow: visible;
+  width: 426px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; }
+
+#calender{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 15px;
+  top: 2063px;
+
+}
+
+#Real-life_Coding_HTML_CSS_Java {
+  left: 126px;
+  top: 2105px;
+  position: absolute;
+  overflow: visible;
+  width: 426px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+
+}
+
+a.btn4{
+  left: 30px;
+  top: 2160px;
+  margin: 30px 20px;
+  width: 367px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+a.btn-fourth{
+  background-color: #fff9c0;
+  color: white;
+}
+#Pick_your_Package {
+  left: 95px;
+  top: 2190px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: black;
+}
+
+.Rectangle_9 {
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+  height: 200px;
+  left: 60px;
+  top: 2263px;
+
+}
+#Rectangle_9 {
+  fill: rgba(41, 245, 255, 0.149); 
+}
+
+.Rectangle_10 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 60px;
+  top: 2390px; }
+
+#Rectangle_10 {
+  fill: white; 
+}
+#Ofcourse_Coder {
+  left: 140px;
+    top: 2280px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+#ID10_Classes {
+  left: 180px;
+  top: 2340px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+}
+
+#Introduction {
+  left: 178px;
+    top: 2410px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-weight: bold;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 24px;
+    color: rgb(72, 189, 235);
+}
+
+#ChatbotCoding_ScratchPython {
+  left: 170px;
+  top: 2445px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+#Achievement {
+  left: 170px;
+  top: 2555px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  font-weight: bold;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+#Build_First_Bot__First_webpage {
+  left: 112px;
+  top: 2592px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#_Certificate_ {
+  left: 194px;
+  top: 2670px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#Rs4000 {
+  left: 74px;
+  top: 2830px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+#View_CRIRICULUM_details {
+  left: 130px;
+  top: 2765px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(61, 182, 230);
+}
+
+#Rs10000 {
+  left: 225px;
+    top: 2831px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+}
+
+
+.Rectangle_11_cn {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 92px;
+  top: 2892px;}
+
+#Rectangle_11_cn {
+  fill: url(#Rectangle_11_cn);
+}
+
+#Buy_Now {
+  left: 190px;
+  top: 2895px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; 
+}
+
+#Register_for_Demo_Class {
+  left: 100px;
+    top: 2955px;
+    position: absolute;
+    overflow: visible;
+    width: 258px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 23px;
+    color: #52dce5;
+}
+
+
+#Rectangle_12 {
+  fill:  rgba(220, 95, 252, 0.149); }
+
+.Rectangle_12 {
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+  height: 200px;
+  left: 60px;
+  top: 3020px;
+  box-shadow: 25px; 
+}
+
+.Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 60px;
+  top: 3150px; }
+
+#Rectangle_13 {
+  fill: white; 
+}
+
+#Base_Builder {
+  left: 150px;
+    top: 3025px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+}
+
+#ID49_Classes {
+  left: 180px;
+  top: 3095px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+}
+
+#Coding {
+  left: 185px;
+  top: 3170px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(72, 189, 235);
+}
+
+#HTML_JavaScript_CSS {
+  left: 130px;
+  top: 3205px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+#Achievement_bt {
+  left: 170px;
+  top: 3300px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+#Your_Child_will_Create_a_Websi {
+  left: 112px;
+  top: 3335px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#_Certificate__b {
+  left: 194px;
+  top: 3400px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#View_CRIRICULUM_details_b {
+  left: 130px;
+  top: 3500px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(61, 182, 230);
+}
+
+#Rs39200 {
+  left: 74px;
+  top: 3580px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0); }
+
+#Rs49000 {
+  left: 225px;
+    top: 3580px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 21px;
+    color: rgb(0, 0, 0); 
+}
+.Rectangle_14_cp {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 92px;
+  top: 3650px; }
+
+#Rectangle_14_cp {
+  fill: url(#Rectangle_14_cp); 
+}
+#Buy_Now_ct {
+  left: 190px;
+  top: 3655px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; 
+}
+
+#Register_for_Demo_Class_bz {
+  left: 100px;
+    top: 3710px;
+    position: absolute;
+    overflow: visible;
+    width: 258px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 23px;
+  color: #1e1bc2; 
+}
+
+.Rectangle_15 {
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+  height: 200px;
+  left: 60px;
+  top: 3780px;
+  box-shadow: 25px;  }
+
+#Rectangle_15 {
+  fill: #fb1745; 
+}
+.Rectangle_16 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 60px;
+  top: 3900px;
+}
+#Rectangle_16 {
+  fill: white; 
+}
+#Inbetweener {
+  left: 150px;
+    top: 3785px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+
+#ID147_Classes {
+  left: 180px;
+  top: 3850px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
+  color: white;
+}
+#Base_Bulider_ {
+  left: 160px;
+  top: 3920px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #0b18d4; }
+
+#Artificial_Intelligence___Robo {
+  left: 130px;
+  top: 3955px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 22px;
+  color: black;
+}
+
+#Achievement_bu {
+  left: 170px;
+  top: 4050px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+#Your_Child_will_Build_a_voice_ {
+  left: 140px;
+  top: 4085px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#_Certificate__ca {
+  left: 194px;
+  top: 4190px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);}
+
+#View_CRIRICULUM_details_ca {
+  left: 130px;
+  top: 4280px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(61, 182, 230);
+}
+
+
+#Rs117600 {
+  left: 74px;
+  top: 4350px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);}
+
+#Rs147000 {
+  left: 225px;
+    top: 4350px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 21px;
+    color: rgb(0, 0, 0); 
+}
+.Rectangle_17_cr {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 92px;
+  top: 4400px; }
+
+#Rectangle_17_cr {
+  fill: url(#Rectangle_17_cr); 
+}
+#Buy_Now_cu {
+  left: 190px;
+  top: 4400px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; 
+}
+
+#Register_for_Demo_Class_b {
+  left: 100px;
+    top: 4465px;
+    position: absolute;
+    overflow: visible;
+    width: 258px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 23px;
+  color: white; 
+}
+
+.Rectangle_18 {
+  left: 85px;
+    top: 4600px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px; }
+
+#Rectangle_18 {
+  fill: #c0ffcc; 
+}
+
+#About_Edurific {
+  left: 113px;
+  top: 4600px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: black; 
+}
+
+
+#ceritificate {
+  position: absolute;
+  width: 426px;
+  height: 300px;
+  left: 40px;
+  top: 4700px;
+  overflow: visible;
+}
+
+#Edurific_is_founded_by_the_Alu {
+  left: 40px;
+  top: 5000px;
+  position: absolute;
+  overflow: visible;
+  width: 434px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Myanmar Text;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+#Rectangle_19 {
+  fill: #fff9c0; }
+
+.Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 347px;
+  height: 60px;
+  left: 60px;
+  top: 5300px; 
+}
+
+#Our_Curriculum_Heads {
+  left: 75px;
+  top: 5307px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px
+}
+.Rectangle_20{
+  display: none;
+}
+
+.Rectangle_22{
+  display: none;
+}
+.Rectangle_24{
+  display: none;
+}
+.Rectangle_28{
+  display: none;
+}
+.Rectangle_21{
+  display: none;
+}
+
+.Rectangle_25{
+  display: none;
+}
+.Rectangle_23{
+  display: none;
+}
+.Rectangle_29{
+  display: none;
+}
+.Rectangle_7{
+  display: none;
+}
+
+.Rectangle_8{
+  display: none;
+}
+
+.Rectangle_45{
+  position: absolute;
+    overflow: visible;
+    width: 226px;
+    height: 456px;
+    left: 40px;
+    top: 5380px;}
+
+#Rectangle_45 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; 
+  color: black;  
+}
+
+#Screenshot_11 {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: 40px;
+  top: 5380px;
+  overflow: visible; 
+}
+#Rectangle_50 {
+  fill: #fff9c0; }
+
+.Rectangle_50 {
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  height: 28px;
+  left: 135px;
+  top: 5650px; 
+}
+#Head_of_Robotics {
+  left: 145px;
+  top: 5650px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+}
+
+#DR_SASCHA_GRIFFITHS {
+  left: 125px;
+  top: 5710px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+#PhD_at_Universittt____Hamburg {
+  left: 115px;
+  top: 5775px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black; 
+}
+
+.Rectangle_46{
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 456px;
+  left: 40px;
+  top: 5855px;}
+
+#Rectangle_46{
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; 
+}
+#Screenshot_12 {
+  position: absolute;
+  width: 400px;
+  height: 234px;
+  left: 40px;
+  top: 5855px;
+  overflow: visible; 
+}
+
+.Rectangle_51 {
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  height: 28px;
+  left: 135px;
+  top: 6110px;  }
+
+#Rectangle_51{
+  fill: gainsboro; 
+}
+
+#Head_of_Data_Science {
+  left: 135px;
+  top: 6115px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+#BHAVNA_BHAISARE {
+  left: 135px;
+  top: 6155px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+#IIT_Bombay_Indian__School_of_B {
+  left: 125px;
+  top: 6200px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.Rectangle_47{
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 456px;
+  left: 40px;
+  top: 6350px;}
+
+#Rectangle_47{
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; 
+}
+#Screenshot_13 {
+  position: absolute;
+  width: 400px;
+  height: 234px;
+  left: 40px;
+  top: 6350px;
+  overflow: visible; 
+}
+
+.Rectangle_52 {
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  height: 28px;
+  left: 135px;
+  top: 6600px;  }
+
+#Rectangle_52{
+  fill: gainsboro; 
+}
+
+#Head_of_Career_Guidance {
+  left: 146px;
+  top: 6603px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+#ROBERT_J_LUEBKE{
+  left: 155px;
+  top: 6650px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+#BS_Psychology_Honors__College_{
+  left: 140px;
+  top: 6690px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.Rectangle_48{
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 456px;
+  left: 40px;
+  top: 6850px;}
+
+#Rectangle_48{
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; 
+}
+#Screenshot_14 {
+  position: absolute;
+  width: 400px;
+  height: 234px;
+  left: 40px;
+  top: 6850px;
+  overflow: visible; 
+}
+
+.Rectangle_53 {
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  height: 28px;
+  left: 135px;
+  top: 7100px;  }
+
+#Rectangle_53{
+  fill: gainsboro; 
+}
+
+#Head_of_AI__ML{
+  left: 146px;
+  top: 7103px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+#NITIN_P {
+  left: 190px;
+  top: 7150px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+#Bachelors_of_Computer__Enginee{
+  left: 140px;
+  top: 7200px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+}
+
+.Rectangle_30 {
+  position: absolute;
+  overflow: visible;
+  width: 288px;
+  height: 60px;
+  left: 95px;
+  top: 7330px; }
+
+#Rectangle_30 {
+  fill: #c0ffcc; 
+}
+
+#Parent_Feedback {
+  left: 105px;
+  top: 7335px;
+  position: absolute;
+  overflow: visible;
+  width: 233px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; 
+}
+#Rectangle_31_dy {
+  fill: url(#Rectangle_31_dy); }
+
+.Rectangle_31_dy {
+  filter: drop-shadow(18px 18px 19px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 503px;
+  height: 300px;
+  left: 30px;
+  top: 7400px; 
+}
+#Rectangle_32 {
+  fill: white; }
+
+.Rectangle_32 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 171px;
+  left: 30px;
+  top: 7450px; 
+}
+#shayari-2-8 {
+  position: absolute;
+  width: 383px;
+  height: 150px;
+  left: 30px;
+  top: 7460px;
+  border-radius: 10px;
+  overflow: visible; 
+}
+
+#My_6-year-old_nephew_Rahul_is_ {
+  left: 30px;
+  top: 7680px;
+  position: absolute;
+  overflow: visible;
+  width: 441px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: black; 
+}
+#Rectangle_34 {
+  fill: #f5d3de; }
+
+.Rectangle_34 {
+  position: absolute;
+  overflow: visible;
+  width: 221px;
+  height: 60px;
+  left: 120px;
+  top: 7850px; 
+}
+
+#Recent_Blog {
+  left: 140px;
+  top: 7855px;
+  position: absolute;
+  overflow: visible;
+  width: 169px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; 
+}
+
+#Screenshot_18 {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  left: 40px;
+  top: 7950px;
+  overflow: visible;
+}
+
+#How_to_get_your_child_interest {
+  left: 40px;
+  top: 8250px;
+  position: absolute;
+  overflow: visible;
+  width: 476px;
+  height: 105px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 20px;
+  font-weight: bold;
+  color: black; 
+}
+#Schools_are_a_major_part_of_ev {
+  left: 40px;
+  top: 8280px;
+  position: absolute;
+  overflow: visible;
+  width: 465px;
+  height: 127px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #707070; 
+}
+
+#Rectangle_35 {
+  fill: #fb1745; }
+
+.Rectangle_35 {
+  position: absolute;
+  overflow: visible;
+  width: 166px;
+  height: 47px;
+  left: 40px;
+  top: 8450px; 
+}
+#Read_More {
+  left: 60px;
+  top: 8458px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: white; 
+}
+#Rectangle_36 {
+  fill: #c0ffcc; }
+
+.Rectangle_36 {
+  position: absolute;
+  overflow: visible;
+  width: 250px;
+  height: 60px;
+  left: 120px;
+  top: 8530px; 
+}
+
+#Our_Alumni {
+  left: 145px;
+  top: 8535px;
+  position: absolute;
+  overflow: visible;
+  width: 164px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  color: black; 
+}
+
+#Screenshot_20 {
+  position: absolute;
+  width: 515px;
+  height: 200px;
+  left: 5px;
+  top: 8600px;
+  overflow: visible; 
+}
+
+#Screenshot_22 {
+  position: absolute;
+  width: 515px;
+  height: 200px;
+  left: 5px;
+  top: 8800px;
+  overflow: visible; 
+}
+
+.Line_3 {
+  overflow: visible;
+  position: absolute;
+  width: 470px;
+  height: 3px;
+  left: 15px;
+  top: 8990px;
+  transform: matrix(1, 0, 0, 1, 0, 0); }
+
+#Line_3 {
+  fill: transparent;
+  stroke: #707070;
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; 
+}
+#Screenshot_25 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 40px;
+  top: 9020px;
+  overflow: visible; }
+
+#Edurific_Education {
+  left: 40px;
+  top: 9080px;
+  position: absolute;
+  overflow: visible;
+  width: 214px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#email {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 40px;
+  top: 9120px;
+  overflow: visible; }
+
+#helloedurificcom {
+  left: 100px;
+  top: 9127px;
+  position: absolute;
+  overflow: visible;
+  width: 154px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #1700ff; 
+}
+
+#Screenshot_26 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 40px;
+  top: 9170px;
+  overflow: visible; 
+}
+
+#smartphone {
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  left: 30px;
+  top: 9250px;
+  overflow: visible; }
+
+#_Reach_us {
+  left: 100px;
+  top: 9250px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: black; }
+
+#united-states {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9300px;
+  overflow: visible; }
+
+#ID1_302_231_2830 {
+  left: 100px;
+  top: 9305px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black; 
+}
+#united-kingdom {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9340px;
+  overflow: visible; }
+
+#ID44_2032393203 {
+  left: 100px;
+  top: 9345px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black; }
+
+#india {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9380px;
+  overflow: visible; }
+
+#ID91_8828777879 {
+  left: 100px;
+  top: 9385px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black; }
+
+#placeholder {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9450px;
+  overflow: visible; }
+
+#placeholder_ez {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9550px;
+  overflow: visible; }
+
+#_United_Kingdom {
+  left: 100px;
+  top: 9455px;
+  position: absolute;
+  overflow: visible;
+  width: 201px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: black; }
+
+#ID63-66_Hatton_Garden_London_E {
+  left: 45px;
+  top: 9490px;
+  position: absolute;
+  overflow: visible;
+  width: 241px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black; }
+
+#India {
+  left: 100px;
+  top: 9555px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: black; }
+
+#Spectrum_Tower_5th_Chincholi_B {
+  left: 45px;
+  top: 9585px;
+  position: absolute;
+  overflow: visible;
+  width: 269px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: black; }
+
+#Blog {
+  left: 40px;
+  top: 9730px;
+  position: absolute;
+  overflow: visible;
+  width: 55px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: #1700ff; }
+
+#Career {
+  left: 40px;
+  top: 9760px;
+  position: absolute;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: #1700ff; }
+
+#Affiliat {
+  left: 40px;
+  top: 9790px;
+  position: absolute;
+  overflow: visible;
+  width: 80px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: #1700ff; }
+
+#Franchise {
+  left: 40px;
+  top: 9820px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: #1700ff; }
+
+#Scholarship {
+  left: 40px;
+  top: 9850px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: #1700ff; }
+
+#Our_Social_links {
+  left: 40px;
+  top: 9880px;
+  position: absolute;
+  overflow: visible;
+  width: 197px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; }
+
+#facebook {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 40px;
+  top: 9920px;
+  overflow: visible; }
+
+#twitter {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 80px;
+  top: 9920px;
+  overflow: visible; 
+}
+
+#Cancel_Anytime_Same_day_100_re {
+  left: 60px;
+  top: 4520px;
+  position: absolute;
+  overflow: visible;
+  width: 356px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(112,112,112,1);
+}
+
+#instagram {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 120px;
+  top: 9920px;
+  overflow: visible; }
+
+#youtube {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 160px;
+  top: 9920px;
+  overflow: visible; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px){
+
+.Screenshot_16 {
+  position: absolute;
+  width: 256px;
+  height: 64px;
+  left: 60px;
+  top: 23px;
+  overflow: visible; }
+
+h1 {
+  left: 115px;
+  top: 200px;
+  position: absolute;
+  overflow: visible;
+  width: 666px;
+  height: 490px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0px;
+  font-size: 40px;
+  color: #ff6161; }
+
+h2 {
+  left: 115px;
+  top: 250px;
+  position: absolute;
+  overflow: visible;
+  width: 666px;
+  height: 490px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0px;
+  font-size: 40px;
+  color: #ff6161; }
+
+.firstimage {
+  position: absolute;
+  width: 700px;
+  height: 705px;
+  left: 642px;
+  top: -7px;
+  overflow: visible; 
+}
+
+#About{
+  left: 680px;
+  top: 40px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Segoe UI;
+  color: white;
+}
+
+#Blog1{
+  left: 800px;
+  top: 40px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Segoe UI;
+  color: white;
+}
+#Contact{
+  left: 1040px;
+  top: 40px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Segoe UI;
+  color: white;
+}
+
+#Career1{
+  left: 920px;
+  top: 40px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Segoe UI;
+  color: white;
+}
+
+
+
+#BOOK_FREE_DEMO {
+  left: 165px;
+  top: 395px;
+  position: absolute;
+  overflow: visible;
+  width: 216px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: white; }
+
+
+  a.btn{
+    left: 125px;
+    top: 360px;
+    margin: 30px 20px;
+    width: 240px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+
+  }
+
+  a.btn-first{
+    background-color: #5bd7ff;
+    color: white;
+  }
+
+
+#For_Kids_Age_5-18 {
+  left: 125px;
+  top: 280px;
+  position: absolute;
+  overflow: hidden;
+  width: 535px;
+  height: 51px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  color: #070303; }
+
+#Worlds_1st_AIML__Data_Science_ {
+  left: 145px;
+  top: 491px;
+  position: absolute;
+  overflow: visible;
+  width: 423px;
+  height: 156px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #707070; }
+
+a.btn1{
+  left: 65px;
+  top: 675px;
+  margin: 30px 20px;
+  width: 240px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-second{
+    background-color: #fff9c0;
+    color: white;
+}
+#Our_Courses {
+  left: 135px;
+  top: 706px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#Why_Edurific_ {
+  left: 119px;
+  top: 1407px;
+  position: absolute;
+  overflow: visible;
+  width: 203px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+
+  a.btn3{
+    display: none;
+  }
+
+  a.btn4{
+    display: none;
+  }
+#Rectangle_7 {
+  fill: #b2f2f1; }
+
+.Rectangle_7 {
+  position: absolute;
+  overflow: visible;
+  width: 230px;
+  height: 60px;
+  left: 105px;
+  top: 1397px; }
+
+#second {
+  position: absolute;
+  width: 294px;
+  height: 324px;
+  left: 105px;
+  top: 907px;
+  overflow: visible;
+  border-radius: 60px; }
+
+#third {
+  position: absolute;
+  width: 294px;
+  height: 324px;
+  left: 519px;
+  top: 907px;
+  overflow: visible;
+  border-radius: 60px; }
+
+#fourth {
+  position: absolute;
+  width: 294px;
+  height: 324px;
+  left: 931px;
+  top: 907px;
+  overflow: visible;
+  border-radius: 60px; }
+
+#fifth {
+  position: absolute;
+  width: 294px;
+  height: 324px;
+  left: 1346px;
+  top: 907px;
+  overflow: visible;
+  border-radius: 60px; }
+
+#Coding_Concepts {
+  left: 153px;
+  top: 1255px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#Robotics {
+  left: 615px;
+  top: 1255px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#AI {
+  left: 1067px;
+  top: 1255px;
+  position: absolute;
+  overflow: visible;
+  width: 27px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#seventh {
+  position: absolute;
+  width: 588px;
+  height: 601px;
+  left: 94px;
+  top: 1600px;
+  overflow: visible; }
+
+#girl {
+  position: absolute;
+  width: 111px;
+  height: 115px;
+  left: 747px;
+  top: 1600px;
+  overflow: visible; }
+
+#chatting {
+  position: absolute;
+  width: 111px;
+  height: 135px;
+  left: 747px;
+  top: 1740px;
+  overflow: visible; }
+
+#world {
+  position: absolute;
+  width: 111px;
+  height: 135px;
+  left: 747px;
+  top: 1890px;
+  overflow: visible; }
+
+#calender {
+  position: absolute;
+  width: 111px;
+  height: 135px;
+  left: 747px;
+  top: 2040px;
+  overflow: visible; 
+}
+
+
+#Learn_from_Domain_Leaders_who_ {
+  left: 875px;
+  top: 1616px;
+  position: absolute;
+  overflow: visible;
+  width: 426px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#Live_11_Interactive_Teaching_t {
+  left: 875px;
+  top: 1770px;
+  position: absolute;
+  overflow: visible;
+  width: 435px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#World-Class_Curriculum_Designe {
+  left: 875px;
+  top: 1932px;
+  position: absolute;
+  overflow: visible;
+  width: 405px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#Real-life_Coding_HTML_CSS_Java {
+  left: 875px;
+  top: 2082px;
+  position: absolute;
+  overflow: visible;
+  width: 401px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+.Rectangle_9 {
+  filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
+  position: absolute;
+  overflow: visible;
+  width: 411px;
+  height: 787px;
+  left: 94px;
+  top: 2483px;
+  box-shadow: 25px; }
+
+#Rectangle_9 {
+  fill: rgba(41, 245, 255, 0.149); }
+
+.Rectangle_10 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 94px;
+  top: 2597px; }
+
+#Rectangle_10 {
+  fill: white; }
+
+#Ofcourse_Coder {
+  left: 162px;
+  top: 2486px;
+  position: absolute;
+  overflow: visible;
+  width: 195px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: black; 
+}
+  .Rectangle_45{
+    display: none;
+  }
+  
+  .Rectangle_46{
+    display: none;
+  }
+  .Rectangle_47{
+    display: none;
+  }
+  .Rectangle_48{
+    display: none;
+  }
+  
+
+#ID10_Classes {
+  left: 201px;
+  top: 2543px;
+  position: absolute;
+  overflow: visible;
+  width: 105px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Achievement {
+  left: 189px;
+  top: 2760px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: black; }
+
+#Introduction {
+  left: 186px;
+  top: 2627px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; }
+
+#Register_for_Demo_Class {
+  left: 139px;
+  top: 3165px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 23px;
+  color: #52dce5; }
+
+#View_CRIRICULUM_details {
+  left: 128px;
+  top: 2986px;
+  position: absolute;
+  overflow: visible;
+  width: 277px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; }
+
+#ChatbotCoding_ScratchPython {
+  left: 172px;
+  top: 2669px;
+  position: absolute;
+  overflow: visible;
+  width: 166px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#_Certificate_ {
+  left: 217px;
+  top: 2886px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Build_First_Bot__First_webpage {
+  left: 109px;
+  top: 2802px;
+  position: absolute;
+  overflow: visible;
+  width: 314px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Rs4000 {
+  left: 102px;
+  top: 3037px;
+  position: absolute;
+  overflow: visible;
+  width: 131px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  color: black; }
+
+#Rs10000 {
+  left: 301px;
+  top: 3046px;
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #707070; }
+
+.Line_1 {
+  overflow: visible;
+  position: absolute;
+  width: 110.365px;
+  height: 1px;
+  left: 301.052px;
+  top: 3065.482px;
+  transform: matrix(1, 0, 0, 1, 0, 0); }
+
+.Rectangle_11_cn {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 117px;
+  top: 3095px; }
+
+#Rectangle_11_cn {
+  fill: url(#Rectangle_11_cn); }
+
+#Buy_Now {
+  left: 215px;
+  top: 3100px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; }
+
+#Rectangle_12 {
+  fill: rgba(41, 245, 255, 0.149); }
+
+.Rectangle_12 {
+  filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
+  position: absolute;
+  overflow: visible;
+  width: 411px;
+  height: 787px;
+  left: 518px;
+  top: 2483px; }
+
+.Rectangle_13 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 518px;
+  top: 2597px; }
+
+#Rectangle_13 {
+  fill: white; }
+
+#Base_Builder {
+  left: 600px;
+  top: 2486px;
+  position: absolute;
+  overflow: visible;
+  width: 152px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: black; }
+
+#ID49_Classes {
+  left: 625px;
+  top: 2543px;
+  position: absolute;
+  overflow: visible;
+  width: 105px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Coding {
+  left: 655px;
+  top: 2627px;
+  position: absolute;
+  overflow: visible;
+  width: 78px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; 
+}
+
+.Rectangle_50{
+  display: none;
+}
+
+.Rectangle_51{
+  display: none;
+}
+.Rectangle_52{
+  display: none;
+}
+.Rectangle_53{
+  display: none;
+}
+
+.Rectangle_16 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 924px;
+  top: 2597px; }
+
+#Rectangle_16 {
+  fill: white; }
+
+#Inbetweener {
+  left: 1005px;
+  top: 2486px;
+  position: absolute;
+  overflow: visible;
+  width: 155px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: white; }
+
+#ID147_Classes {
+  left: 1031px;
+  top: 2543px;
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: white; }
+
+#Base_Bulider_ {
+  left: 1032px;
+  top: 2627px;
+  position: absolute;
+  overflow: visible;
+  width: 157px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; }
+
+#Artificial_Intelligence___Robo {
+  left: 983px;
+  top: 2668px;
+  position: absolute;
+  overflow: visible;
+  width: 235px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Register_for_Demo_Class_b {
+  left: 969px;
+  top: 3165px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; }
+
+#ChatbotCoding_ScratchPython_b {
+  left: 1017px;
+  top: 2669px;
+  position: absolute;
+  overflow: visible;
+  width: 166px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Achievement_bu {
+  left: 1032px;
+  top: 2760px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: black; }
+
+#Your_Child_will_Build_a_voice_ {
+  left: 986px;
+  top: 2802px;
+  position: absolute;
+  overflow: visible;
+  width: 229px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#HTML_JavaScript_CSS {
+  left: 597px;
+  top: 2669px;
+  position: absolute;
+  overflow: visible;
+  width: 222px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#Achievement_bt {
+  left: 614px;
+  top: 2760px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: black; }
+
+#Your_Child_will_Create_a_Websi {
+  left: 534px;
+  top: 2802px;
+  position: absolute;
+  overflow: visible;
+  width: 321px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#_Certificate__b {
+  left: 641px;
+  top: 2886px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#View_CRIRICULUM_details_b {
+  left: 552px;
+  top: 2986px;
+  position: absolute;
+  overflow: visible;
+  width: 277px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; }
+
+#Rs39200 {
+  left: 527px;
+  top: 3037px;
+  position: absolute;
+  overflow: visible;
+  width: 150px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  color: black; }
+
+#Rs49000 {
+  left: 725px;
+  top: 3046px;
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #707070; }
+
+.Rectangle_14_cp {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 541px;
+  top: 3095px; }
+
+#Rectangle_14_cp {
+  fill: url(#Rectangle_14_cp); }
+
+#Buy_Now_ct {
+  left: 639px;
+  top: 3100px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; }
+
+#Register_for_Demo_Class_bz {
+  left: 564px;
+  top: 3165px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 23px;
+  color: #1e1bc2; }
+
+.Rectangle_15 {
+  filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
+  position: absolute;
+  overflow: visible;
+  width: 411px;
+  height: 787px;
+  left: 924px;
+  top: 2483px; }
+
+#Rectangle_15 {
+  fill: #fb1745; }
+
+#_Certificate__ca {
+  left: 1047px;
+  top: 2906px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; }
+
+#View_CRIRICULUM_details_ca {
+  left: 958px;
+  top: 2986px;
+  position: absolute;
+  overflow: visible;
+  width: 277px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; }
+
+#Rs117600 {
+  left: 933px;
+  top: 3037px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: black; }
+
+#Rs147000 {
+  left: 1131px;
+  top: 3046px;
+  position: absolute;
+  overflow: visible;
+  width: 138px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: #707070; 
+}
+#Cancel_Anytime_Same_day_100_re {
+  left: 518px;
+  top: 3240px;
+  position: absolute;
+  overflow: visible;
+  width: 356px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(112,112,112,1);
+}
+
+
+.Rectangle_17_cr {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 45px;
+  left: 947px;
+  top: 3095px; }
+
+#Rectangle_17_cr {
+  fill: url(#Rectangle_17_cr); }
+
+#Buy_Now_cu {
+  left: 1045px;
+  top: 3100px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: white; }
+
+.Rectangle_8 {
+  position: absolute;
+  overflow: visible;
+  width: 288px;
+  height: 60px;
+  left: 150px;
+  top: 2327px; }
+
+#Rectangle_8 {
+  fill: #fff9c0; }
+
+#Pick_your_Package {
+  left: 168px;
+  top: 2337px;
+  position: absolute;
+  overflow: visible;
+  width: 256px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+.Rectangle_18 {
+  position: absolute;
+  overflow: visible;
+  width: 288px;
+  height: 60px;
+  left: 120px;
+  top: 3317px; }
+
+#Rectangle_18 {
+  fill: #c0ffcc; }
+
+#About_Edurific {
+  left: 162px;
+  top: 3327px;
+  position: absolute;
+  overflow: visible;
+  width: 205px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#ceritificate {
+  position: absolute;
+  width: 529px;
+  height: 457px;
+  left: 120px;
+  top: 3498px;
+  overflow: visible; }
+
+#Edurific_is_founded_by_the_Alu {
+  left: 727px;
+  top: 3548px;
+  position: absolute;
+  overflow: visible;
+  width: 434px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Myanmar Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; }
+
+#Our_Curriculum_Heads {
+  left: 527px;
+  top: 4047px;
+  position: absolute;
+  overflow: visible;
+  width: 314px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#Rectangle_19 {
+  fill: #fff9c0; }
+
+.Rectangle_19 {
+  position: absolute;
+  overflow: visible;
+  width: 347px;
+  height: 60px;
+  left: 509px;
+  top: 4037px; }
+
+#Screenshot_11 {
+  position: absolute;
+  width: 226px;
+  height: 234px;
+  left: 150px;
+  top: 4206px;
+  overflow: visible; }
+
+#Screenshot_12 {
+  position: absolute;
+  width: 226px;
+  height: 234px;
+  left: 430px;
+  top: 4206px;
+  overflow: visible; }
+
+#Screenshot_13 {
+  position: absolute;
+  width: 226px;
+  height: 234px;
+  left: 710px;
+  top: 4206px;
+  overflow: visible; }
+
+#Screenshot_14 {
+  position: absolute;
+  width: 226px;
+  height: 234px;
+  left: 990px;
+  top: 4206px;
+  overflow: visible; }
+
+.Rectangle_20 {
+  position: absolute;
+  overflow: visible;
+  width: 226px;
+  height: 456px;
+  left: 150px;
+  top: 4206px; }
+
+#Rectangle_20 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; }
+
+.Rectangle_22 {
+  position: absolute;
+  overflow: visible;
+  width: 226px;
+  height: 456px;
+  left: 430px;
+  top: 4206px; }
+
+#Rectangle_22 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; }
+
+.Rectangle_24 {
+  position: absolute;
+  overflow: visible;
+  width: 226px;
+  height: 456px;
+  left: 710px;
+  top: 4206px; }
+
+#Rectangle_24 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; }
+
+.Rectangle_28 {
+  position: absolute;
+  overflow: visible;
+  width: 226px;
+  height: 456px;
+  left: 990px;
+  top: 4206px; }
+
+#Rectangle_28 {
+  fill: white;
+  stroke: #707070;
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; }
+
+#Rectangle_21 {
+  fill: #fff9c0; }
+
+.Rectangle_21 {
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  height: 28px;
+  left: 206px;
+  top: 4468px; }
+
+.Rectangle_23 {
+  position: absolute;
+  overflow: visible;
+  width: 138px;
+  height: 28px;
+  left: 474px;
+  top: 4468px; }
+
+#Rectangle_23 {
+  fill: gainsboro; }
+
+.Rectangle_25 {
+  position: absolute;
+  overflow: visible;
+  width: 161px;
+  height: 28px;
+  left: 743px;
+  top: 4468px; }
+
+#Rectangle_25 {
+  fill: #fdceff; }
+
+.Rectangle_29 {
+  position: absolute;
+  overflow: visible;
+  width: 114px;
+  height: 28px;
+  left: 1046px;
+  top: 4468px; }
+
+#Rectangle_29 {
+  fill: #eebfff; }
+
+#Head_of_Robotics {
+  left: 211px;
+  top: 4473px;
+  position: absolute;
+  overflow: visible;
+  width: 99px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#Head_of_Data_Science {
+  left: 482px;
+  top: 4473px;
+  position: absolute;
+  overflow: visible;
+  width: 123px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#Head_of_Career_Guidance {
+  left: 751px;
+  top: 4473px;
+  position: absolute;
+  overflow: visible;
+  width: 145px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#Head_of_AI__ML {
+  left: 1055px;
+  top: 4473px;
+  position: absolute;
+  overflow: visible;
+  width: 97px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#DR_SASCHA_GRIFFITHS {
+  left: 196px;
+  top: 4533px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#BHAVNA_BHAISARE {
+  left: 476px;
+  top: 4533px;
+  position: absolute;
+  overflow: visible;
+  width: 113px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#ROBERT_J_LUEBKE {
+  left: 756px;
+  top: 4533px;
+  position: absolute;
+  overflow: visible;
+  width: 101px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#NITIN_P {
+  left: 1081px;
+  top: 4533px;
+  position: absolute;
+  overflow: visible;
+  width: 45px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#PhD_at_Universittt____Hamburg {
+  left: 199px;
+  top: 4570px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#IIT_Bombay_Indian__School_of_B {
+  left: 464px;
+  top: 4570px;
+  position: absolute;
+  overflow: visible;
+  width: 141px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#BS_Psychology_Honors__College_ {
+  left: 745px;
+  top: 4570px;
+  position: absolute;
+  overflow: visible;
+  width: 139px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+#Bachelors_of_Computer__Enginee {
+  left: 1036px;
+  top: 4570px;
+  position: absolute;
+  overflow: visible;
+  width: 135px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: black; }
+
+.Rectangle_30 {
+  position: absolute;
+  overflow: visible;
+  width: 288px;
+  height: 60px;
+  left: 120px;
+  top: 4777px; }
+
+#Rectangle_30 {
+  fill: #c0ffcc; }
+
+#Parent_Feedback {
+  left: 148px;
+  top: 4787px;
+  position: absolute;
+  overflow: visible;
+  width: 233px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#Rectangle_31_dy {
+  fill: url(#Rectangle_31_dy); }
+
+.Rectangle_31_dy {
+  filter: drop-shadow(18px 18px 19px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  overflow: visible;
+  width: 503px;
+  height: 300px;
+  left: 120px;
+  top: 4912px; }
+
+#Rectangle_32 {
+  fill: white; }
+
+.Rectangle_32 {
+  position: absolute;
+  overflow: visible;
+  width: 398px;
+  height: 171px;
+  left: 120px;
+  top: 4948px; }
+
+#shayari-2-8 {
+  position: absolute;
+  width: 383px;
+  height: 134px;
+  left: 120px;
+  top: 4967px;
+  overflow: visible; }
+
+#My_6-year-old_nephew_Rahul_is_ {
+  left: 762px;
+  top: 4948px;
+  position: absolute;
+  overflow: visible;
+  width: 441px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: black; }
+
+#Rectangle_34 {
+  fill: #f5d3de; }
+
+.Rectangle_34 {
+  position: absolute;
+  overflow: visible;
+  width: 221px;
+  height: 60px;
+  left: 120px;
+  top: 5287px; }
+
+#Recent_Blog {
+  left: 147px;
+  top: 5297px;
+  position: absolute;
+  overflow: visible;
+  width: 169px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#Screenshot_18 {
+  position: absolute;
+  width: 536px;
+  height: 370px;
+  left: 120px;
+  top: 5460px;
+  overflow: visible; }
+
+#How_to_get_your_child_interest {
+  transform: matrix(1, 0, 0, 1, 761.5369, 5473.3687) rotate(0deg);
+  transform-origin: center;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 476px;
+  height: 105px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 25px;
+  color: black; }
+
+#Schools_are_a_major_part_of_ev {
+  left: 762px;
+  top: 5582px;
+  position: absolute;
+  overflow: visible;
+  width: 465px;
+  height: 127px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #707070; }
+
+#Rectangle_35 {
+  fill: #fb1745; }
+
+.Rectangle_35 {
+  position: absolute;
+  overflow: visible;
+  width: 166px;
+  height: 47px;
+  left: 762px;
+  top: 5748px; }
+
+#Read_More {
+  left: 776px;
+  top: 5757px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: white; }
+
+#Rectangle_36 {
+  fill: #c0ffcc; }
+
+.Rectangle_36 {
+  position: absolute;
+  overflow: visible;
+  width: 250px;
+  height: 60px;
+  left: 512px;
+  top: 5897px; }
+
+#Our_Alumni {
+  left: 554px;
+  top: 5907px;
+  position: absolute;
+  overflow: visible;
+  width: 164px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: black; }
+
+#Screenshot_22 {
+  position: absolute;
+  width: 515px;
+  height: 200px;
+  left: 731px;
+  top: 6020px;
+  overflow: visible; }
+
+#Screenshot_20 {
+  position: absolute;
+  width: 515px;
+  height: 200px;
+  left: 120px;
+  top: 6020px;
+  overflow: visible; }
+
+.Line_3 {
+  overflow: visible;
+  position: absolute;
+  width: 1106px;
+  height: 3px;
+  left: 120.5px;
+  top: 6277.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0); }
+
+#Line_3 {
+  fill: transparent;
+  stroke: #707070;
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto; }
+
+#Screenshot_25 {
+  position: absolute;
+  width: 82px;
+  height: 66px;
+  left: 137px;
+  top: 6334px;
+  overflow: visible; }
+
+#Edurific_Education {
+  left: 137px;
+  top: 6417px;
+  position: absolute;
+  overflow: visible;
+  width: 214px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#email {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 128px;
+  top: 6467px;
+  overflow: visible; }
+
+#helloedurificcom {
+  left: 189px;
+  top: 6478px;
+  position: absolute;
+  overflow: visible;
+  width: 154px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #1700ff; }
+
+#Screenshot_26 {
+  position: absolute;
+  width: 222px;
+  height: 44px;
+  left: 124px;
+  top: 6540px;
+  overflow: visible; }
+
+#smartphone {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 417px;
+  top: 6342px;
+  overflow: visible; }
+
+#_Reach_us {
+  left: 487px;
+  top: 6351px;
+  position: absolute;
+  overflow: visible;
+  width: 111px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#united-states {
+  position: absolute;
+  width: 37px;
+  height: 38px;
+  left: 428px;
+  top: 6417px;
+  overflow: visible; }
+
+#ID1_302_231_2830 {
+  left: 484px;
+  top: 6417px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+.Icon_awesome-angle-right {
+  overflow: visible;
+  position: absolute;
+  width: 12px;
+  height: 20px;
+  left: 894px;
+  top: 5764px;
+  transform: matrix(1, 0, 0, 1, 0, 0); }
+
+#Icon_awesome-angle-right {
+  fill: white; }
+
+#united-kingdom {
+  position: absolute;
+  width: 37px;
+  height: 38px;
+  left: 428px;
+  top: 6467px;
+  overflow: visible; }
+
+#ID44_2032393203 {
+  left: 484px;
+  top: 6467px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#india {
+  position: absolute;
+  width: 37px;
+  height: 38px;
+  left: 428px;
+  top: 6527px;
+  overflow: visible; }
+
+#ID91_8828777879 {
+  left: 484px;
+  top: 6527px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#placeholder {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 722px;
+  top: 6342px;
+  overflow: visible; }
+
+#placeholder_ez {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 722px;
+  top: 6492px;
+  overflow: visible; }
+
+#_United_Kingdom {
+  left: 792px;
+  top: 6351px;
+  position: absolute;
+  overflow: visible;
+  width: 201px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#ID63-66_Hatton_Garden_London_E {
+  left: 739px;
+  top: 6417px;
+  position: absolute;
+  overflow: visible;
+  width: 241px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#India {
+  left: 792px;
+  top: 6511px;
+  position: absolute;
+  overflow: visible;
+  width: 60px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: black; }
+
+#Spectrum_Tower_5th_Chincholi_B {
+  left: 739px;
+  top: 6557px;
+  position: absolute;
+  overflow: visible;
+  width: 269px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color: black; }
+
+#Blog {
+  left: 1063px;
+  top: 6348px;
+  position: absolute;
+  overflow: visible;
+  width: 55px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1700ff; }
+
+#Career {
+  left: 1063px;
+  top: 6393px;
+  position: absolute;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1700ff; }
+
+#Affiliat {
+  left: 1063px;
+  top: 6438px;
+  position: absolute;
+  overflow: visible;
+  width: 80px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1700ff; }
+
+#Franchise {
+  left: 1063px;
+  top: 6483px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1700ff; }
+
+#Scholarship {
+  left: 1063px;
+  top: 6530px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: #1700ff; }
+
+#Our_Social_links {
+  left: 1055px;
+  top: 6573px;
+  position: absolute;
+  overflow: visible;
+  width: 197px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: black; }
+
+#facebook {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  left: 1063px;
+  top: 6637px;
+  overflow: visible; }
+
+#twitter {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  left: 1123px;
+  top: 6637px;
+  overflow: visible; }
+
+#instagram {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  left: 1182px;
+  top: 6637px;
+  overflow: visible; }
+
+#youtube {
+  position: absolute;
+  width: 44px;
+  height: 46px;
+  left: 1242px;
+  top: 6637px;
+  overflow: visible; }
+
+  
+}
