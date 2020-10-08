@@ -81,8 +81,8 @@ a.btn-first{
 }
 
 #BOOK_FREE_DEMO {
-  left: 110px;
-    top: 685px;
+  left: 115px;
+    top: 684px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -144,7 +144,7 @@ a.btn-second{
   position: absolute;
     width: 380px;
     height: 275px;
-    left: 40px;
+    left: 30px;
     top: 930px;
     overflow: visible;
     border-radius: 60px;
@@ -186,10 +186,10 @@ a.btn-second{
 
 a.btn3{
   left: 115px;
-  top: 1290px;
+  top: 1285px;
   margin: 30px 20px;
   width: 175px;
-  height: 20px;
+  height: 25px;
   padding: 10px;
   border-radius: 5px;
   position: absolute;
@@ -217,9 +217,9 @@ a.btn-third{
 
 #seventh{
   position: absolute;
-    width: 426px;
+    width: 430px;
     height: 300px;
-    left: 40px;
+    left: 0px;
     top: 1400px;
     overflow: visible;
 }
@@ -234,7 +234,7 @@ a.btn-third{
 
 #Learn_from_Domain_Leaders_who_ {
   left: 126px;
-  top: 1785px;
+  top: 1787px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -243,7 +243,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 }
 #chatting{
@@ -256,7 +256,7 @@ a.btn-third{
 }
 #Live_11_Interactive_Teaching_t {
   left: 126px;
-  top: 1890px;
+  top: 1893px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -265,7 +265,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 }
 
@@ -280,7 +280,7 @@ a.btn-third{
 
 #World-Class_Curriculum_Designe {
   left: 126px;
-  top: 1980px;
+  top: 1990px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -289,7 +289,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   color: black; }
 
 #calender{
@@ -303,7 +303,7 @@ a.btn-third{
 
 #Real-life_Coding_HTML_CSS_Java {
   left: 126px;
-  top: 2105px;
+  top: 2090px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -312,13 +312,13 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
 
 }
 
 a.btn4{
-  left: 30px;
+  left: 10px;
   top: 2160px;
   margin: 30px 20px;
   width: 367px;
@@ -333,7 +333,7 @@ a.btn-fourth{
   color: white;
 }
 #Pick_your_Package {
-  left: 95px;
+  left: 85px;
   top: 2190px;
   position: absolute;
   overflow: visible;
@@ -1014,14 +1014,14 @@ a.btn-fourth{
   position: absolute;
   width: 426px;
   height: 300px;
-  left: 40px;
+  left:5px;
   top: 4700px;
   overflow: visible;
 }
 
 #Edurific_is_founded_by_the_Alu {
-  left: 40px;
-  top: 5000px;
+  left: 0px;
+  top: 5025px;
   position: absolute;
   overflow: visible;
   width: 434px;
@@ -1099,7 +1099,7 @@ a.btn-fourth{
     overflow: visible;
     width: 226px;
     height: 456px;
-    left: 40px;
+    left: 20px;
     top: 5380px;}
 
 #Rectangle_45 {
@@ -1117,7 +1117,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 250px;
-  left: 40px;
+  left: 20px;
   top: 5380px;
   overflow: visible; 
 }
@@ -1181,7 +1181,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 40px;
+  left: 20px;
   top: 5855px;}
 
 #Rectangle_46{
@@ -1197,7 +1197,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 40px;
+  left: 20px;
   top: 5855px;
   overflow: visible; 
 }
@@ -1262,7 +1262,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 40px;
+  left: 20px;
   top: 6350px;}
 
 #Rectangle_47{
@@ -1278,7 +1278,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 40px;
+  left: 20px;
   top: 6350px;
   overflow: visible; 
 }
@@ -1343,7 +1343,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 40px;
+  left: 20px;
   top: 6850px;}
 
 #Rectangle_48{
@@ -1359,7 +1359,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 40px;
+  left: 20px;
   top: 6850px;
   overflow: visible; 
 }
@@ -1424,7 +1424,7 @@ a.btn-fourth{
   overflow: visible;
   width: 288px;
   height: 60px;
-  left: 95px;
+  left: 85px;
   top: 7330px; }
 
 #Rectangle_30 {
@@ -1445,41 +1445,52 @@ a.btn-fourth{
   font-size: 30px;
   color: black; 
 }
-#Rectangle_31_dy {
-  fill: url(#Rectangle_31_dy); }
+#Rectangle_55_dy {
+  fill: url(#Rectangle_55_dy); }
 
-.Rectangle_31_dy {
+.Rectangle_55_dy {
   filter: drop-shadow(18px 18px 19px rgba(0, 0, 0, 0.161));
   position: absolute;
   overflow: visible;
-  width: 503px;
+  width: 400px;
   height: 300px;
-  left: 30px;
+  left: 40px;
   top: 7400px; 
 }
-#Rectangle_32 {
-  fill: white; }
+
+
+#Rectangle_56 {
+  fill: white; 
+}
+
+.Rectangle_31_dy {
+  display: none;
+}
 
 .Rectangle_32 {
+  display: none;
+}
+
+.Rectangle_56 {
   position: absolute;
   overflow: visible;
   width: 398px;
   height: 171px;
-  left: 30px;
+  left: 40px;
   top: 7450px; 
 }
 #shayari-2-8 {
   position: absolute;
-  width: 383px;
+  width: 320px;
   height: 150px;
-  left: 30px;
+  left: 40px;
   top: 7460px;
   border-radius: 10px;
   overflow: visible; 
 }
 
 #My_6-year-old_nephew_Rahul_is_ {
-  left: 30px;
+  left: 10px;
   top: 7680px;
   position: absolute;
   overflow: visible;
@@ -1523,13 +1534,13 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 250px;
-  left: 40px;
+  left: 20px;
   top: 7950px;
   overflow: visible;
 }
 
 #How_to_get_your_child_interest {
-  left: 40px;
+  left: 20px;
   top: 8250px;
   position: absolute;
   overflow: visible;
@@ -1544,8 +1555,8 @@ a.btn-fourth{
   color: black; 
 }
 #Schools_are_a_major_part_of_ev {
-  left: 40px;
-  top: 8280px;
+  left: 60px;
+  top: 8290px;
   position: absolute;
   overflow: visible;
   width: 465px;
@@ -1612,7 +1623,7 @@ a.btn-fourth{
 
 #Screenshot_20 {
   position: absolute;
-  width: 515px;
+  width: 420px;
   height: 200px;
   left: 5px;
   top: 8600px;
@@ -1621,7 +1632,7 @@ a.btn-fourth{
 
 #Screenshot_22 {
   position: absolute;
-  width: 515px;
+  width: 420px;
   height: 200px;
   left: 5px;
   top: 8800px;
@@ -1631,7 +1642,7 @@ a.btn-fourth{
 .Line_3 {
   overflow: visible;
   position: absolute;
-  width: 470px;
+  width: 400px;
   height: 3px;
   left: 15px;
   top: 8990px;
@@ -3516,8 +3527,17 @@ a.btn-second{
   top: 4912px; }
 
 #Rectangle_32 {
-  fill: white; }
+  fill: white; 
+}
 
+.Rectangle_55 {
+  display: none;
+}
+
+.Rectangle_56 {
+  display: none;
+}
+  
 .Rectangle_32 {
   position: absolute;
   overflow: visible;
