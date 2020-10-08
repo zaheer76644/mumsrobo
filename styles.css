@@ -9,7 +9,7 @@ body{
 div{
   display: block;
 }
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
 .wrapper{
   width: 100%;
 }
@@ -3533,6 +3533,7 @@ a.btn-second{
 .Rectangle_55_dy {
   display: none;
 }
+  
 
 .Rectangle_56 {
   display: none;
