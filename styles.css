@@ -9,7 +9,7 @@ body{
 div{
   display: block;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 400px){
 .wrapper{
   width: 100%;
 }
@@ -110,10 +110,10 @@ a.btn-first{
 }
 
 a.btn1{
-  left: 115px;
+  left: 80px;
   top: 830px;
   margin: 30px 20px;
-  width: 175px;
+  width: 200px;
   height: 20px;
   padding: 10px;
   border-radius: 5px;
@@ -126,7 +126,7 @@ a.btn-second{
 }
 
 #Our_Courses {
-  left: 160px;
+  left: 130px;
     top: 860px;
     position: absolute;
     overflow: visible;
@@ -136,16 +136,16 @@ a.btn-second{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     color: rgb(0, 0, 0);
 }
 
 #second {
   position: absolute;
-    width: 294px;
-    height: 255px;
-    left: 87px;
-    top: 950px;
+    width: 380px;
+    height: 275px;
+    left: 40px;
+    top: 930px;
     overflow: visible;
     border-radius: 60px;
 }
