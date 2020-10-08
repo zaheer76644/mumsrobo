@@ -143,7 +143,7 @@ a.btn-second{
 #second {
   position: absolute;
     width: 380px;
-    height: 275px;
+    height: 250px;
     left: 30px;
     top: 930px;
     overflow: visible;
@@ -243,7 +243,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 }
 #chatting{
@@ -265,7 +265,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 }
 
@@ -289,7 +289,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: black; }
 
 #calender{
@@ -312,7 +312,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   color: black;
 
 }
@@ -321,7 +321,7 @@ a.btn4{
   left: 10px;
   top: 2160px;
   margin: 30px 20px;
-  width: 367px;
+  width: 355px;
   height: 35px;
   padding: 10px;
   border-radius: 5px;
@@ -352,7 +352,7 @@ a.btn-fourth{
   overflow: visible;
   width: 300px;
   height: 200px;
-  left: 60px;
+  left: 40px;
   top: 2263px;
 
 }
@@ -365,7 +365,7 @@ a.btn-fourth{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 60px;
+  left: 40px;
   top: 2390px; }
 
 #Rectangle_10 {
@@ -470,7 +470,7 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 #Rs4000 {
-  left: 74px;
+  left: 50px;
   top: 2830px;
   position: absolute;
   overflow: visible;
@@ -499,7 +499,7 @@ a.btn-fourth{
 }
 
 #Rs10000 {
-  left: 225px;
+  left: 205px;
     top: 2831px;
     position: absolute;
     overflow: visible;
@@ -529,7 +529,7 @@ a.btn-fourth{
 
 #Buy_Now {
   left: 190px;
-  top: 2895px;
+  top: 2898px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -566,7 +566,7 @@ a.btn-fourth{
   overflow: visible;
   width: 300px;
   height: 200px;
-  left: 60px;
+  left: 40px;
   top: 3020px;
   box-shadow: 25px; 
 }
@@ -576,7 +576,7 @@ a.btn-fourth{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 60px;
+  left: 40px;
   top: 3150px; }
 
 #Rectangle_13 {
@@ -700,7 +700,7 @@ a.btn-fourth{
 }
 
 #Rs39200 {
-  left: 74px;
+  left: 50px;
   top: 3580px;
   position: absolute;
   overflow: visible;
@@ -714,7 +714,7 @@ a.btn-fourth{
   color: rgb(0, 0, 0); }
 
 #Rs49000 {
-  left: 225px;
+  left: 205px;
     top: 3580px;
     position: absolute;
     overflow: visible;
@@ -741,7 +741,7 @@ a.btn-fourth{
 }
 #Buy_Now_ct {
   left: 190px;
-  top: 3655px;
+  top: 3658px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -774,7 +774,7 @@ a.btn-fourth{
   overflow: visible;
   width: 300px;
   height: 200px;
-  left: 60px;
+  left: 40px;
   top: 3780px;
   box-shadow: 25px;  }
 
@@ -786,7 +786,7 @@ a.btn-fourth{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 60px;
+  left: 40px;
   top: 3900px;
 }
 #Rectangle_16 {
@@ -908,7 +908,7 @@ a.btn-fourth{
 
 
 #Rs117600 {
-  left: 74px;
+  left: 50px;
   top: 4350px;
   position: absolute;
   overflow: visible;
@@ -922,7 +922,7 @@ a.btn-fourth{
   color: rgb(0, 0, 0);}
 
 #Rs147000 {
-  left: 225px;
+  left: 205px;
     top: 4350px;
     position: absolute;
     overflow: visible;
@@ -949,7 +949,7 @@ a.btn-fourth{
 }
 #Buy_Now_cu {
   left: 190px;
-  top: 4400px;
+  top: 4403px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1041,7 +1041,7 @@ a.btn-fourth{
 .Rectangle_19 {
   position: absolute;
   overflow: visible;
-  width: 347px;
+  width: 338px;
   height: 60px;
   left: 60px;
   top: 5300px; 
@@ -1099,7 +1099,7 @@ a.btn-fourth{
     overflow: visible;
     width: 226px;
     height: 456px;
-    left: 20px;
+    left: 15px;
     top: 5380px;}
 
 #Rectangle_45 {
@@ -1117,7 +1117,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 250px;
-  left: 20px;
+  left: 15px;
   top: 5380px;
   overflow: visible; 
 }
@@ -1181,7 +1181,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 20px;
+  left: 15px;
   top: 5855px;}
 
 #Rectangle_46{
@@ -1197,7 +1197,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 20px;
+  left: 13px;
   top: 5855px;
   overflow: visible; 
 }
@@ -1262,7 +1262,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 20px;
+  left: 15px;
   top: 6350px;}
 
 #Rectangle_47{
@@ -1278,7 +1278,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 20px;
+  left: 15px;
   top: 6350px;
   overflow: visible; 
 }
@@ -1343,7 +1343,7 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 20px;
+  left: 15px;
   top: 6850px;}
 
 #Rectangle_48{
@@ -1359,7 +1359,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 234px;
-  left: 20px;
+  left: 15px;
   top: 6850px;
   overflow: visible; 
 }
@@ -1490,7 +1490,7 @@ a.btn-fourth{
 }
 
 #My_6-year-old_nephew_Rahul_is_ {
-  left: 10px;
+  left: 5px;
   top: 7680px;
   position: absolute;
   overflow: visible;
@@ -1534,7 +1534,7 @@ a.btn-fourth{
   position: absolute;
   width: 400px;
   height: 250px;
-  left: 20px;
+  left: 10px;
   top: 7950px;
   overflow: visible;
 }
@@ -1623,7 +1623,7 @@ a.btn-fourth{
 
 #Screenshot_20 {
   position: absolute;
-  width: 420px;
+  width: 400px;
   height: 200px;
   left: 5px;
   top: 8600px;
@@ -1632,7 +1632,7 @@ a.btn-fourth{
 
 #Screenshot_22 {
   position: absolute;
-  width: 420px;
+  width: 400px;
   height: 200px;
   left: 5px;
   top: 8800px;
@@ -1642,7 +1642,7 @@ a.btn-fourth{
 .Line_3 {
   overflow: visible;
   position: absolute;
-  width: 400px;
+  width: 380px;
   height: 3px;
   left: 15px;
   top: 8990px;
