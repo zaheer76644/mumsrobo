@@ -15,7 +15,8 @@ div{
 }
 
 .firstimage {
-  width: 140%;
+  width: 550px;
+  height: 500px;
   top: 66px;
   margin-right: auto;
   margin-left: auto;
@@ -201,8 +202,8 @@ a.btn-third{
 }
 
 #Why_Edurific_ {
-  left: 16px;
-    top: 1505px;
+  left: 160px;
+    top: 1500px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -336,7 +337,7 @@ a.btn-fourth{
 }
 #Pick_your_Package {
   left: 120px;
-  top: 2385px;
+  top: 2380px;
   position: absolute;
   overflow: visible;
   width: 180px;
