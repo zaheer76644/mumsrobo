@@ -15,7 +15,7 @@ div{
 }
 
 .firstimage {
-  width: 138%;
+  width: 140%;
   top: 66px;
   margin-right: auto;
   margin-left: auto;
@@ -41,7 +41,7 @@ h1 {
     font-family: Segoe UI;
     padding: 20px 0px;
     font-weight: bold;
-    font-size: 37px;
+    font-size: 34px;
     color: #ff6161;
     position: relative;
 }
@@ -51,7 +51,7 @@ h2{
   font-family: Segoe UI;
   padding: 20px 0px;
   font-weight: bold;
-  font-size: 37px;
+  font-size: 34px;
   color: #ff6161;
   position: relative;
 }
@@ -82,7 +82,7 @@ a.btn-first{
 
 #BOOK_FREE_DEMO {
   left: 140px;
-    top: 835px;
+    top: 839px;
     position: absolute;
     overflow: visible;
     width: 190px;
@@ -127,7 +127,7 @@ a.btn-second{
 
 #Our_Courses {
   left: 185px;
-    top: 1082px;
+    top: 1086px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -201,8 +201,8 @@ a.btn-third{
 }
 
 #Why_Edurific_ {
-  left: 160px;
-    top: 1500px;
+  left: 16px;
+    top: 1505px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -336,7 +336,7 @@ a.btn-fourth{
 }
 #Pick_your_Package {
   left: 120px;
-  top: 2375px;
+  top: 2385px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -980,8 +980,8 @@ a.btn-fourth{
 }
 
 .Rectangle_18 {
-  left: 85px;
-    top: 4600px;
+  left: 110px;
+    top: 4800px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -997,8 +997,8 @@ a.btn-fourth{
 }
 
 #About_Edurific {
-  left: 113px;
-  top: 4600px;
+  left: 130px;
+  top: 4800px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1013,17 +1013,17 @@ a.btn-fourth{
 
 
 #ceritificate {
-  position: absolute;
-  width: 426px;
+  position: absolute; 
+  width: 480px;
   height: 300px;
-  left:5px;
-  top: 4700px;
+  left:35px;
+  top: 4900px;
   overflow: visible;
 }
 
 #Edurific_is_founded_by_the_Alu {
-  left: 0px;
-  top: 5025px;
+  left: 25px;
+  top: 5220px;
   position: absolute;
   overflow: visible;
   width: 434px;
