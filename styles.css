@@ -9,13 +9,13 @@ body{
 div{
   display: block;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (min-device-width: 240px) and (max-device-width: 500px){
 .wrapper{
   width: 100%;
 }
 
 .firstimage {
-  width: 152%;
+  width: 138%;
   top: 66px;
   margin-right: auto;
   margin-left: auto;
@@ -24,12 +24,12 @@ div{
 }
 
 #For_Kids_Age_5-18 {
-  top: 380px;
+  top: 385px;
     left: 115px;
     font-family: Segoe UI;
     padding: 20px 0px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 37px;
     color: #000000;
     position: relative;
 
@@ -37,21 +37,21 @@ div{
 
 h1 {
   top: 540px;
-    left: 90px;
+    left: 85px;
     font-family: Segoe UI;
     padding: 20px 0px;
     font-weight: bold;
-    font-size: 34px;
+    font-size: 37px;
     color: #ff6161;
     position: relative;
 }
 h2{
   top: 495px;
-  left: 90px;
+  left: 85px;
   font-family: Segoe UI;
   padding: 20px 0px;
   font-weight: bold;
-  font-size: 34px;
+  font-size: 37px;
   color: #ff6161;
   position: relative;
 }
@@ -65,10 +65,10 @@ img.Screenshot_16 {
 
 a.btn{
   left: 95px;
-    top: 750px;
+    top: 795px;
     margin: 30px 20px;
     width: 260px;
-    height: 25px;
+    height: 40px;
     padding: 10px;
     border-radius: 20px;
     position: absolute;
@@ -81,8 +81,8 @@ a.btn-first{
 }
 
 #BOOK_FREE_DEMO {
-  left: 145px;
-    top: 785px;
+  left: 140px;
+    top: 835px;
     position: absolute;
     overflow: visible;
     width: 190px;
@@ -91,30 +91,30 @@ a.btn-first{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
     color: white; 
 }
 #Worlds_1st_AIML__Data_Science_ {
-  left: 80px;
-    top: 840px;
+  left: 70px;
+    top: 925px;
     position: absolute;
     overflow: visible;
     width: 423px;
     height: 156px;
-    text-align: left;
+    text-align: center;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: regular;
-    font-size: 25px;
-    color: black; 
+    font-size: 27px;
+    color: black;
 }
 
 a.btn1{
   left: 125px;
-  top: 940px;
+  top: 1050px;
   margin: 30px 20px;
   width: 230px;
-  height: 25px;
+  height: 30px;
   padding: 10px;
   border-radius: 5px;
   position: absolute;
@@ -127,7 +127,7 @@ a.btn-second{
 
 #Our_Courses {
   left: 185px;
-    top: 970px;
+    top: 1082px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -142,17 +142,17 @@ a.btn-second{
 
 #second {
   position: absolute;
-    width: 330px;
+    width: 340px;
     height: 250px;
     left: 100px;
-    top: 1050px;
+    top: 1160px;
     overflow: visible;
     border-radius: 60px;
 }
 
 #Coding_Concepts {
-  left: 130px;
-    top: 1315px;
+  left: 140px;
+    top: 1415px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -186,7 +186,7 @@ a.btn-second{
 
 a.btn3{
   left: 125px;
-  top: 1360px;
+  top: 1470px;
   margin: 30px 20px;
   width: 230px;
   height: 30px;
@@ -202,7 +202,7 @@ a.btn-third{
 
 #Why_Edurific_ {
   left: 160px;
-    top: 1390px;
+    top: 1500px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -217,10 +217,10 @@ a.btn-third{
 
 #seventh{
   position: absolute;
-    width: 440px;
+  width: 440px;
     height: 300px;
-    left: 50px;
-    top: 1468px;
+    left: 55px;
+    top: 1585px;
     overflow: visible;
 }
 
@@ -229,13 +229,14 @@ a.btn-third{
     width: 100px;
     height: 100px;
     left: 15px;
-    top: 1774px;
+    top: 1900px;
 }
 
 #Learn_from_Domain_Leaders_who_ {
   left: 126px;
-  top: 1787px;
+  top: 1920px;
   position: absolute;
+  line-height: 22px;
   overflow: visible;
   width: 426px;
   white-space: nowrap;
@@ -243,7 +244,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 21px;
   color: black;
 }
 #chatting{
@@ -251,13 +252,14 @@ a.btn-third{
     width: 100px;
     height: 100px;
     left: 15px;
-    top: 1865px;
+    top: 2010px;
 
 }
 #Live_11_Interactive_Teaching_t {
   left: 126px;
-  top: 1893px;
+  top: 2035px;
   position: absolute;
+  line-height: 22px;
   overflow: visible;
   width: 426px;
   white-space: nowrap;
@@ -265,7 +267,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 21px;
   color: black;
 }
 
@@ -274,13 +276,13 @@ a.btn-third{
     width: 100px;
     height: 100px;
     left: 15px;
-    top: 1964px;
+    top: 2120px;
 
 }
 
 #World-Class_Curriculum_Designe {
   left: 126px;
-  top: 1990px;
+  top: 2150px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -289,7 +291,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 21px;
   color: black; }
 
 #calender{
@@ -297,13 +299,13 @@ a.btn-third{
   width: 100px;
   height: 100px;
   left: 15px;
-  top: 2063px;
+  top: 2235px;
 
 }
 
 #Real-life_Coding_HTML_CSS_Java {
   left: 126px;
-  top: 2090px;
+  top: 2250px;
   position: absolute;
   overflow: visible;
   width: 426px;
@@ -312,14 +314,14 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 21px;
   color: black;
 
 }
 
 a.btn4{
-  left: 10px;
-  top: 2160px;
+  left: 50px;
+  top: 2350px;
   margin: 30px 20px;
   width: 355px;
   height: 35px;
@@ -333,8 +335,8 @@ a.btn-fourth{
   color: white;
 }
 #Pick_your_Package {
-  left: 85px;
-  top: 2190px;
+  left: 120px;
+  top: 2375px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -352,9 +354,8 @@ a.btn-fourth{
   overflow: visible;
   width: 300px;
   height: 200px;
-  left: 40px;
-  top: 2263px;
-
+  left: 90px;
+  top: 2480px;
 }
 #Rectangle_9 {
   fill: rgba(41, 245, 255, 0.149); 
@@ -365,15 +366,15 @@ a.btn-fourth{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 40px;
-  top: 2390px; }
+  left: 90px;
+  top: 2605px; }
 
 #Rectangle_10 {
   fill: white; 
 }
 #Ofcourse_Coder {
-  left: 140px;
-    top: 2280px;
+  left: 155px;
+    top: 2485px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -386,7 +387,7 @@ a.btn-fourth{
 }
 #ID10_Classes {
   left: 180px;
-  top: 2340px;
+  top: 2555px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -400,7 +401,7 @@ a.btn-fourth{
 
 #Introduction {
   left: 178px;
-    top: 2410px;
+    top: 2610px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -415,8 +416,9 @@ a.btn-fourth{
 
 #ChatbotCoding_ScratchPython {
   left: 170px;
-  top: 2445px;
+  top: 2645px;
   position: absolute;
+  line-height: 22px;
   overflow: visible;
   width: 180px;
   white-space: nowrap;
@@ -427,22 +429,22 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 #Achievement {
-  left: 170px;
-  top: 2555px;
-  position: absolute;
-  overflow: visible;
-  width: 180px;
-  white-space: nowrap;
-  font-weight: bold;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-size: 22px;
-  color: rgb(0, 0, 0);
+  left: 190px;
+    top: 2760px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    font-weight: bold;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
 }
 #Build_First_Bot__First_webpage {
-  left: 112px;
-  top: 2592px;
+  left: 125px;
+  top: 2795px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -456,8 +458,8 @@ a.btn-fourth{
 }
 
 #_Certificate_ {
-  left: 194px;
-  top: 2670px;
+  left: 215px;
+  top: 2845px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -470,8 +472,8 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 #Rs4000 {
-  left: 50px;
-  top: 2830px;
+  left: 95px;
+  top: 3005px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -484,8 +486,8 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 #View_CRIRICULUM_details {
-  left: 130px;
-  top: 2765px;
+  left: 145px;
+  top: 2925px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -499,8 +501,8 @@ a.btn-fourth{
 }
 
 #Rs10000 {
-  left: 205px;
-    top: 2831px;
+  left: 250px;
+    top: 3015px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -520,16 +522,16 @@ a.btn-fourth{
   overflow: visible;
   width: 295px;
   height: 45px;
-  left: 92px;
-  top: 2892px;}
+  left: 115px;
+  top: 3070px;}
 
 #Rectangle_11_cn {
   fill: url(#Rectangle_11_cn);
 }
 
 #Buy_Now {
-  left: 190px;
-  top: 2898px;
+  left: 200px;
+  top: 3075px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -538,13 +540,13 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 25px;
   color: white; 
 }
 
 #Register_for_Demo_Class {
-  left: 100px;
-    top: 2955px;
+  left: 165px;
+    top: 3165px;
     position: absolute;
     overflow: visible;
     width: 258px;
@@ -566,8 +568,8 @@ a.btn-fourth{
   overflow: visible;
   width: 300px;
   height: 200px;
-  left: 40px;
-  top: 3020px;
+  left: 90px;
+  top: 3230px;
   box-shadow: 25px; 
 }
 
@@ -576,8 +578,8 @@ a.btn-fourth{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 40px;
-  top: 3150px; }
+  left: 90px;
+  top: 3355px; }
 
 #Rectangle_13 {
   fill: white; 
@@ -1996,25 +1998,8 @@ a.btn-fourth{
   height: 30px;
   left: 160px;
   top: 9920px;
-  overflow: visible; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
-
+  overflow: visible; 
+}}
 
 @media only screen and (min-width: 1000px){
 
