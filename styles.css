@@ -15,7 +15,7 @@ div{
 }
 
 .firstimage {
-  width: 120%;
+  width: 152%;
   top: 66px;
   margin-right: auto;
   margin-left: auto;
@@ -24,51 +24,51 @@ div{
 }
 
 #For_Kids_Age_5-18 {
-  top: 240px;
-    left: 55px;
+  top: 380px;
+    left: 115px;
     font-family: Segoe UI;
-    padding: 40px 50px;
+    padding: 20px 0px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 32px;
     color: #000000;
     position: relative;
 
 }
 
 h1 {
-  top: 450px;
-    left: 40px;
+  top: 540px;
+    left: 90px;
     font-family: Segoe UI;
-    padding: 40px 50px;
+    padding: 20px 0px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 34px;
     color: #ff6161;
     position: relative;
 }
 h2{
-  top: 380px;
-  left: 45px;
+  top: 495px;
+  left: 90px;
   font-family: Segoe UI;
-  padding: 40px 50px;
+  padding: 20px 0px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 34px;
   color: #ff6161;
   position: relative;
 }
 
 img.Screenshot_16 {
-  width: 50%;
+  width: 70%;
   display: block;
   margin-left: 120px;
   margin-right: auto;
 }
 
 a.btn{
-  left: 80px;
-    top: 650px;
+  left: 95px;
+    top: 750px;
     margin: 30px 20px;
-    width: 200px;
-    height: 20px;
+    width: 260px;
+    height: 25px;
     padding: 10px;
     border-radius: 20px;
     position: absolute;
@@ -81,22 +81,22 @@ a.btn-first{
 }
 
 #BOOK_FREE_DEMO {
-  left: 115px;
-    top: 684px;
+  left: 145px;
+    top: 785px;
     position: absolute;
     overflow: visible;
-    width: 180px;
+    width: 190px;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     color: white; 
 }
 #Worlds_1st_AIML__Data_Science_ {
-  left: 75px;
-    top: 750px;
+  left: 80px;
+    top: 840px;
     position: absolute;
     overflow: visible;
     width: 423px;
@@ -105,16 +105,16 @@ a.btn-first{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: regular;
-    font-size: 20px;
+    font-size: 25px;
     color: black; 
 }
 
 a.btn1{
-  left: 80px;
-  top: 830px;
+  left: 125px;
+  top: 940px;
   margin: 30px 20px;
-  width: 200px;
-  height: 20px;
+  width: 230px;
+  height: 25px;
   padding: 10px;
   border-radius: 5px;
   position: absolute;
@@ -126,8 +126,8 @@ a.btn-second{
 }
 
 #Our_Courses {
-  left: 130px;
-    top: 860px;
+  left: 185px;
+    top: 970px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -136,23 +136,23 @@ a.btn-second{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 30px;
     color: rgb(0, 0, 0);
 }
 
 #second {
   position: absolute;
-    width: 380px;
+    width: 330px;
     height: 250px;
-    left: 30px;
-    top: 930px;
+    left: 100px;
+    top: 1050px;
     overflow: visible;
     border-radius: 60px;
 }
 
 #Coding_Concepts {
-  left: 120px;
-    top: 1230px;
+  left: 130px;
+    top: 1315px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -161,7 +161,7 @@ a.btn-second{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 33px;
     color: black;
 }
 
@@ -185,11 +185,11 @@ a.btn-second{
 }
 
 a.btn3{
-  left: 115px;
-  top: 1285px;
+  left: 125px;
+  top: 1360px;
   margin: 30px 20px;
-  width: 175px;
-  height: 25px;
+  width: 230px;
+  height: 30px;
   padding: 10px;
   border-radius: 5px;
   position: absolute;
@@ -201,8 +201,8 @@ a.btn-third{
 }
 
 #Why_Edurific_ {
-  left: 150px;
-    top: 1320px;
+  left: 160px;
+    top: 1390px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -211,16 +211,16 @@ a.btn-third{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 32px;
     color: rgb(0, 0, 0);
 }
 
 #seventh{
   position: absolute;
-    width: 380px;
+    width: 440px;
     height: 300px;
-    left: 0px;
-    top: 1400px;
+    left: 50px;
+    top: 1468px;
     overflow: visible;
 }
 
