@@ -1086,7 +1086,7 @@ a.btn-fourth{
   white-space: nowrap;
   text-align: left;
   font-family: Myanmar Text;
-  line-height: 27px;
+  line-height: 35px;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -1152,15 +1152,15 @@ a.btn-fourth{
   display: none;
 }
 
-.Rectangle_45{
+.Rectangle_80{
   position: absolute;
     overflow: visible;
     width: 226px;
     height: 456px;
-    left: 90px;
+    left: 25px;
     top: 5600px;}
 
-#Rectangle_45 {
+#Rectangle_80 {
   fill: white;
   stroke: #707070;
   stroke-width: 1px;
@@ -1173,9 +1173,10 @@ a.btn-fourth{
 
 #Screenshot_11 {
   position: absolute;
-  width: 400px;
-  height: 250px;
-  left: 90px;
+  width: 550px;
+  object-fit: cover;
+  height: 550px;
+  left: 25px;
   top: 5600px;
   overflow: visible; 
 }
@@ -1188,11 +1189,11 @@ a.btn-fourth{
   width: 110px;
   height: 28px;
   left: 190px;
-  top: 5870px; 
+  top: 6200px; 
 }
 #Head_of_Robotics {
   left: 200px;
-  top: 5870px;
+  top: 6202px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1207,7 +1208,7 @@ a.btn-fourth{
 
 #DR_SASCHA_GRIFFITHS {
   left: 175px;
-  top: 5920px;
+  top: 6250px;
   position: absolute;
   overflow: visible;
   width: 135px;
@@ -1221,7 +1222,7 @@ a.btn-fourth{
 }
 #PhD_at_Universittt____Hamburg {
   left: 165px;
-  top: 5980px;
+  top: 6300px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1237,6 +1238,7 @@ a.btn-fourth{
 .Rectangle_46{
   position: absolute;
   overflow: visible;
+  display: none;
   width: 400px;
   height: 456px;
   left: 90px;
@@ -1254,6 +1256,7 @@ a.btn-fourth{
 #Screenshot_12 {
   position: absolute;
   width: 400px;
+  display: none;
   height: 234px;
   left: 90px;
   top: 6090px;
