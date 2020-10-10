@@ -220,7 +220,7 @@ a.btn-third{
 
 #Why_Edurific_ {
   left: 165px;
-    top: 1500px;
+    top: 1505px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -542,7 +542,7 @@ a.btn-fourth{
   overflow: visible;
   width: 295px;
   height: 45px;
-  left: 50px;
+  left: 60px;
   top: 3070px;}
 
 #Rectangle_70 {
@@ -551,7 +551,7 @@ a.btn-fourth{
 
 #Buy_Now {
   left: 225px;
-  top: 3070px;
+  top: 3073px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -787,7 +787,7 @@ a.btn-fourth{
   overflow: visible;
   width: 295px;
   height: 45px;
-  left: 50px;
+  left: 60px;
   top: 3805px; }
 
 #Rectangle_71 {
@@ -795,7 +795,7 @@ a.btn-fourth{
 }
 #Buy_Now_ct {
   left: 225px;
-  top: 3805px;
+  top: 3808px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -999,15 +999,15 @@ a.btn-fourth{
   overflow: visible;
   width: 295px;
   height: 45px;
-  left: 50px;
+  left: 60px;
   top: 4570px; }
 
 #Rectangle_72 {
   fill: url(#Rectangle_72); 
 }
 #Buy_Now_cu {
-  left: 210px;
-  top: 4575px;
+  left: 225px;
+  top: 4574px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1016,7 +1016,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
   color: white; 
 }
 
@@ -1053,8 +1053,8 @@ a.btn-fourth{
 }
 
 #About_Edurific {
-  left: 150px;
-  top: 4800px;
+  left: 160px;
+  top: 4805px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1574,8 +1574,8 @@ a.btn-fourth{
 }
 
 #Recent_Blog {
-  left: 180px;
-  top: 8212px;
+  left: 190px;
+  top: 8220px;
   position: absolute;
   overflow: visible;
   width: 169px;
@@ -1667,8 +1667,8 @@ a.btn-fourth{
 }
 
 #Our_Alumni {
-  left: 185px;
-  top: 8915px;
+  left: 190px;
+  top: 8922px;
   position: absolute;
   overflow: visible;
   width: 164px;
