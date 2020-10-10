@@ -1102,12 +1102,12 @@ a.btn-fourth{
   width: 338px;
   height: 60px;
   left: 115px;
-  top: 5500px; 
+  top: 5580px; 
 }
 
 #Our_Curriculum_Heads {
   left: 130px;
-  top: 5510px;
+  top: 5590px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1158,7 +1158,7 @@ a.btn-fourth{
     width: 226px;
     height: 456px;
     left: 25px;
-    top: 5600px;}
+    top: 5700px;}
 
 #Rectangle_80 {
   fill: white;
@@ -1177,7 +1177,7 @@ a.btn-fourth{
   object-fit: cover;
   height: 550px;
   left: 25px;
-  top: 5600px;
+  top: 5700px;
   overflow: visible; 
 }
 #Rectangle_50 {
@@ -1189,11 +1189,11 @@ a.btn-fourth{
   width: 110px;
   height: 28px;
   left: 190px;
-  top: 6200px; 
+  top: 6300px; 
 }
 #Head_of_Robotics {
   left: 200px;
-  top: 6202px;
+  top: 6305px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1202,13 +1202,13 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 23px;
   color: black;
 }
 
 #DR_SASCHA_GRIFFITHS {
   left: 175px;
-  top: 6250px;
+  top: 6360px;
   position: absolute;
   overflow: visible;
   width: 135px;
@@ -1217,12 +1217,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   color: black; 
 }
 #PhD_at_Universittt____Hamburg {
-  left: 165px;
-  top: 6300px;
+  left: 145px;
+  top: 6430px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1231,18 +1231,17 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 25px;
   color: black; 
 }
 
 .Rectangle_46{
   position: absolute;
   overflow: visible;
-  display: none;
   width: 400px;
   height: 456px;
-  left: 90px;
-  top: 6090px;}
+  left: 25px;
+  top: 6550px;}
 
 #Rectangle_46{
   fill: white;
@@ -1255,11 +1254,11 @@ a.btn-fourth{
 }
 #Screenshot_12 {
   position: absolute;
-  width: 400px;
-  display: none;
-  height: 234px;
-  left: 90px;
-  top: 6090px;
+  width: 550px;
+  object-fit: cover;
+  height: 550px;
+  left: 25px;
+  top: 6550px;
   overflow: visible; 
 }
 
@@ -1269,7 +1268,7 @@ a.btn-fourth{
   width: 195px;
   height: 28px;
   left: 195px;
-  top: 6350px;  }
+  top: 7130px;  }
 
 #Rectangle_51{
   fill: gainsboro; 
@@ -1277,7 +1276,7 @@ a.btn-fourth{
 
 #Head_of_Data_Science {
   left: 200px;
-  top: 6353px;
+  top: 7130px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1286,12 +1285,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 #BHAVNA_BHAISARE {
   left: 195px;
-  top: 6400px;
+  top: 7200px;
   position: absolute;
   overflow: visible;
   width: 135px;
@@ -1300,21 +1299,22 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   color: black; 
 }
 #IIT_Bombay_Indian__School_of_B {
-  left: 195px;
-  top: 6435px;
+  left: 145px;
+  top: 7250px;
   position: absolute;
   overflow: visible;
+  text-align: center;
   width: 111px;
   white-space: nowrap;
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   color: black;
 }
 
@@ -1323,8 +1323,8 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 90px;
-  top: 6580px;}
+  left: 25px;
+  top: 7400px;}
 
 #Rectangle_47{
   fill: white;
@@ -1337,10 +1337,10 @@ a.btn-fourth{
 }
 #Screenshot_13 {
   position: absolute;
-  width: 400px;
-  height: 234px;
-  left: 90px;
-  top: 6580px;
+  width: 550px;
+  height: 550px;
+  left: 25px;
+  top: 7400px;
   overflow: visible; 
 }
 
@@ -1350,7 +1350,7 @@ a.btn-fourth{
   width: 110px;
   height: 28px;
   left: 175px;
-  top: 6830px;  }
+  top: 7980px;  }
 
 #Rectangle_52{
   fill: gainsboro; 
@@ -1358,7 +1358,7 @@ a.btn-fourth{
 
 #Head_of_Career_Guidance {
   left: 180px;
-  top: 6833px;
+  top: 7980px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1367,12 +1367,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 #ROBERT_J_LUEBKE{
   left: 185px;
-  top: 6880px;
+  top: 8050px;
   position: absolute;
   overflow: visible;
   width: 135px;
@@ -1381,12 +1381,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   color: black; 
 }
 #BS_Psychology_Honors__College_{
   left: 180px;
-  top: 6920px;
+  top: 8100px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1395,7 +1395,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 
@@ -1404,8 +1404,8 @@ a.btn-fourth{
   overflow: visible;
   width: 400px;
   height: 456px;
-  left: 90px;
-  top: 7070px;}
+  left: 25px;
+  top: 8250px;}
 
 #Rectangle_48{
   fill: white;
@@ -1418,10 +1418,10 @@ a.btn-fourth{
 }
 #Screenshot_14 {
   position: absolute;
-  width: 400px;
-  height: 234px;
-  left: 90px;
-  top: 7070px;
+  width: 550px;
+  height: 550px;
+  left: 25px;
+  top: 8250px;
   overflow: visible; 
 }
 
@@ -1431,7 +1431,7 @@ a.btn-fourth{
   width: 110px;
   height: 28px;
   left: 190px;
-  top: 7320px;  }
+  top: 8830px;  }
 
 #Rectangle_53{
   fill: gainsboro; 
@@ -1439,7 +1439,7 @@ a.btn-fourth{
 
 #Head_of_AI__ML{
   left: 205px;
-  top: 7322px;
+  top: 8830px;
   position: absolute;
   overflow: visible;
   width: 99px;
@@ -1448,12 +1448,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 #NITIN_P {
   left: 230px;
-  top: 7380px;
+  top: 8890px;
   position: absolute;
   overflow: visible;
   width: 135px;
@@ -1462,12 +1462,12 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   color: black; 
 }
 #Bachelors_of_Computer__Enginee{
   left: 190px;
-  top: 7420px;
+  top: 8930px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1476,7 +1476,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 22px;
   color: black;
 }
 
@@ -1486,7 +1486,7 @@ a.btn-fourth{
   width: 288px;
   height: 60px;
   left: 150px;
-  top: 7550px; }
+  top: 9100px; }
 
 #Rectangle_30 {
   fill: #c0ffcc; 
@@ -1494,7 +1494,7 @@ a.btn-fourth{
 
 #Parent_Feedback {
   left: 170px;
-  top: 7555px;
+  top: 9104px;
   position: absolute;
   overflow: visible;
   width: 233px;
@@ -1516,7 +1516,7 @@ a.btn-fourth{
   width: 400px;
   height: 300px;
   left: 110px;
-  top: 7650px; 
+  top: 9200px; 
 }
 
 
@@ -1538,25 +1538,26 @@ a.btn-fourth{
   width: 398px;
   height: 171px;
   left: 110px;
-  top: 7690px; 
+  top: 9240px; 
 }
 #shayari-2-8 {
   position: absolute;
   width: 320px;
   height: 150px;
   left: 110px;
-  top: 7700px;
+  top: 9250px;
   border-radius: 10px;
   overflow: visible; 
 }
 
 #My_6-year-old_nephew_Rahul_is_ {
   left: 55px;
-  top: 7950px;
+  top: 9500px;
   position: absolute;
   overflow: visible;
   width: 441px;
   white-space: nowrap;
+  line-height: 30px;
   text-align: center;
   font-family: Segoe UI;
   font-style: normal;
@@ -1573,12 +1574,12 @@ a.btn-fourth{
   width: 221px;
   height: 60px;
   left: 160px;
-  top: 8210px; 
+  top: 9800px; 
 }
 
 #Recent_Blog {
   left: 190px;
-  top: 8220px;
+  top: 9807px;
   position: absolute;
   overflow: visible;
   width: 169px;
@@ -1596,13 +1597,13 @@ a.btn-fourth{
   width: 530px;
   height: 250px;
   left: 35px;
-  top: 8280px;
+  top: 9900px;
   overflow: visible;
 }
 
 #How_to_get_your_child_interest {
   left: 35px;
-  top: 8550px;
+  top: 10180px;
   position: absolute;
   overflow: visible;
   width: 476px;
@@ -1618,7 +1619,7 @@ a.btn-fourth{
 }
 #Schools_are_a_major_part_of_ev {
   left: 35px;
-  top: 8625px;
+  top: 10220px;
   position: absolute;
   overflow: visible;
   width: 465px;
@@ -1641,11 +1642,11 @@ a.btn-fourth{
   width: 166px;
   height: 47px;
   left: 35px;
-  top: 8850px; 
+  top: 10450px; 
 }
 #Read_More {
   left: 55px;
-  top: 8858px;
+  top: 10457px;
   position: absolute;
   overflow: visible;
   width: 103px;
@@ -1666,12 +1667,12 @@ a.btn-fourth{
   width: 250px;
   height: 60px;
   left: 160px;
-  top: 8920px; 
+  top: 10550px; 
 }
 
 #Our_Alumni {
   left: 190px;
-  top: 8922px;
+  top: 10553px;
   position: absolute;
   overflow: visible;
   width: 164px;
@@ -1689,7 +1690,7 @@ a.btn-fourth{
   width: 550px;
   height: 200px;
   left: 25px;
-  top: 9000px;
+  top: 10625px;
   overflow: visible; 
 }
 
@@ -1698,7 +1699,7 @@ a.btn-fourth{
   width: 550px;
   height: 200px;
   left: 25px;
-  top: 9190px;
+  top: 10820px;
   overflow: visible; 
 }
 
@@ -1708,7 +1709,7 @@ a.btn-fourth{
   width: 550px;
   height: 3px;
   left: 25px;
-  top: 9420px;
+  top: 11045px;
   transform: matrix(1, 0, 0, 1, 0, 0); }
 
 #Line_3 {
@@ -1725,12 +1726,12 @@ a.btn-fourth{
   width: 120px;
   height: 120px;
   left: 30px;
-  top: 9450px;
+  top: 11090px;
   overflow: visible; }
 
 #Edurific_Education {
   left: 60px;
-  top: 9560px;
+  top: 11200px;
   position: absolute;
   overflow: visible;
   width: 214px;
@@ -1747,12 +1748,12 @@ a.btn-fourth{
   width: 45px;
   height: 45px;
   left: 60px;
-  top: 9640px;
+  top: 11300px;
   overflow: visible; }
 
 #helloedurificcom {
   left: 130px;
-  top: 9645px;
+  top: 11300px;
   position: absolute;
   overflow: visible;
   width: 154px;
@@ -1770,7 +1771,7 @@ a.btn-fourth{
   width: 280px;
   height: 60px;
   left: 60px;
-  top: 9720px;
+  top: 11400px;
   overflow: visible; 
 }
 
@@ -1779,12 +1780,12 @@ a.btn-fourth{
   width: 35px;
   height: 40px;
   left: 60px;
-  top: 9830px;
+  top: 11500px;
   overflow: visible; }
 
 #_Reach_us {
   left: 110px;
-  top: 9825px;
+  top: 11500px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1801,12 +1802,12 @@ a.btn-fourth{
   width: 40px;
   height: 50px;
   left: 60px;
-  top: 9920px;
+  top: 11600px;
   overflow: visible; }
 
 #ID1_302_231_2830 {
   left: 105px;
-  top: 9925px;
+  top: 11605px;
   position: absolute;
   overflow: visible;
   width: 187px;
@@ -1823,12 +1824,12 @@ a.btn-fourth{
   width: 40px;
   height: 50px;
   left: 60px;
-  top: 9990px;
+  top: 11680px;
   overflow: visible; }
 
 #ID44_2032393203 {
   left: 105px;
-  top: 9995px;
+  top: 11685px;
   position: absolute;
   overflow: visible;
   width: 187px;
@@ -1845,12 +1846,12 @@ a.btn-fourth{
   width: 40px;
   height: 50px;
   left: 60px;
-  top: 10060px;
+  top: 11755px;
   overflow: visible; }
 
 #ID91_8828777879 {
   left: 105px;
-  top: 10065px;
+  top: 11760px;
   position: absolute;
   overflow: visible;
   width: 187px;
@@ -1867,7 +1868,7 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 60px;
-  top: 10170px;
+  top: 11860px;
   overflow: visible; }
 
 #placeholder_ez {
@@ -1875,12 +1876,12 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 60px;
-  top: 10310px;
+  top: 11990px;
   overflow: visible; }
 
 #_United_Kingdom {
   left: 115px;
-  top: 10170px;
+  top: 11862px;
   position: absolute;
   overflow: visible;
   width: 201px;
@@ -1899,7 +1900,7 @@ a.btn-fourth{
 
 #ID63-66_Hatton_Garden_London_E1 {
   left: 65px;
-  top: 10220px;
+  top: 11910px;
   position: absolute;
   overflow: visible;
   width: 241px;
@@ -1913,7 +1914,7 @@ a.btn-fourth{
 
 #India {
   left: 115px;
-  top: 10310px;
+  top: 11992px;
   position: absolute;
   overflow: visible;
   width: 60px;
@@ -1927,7 +1928,7 @@ a.btn-fourth{
 
 #Spectrum_Tower_5th_Chincholi_B {
   left: 65px;
-  top: 10370px;
+  top: 12040px;
   position: absolute;
   overflow: visible;
   width: 269px;
@@ -1941,7 +1942,7 @@ a.btn-fourth{
 
 #Blog {
   left: 65px;
-  top: 10600px;
+  top: 12300px;
   position: absolute;
   overflow: visible;
   width: 55px;
@@ -1954,7 +1955,7 @@ a.btn-fourth{
 
 #Career {
   left: 65px;
-  top: 10650px;
+  top: 12350px;
   position: absolute;
   overflow: visible;
   width: 77px;
@@ -1967,7 +1968,7 @@ a.btn-fourth{
 
 #Affiliat {
   left: 65px;
-  top: 10700px;
+  top: 12400px;
   position: absolute;
   overflow: visible;
   width: 80px;
@@ -1980,7 +1981,7 @@ a.btn-fourth{
 
 #Franchise {
   left: 65px;
-  top: 10750px;
+  top: 12450px;
   position: absolute;
   overflow: visible;
   width: 112px;
@@ -1993,7 +1994,7 @@ a.btn-fourth{
 
 #Scholarship {
   left: 65px;
-  top: 10800px;
+  top: 12500px;
   position: absolute;
   overflow: visible;
   width: 137px;
@@ -2006,7 +2007,7 @@ a.btn-fourth{
 
 #Our_Social_links {
   left: 65px;
-  top: 10850px;
+  top: 12550px;
   position: absolute;
   overflow: visible;
   width: 197px;
@@ -2023,7 +2024,7 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 70px;
-  top: 10910px;
+  top: 12600px;
   overflow: visible; }
 
 #twitter {
@@ -2031,7 +2032,7 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 130px;
-  top: 10910px;
+  top: 12600px;
   overflow: visible; 
 }
 
@@ -2055,7 +2056,7 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 190px;
-  top: 10910px;
+  top: 12600px;
   overflow: visible; }
 
 #youtube {
@@ -2063,7 +2064,7 @@ a.btn-fourth{
   width: 40px;
   height: 40px;
   left: 250px;
-  top: 10910px;
+  top: 12600px;
   overflow: visible; 
 }}
 
@@ -3535,9 +3536,14 @@ a.btn-second{
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  color: black; }
+  color: black; 
+}
 
 #IIT_Bombay_Indian__School_of_B {
+  display: none;
+}
+
+#IIT_Bombay_Indian__School_of_B1 {
   left: 464px;
   top: 4570px;
   position: absolute;
