@@ -235,26 +235,32 @@ a.btn-third{
 
 #seventh{
   position: absolute;
-  width: 470px;
-    height: 300px;
-    left: 65px;
+  width: 530px;
+    height: 250px;
+    object-fit: cover;
+    left: 35px;
     top: 1585px;
     overflow: visible;
 }
 
 #girl{
   position: absolute;
-    width: 100px;
+    width: 130px;
     height: 100px;
+    object-fit: cover;
     left: 15px;
     top: 1900px;
 }
 
 #Learn_from_Domain_Leaders_who_ {
-  left: 126px;
-  top: 1920px;
+  display: none;
+}
+
+#Learn_from_Domain_Leaders_who_1 {
+  left: 180px;
+  top: 1900px;
   position: absolute;
-  line-height: 22px;
+  line-height: 32px;
   overflow: visible;
   width: 426px;
   white-space: nowrap;
@@ -262,22 +268,27 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 30px;
   color: black;
 }
 #chatting{
   position: absolute;
-    width: 100px;
+    width: 130px;
     height: 100px;
+    object-fit: cover;
     left: 15px;
     top: 2010px;
 
 }
 #Live_11_Interactive_Teaching_t {
-  left: 126px;
-  top: 2035px;
+  display: none;
+}
+
+#Live_11_Interactive_Teaching_t1 {
+  left: 175px;
+  top: 2020px;
   position: absolute;
-  line-height: 22px;
+  line-height: 32px;
   overflow: visible;
   width: 426px;
   white-space: nowrap;
@@ -285,36 +296,43 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 30px;
   color: black;
 }
 
 #world{
   position: absolute;
-    width: 100px;
+    width: 130px;
     height: 100px;
+    object-fit: cover;
     left: 15px;
     top: 2120px;
 
 }
 
 #World-Class_Curriculum_Designe {
-  left: 126px;
-  top: 2150px;
+  display: none;
+}
+
+#World-Class_Curriculum_Designe1 {
+  left: 175px;
+  top: 2130px;
   position: absolute;
   overflow: visible;
+  line-height: 32px;
   width: 426px;
   white-space: nowrap;
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 30px;
   color: black; }
 
 #calender{
   position: absolute;
-  width: 100px;
+  width: 130px;
+  object-fit: cover;
   height: 100px;
   left: 15px;
   top: 2235px;
@@ -322,7 +340,7 @@ a.btn-third{
 }
 
 #Real-life_Coding_HTML_CSS_Java {
-  left: 126px;
+  left: 175px;
   top: 2250px;
   position: absolute;
   overflow: visible;
@@ -332,7 +350,7 @@ a.btn-third{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 30px;
   color: black;
 
 }
@@ -477,15 +495,40 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 
-#_Certificate_ {
-  left: 240px;
-  top: 2875px;
+#_one_ {
+  left: 190px;
+  top: 2880px;
   position: absolute;
   overflow: visible;
   width: 180px;
   text-align: center;
   white-space: nowrap;
-  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+#_Certificate_{
+  display: none;
+}
+
+#_Certificate__b{
+  display: none;
+}
+
+#_Certificate__ca{
+  display: none;
+}
+
+#_Certificate_1{
+  left: 190px;
+  top: 2920px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
   font-family: Segoe UI;
   font-style: normal;
   font-size: 25px;
@@ -724,8 +767,8 @@ a.btn-fourth{
   color: rgb(0, 0, 0);
 }
 
-#_Certificate__b {
-  left: 245px;
+#_two_ {
+  left: 260px;
   top: 3590px;
   position: absolute;
   overflow: visible;
@@ -736,6 +779,20 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+#_Certificate_2 {
+  left: 190px;
+  top: 3620px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
   color: rgb(0, 0, 0);
 }
 #View_CRIRICULUM_details_b {
@@ -921,7 +978,7 @@ a.btn-fourth{
 }
 
 #Your_Child_will_Build_a_voice_ {
-  left: 170px;
+  left: 180px;
   top: 4290px;
   position: absolute;
   overflow: visible;
@@ -930,14 +987,14 @@ a.btn-fourth{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   color: rgb(0, 0, 0);
 }
 
-#_Certificate__ca {
-  left: 250px;
-  top: 4375px;
+#_three_ {
+  left: 280px;
+  top: 4380px;
   position: absolute;
   overflow: visible;
   width: 180px;
@@ -947,7 +1004,21 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 24px;
-  color: rgb(0, 0, 0);}
+  color: rgb(0, 0, 0);
+}
+#_Certificate_3 {
+  left: 200px;
+  top: 4420px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
 
 #View_CRIRICULUM_details_ca {
   left: 155px;
@@ -1302,8 +1373,12 @@ a.btn-fourth{
   font-size: 25px;
   color: black; 
 }
+
+#IIT_Bombay_Indian__School_of_B1 {
+  display: none;
+}
 #IIT_Bombay_Indian__School_of_B {
-  left: 145px;
+  left: 100px;
   top: 7250px;
   position: absolute;
   overflow: visible;
@@ -1314,7 +1389,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 24px;
   color: black;
 }
 
@@ -1384,8 +1459,12 @@ a.btn-fourth{
   font-size: 25px;
   color: black; 
 }
+
 #BS_Psychology_Honors__College_{
-  left: 180px;
+  display: none;
+}
+#BS_Psychology_Honors__College_1{
+  left: 135px;
   top: 8100px;
   position: absolute;
   overflow: visible;
@@ -1395,7 +1474,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 24px;
   color: black;
 }
 
@@ -1466,8 +1545,12 @@ a.btn-fourth{
   color: black; 
 }
 #Bachelors_of_Computer__Enginee{
-  left: 190px;
-  top: 8930px;
+  display: none;
+}
+
+#Bachelors_of_Computer__Enginee1{
+  left: 110px;
+  top: 8935px;
   position: absolute;
   overflow: visible;
   width: 111px;
@@ -1476,7 +1559,7 @@ a.btn-fourth{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 24px;
   color: black;
 }
 
@@ -1764,6 +1847,28 @@ a.btn-fourth{
   font-weight: normal;
   font-size: 27px;
   color: #1700ff; 
+}
+
+#_Certificate_1{
+  display: none;
+}
+#_Certificate_2{
+  display: none;
+}
+
+#_Certificate_3{
+  display: none;
+}
+
+#_one_{
+  display: none;
+}
+#_two_{
+  display: none;
+}
+
+#_three_{
+  display: none;
 }
 
 #Screenshot_26 {
@@ -2399,6 +2504,9 @@ a.btn-second{
   overflow: visible; 
 }
 
+#Learn_from_Domain_Leaders_who_1 {
+  display: none;
+}
 
 #Learn_from_Domain_Leaders_who_ {
   left: 875px;
@@ -2412,7 +2520,12 @@ a.btn-second{
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  color: black; }
+  color: black; 
+}
+
+#Live_11_Interactive_Teaching_t1 {
+  display: none;
+}
 
 #Live_11_Interactive_Teaching_t {
   left: 875px;
@@ -2426,7 +2539,12 @@ a.btn-second{
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  color: black; }
+  color: black; 
+}
+
+#World-Class_Curriculum_Designe1 {
+  display: none;
+}
 
 #World-Class_Curriculum_Designe {
   left: 875px;
@@ -3555,7 +3673,12 @@ a.btn-second{
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  color: black; }
+  color: black; 
+}
+
+#BS_Psychology_Honors__College_1 {
+  display: none;
+}
 
 #BS_Psychology_Honors__College_ {
   left: 745px;
@@ -3569,7 +3692,13 @@ a.btn-second{
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  color: black; }
+  color: black; 
+}
+
+#Bachelors_of_Computer__Enginee1{
+  display: none;
+}
+
 
 #Bachelors_of_Computer__Enginee {
   left: 1036px;
