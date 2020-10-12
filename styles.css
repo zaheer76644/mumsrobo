@@ -2163,7 +2163,7 @@ a.btn-second{
 }
 
 
-@media only screen and (max-device-width: 430px){
+@media only screen and (max-device-width: 411px){
   .wrapper{
     width: 100%;
   }
@@ -2192,7 +2192,7 @@ a.btn-second{
   }
 
 #Live{
-  left: 40px;
+  left: 30px;
   top: 480px;
   position: absolute;
   overflow: visible;
@@ -2208,7 +2208,7 @@ a.btn-second{
 }
 
 #Live1{
-  left: 45px;
+  left: 35px;
   top: 520px;
   position: absolute;
   overflow: visible;
@@ -2224,7 +2224,7 @@ a.btn-second{
 }
 
 #Live2{
-  left: 75px;
+  left: 55px;
   top: 570px;
   position: absolute;
   overflow: visible;
@@ -2249,7 +2249,7 @@ a.btn-second{
   }
   
   a.btn{
-    left: 50px;
+    left: 40px;
     top: 625px;
     margin: 30px 20px;
     width: 260px;
@@ -2266,7 +2266,7 @@ a.btn-second{
   }
   
   #BOOK_FREE_DEMO {
-    left: 95px;
+    left: 85px;
     top: 665px;
     position: absolute;
     overflow: visible;
@@ -2280,7 +2280,7 @@ a.btn-second{
     color: white;
   }
   #Worlds_1st_AIML__Data_Science_ {
-    left: 45px;
+    left: 30px;
     top: 770px;
     position: absolute;
     overflow: visible;
@@ -2294,11 +2294,11 @@ a.btn-second{
 }
   
   a.btn1{
-    left: 50px;
-    top: 880px;
+    left: -4px;
+    top: 2290px;
     margin: 30px 20px;
-    width: 250px;
-    height: 30px;
+    width: 320px;
+    height: 35px;
     padding: 10px;
     border-radius: 5px;
     position: absolute;
@@ -2310,7 +2310,7 @@ a.btn-second{
   }
   
   #Our_Courses {
-    left: 115px;
+    left: 45px;
     top: 910px;
     position: absolute;
     overflow: visible;
@@ -2326,9 +2326,9 @@ a.btn-second{
   
   #second {
     position: absolute;
-    width: 310px;
+    width: 300px;
     height: auto;
-    left: 60px;
+    left: 55px;
     top: 993px;
     overflow: visible;
     object-fit: cover;
@@ -2568,7 +2568,7 @@ a.btn-second{
   .Rectangle_60 {
    position: absolute;
    overflow: visible;
-   width: 400px;
+   width: 380px;
    height: 727px;
    left: 15px;
    top: 2445px;
@@ -2578,7 +2578,7 @@ a.btn-second{
   .Rectangle_61 {
     position: absolute;
     overflow: visible;
-    width: 400px;
+    width: 380px;
     height: 562px;
     left: 15px;
     top: 2570px;
@@ -2743,7 +2743,7 @@ a.btn-second{
   }
   
   #Rs10000 {
-    left: 220px;
+    left: 205px;
   top: 3010px;
   position: absolute;
   overflow: visible;
@@ -2840,7 +2840,7 @@ a.btn-second{
   .Rectangle_62 {
     position: absolute;
     overflow: visible;
-    width: 400px;
+    width: 380px;
     height: 727px;
     left: 15px;
     top: 3205px;
@@ -2852,7 +2852,7 @@ a.btn-second{
   .Rectangle_63 {
     position: absolute;
     overflow: visible;
-    width: 400px;
+    width: 380px;
     height: 562px;
     left: 15px;
     top: 3330px; 
@@ -3050,7 +3050,7 @@ a.btn-second{
   }
   
   #Register_for_Demo_Class_bz {
-    left: 110px;
+    left: 95px;
     top: 3895px;
     position: absolute;
     overflow: visible;
@@ -3067,7 +3067,7 @@ a.btn-second{
   .Rectangle_64{
     position: absolute;
     overflow: visible;
-    width: 400px;
+    width: 380px;
     height: 727px;
     left: 15px;
     top: 3960px;
@@ -3081,7 +3081,7 @@ a.btn-second{
   .Rectangle_65 {
     position: absolute;
     overflow: visible;
-    width: 400px;
+    width: 380px;
     height: 562px;
     left: 15px;
     top: 4085px;
@@ -3105,7 +3105,7 @@ a.btn-second{
   }
   
   #ID147_Classes {
-    left: 165px;
+    left: 145px;
     top: 4040px;
     position: absolute;
     overflow: visible;
@@ -3118,7 +3118,7 @@ a.btn-second{
     color: white;
   }
   #Base_Bulider_ {
-    left: 220px;
+    left: 140px;
     top: 4095px;
     position: absolute;
     overflow: visible;
@@ -3127,46 +3127,13 @@ a.btn-second{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
+    /* font-weight: bold; */
+    font-size: 25px;
     color: #0b18d4; }
   
   #Artificial_Intelligence___Robo1 {
-    left: 120px;
-    top: 4145px;
-    position: absolute;
-    overflow: visible;
-    width: 180px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Segoe UI;
-    font-style: normal;
-    font-size: 27px;
-    color: black;
-  }
-  
-  #Artificial_Intelligence___Robo {
-    display: none;
-  }
-  
-  #Achievement_bu {
-    left: 210px;
-    top: 4250px;
-    position: absolute;
-    overflow: visible;
-    width: 180px;
-    white-space: nowrap;
-    text-align: left;
-    font-family: Segoe UI;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 27px;
-    color: rgb(0, 0, 0);
-  }
-  
-  #Your_Child_will_Build_a_voice_ {
-    left: 180px;
-    top: 4290px;
+    left: 55px;
+    top: 4140px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -3175,12 +3142,45 @@ a.btn-second{
     font-family: Segoe UI;
     font-style: normal;
     font-size: 22px;
+    color: black;
+  }
+  
+  #Artificial_Intelligence___Robo {
+    display: none;
+  }
+  
+  #Achievement_bu {
+    left: 135px;
+    top: 4250px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+  }
+  
+  #Your_Child_will_Build_a_voice_ {
+    left: 115px;
+    top: 4290px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
   }
   
   #_three_ {
-    left: 280px;
+    left: 200px;
     top: 4380px;
     position: absolute;
     overflow: visible;
@@ -3194,8 +3194,8 @@ a.btn-second{
     color: rgb(0, 0, 0);
   }
   #_Certificate_3 {
-    left: 200px;
-    top: 4420px;
+    left: 125px;
+    top: 4415px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -3203,12 +3203,12 @@ a.btn-second{
     white-space: nowrap;
     font-family: Segoe UI;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
   }
   
   #View_CRIRICULUM_details_ca {
-    left: 155px;
+    left: 90px;
     top: 4455px;
     position: absolute;
     overflow: visible;
@@ -3217,7 +3217,7 @@ a.btn-second{
     text-align: center;
     font-family: Segoe UI;
     font-style: normal;
-    font-size: 27px;
+    font-size: 22px;
     text-align: center;
     color: rgb(61, 182, 230);
   }
@@ -3225,7 +3225,7 @@ a.btn-second{
   
   #Rs117600 {
     left: 35px;
-    top: 4495px;
+    top: 4505px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -3234,23 +3234,24 @@ a.btn-second{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
-    color: rgb(0, 0, 0);}
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  }
   
   #Rs147000 {
-    left: 380px;
-      top: 4500px;
-      position: absolute;
-      overflow: visible;
-      width: 180px;
-      white-space: nowrap;
-      text-align: right;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      text-decoration: line-through;
-      font-size: 25px;
-      color: rgb(0, 0, 0); 
+    left: 205px;
+    top: 4510px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
   }
   .Rectangle_72 {
     position: absolute;
@@ -3279,8 +3280,8 @@ a.btn-second{
   }
   
   #Register_for_Demo_Class_b {
-    left: 175px;
-      top: 4658px;
+    left: 90px;
+    top: 4650px;
       position: absolute;
       overflow: visible;
       width: 258px;
