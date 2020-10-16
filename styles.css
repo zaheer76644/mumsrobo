@@ -3878,7 +3878,7 @@ h2{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 14px;
     color: black;
   }
   #Rectangle_34 {
@@ -3889,13 +3889,13 @@ h2{
     overflow: visible;
     width: 221px;
     height: 60px;
-    left: 70px;
-    top: 8465px;
+    left: 80px;
+    top: 8450px;
   }
   
   #Recent_Blog {
-    left: 100px;
-    top: 8475px;
+    left: 110px;
+    top: 8460px;
     position: absolute;
     overflow: visible;
     width: 169px;
@@ -3910,16 +3910,16 @@ h2{
   
   #Screenshot_18 {
     position: absolute;
-    width: 350px;
+    width: 92%;
     height: auto;
     left: 13px;
-    top: 8550px;
+    top: 8530px;
     overflow: visible;
   }
   
   #How_to_get_your_child_interest {
     left: 20px;
-    top: 8815px;
+    top: 8805px;
     position: absolute;
     overflow: visible;
     width: 350px;
@@ -3929,7 +3929,7 @@ h2{
     font-style: normal;
     font-weight: regular;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     color: black;
   }
@@ -3937,7 +3937,7 @@ h2{
     left: 20px;
     top: 8875px;
     position: absolute;
-    width: 330px;
+    width: 340px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
@@ -3945,7 +3945,7 @@ h2{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 19px;
     color: #707070;
   }
   
@@ -3980,14 +3980,14 @@ h2{
   .Rectangle_36 {
     position: absolute;
     overflow: visible;
-    width: 250px;
+    width: 230px;
     height: 60px;
-    left: 55px;
+    left: 75px;
     top: 9145px;
   }
   
   #Our_Alumni {
-    left: 90px;
+    left: 120px;
     top: 9145px;
     position: absolute;
     overflow: visible;
@@ -3996,14 +3996,14 @@ h2{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: bold;
+   
     font-size: 33px;
     color: black; 
   }
   
   #Screenshot_20 {
     position: absolute;
-    width: 325px;
+    width: 350px;
     height: auto;
     left: 25px;
     top: 9225px;
@@ -4012,7 +4012,7 @@ h2{
   
   #Screenshot_22 {
     position: absolute;
-    width: 325px;
+    width: 350px;
     height: auto;
     left: 25px;
     top: 9350px;
@@ -4022,10 +4022,10 @@ h2{
   .Line_3 {
     overflow: visible;
     position: absolute;
-    width: 340px;
+    width: 370px;
     height: 3px;
     left: 15px;
-    top: 9490px;
+    top: 9500px;
     transform: matrix(1, 0, 0, 1, 0, 0); }
   
   #Line_3 {
@@ -4228,7 +4228,7 @@ h2{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: black; }
   
   #India {
@@ -4256,7 +4256,7 @@ h2{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 20px;
     color: black; }
   
   #Blog {
@@ -4420,7 +4420,7 @@ h2{
 
 
 
-  @media only screen and (min-device-width:375px) and (max-device-width: 400px){  
+  @media only screen and (min-device-width:376px) and (max-device-width: 400px){  
     .firstimage {
       width: 100%;
       height: auto;
@@ -6430,6 +6430,21 @@ h2{
       font-weight: bold;
       font-size: 22px;
       color: black; 
+    }
+    .Rectangle_101{
+      display: none;
+    }
+    
+    .Rectangle_102{
+      display: none;
+    }
+    
+    .Rectangle_103{
+      display: none;
+    }
+    
+    .Rectangle_104{
+      display: none;
     }
     
     #ID63-66_Hatton_Garden_London_E {
@@ -9977,7 +9992,7 @@ h2{
     }
     
     .Rectangle_18 {
-      left: 45px;
+      left: 35px;
       top: 4590px;
       position: absolute;
       overflow: visible;
@@ -10042,7 +10057,7 @@ h2{
       overflow: visible;
       width: 338px;
       height: 60px;
-      left: 5px;
+      left: 20px;
       top: 5240px; 
     }
     
@@ -11055,7 +11070,7 @@ h2{
       .firstimage {
         width: 100%;
         height: auto;
-        top: 66px;
+        top: 52px;
         margin-right: auto;
         margin-left: auto;
         display: block;
@@ -11145,7 +11160,7 @@ h2{
       img.Screenshot_16 {
         width: 65%;
         display: block;
-        margin-left: 65px;
+        margin-left: 40px;
         margin-right: auto;
       }
       
@@ -11194,7 +11209,7 @@ h2{
       }
       
       a.btn1{
-        left: 40px;
+        left: 30px;
         top: 775px;
         margin: 30px 20px;
         width: 200px;
@@ -11210,7 +11225,7 @@ h2{
       }
       
       #Our_Courses {
-        left: 85px;
+        left: 75px;
           top: 810px;
           position: absolute;
           overflow: visible;
@@ -11283,7 +11298,7 @@ h2{
       }
       
       a.btn3{
-        left: 20px;
+        left: 15px;
         top: 1130px;
         margin: 30px 20px;
         width: 230px;
@@ -11299,7 +11314,7 @@ h2{
       }
       
       #Why_Edurific_ {
-        left: 75px;
+        left: 60px;
         top: 1160px;
         position: absolute;
         overflow: visible;
@@ -11435,10 +11450,10 @@ h2{
       }
       
       a.btn4{
-        left: 0px;
+        left: 10px;
         top: 2070px;
         margin: 30px 20px;
-        width: 260px;
+        width: 240px;
         height: 35px;
         padding: 10px;
         border-radius: 5px;
@@ -11577,11 +11592,11 @@ h2{
     }
       
       #_one_ {
-        left: 65px;
+        left: 115px;
         top: 2615px;
         position: absolute;
         overflow: visible;
-        width: 180px;
+        width: 100px;
         text-align: center;
         white-space: nowrap;
         font-family: Segoe UI;
@@ -11857,7 +11872,7 @@ h2{
         top: 3385px;
         position: absolute;
         overflow: visible;
-        width: 180px;
+        width: 100px;
         text-align: center;
         white-space: nowrap;
         text-align: left;
@@ -12090,7 +12105,7 @@ h2{
         top: 4160px;
         position: absolute;
         overflow: visible;
-        width: 180px;
+        width: 100px;
         text-align: center;
         white-space: nowrap;
         text-align: left;
@@ -12321,7 +12336,7 @@ h2{
           overflow: visible;
           width: 226px;
           height: 456px;
-          left: 5px;
+          left: 10px;
           top: 5340px;}
       
       #Rectangle_105 {
@@ -12340,7 +12355,7 @@ h2{
         width: 285px;
         object-fit: cover;
         height: 350px;
-        left: 10px;
+        left: 18px;
         top: 5345px;
         overflow: visible; 
       }
@@ -12416,7 +12431,7 @@ h2{
         overflow: visible;
         width: 300px;
         height: 456px;
-        left: 5px;
+        left: 10px;
         top: 5985px;}
       
       #Rectangle_106{
@@ -12433,7 +12448,7 @@ h2{
         width: 285px;
         object-fit: cover;
         height: 350px;
-        left: 10px;
+        left: 18px;
         top: 5990px;
         overflow: visible; 
       }
@@ -12503,7 +12518,7 @@ h2{
         overflow: visible;
         width: 300px;
         height: 456px;
-        left: 5px;
+        left: 10px;
         top: 6620px;
     }
       #Rectangle_107{
@@ -12519,7 +12534,7 @@ h2{
         position: absolute;
         width: 300px;
         height: 350px;
-        left: 5px;
+        left: 10px;
         top: 6620px;
         overflow: visible; 
       }
@@ -12588,7 +12603,7 @@ h2{
         overflow: visible;
         width: 300px;
         height: 456px;
-        left: 5px;
+        left: 10px;
         top: 7260px;}
       
       #Rectangle_108{
@@ -12604,7 +12619,7 @@ h2{
         position: absolute;
         width: 300px;
         height: 350px;
-        left: 5px;
+        left: 10px;
         top: 7260px;
         overflow: visible; 
       }
@@ -12888,7 +12903,7 @@ h2{
         width: 290px;
         height: auto;
         left: 15px;
-        top: 9350px;
+        top: 9335px;
         overflow: visible;
       }
       
