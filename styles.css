@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -110,32 +111,27 @@ h2 {
   color: black;
 }
 
+#BOOK_FREE_DEMO{
+  display: none;
+}
 
-
-#BOOK_FREE_DEMO {
-  left: 165px;
-  top: 400px;
-  position: absolute;
-  overflow: visible;
-  width: 216px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: white; }
 
 
   a.btn{
     left: 125px;
     top: 360px;
-    margin: 30px 20px;
-    width: 240px;
-    height: 30px;
-    padding: 10px;
-    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: crimson;
+    font-weight: bold;
     position: absolute;
+    border-radius: 25px;
+
+
 
   }
 
@@ -1204,14 +1200,14 @@ a.btn-second{
   width: 288px;
   height: 60px;
   left: 120px;
-  top: 3317px; }
+  top: 3335px; }
 
 #Rectangle_18 {
   fill: #c0ffcc; }
 
 #About_Edurific {
-  left: 162px;
-  top: 3327px;
+  left: 125px;
+  top: 3345px;
   position: absolute;
   overflow: visible;
   width: 205px;
@@ -1226,23 +1222,22 @@ a.btn-second{
 #ceritificate {
   position: absolute;
   width: 529px;
-  height: 457px;
+  height: 420px;
   left: 120px;
   top: 3498px;
   overflow: visible; }
-
 #Edurific_is_founded_by_the_Alu {
-  left: 727px;
+  left: 700px;
   top: 3548px;
   position: absolute;
   overflow: visible;
   width: 434px;
   white-space: nowrap;
   text-align: left;
-  font-family: Myanmar Text;
+  font-family: 'Lobster', cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   color: black; }
 
 #Our_Curriculum_Heads {
@@ -2198,6 +2193,7 @@ a.btn-second{
 
 
 
+
   
 }
 
@@ -2205,7 +2201,7 @@ a.btn-second{
 @media only screen and (min-device-width:400px) and (max-device-width: 425px){
   .firstimage {
     width: 100%;
-    height: auto;
+    height: 50%;
     top: 66px;
     margin-right: auto;
     margin-left: auto;
@@ -3357,7 +3353,7 @@ h2{
   }
   
   #About_Edurific {
-    left: 70px;
+    left: 50px;
     top: 4595px;
     position: absolute;
     overflow: visible;
@@ -3366,8 +3362,7 @@ h2{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-  
-    font-size: 35px;
+    font-size: 32px;
     color: black;
   }
   
@@ -3377,23 +3372,24 @@ h2{
     width: 92%;
     height: auto;
     left: 15px;
-    top: 4695px;
+    top: 4685px;
     overflow: visible;
   }
   
   #Edurific_is_founded_by_the_Alu {
+    display: inline-block;
     left: 15px;
-    top: 4970px;
+    top: 4960px;
     position: absolute;
     width: 200px;
     overflow: visible;
     white-space: nowrap;
-    text-align: left;
-    font-family: system-ui;
-    line-height: 25px;
+    text-align: center;
+    font-family: 'Lobster', cursive;  
+    line-height: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
   }
   
@@ -4424,7 +4420,7 @@ h2{
   @media only screen and (min-device-width:376px) and (max-device-width: 400px){  
     .firstimage {
       width: 100%;
-      height: auto;
+      height: 50%;
       top: 66px;
       margin-right: auto;
       margin-left: auto;
@@ -5575,7 +5571,7 @@ h2{
     }
     
     #About_Edurific {
-      left: 70px;
+      left: 50px;
       top: 4595px;
       position: absolute;
       overflow: visible;
@@ -5585,7 +5581,7 @@ h2{
       font-family: Segoe UI;
       font-style: normal;
       
-      font-size: 35px;
+      font-size: 32px;
       color: black;
     }
     
@@ -5595,23 +5591,23 @@ h2{
       width: 92%;
       height: auto;
       left: 15px;
-      top: 4695px;
+      top: 4685px;
       overflow: visible;
     }
     
     #Edurific_is_founded_by_the_Alu {
-      left: 15px;
-      top: 4970px;
+      left: 13px;
+      top: 4960px;
       position: absolute;
       width: 200px;
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: system-ui;
-      line-height: 25px;
+      font-family:'Lobster', cursive;
+      line-height: 20px;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
+      font-size: 14px;
       color: black;
     }
     
@@ -6646,7 +6642,7 @@ h2{
 @media only screen and (min-device-width:360px) and (max-device-width: 375px){  
   .firstimage {
     width: 100%;
-    height: auto;
+    height: 50%;
     top: 66px;
     margin-right: auto;
     margin-left: auto;
@@ -7798,7 +7794,7 @@ h2{
   }
   
   #About_Edurific {
-    left: 70px;
+    left: 50px;
     top: 4595px;
     position: absolute;
     overflow: visible;
@@ -7808,7 +7804,7 @@ h2{
     font-family: Segoe UI;
     font-style: normal;
     
-    font-size: 35px;
+    font-size: 32px;
     color: black;
   }
   
@@ -7818,23 +7814,23 @@ h2{
     width: 350px;
     height: auto;
     left: 15px;
-    top: 4695px;
+    top: 4685px;
     overflow: visible;
   }
   
   #Edurific_is_founded_by_the_Alu {
     left: 15px;
-    top: 4970px;
+    top: 4960px;
     position: absolute;
     width: 200px;
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: system-ui;
-    line-height: 25px;
+    font-family:'Lobster', cursive;
+    line-height: 20px;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 13px;
     color: black;
   }
   
@@ -8858,7 +8854,7 @@ h2{
   @media only screen and (min-device-width:321px) and (max-device-width: 360px){  
     .firstimage {
       width: 100%;
-      height: auto;
+      height: 50%;
       top: 66px;
       margin-right: auto;
       margin-left: auto;
@@ -10010,7 +10006,7 @@ h2{
     }
     
     #About_Edurific {
-      left: 70px;
+      left: 45px;
       top: 4595px;
       position: absolute;
       overflow: visible;
@@ -10020,7 +10016,7 @@ h2{
       font-family: Segoe UI;
       font-style: normal;
       
-      font-size: 35px;
+      font-size: 32px;
       color: black;
     }
     
@@ -10030,23 +10026,23 @@ h2{
       width: 92%;
       height: auto;
       left: 15px;
-      top: 4695px;
+      top: 4685px;
       overflow: visible;
     }
     
     #Edurific_is_founded_by_the_Alu {
       left: 15px;
-      top: 4970px;
+      top: 4960px;
       position: absolute;
       width: 200px;
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: system-ui;
-      line-height: 25px;
+      font-family:'Lobster', cursive;
+      line-height: 20px;
       font-style: normal;
       font-weight: normal;
-      font-size: 15px;
+      font-size: 12px;
       color: black;
     }
     
@@ -11070,7 +11066,7 @@ h2{
     @media only screen and (max-device-width:320px) {  
       .firstimage {
         width: 100%;
-        height: auto;
+        height: 50%;
         top: 52px;
         margin-right: auto;
         margin-left: auto;
@@ -12233,7 +12229,7 @@ h2{
       }
       
       #About_Edurific {
-        left: 50px;
+        left: 25px;
         top: 4595px;
         position: absolute;
         overflow: visible;
@@ -12243,7 +12239,7 @@ h2{
         font-family: Segoe UI;
         font-style: normal;
         
-        font-size: 35px;
+        font-size: 32px;
         color: black;
       }
       
@@ -12259,17 +12255,17 @@ h2{
       
       #Edurific_is_founded_by_the_Alu {
         left: 15px;
-        top: 4970px;
+        top: 4950px;
         position: absolute;
         width: 200px;
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family: system-ui;
-        line-height: 22px;
+        font-family: 'Lobster', cursive;
+        line-height: 20px;
         font-style: normal;
         font-weight: normal;
-        font-size: 13px;
+        font-size: 11px;
         color: black;
       }
       
