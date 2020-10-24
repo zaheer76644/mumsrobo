@@ -15,8 +15,145 @@ html{
     align-items: center;
     justify-content: center;
 }
+a{
+    text-decoration: none;
+}
 
 
+
+#header{
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+  }
+  #header .header{
+    min-height: 8vh;
+    background-color: transparent;
+  }
+  
+  #header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+  }
+  #header span{
+      color: crimson;
+  }
+  
+  #header .nav-list ul{
+    list-style: none;
+    position: absolute;
+    background-color: transparent;
+    width: 100vw;
+    height: 100vh;
+    left: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+  }
+  
+  #header .nav-list ul.active{
+    left: 0;
+  }
+  #header .nav-list ul a{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+  }
+  #header .nav-list ul li:hover a{
+    color: crimson;
+  }
+  #header .humburger{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    cursor: pointer;
+    transform: scale(.8);
+    margin-right: 0px ;
+  }
+  
+  #header .humburger .bar{
+    height: 2px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    z-index: -1;
+  
+  }
+  #header .humburger .bar::after,
+  #header .humburger .bar::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: black;
+    transition: .3s ease;
+    transition-property: top, bottom;
+  }
+  
+  #header .humburger .bar::after{
+    top: 8px;
+  }
+  
+  #header .humburger .bar::before{
+    bottom: 8px;
+  }
+  #header .humburger.active .bar::before{
+    bottom: 0;
+  }
+  
+  #header .humburger.active .bar::after{
+    top: 0;
+  }
+  #header h1{
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: bold;
+  }
+  #header h2{
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 2rem;
+    margin-left: 8%;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: crimson;
+  
+  }
+  #home .img{
+    width: 50%;
+    margin-top: 8%;
+  
+  }
+  
 
 
 
@@ -289,12 +426,14 @@ html{
         text-transform: uppercase;
         background-color: #c0ffcc;
         font-weight: bold;
-        margin-left: -59%;
+        margin-left: -63%;
+        margin-top: 50px;
         letter-spacing: .1rem;
     }
     #abouts .img{
-        margin-top: 100px;
-        margin-left: -40%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -45%;
     }
 
     #abouts p{
@@ -304,6 +443,25 @@ html{
         font-size: 2rem;
         font-family: 'Lobster' ;
    }
+   #header .humburger{
+       display: none;
+   }
+
+   #header .nav-list ul{
+       position: initial;
+       display: block;
+       height: auto;
+       width: fit-content;
+       background-color: transparent;
+   }
+   #header .nav-list ul li{
+       display: inline-block;
+   }
+
+   #header .nav-list ul li a {
+       font-size: 2rem;
+   }
+   
 
 
 }
@@ -417,7 +575,7 @@ html{
     text-transform: uppercase;
     background-color: #c0ffcc;
     font-weight: bold;
-    margin-top: 5%;
+    margin-top: 20%;
     letter-spacing: .1rem;
 }
 #abouts .img{
@@ -430,10 +588,31 @@ html{
     margin-left: 0%;
     width: 350px;
     margin-top:5%; 
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Lobster' ;
     /* text-align: center; */
 }
+#header h1{
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: bold;
+  }
+  #header h2{
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: crimson;
+  
+  }
+
 }
 
 
@@ -451,7 +630,7 @@ html{
         text-transform: uppercase;
         background-color: #c0ffcc;
         font-weight: bold;
-        margin-top: 5%;
+        margin-top: 20%;
         letter-spacing: .1rem;
     }
     #abouts .img{
@@ -468,6 +647,26 @@ html{
         font-family: 'Lobster' ;
         /* text-align: center; */
     }
+    #header h1{
+        color: black;
+        padding: 0px 20px;
+        text-decoration: none;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: bold;
+      }
+      #header h2{
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 10%;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: crimson;
+      
+      }
 }
 
 
@@ -483,7 +682,7 @@ html{
         text-transform: uppercase;
         background-color: #c0ffcc;
         font-weight: bold;
-        margin-top: 5%;
+        margin-top: 20%;
         letter-spacing: .1rem;
     }
     #abouts .img{
@@ -496,10 +695,30 @@ html{
         margin-left: 0%;
         width: 350px;
         margin-top:5%; 
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Lobster' ;
         /* text-align: center; */
     }
+    #header h1{
+        color: black;
+        padding: 0px 20px;
+        text-decoration: none;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: bold;
+      }
+      #header h2{
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-size: 1.5rem;
+        margin-left: 10%;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: crimson;
+      
+      }
 }
 
 
@@ -511,11 +730,11 @@ html{
         display: inline-block;
         padding: 5px 20px;
         color: black;
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         text-transform: uppercase;
         background-color: #c0ffcc;
         font-weight: bold;
-        margin-top: 5%;
+        margin-top: 20%;
         letter-spacing: .1rem;
     }
     #abouts .img{
@@ -528,10 +747,30 @@ html{
         margin-left: 0%;
         width: 350px;
         margin-top:5%; 
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Lobster' ;
         /* text-align: center; */
     }
+    #header h1{
+        color: black;
+        padding: 0px 20px;
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: bold;
+      }
+      #header h2{
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-size: 1rem;
+        margin-left: 11%;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: crimson;
+      
+      }
 }
 
 @media only screen and (max-device-width:320px) {  
@@ -546,7 +785,7 @@ html{
         text-transform: uppercase;
         background-color: #c0ffcc;
         font-weight: bold;
-        margin-top: 5%;
+        margin-top: 20%;
         letter-spacing: .1rem;
     }
     #abouts .img{
@@ -563,4 +802,24 @@ html{
         font-family: 'Lobster' ;
         /* text-align: center; */
     }
+    #header h1{
+        color: black;
+        padding: 0px 20px;
+        text-decoration: none;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        font-weight: bold;
+      }
+      #header h2{
+        display: inline-block;
+        padding: 5px 10px;
+        color: white;
+        font-size: 1rem;
+        margin-left: 11%;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: crimson;
+      
+      }
 }
