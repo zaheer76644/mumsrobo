@@ -144,7 +144,7 @@ a{
     padding: 5px 10px;
     color: white;
     font-size: 2rem;
-    margin-left: -2%;
+    margin-left: 0%;
     text-decoration: none;
     text-transform: uppercase;
     background-color: crimson;
@@ -3455,7 +3455,7 @@ a.btn-second{
     line-height: 22px;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1.5rem;
     color: black;
   }
   
@@ -5607,7 +5607,7 @@ a.btn-second{
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
-      font-size: 14 px;
+      font-size: 1.4rem;
       color: black;
     }
     
@@ -6676,7 +6676,7 @@ a.btn-second{
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
-    margin-left: -7%;
+    margin-left: -8%;
   }
   #header h2{
     display: inline-block;
@@ -7768,7 +7768,7 @@ a.btn-second{
     line-height: 22px;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 1.3rem;
     color: black;
   }
   
@@ -8832,7 +8832,7 @@ a.btn-second{
       display: inline-block;
       padding: 5px 10px;
       color: white;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin-left: 0%;
       text-decoration: none;
       text-transform: uppercase;
@@ -9905,7 +9905,7 @@ a.btn-second{
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
-      font-size: 12px;
+      font-size: 1.2rem;
       color: black;
     }
     
@@ -10968,7 +10968,7 @@ a.btn-second{
     display: inline-block;
     padding: 5px 10px;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-left: 0%;
     text-decoration: none;
     text-transform: uppercase;
@@ -12117,7 +12117,7 @@ a.btn-second{
         line-height: 22px;
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
+        font-size: 1.1rem;
         color: black;
       }
       
