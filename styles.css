@@ -4483,7 +4483,10 @@ a.btn-second{
 
 
 
-  @media only screen and (min-device-width:376px) and (max-device-width: 400px){  
+  @media only screen and (min-device-width:376px) and (max-device-width: 399px){  
+    .Rectangle_12 {
+      display: none;
+    }
     #abouts .about{
       flex-direction: column;
   }
@@ -4806,9 +4809,6 @@ a.btn-second{
       
       font-size: 35px;
       color: black;
-    }
-    .Rectangle_12 {
-      display: none;
     }
     
     .Rectangle_60 {
