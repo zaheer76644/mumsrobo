@@ -4807,6 +4807,9 @@ a.btn-second{
       font-size: 35px;
       color: black;
     }
+    .Rectangle_12 {
+      display: none;
+    }
     
     .Rectangle_60 {
       position: absolute;
