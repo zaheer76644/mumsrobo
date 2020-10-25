@@ -136,7 +136,7 @@ a{
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
-    margin-left: -8%;
+    margin-left: -5%;
     margin-top: 0%;
   }
   #header h2{
@@ -234,7 +234,7 @@ a{
 }
 
 
-@media only screen and (min-width: 1366px){
+@media only screen and (min-width: 1024px){
   #abouts .about{
     flex-direction: column;
 }
