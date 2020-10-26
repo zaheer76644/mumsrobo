@@ -338,7 +338,7 @@ a.btn5{
   width: 290px;
   height: 110px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 20px;
   position: absolute;
 }
 a.btn-fifth{
@@ -352,7 +352,7 @@ a.btn6{
   width: 220px;
   height: 50px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   position: absolute;
 }
 a.btn-six{
@@ -1230,6 +1230,7 @@ a.btn-six{
 .Rectangle_8 {
   position: absolute;
   overflow: visible;
+  border-radius: 20px;
   width: 288px;
   height: 60px;
   left: 105px;
@@ -1740,6 +1741,7 @@ a.btn7{
   height: 110px;
   left: 120px;
   top: 5287px;
+  border-radius: 20px;
 }
 a.btn-seven{
   background-color: #f5d3de;
