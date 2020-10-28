@@ -311,10 +311,18 @@ a.btn-second{
   font-size: 30px;
   color: black; }
 
-
   a.btn3{
-    display: none;
+    left: 105px;
+  top: 3320px;
+  margin: 30px 20px;
+  width: 290px;
+  height: 55px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+    background-color:#a0ffc8;
   }
+  
 
   a.btn4{
     display: none;
@@ -1672,7 +1680,9 @@ a.btn-six{
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  color: black; }
+  color: black; 
+}
+
 
 .Rectangle_30 {
   position: absolute;
