@@ -33,9 +33,6 @@ a{
     min-height: 8vh;
     background-color: white;
   }
-  #header .brand{
-    margin-left: -25%;
-  }
   #header .nav-bar{
     display: flex;
     align-items: center;
@@ -130,12 +127,6 @@ a{
   #header .humburger.active .bar::after{
     top: 0;
   }
-
-  #header .logo{
-    margin-top: 10px;
-    width: 10%;
-    height: 10%;
-  }
   #header h1{
     color: black;
     padding: 0px 20px;
@@ -188,7 +179,14 @@ a{
   margin-top: 0%;
 
 }
-
+#header .brand{
+  margin-left: -25%;
+}
+#header .logo{
+  margin-top: 10px;
+  width: 10%;
+  height: 10%;
+}
 #abouts .img{
     height: auto;
     margin-top: 50px;
