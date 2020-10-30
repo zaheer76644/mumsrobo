@@ -333,9 +333,6 @@ a.btn-second{
   }
   
 
-  a.btn4{
-    display: none;
-  }
 #Rectangle_7 {
   fill: #b2f2f1; 
 }
@@ -1265,22 +1262,23 @@ a.btn-six{
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
-  color: white; }
-
-.Rectangle_8 {
-  position: absolute;
-  overflow: visible;
-  border-radius: 20px;
-  width: 288px;
+  color: white; 
+}
+a.btn4{
+  left: 90px;
+  top: 2370px;
+  margin: 30px 20px;
+  width: 325px;
   height: 60px;
-  left: 105px;
-  top: 2400px; }
+  padding: 10px;
+  border-radius: 15px;
+  position: absolute;
+  background-color: #fff9c0; ;
+}
 
-#Rectangle_8 {
-  fill: #fff9c0; }
 
 #Pick_your_Package {
-  left: 125px;
+  left: 145px;
   top: 2410px;
   position: absolute;
   overflow: visible;
