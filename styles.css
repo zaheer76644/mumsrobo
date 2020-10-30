@@ -33,7 +33,9 @@ a{
     min-height: 8vh;
     background-color: white;
   }
-  
+  #header .brand{
+    margin-left: -25%;
+  }
   #header .nav-bar{
     display: flex;
     align-items: center;
@@ -128,6 +130,12 @@ a{
   #header .humburger.active .bar::after{
     top: 0;
   }
+
+  #header .logo{
+    margin-top: 10px;
+    width: 10%;
+    height: 10%;
+  }
   #header h1{
     color: black;
     padding: 0px 20px;
@@ -136,7 +144,7 @@ a{
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
-    margin-left: -5%;
+    margin-left: -6%;
     margin-top: 0%;
   }
   #header h2{
@@ -150,6 +158,7 @@ a{
     background-color: crimson;
   
   }
+
   #home .img{
     width: 50%;
     margin-top: 8%;
@@ -2558,11 +2567,18 @@ a.btn-elven{
     font-family: 'Lobster' ;
     /* text-align: center; */
 }
+#header .brand{
+  margin-left: -5%;
+}
+#header .logo{
+  width: 15%;
+  height: 10%;
+}
 #header h1{
     color: black;
     padding: 0px 20px;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
@@ -2572,7 +2588,7 @@ a.btn-elven{
     display: inline-block;
     padding: 5px 10px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-left: 0%;
     text-decoration: none;
     text-transform: uppercase;
@@ -2631,8 +2647,8 @@ a.btn-elven{
   }
   
   #Coding_Concepts {
-    left: 90px;
-    top: 980px;
+    left: 120px;
+    top: 960px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -2678,8 +2694,8 @@ a.btn-elven{
     display: none;
   }
   a.btn5{
-    left: 50px;
-    top: 1020px;
+    left: 40px;
+    top: 990px;
     margin: 30px 20px;
     width: 290px;
     height: 110px;
@@ -2721,8 +2737,8 @@ a.btn-elven{
     color: rgb(0, 0, 0);
   }
   #Why_Edurific_1 {
-    left: 100px;
-    top: 1050px;
+    left: 90px;
+    top: 1020px;
     position: absolute;
     overflow: visible;
     width: 203px;
@@ -2740,8 +2756,8 @@ a.btn-elven{
     width: 93%;
     height: auto;
     object-fit: cover;
-    left: 15px;
-    top: 1170px;
+    left: 10px;
+    top: 1150px;
     overflow: visible;
   }
   
@@ -2861,7 +2877,7 @@ a.btn-elven{
   
   #Real-life_Coding_HTML_CSS_Java {
     left: 40px;
-    top: 1340px;
+    top: 1330px;
     position: absolute;
     overflow: visible;
     width: 250px;
@@ -2888,7 +2904,7 @@ a.btn-elven{
         background-color:lightpink;
     }
     #Real-life_Coding_HTML_CSS_Java1 {
-      left: 65px;
+      left: 40px;
       top: 1930px;
       position: absolute;
       overflow: visible;
@@ -2898,7 +2914,7 @@ a.btn-elven{
       font-family: 'Lobster';
       font-style: normal;
       font-weight: normal;
-      font-size: 17px;
+      font-size: 19px;
       color: black; }
   
   a.btn4{
@@ -2916,7 +2932,7 @@ a.btn-elven{
     width: 93%;
     height: auto;
     object-fit: cover;
-    left: 15px;
+    left: 10px;
     top: 1670px;
     overflow: visible;
   }
@@ -4213,7 +4229,7 @@ a.btn-elven{
   }
   
   #My_6-year-old_nephew_Rahul_is_ {
-    left: 45px;
+    left: 25px;
     top: 8250px;
     position: absolute;
     overflow: visible;
@@ -4224,7 +4240,7 @@ a.btn-elven{
     font-family: 'lobster';
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 13px;
     color: black;
   }
 
@@ -5048,11 +5064,18 @@ a.btn-elven{
       font-family: 'Lobster' ;
       /* text-align: center; */
   }
+  #header .brand{
+    margin-left: -5%;
+  }
+  #header .logo{
+    width: 15%;
+    height: 10%;
+  }
   #header h1{
       color: black;
       padding: 0px 20px;
       text-decoration: none;
-      font-size: 2.5rem;
+      font-size: 2.3rem;
       text-transform: uppercase;
       letter-spacing: .2rem;
       font-weight: bold;
@@ -5062,7 +5085,7 @@ a.btn-elven{
       display: inline-block;
       padding: 5px 10px;
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin-left: 0%;
       text-decoration: none;
       text-transform: uppercase;
@@ -5117,8 +5140,8 @@ a.btn-elven{
     }
     
     #Coding_Concepts {
-      left: 90px;
-      top: 980px;
+      left: 120px;
+      top: 960px;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -5164,8 +5187,8 @@ a.btn-elven{
       display: none;
     }
     a.btn5{
-      left: 50px;
-      top: 1020px;
+      left: 30px;
+      top: 990px;
       margin: 30px 20px;
       width: 290px;
       height: 110px;
@@ -5207,8 +5230,8 @@ a.btn-elven{
       color: rgb(0, 0, 0);
     }
     #Why_Edurific_1 {
-      left: 100px;
-      top: 1050px;
+      left: 90px;
+      top: 1020px;
       position: absolute;
       overflow: visible;
       width: 203px;
@@ -5226,8 +5249,8 @@ a.btn-elven{
       width: 93%;
       height: auto;
       object-fit: cover;
-      left: 15px;
-      top: 1170px;
+      left: 10px;
+      top: 1150px;
       overflow: visible;
     }
     
@@ -5320,7 +5343,7 @@ a.btn-elven{
       display: inline-block;
       padding: 5px 20px;
       background-color: crimson;
-      left: 40px;
+      left: 30px;
       top: 1530px;
       position: absolute;
       overflow: visible;
@@ -5336,7 +5359,7 @@ a.btn-elven{
     
     
     #Real-life_Coding_HTML_CSS_Java {
-      left: 40px;
+      left: 30px;
       top: 1340px;
       position: absolute;
       overflow: visible;
@@ -5364,7 +5387,7 @@ a.btn-elven{
           background-color:lightpink;
       }
       #Real-life_Coding_HTML_CSS_Java1 {
-        left: 65px;
+        left: 40px;
         top: 1930px;
         position: absolute;
         overflow: visible;
@@ -5374,7 +5397,7 @@ a.btn-elven{
         font-family: 'Lobster';
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
+        font-size: 18px;
         color: black; }
     
     a.btn4{
@@ -5392,7 +5415,7 @@ a.btn-elven{
       width: 93%;
       height: auto;
       object-fit: cover;
-      left: 15px;
+      left: 10px;
       top: 1670px;
       overflow: visible;
     }
@@ -6702,7 +6725,7 @@ a.btn-elven{
     }
     
     #My_6-year-old_nephew_Rahul_is_ {
-      left: 35px;
+      left: 25px;
       top: 8250px;
       position: absolute;
       overflow: visible;
@@ -6713,7 +6736,7 @@ a.btn-elven{
       font-family: 'lobster';
       font-style: normal;
       font-weight: normal;
-      font-size: 12px;
+      font-size: 13px;
       color: black;
     }
   
@@ -7555,17 +7578,25 @@ a.btn-elven{
     color: black;
     padding: 0px 20px;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
     margin-left: -8%;
   }
+
+  #header .brand{
+    margin-left: -5%;
+  }
+  #header .logo{
+    width: 15%;
+    height: 10%;
+  }
   #header h2{
     display: inline-block;
     padding: 5px 10px;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-left: 0%;
     text-decoration: none;
     text-transform: uppercase;
@@ -7744,7 +7775,7 @@ a.btn-elven{
     width: 93%;
     height: auto;
     object-fit: cover;
-    left: 15px;
+    left: 10px;
     top: 1170px;
     overflow: visible;
   }
@@ -7771,9 +7802,9 @@ a.btn-elven{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+
     font-size: 20px;
-    color: black;
+    color:rgb(22, 22, 22);
   }
   #chatting{
     position: absolute;
@@ -7849,7 +7880,7 @@ a.btn-elven{
     display: inline-block;
     padding: 5px 20px;
     background-color: crimson;
-    left: 40px;
+    left: 20px;
     top: 1530px;
     position: absolute;
     overflow: visible;
@@ -7865,7 +7896,7 @@ a.btn-elven{
   
   
   #Real-life_Coding_HTML_CSS_Java {
-    left: 30px;
+    left: 20px;
     top: 1340px;
     position: absolute;
     overflow: visible;
@@ -7893,8 +7924,8 @@ a.btn-elven{
         background-color:lightpink;
     }
     #Real-life_Coding_HTML_CSS_Java1 {
-      left: 50px;
-      top: 1930px;
+      left: 40px;
+      top: 1910px;
       position: absolute;
       overflow: visible;
       width: 250px;
@@ -7903,7 +7934,7 @@ a.btn-elven{
       font-family: 'Lobster';
       font-style: normal;
       font-weight: normal;
-      font-size: 17px;
+      font-size: 18px;
       color: black; }
   
   a.btn4{
@@ -7921,7 +7952,7 @@ a.btn-elven{
     width: 93%;
     height: auto;
     object-fit: cover;
-    left: 15px;
+    left: 10px;
     top: 1670px;
     overflow: visible;
   }
@@ -9225,7 +9256,7 @@ a.btn-elven{
   }
   
   #My_6-year-old_nephew_Rahul_is_ {
-    left: 20px;
+    left: 25px;
     top: 8240px;
     position: absolute;
     overflow: visible;
@@ -10053,11 +10084,18 @@ a.btn-elven{
       font-family: 'Lobster' ;
       /* text-align: center; */
   }
+  #header .brand{
+    margin-left: -5%;
+  }
+  #header .logo{
+    width: 15%;
+    height: 10%;
+  }
   #header h1{
       color: black;
       padding: 0px 20px;
       text-decoration: none;
-      font-size: 2rem;
+      font-size: 1.8rem;
       text-transform: uppercase;
       letter-spacing: .2rem;
       font-weight: bold;
@@ -10067,7 +10105,7 @@ a.btn-elven{
       display: inline-block;
       padding: 5px 10px;
       color: white;
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-left: 0%;
       text-decoration: none;
       text-transform: uppercase;
@@ -10232,7 +10270,7 @@ a.btn-elven{
       width: 93%;
       height: auto;
       object-fit: cover;
-      left: 15px;
+      left: 10px;
       top: 1170px;
       overflow: visible;
     }
@@ -10335,7 +10373,7 @@ a.btn-elven{
       display: inline-block;
       padding: 5px 20px;
       background-color: crimson;
-      left: 40px;
+      left: 30px;
       top: 1530px;
       position: absolute;
       overflow: visible;
@@ -10351,8 +10389,8 @@ a.btn-elven{
     
     
     #Real-life_Coding_HTML_CSS_Java {
-      left: 20px;
-      top: 1340px;
+      left: 30px;
+      top: 1330px;
       position: absolute;
       overflow: visible;
       width: 250px;
@@ -10362,7 +10400,7 @@ a.btn-elven{
       font-family: 'Lobster';
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
+      font-size: 16px;
       color: black; }
   
       a.btn6{
@@ -10379,7 +10417,7 @@ a.btn-elven{
           background-color:lightpink;
       }
       #Real-life_Coding_HTML_CSS_Java1 {
-        left: 50px;
+        left: 30px;
         top: 1930px;
         position: absolute;
         overflow: visible;
@@ -10407,7 +10445,7 @@ a.btn-elven{
       width: 93%;
       height: auto;
       object-fit: cover;
-      left: 15px;
+      left: 10px;
       top: 1670px;
       overflow: visible;
     }
@@ -11719,7 +11757,7 @@ a.btn-elven{
     }
     
     #My_6-year-old_nephew_Rahul_is_ {
-      left: 10px;
+      left: 20px;
       top: 8240px;
       position: absolute;
       overflow: visible;
@@ -12545,11 +12583,18 @@ a.btn-elven{
     font-family: 'Lobster' ;
     /* text-align: center; */
 }
+#header .brand{
+  margin-left: 0%;
+}
+#header .logo{
+  width: 15%;
+  height: 10%;
+}
 #header h1{
     color: black;
     padding: 0px 20px;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-weight: bold;
@@ -12559,7 +12604,7 @@ a.btn-elven{
     display: inline-block;
     padding: 5px 10px;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 0%;
     text-decoration: none;
     text-transform: uppercase;
@@ -12799,7 +12844,7 @@ a.btn-elven{
         width: 93%;
         height: auto;
         object-fit: cover;
-        left: 15px;
+        left: 10px;
         top: 1190px;
         overflow: visible;
       }
@@ -12902,7 +12947,7 @@ a.btn-elven{
         display: inline-block;
         padding: 5px 20px;
         background-color: crimson;
-        left: 20px;
+        left: 30px;
         top: 1530px;
         position: absolute;
         overflow: visible;
@@ -12918,7 +12963,7 @@ a.btn-elven{
       
       
       #Real-life_Coding_HTML_CSS_Java {
-        left: 15px;
+        left: 30px;
         top: 1340px;
         position: absolute;
         overflow: visible;
@@ -12929,7 +12974,7 @@ a.btn-elven{
         font-family: 'Lobster';
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
+        font-size: 14px;
         color: black; }
     
         a.btn6{
@@ -12974,7 +13019,7 @@ a.btn-elven{
         width: 93%;
         height: auto;
         object-fit: cover;
-        left: 15px;
+        left: 10px;
         top: 1710px;
         overflow: visible;
       }
@@ -12986,7 +13031,7 @@ a.btn-elven{
         color: white;
       }
       #Pick_your_Package {
-        left: 45px;
+        left: 35px;
         top: 2160px;
         position: absolute;
         overflow: visible;
