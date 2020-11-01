@@ -6949,7 +6949,7 @@ a.btn-thirteen{
       background-color: skyblue;
       font-weight: bold;
       margin-left: 75px;
-      margin-top: 2165px;
+      margin-top: 2000px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
@@ -6962,7 +6962,7 @@ a.btn-thirteen{
       background-color: skyblue;
       font-weight: bold;
       margin-left: 75px;
-      margin-top: 2940px;
+      margin-top: 2775px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
@@ -6975,7 +6975,7 @@ a.btn-thirteen{
       background-color: skyblue;
       font-weight: bold;
       margin-left: 75px;
-      margin-top: 3700px;
+      margin-top: 3535px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
@@ -6988,7 +6988,7 @@ a.btn-thirteen{
       background-color: crimson;
       font-weight: bold;
       margin-left: 75px;
-      margin-top: 4475px;
+      margin-top: 4310px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
@@ -7731,7 +7731,7 @@ a.btn-thirteen{
     }
   
     a.btn7{
-      left: 50px;
+      left: 30px;
       top: 9290px;
       margin: 30px 20px;
       width: 290px;
@@ -7756,7 +7756,7 @@ a.btn-thirteen{
     }
     
     #Recent_Blog {
-      left: 90px;
+      left: 70px;
       top: 9335px;
       position: absolute;
       overflow: visible;
@@ -8151,7 +8151,7 @@ a.btn-thirteen{
       max-width: 1000px;
       position: relative;
       margin: auto;
-      margin-top: 11345px;
+      margin-top: 11590px;
     }
     /* Caption text */
   #slider .text1 {
