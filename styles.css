@@ -192,7 +192,7 @@ a{
 }
 #home .img{
   width: 50%;
-  margin-top: 0%;
+  margin-top: 7%;
 
 }
 #header .brand{
@@ -1033,6 +1033,9 @@ a.btn-six{
 }
 
 #_Certificate_3{
+  display: none;
+}
+#_Certificate_4{
   display: none;
 }
 
@@ -2348,7 +2351,9 @@ a.btn12{
 a.btn-twelv{
     background-color:  rgb(199, 199, 255);
 }
-
+#_Certificate_4{
+  display: none;
+}
 #Parent {
   left: 135px;
   top: 8635px;
