@@ -15,6 +15,13 @@ html{
     align-items: center;
     justify-content: center;
 }
+.w3-display-container{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 a{
     text-decoration: none;
 }
@@ -155,7 +162,14 @@ a{
     margin-top: 8%;
   
   }
-  
+#slider.mySlides {display: none;}
+#sliders.mySlides {display: none;}
+
+/* Slideshow container */
+
+
+/* Caption text */
+
 
 
 @media only screen and (min-width: 1024px){
@@ -530,7 +544,7 @@ a.btn-six{
   overflow: visible;
   width: 411px;
   height: 787px;
-  left: 94px;
+  left: 24px;
   top: 2483px;
   box-shadow: 25px; }
 
@@ -542,14 +556,14 @@ a.btn-six{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 94px;
+  left: 24px;
   top: 2597px; }
 
 #Rectangle_10 {
   fill: white; }
 
 #Ofcourse_Coder {
-  left: 162px;
+  left: 80px;
   top: 2486px;
   position: absolute;
   overflow: visible;
@@ -578,8 +592,8 @@ a.btn-six{
   
 
 #ID10_Classes {
-  left: 201px;
-  top: 2543px;
+  left: 130px;
+  top: 2550px;
   position: absolute;
   overflow: visible;
   width: 105px;
@@ -592,7 +606,7 @@ a.btn-six{
   color: black; }
 
 #Achievement {
-  left: 189px;
+  left: 100px;
   top: 2760px;
   position: absolute;
   overflow: visible;
@@ -606,7 +620,7 @@ a.btn-six{
   color: black; }
 
 #Introduction {
-  left: 186px;
+  left: 110px;
   top: 2627px;
   position: absolute;
   overflow: visible;
@@ -620,7 +634,7 @@ a.btn-six{
   color: #52dce5; }
 
 #Register_for_Demo_Class {
-  left: 139px;
+  left: 55px;
   top: 3165px;
   position: absolute;
   overflow: visible;
@@ -634,7 +648,7 @@ a.btn-six{
   color: #52dce5; }
 
 #View_CRIRICULUM_details {
-  left: 128px;
+  left: 60px;
   top: 2986px;
   position: absolute;
   overflow: visible;
@@ -643,26 +657,25 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
   font-size: 23px;
   color: #52dce5; }
 
 #ChatbotCoding_ScratchPython {
-  left: 172px;
+  left: 90px;
   top: 2669px;
   position: absolute;
   overflow: visible;
   width: 166px;
   white-space: nowrap;
-  text-align: left;
+  text-align:center;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 20px;
   color: black; }
 
 #_Certificate_ {
-  left: 217px;
+  left: 110px;
   top: 2886px;
   position: absolute;
   overflow: visible;
@@ -676,7 +689,7 @@ a.btn-six{
   color: black; }
 
 #Build_First_Bot__First_webpage {
-  left: 109px;
+  left: 50px;
   top: 2802px;
   position: absolute;
   overflow: visible;
@@ -686,11 +699,11 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 18px;
   color: black; }
 
 #Rs4000 {
-  left: 102px;
+  left: 30px;
   top: 3037px;
   position: absolute;
   overflow: visible;
@@ -700,18 +713,19 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
-  font-size: 33px;
+  font-size: 30px;
   color: black; }
 
 #Rs10000 {
-  left: 301px;
-  top: 3046px;
+  left: 200px;
+  top: 3040px;
   position: absolute;
   overflow: visible;
   width: 117px;
   white-space: nowrap;
   text-align: left;
   font-family: Segoe UI;
+  text-decoration: line-through black;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -737,19 +751,6 @@ a.btn-six{
 #Rectangle_11_cn {
   fill: url(#Rectangle_11_cn); }
 
-#Buy_Now {
-  left: 215px;
-  top: 3100px;
-  position: absolute;
-  overflow: visible;
-  width: 99px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
-  color: white; }
 
 #Rectangle_12 {
   fill: rgba(41, 245, 255, 0.149); }
@@ -760,7 +761,7 @@ a.btn-six{
   overflow: visible;
   width: 411px;
   height: 787px;
-  left: 518px;
+  left: 350px;
   top: 2483px; }
 
 .Rectangle_13 {
@@ -768,14 +769,14 @@ a.btn-six{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 518px;
+  left: 350px;
   top: 2597px; }
 
 #Rectangle_13 {
   fill: white; }
 
 #Base_Builder {
-  left: 600px;
+  left: 430px;
   top: 2486px;
   position: absolute;
   overflow: visible;
@@ -789,8 +790,8 @@ a.btn-six{
   color: black; }
 
 #ID49_Classes {
-  left: 625px;
-  top: 2543px;
+  left: 450px;
+  top: 2550px;
   position: absolute;
   overflow: visible;
   width: 105px;
@@ -803,7 +804,7 @@ a.btn-six{
   color: black; }
 
 #Coding {
-  left: 655px;
+  left: 450px;
   top: 2627px;
   position: absolute;
   overflow: visible;
@@ -870,14 +871,14 @@ a.btn-six{
   overflow: visible;
   width: 351px;
   height: 562px;
-  left: 924px;
+  left: 680px;
   top: 2597px; }
 
 #Rectangle_16 {
   fill: white; }
 
 #Inbetweener {
-  left: 1005px;
+  left: 775px;
   top: 2486px;
   position: absolute;
   overflow: visible;
@@ -888,11 +889,11 @@ a.btn-six{
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
-  color: white; }
+  color: black; }
 
 #ID147_Classes {
-  left: 1031px;
-  top: 2543px;
+  left: 770px;
+  top: 2550px;
   position: absolute;
   overflow: visible;
   width: 117px;
@@ -902,10 +903,10 @@ a.btn-six{
   font-style: normal;
   font-weight: normal;
   font-size: 23px;
-  color: white; }
+  color: black; }
 
 #Base_Bulider_ {
-  left: 1032px;
+  left: 770px;
   top: 2627px;
   position: absolute;
   overflow: visible;
@@ -924,21 +925,21 @@ a.btn-six{
 }
 
 #Artificial_Intelligence___Robo {
-  left: 983px;
+  left: 710px;
   top: 2668px;
   position: absolute;
   overflow: visible;
   width: 235px;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 20px;
   color: black; }
 
 #Register_for_Demo_Class_b {
-  left: 969px;
+  left: 700px;
   top: 3165px;
   position: absolute;
   overflow: visible;
@@ -947,12 +948,12 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
+ 
   font-size: 23px;
-  color: white; }
+  color: skyblue; }
 
 #ChatbotCoding_ScratchPython_b {
-  left: 1017px;
+  left: 350px;
   top: 2669px;
   position: absolute;
   overflow: visible;
@@ -962,11 +963,11 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 20px;
   color: black; }
 
 #Achievement_bu {
-  left: 1032px;
+  left: 770px;
   top: 2760px;
   position: absolute;
   overflow: visible;
@@ -980,7 +981,7 @@ a.btn-six{
   color: black; }
 
 #Your_Child_will_Build_a_voice_ {
-  left: 986px;
+  left: 716px;
   top: 2802px;
   position: absolute;
   overflow: visible;
@@ -990,25 +991,25 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 20px;
   color: black; }
 
 #HTML_JavaScript_CSS {
-  left: 597px;
+  left: 410px;
   top: 2669px;
   position: absolute;
   overflow: visible;
-  width: 222px;
+  width: 150px;
   white-space: nowrap;
-  text-align: left;
+  text-align: center;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size:20px;
   color: black; }
 
 #Achievement_bt {
-  left: 614px;
+  left: 450px;
   top: 2760px;
   position: absolute;
   overflow: visible;
@@ -1036,6 +1037,10 @@ a.btn-six{
 #_one_{
   display: none;
 }
+#_four_{
+  display: none;
+}
+
 #_two_{
   display: none;
 }
@@ -1045,7 +1050,7 @@ a.btn-six{
 }
 
 #Your_Child_will_Create_a_Websi {
-  left: 534px;
+  left: 340px;
   top: 2802px;
   position: absolute;
   overflow: visible;
@@ -1055,11 +1060,11 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
+  font-size: 20px;
   color: black; }
 
 #_Certificate__b {
-  left: 641px;
+  left: 450px;
   top: 2886px;
   position: absolute;
   overflow: visible;
@@ -1073,7 +1078,7 @@ a.btn-six{
   color: black; }
 
 #View_CRIRICULUM_details_b {
-  left: 552px;
+  left: 370px;
   top: 2986px;
   position: absolute;
   overflow: visible;
@@ -1082,12 +1087,11 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
   font-size: 23px;
   color: #52dce5; }
 
 #Rs39200 {
-  left: 527px;
+  left: 360px;
   top: 3037px;
   position: absolute;
   overflow: visible;
@@ -1097,21 +1101,22 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
-  font-size: 33px;
+  font-size: 30px;
   color: black; }
 
 #Rs49000 {
-  left: 725px;
-  top: 3046px;
+  left: 540px;
+  top: 3040px;
   position: absolute;
   overflow: visible;
   width: 117px;
   white-space: nowrap;
   text-align: left;
+  text-decoration: line-through black;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 25px;
   color: #707070; }
 
 .Rectangle_14_cp {
@@ -1119,28 +1124,42 @@ a.btn-six{
   overflow: visible;
   width: 295px;
   height: 45px;
-  left: 541px;
+  left: 360px;
   top: 3095px; }
 
 #Rectangle_14_cp {
-  fill: url(#Rectangle_14_cp); }
+  fill: url(#Rectangle_14_cp); 
+}
 
-#Buy_Now_ct {
-  left: 639px;
-  top: 3100px;
-  position: absolute;
-  overflow: visible;
-  width: 99px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
+.buynow{display: inline-block;
+  padding: 5px 60px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: skyblue;
   font-weight: bold;
-  font-size: 23px;
-  color: white; }
+  margin-left: 380px;
+  margin-top: 2435px;
+  position: absolute;
+  border-radius: 25px;
+  letter-spacing: .1rem;
+}
+.buynow1{display: inline-block;
+  padding: 5px 60px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: skyblue;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 2435px;
+  position: absolute;
+  border-radius: 25px;
+  letter-spacing: .1rem;
+}
 
 #Register_for_Demo_Class_bz {
-  left: 564px;
+  left: 380px;
   top: 3165px;
   position: absolute;
   overflow: visible;
@@ -1159,15 +1178,15 @@ a.btn-six{
   overflow: visible;
   width: 351px;
   height: 787px;
-  left: 924px;
+  left: 680px;
   top: 2483px; }
 
 #Rectangle_15 {
-  fill: #fb1745; }
+  fill:  rgba(41, 245, 255, 0.149); }
 
 #_Certificate__ca {
-  left: 1047px;
-  top: 2906px;
+  left: 775px;
+  top: 2880px;
   position: absolute;
   overflow: visible;
   width: 103px;
@@ -1180,7 +1199,7 @@ a.btn-six{
   color: black; }
 
 #View_CRIRICULUM_details_ca {
-  left: 958px;
+  left: 700px;
   top: 2986px;
   position: absolute;
   overflow: visible;
@@ -1189,12 +1208,11 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
   font-size: 23px;
   color: #52dce5; }
 
 #Rs117600 {
-  left: 933px;
+  left: 690px;
   top: 3037px;
   position: absolute;
   overflow: visible;
@@ -1204,25 +1222,38 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 26px;
   color: black; }
-
+  .buynow2{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 710px;
+    margin-top: 2435px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
 #Rs147000 {
-  left: 1131px;
-  top: 3046px;
+  left: 860px;
+  top: 3040px;
   position: absolute;
   overflow: visible;
   width: 138px;
   white-space: nowrap;
   text-align: left;
+  text-decoration: line-through black;
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
   color: #707070; 
 }
 #Cancel_Anytime_Same_day_100_re {
-  left: 518px;
+  left: 500px;
   top: 3240px;
   position: absolute;
   overflow: visible;
@@ -1235,33 +1266,30 @@ a.btn-six{
   font-size: 18px;
   color: rgba(112,112,112,1);
 }
-
-
-.Rectangle_17_cr {
+.Rectangle_1 {
   position: absolute;
   overflow: visible;
-  width: 295px;
-  height: 45px;
-  left: 947px;
-  top: 3095px; }
+  width: 351px;
+  height: 787px;
+  left: 1015px;
+  top: 2483px; }
 
-#Rectangle_17_cr {
-  fill: url(#Rectangle_17_cr); }
-
-#Buy_Now_cu {
-  left: 1045px;
-  top: 3100px;
-  position: absolute;
-  overflow: visible;
-  width: 99px;
-  white-space: nowrap;
-  text-align: left;
-  font-family: Segoe UI;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 23px;
-  color: white; 
+#Rectangle_1 {
+  fill:  crimson; 
 }
+.Rectangle_2 {
+  position: absolute;
+  overflow: visible;
+  width: 351px;
+  height: 562px;
+  left: 1015px;
+  top: 2597px; }
+
+#Rectangle_2 {
+  fill: white; }
+
+
+
 a.btn4{
   left: 90px;
   top: 2370px;
@@ -1273,6 +1301,175 @@ a.btn4{
   position: absolute;
   background-color: #fff9c0; ;
 }
+#Legendary {
+  left: 1080px;
+  top: 2486px;
+  position: absolute;
+  overflow: visible;
+  width: 155px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: white; 
+}
+#ID300_Classes {
+  left: 1100px;
+  top: 2550px;
+  position: absolute;
+  overflow: visible;
+  width: 117px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: white; 
+}
+#Achievement_but {
+  left: 1100px;
+  top: 2760px;
+  position: absolute;
+  overflow: visible;
+  width: 137px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: black; 
+}
+#Course {
+  left: 1130px;
+  top: 2627px;
+  position: absolute;
+  overflow: visible;
+  width: 157px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px;
+  color: #52dce5; 
+}
+#Register_for_Demo_Class_bzz {
+  left: 1040px;
+  top: 3165px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+ 
+  font-size: 23px;
+  color: white; 
+}
+#View_CRIRICULUM_details2 {
+  left: 1030px;
+  top: 2986px;
+  position: absolute;
+  overflow: visible;
+  width: 277px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 23px;
+  color: #52dce5; 
+}
+#Artificial_Intelligence___Robo2 {
+  left: 1050px;
+  top: 2668px;
+  position: absolute;
+  overflow: visible;
+  width: 235px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+
+#_Certificate__bzz {
+  left: 1110px;
+  top: 2880px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  color: black; 
+}
+#Your_Child_will_Build_a_voice_1 {
+  left: 1080px;
+  top: 2802px;
+  position: absolute;
+  overflow: visible;
+  width: 229px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: black; 
+}
+#Rs5000 {
+  left: 1020px;
+  top: 3037px;
+  position: absolute;
+  overflow: visible;
+  width: 172px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  color: black; 
+}
+#Rs25000 {
+  left: 1210px;
+  top: 3040px;
+  position: absolute;
+  overflow: visible;
+  width: 138px;
+  white-space: nowrap;
+  text-align: left;
+  text-decoration: line-through black;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #707070; 
+}
+.buynow3{display: inline-block;
+  padding: 5px 60px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: skyblue;
+  font-weight: bold;
+  margin-left: 1060px;
+  margin-top: 2435px;
+  position: absolute;
+  border-radius: 25px;
+  letter-spacing: .1rem;
+}
+
 
 
 #Pick_your_Package {
@@ -2136,7 +2333,185 @@ a.btn-elven{
   font-size: 30px;
   color: white; 
 }
+a.btn12{
+  left: 105px;
+  top: 8600px;
+  margin: 30px 20px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-twelv{
+    background-color:  rgb(199, 199, 255);
+}
 
+#Parent {
+  left: 135px;
+  top: 8635px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+ font-weight: bold;
+  font-size: 25px;
+  color: black; 
+}
+#slider .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Caption text */
+#slider .text1 {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'lobster';
+  margin-left: 55%;
+  text-align: left;
+  width: 550px;
+  margin-top: -30%;
+}
+#slider .text2 {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'lobster';
+  margin-left: 55%;
+  text-align: left;
+  width: 550px;
+  margin-top: -30%;
+}
+
+#slider .img1{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 0%;
+  margin-top: 8100px;
+}
+#slider .img2{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 0%;
+  margin-top: 8100px;
+}
+
+
+/* Caption text */
+#sliders p {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'lobster';
+  margin-left: 55%;
+  text-align: left;
+  width: 550px;
+  margin-top: -30%;
+  overflow: hidden;
+}
+.mySlides {display:none;}
+
+#sliders .mySliders{
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  margin-left: 0%;
+  margin-top: 10px;
+}
+#sliders .mySliders1{
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  margin-left: 0%;
+  margin-top: 10px;
+}
+/* Add a pointer when hovering over the thumbnail images */
+#sliders .cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+#sliders .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  margin-left: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#sliders .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#sliders .prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+#sliders .numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 250px;
+  left:500px;
+}
+
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+
+a.btn13{
+  left: 105px;
+  top: 9250px;
+  margin: 30px 20px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-thirteen{
+    background-color:   rgb(199, 199, 255);
+}
+#kids {
+  left: 135px;
+  top: 9285px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+ font-weight: bold;
+  font-size: 25px;
+  color: black; 
+}
 
 .Line_3 {
   overflow: visible;
@@ -2959,11 +3334,11 @@ a.btn-elven{
     height: 727px;
     left: 13px;
     top: 2245px;
-    background-color:  rgba(41, 245, 255, 0.149);
+    background-color:  skyblue;
     border-radius: 25px;
   }
   #Rectangle_60 {
-    fill: rgba(41, 245, 255, 0.149); 
+    fill:skyblue; 
   }
   .Rectangle_12 {
     display: none;
@@ -2981,7 +3356,7 @@ a.btn-elven{
     fill: white; 
   }
   #Ofcourse_Coder {
-    left: 100px;
+    left: 120px;
     top: 2250px;
     position: absolute;
     overflow: visible;
@@ -2994,8 +3369,8 @@ a.btn-elven{
     color: black;
   }
   #ID10_Classes {
-    left: 135px;
-    top: 2310px;
+    left: 155px;
+    top: 2320px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -3008,7 +3383,7 @@ a.btn-elven{
   }
   
   #Introduction {
-    left: 130px;
+    left: 150px;
     top: 2360px;
     position: absolute;
     overflow: visible;
@@ -3023,7 +3398,7 @@ a.btn-elven{
   }
   
   #ChatbotCoding_ScratchPython {
-    left: 110px;
+    left: 120px;
     top: 2390px;
     position: absolute;
     padding: 10px 10px;
@@ -3039,7 +3414,7 @@ a.btn-elven{
     color: rgb(0, 0, 0);
   }
   #Achievement {
-    left: 130px;
+    left: 150px;
     top: 2510px;
     position: absolute;
     overflow: visible;
@@ -3053,7 +3428,7 @@ a.btn-elven{
     color: rgb(0, 0, 0);
   }
   #Build_First_Bot__First_webpage {
-    left: 70px;
+    left: 90px;
     top: 2560px;
     position: absolute;
     overflow: visible;
@@ -3068,7 +3443,7 @@ a.btn-elven{
 }
   
   #_one_ {
-    left: 85px;
+    left: 105px;
     top: 2615px;
     position: absolute;
     overflow: visible;
@@ -3094,7 +3469,7 @@ a.btn-elven{
   }
   
   #_Certificate_1{
-    left: 95px;
+    left: 105px;
     top: 2655px;
     position: absolute;
     overflow: visible;
@@ -3121,7 +3496,7 @@ a.btn-elven{
     color: rgb(0, 0, 0);
   }
   #View_CRIRICULUM_details {
-    left: 70px;
+    left: 90px;
     top: 2730px;
     position: absolute;
     overflow: visible;
@@ -3196,11 +3571,17 @@ a.btn-elven{
   .Rectangle_11_cn{
     display: none;
   }
-  
+  #_Certificate__bzz{
+    display: none;
+  }
   .Rectangle_9{
     display: none;
   }
-  
+  .Rectangle_1{
+    display: none;
+  } .Rectangle_2{
+    display: none;
+  }
   .Rectangle_13{
     display: none;
   }
@@ -3222,7 +3603,7 @@ a.btn-elven{
   }
   
   #Register_for_Demo_Class {
-    left: 75px;
+    left: 95px;
     top: 2925px;
     position: absolute;
     overflow: visible;
@@ -3233,7 +3614,7 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: #52dce5;
+    color: black;
   }
   
   
@@ -3249,7 +3630,7 @@ a.btn-elven{
     top: 3000px;
     box-shadow: 25px;
     border-radius: 25px;
-    background-color:rgba(220, 95, 252, 0.149); ;
+    background-color:skyblue ;
   }
   
   .Rectangle_63 {
@@ -3267,7 +3648,7 @@ a.btn-elven{
   }
   
   #Base_Builder {
-    left: 115px;
+    left: 125px;
     top: 3005px;
     position: absolute;
     overflow: visible;
@@ -3281,7 +3662,7 @@ a.btn-elven{
   }
   
   #ID49_Classes {
-    left: 135px;
+    left: 155px;
     top: 3070px;
     position: absolute;
     overflow: visible;
@@ -3295,7 +3676,7 @@ a.btn-elven{
   }
   
   #Coding {
-    left: 150px;
+    left: 155px;
     top: 3120px;
     position: absolute;
     overflow: visible;
@@ -3310,7 +3691,7 @@ a.btn-elven{
   }
   
   #HTML_JavaScript_CSS {
-    left: 90px;
+    left: 100px;
     top: 3160px;
     position: absolute;
     overflow: visible;
@@ -3324,7 +3705,7 @@ a.btn-elven{
   }
   
   #Achievement_bt {
-    left: 125px;
+    left: 135px;
     top: 3270px;
     position: absolute;
     overflow: visible;
@@ -3339,7 +3720,7 @@ a.btn-elven{
   }
   
   #Your_Child_will_Create_a_Websi {
-    left: 63px;
+    left: 75px;
     top: 3320px;
     position: absolute;
     overflow: visible;
@@ -3426,6 +3807,58 @@ a.btn-elven{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
+  .buynow{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 2095px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow1{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 2870px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow2{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 3625px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow3{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: crimson;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 4410px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
 
   .Rectangle_96 {
    position: absolute;
@@ -3455,7 +3888,7 @@ a.btn-elven{
   }
   
   #Register_for_Demo_Class_bz {
-    left: 75px;
+    left: 95px;
     top: 3685px;
     position: absolute;
     overflow: visible;
@@ -3466,7 +3899,7 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: #1e1bc2;
+    color: black;
   }
   
   .Rectangle_64{
@@ -3477,13 +3910,11 @@ a.btn-elven{
     left: 13px;
     top: 3760px;
     box-shadow: 25px;
-  background-color: #fb1745;
+  background-color:skyblue;
   border-radius: 25px;
   }
   
-  #Rectangle_64 {
-    fill: #fb1745; 
-  }
+  
   .Rectangle_65 {
     position: absolute;
     overflow: visible;
@@ -3497,7 +3928,7 @@ a.btn-elven{
     fill: white; 
   }
   #Inbetweener {
-    left: 120px;
+    left: 150px;
     top: 3765px;
     position: absolute;
     overflow: visible;
@@ -3507,11 +3938,11 @@ a.btn-elven{
     font-family: Segoe UI;
     font-style: normal;
     font-size: 25px;
-    color: white;
+    color: black;
   }
   
   #ID147_Classes {
-    left: 135px;
+    left: 150px;
     top: 3830px;
     position: absolute;
     overflow: visible;
@@ -3521,10 +3952,10 @@ a.btn-elven{
     font-family: Segoe UI;
     font-style: normal;
     font-size: 20px;
-    color: white;
+    color: black;
   }
   #Base_Bulider_ {
-    left: 125px;
+    left: 145px;
     top: 3880px;
     position: absolute;
     overflow: visible;
@@ -3539,7 +3970,7 @@ a.btn-elven{
   }
   
   #Artificial_Intelligence___Robo1 {
-    left: 50px;
+    left: 105px;
     top: 3925px;
     position: absolute;
     overflow: visible;
@@ -3557,7 +3988,7 @@ a.btn-elven{
   }
   
   #Achievement_bu {
-    left: 123px;
+    left: 145px;
     top: 4035px;
     position: absolute;
     overflow: visible;
@@ -3572,7 +4003,7 @@ a.btn-elven{
   }
   
   #Your_Child_will_Build_a_voice_ {
-    left: 100px;
+    left: 110px;
     top: 4075px;
     position: absolute;
     overflow: visible;
@@ -3587,7 +4018,7 @@ a.btn-elven{
   }
   
   #_three_ {
-    left: 165px;
+    left: 175px;
     top: 4160px;
     position: absolute;
     overflow: visible;
@@ -3697,11 +4128,199 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: white; 
+    color: black; 
   }
+
+  .Rectangle_96{
+    position: absolute;
+    overflow: visible;
+    width: 370px;
+    height: 727px;
+    left: 13px;
+    top: 4530px;
+    box-shadow: 25px;
+  background-color:crimson;
+  border-radius: 25px;
+  }
+  .Rectangle_97 {
+    position: absolute;
+    overflow: visible;
+    width: 370px;
+    height: 562px;
+    left: 13px;
+    top: 4640px;
+    background-color: white;
+  }
+  #Legendary {
+    left: 120px;
+    top: 4535px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+  }
+  #ID300_Classes {
+    left: 135px;
+    top: 4600px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+  }
+  #Course {
+    left: 155px;
+    top: 4650px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: skyblue;
+  }
+  #Artificial_Intelligence___Robo2 {
+    left: 120px;
+    top: 4700px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+  }
+  #Achievement_but {
+    left: 140px;
+    top: 4800px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #Your_Child_will_Build_a_voice_1 {
+    left: 100px;
+    top: 4850px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  #_four_ {
+    left: 175px;
+    top: 4950px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    text-align: center;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#_Certificate_4 {
+  left: 95px;
+  top: 5000px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#View_CRIRICULUM_details2 {
+  left: 80px;
+  top: 5050px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(61, 182, 230);
+}
+#Rs5000 {
+  left: 25px;
+  top: 5100px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);}
+
+#Rs25000 {
+  left: 190px;
+  top: 5106px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: line-through;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#Register_for_Demo_Class_bzz {
+  left: 90px;
+  top: 5210px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 20px;
+  color: white; 
+}
+
+
   a.btn3{
     left: 45px;
-    top: 4570px;
+    top: 5280px;
     margin: 30px 20px;
     width: 280px;
     height: 50px;
@@ -3717,7 +4336,7 @@ a.btn-elven{
   
   #About_Edurific {
     left: 80px;
-    top: 4605px;
+    top: 5315px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -3736,13 +4355,13 @@ a.btn-elven{
     width: 92%;
     height: auto;
     left: 15px;
-    top: 4695px;
+    top: 5430px;
     overflow: visible;
   }
   
   #Edurific_is_founded_by_the_Alu {
     left: 15px;
-    top: 4970px;
+    top: 5710px;
     position: absolute;
     width: 200px;
     overflow: visible;
@@ -3764,13 +4383,13 @@ a.btn-elven{
     overflow: visible;
     width: 338px;
     height: 60px;
-    left: 30px;
-    top: 5240px; 
+    left: 50px;
+    top: 6030px; 
   }
   
   #Our_Curriculum_Heads {
-    left: 50px;
-    top: 5250px;
+    left: 60px;
+    top: 6040px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -3821,7 +4440,7 @@ a.btn-elven{
       width: 375px;
       height: 600px;
       left: 13px;
-      top: 5340px;}
+      top: 6125px;}
   
   #Rectangle_45 {
     fill: white;
@@ -3840,7 +4459,7 @@ a.btn-elven{
     object-fit: cover;
     height: 350px;
     left: 15px;
-    top: 5340px;
+    top: 6125px;
     overflow: visible; 
   }
   #Rectangle_50 {
@@ -3851,12 +4470,12 @@ a.btn-elven{
     overflow: visible;
     width: 110px;
     height: 28px;
-    left: 100px;
-    top: 5715px; 
+    left: 120px;
+    top: 6500px; 
   }
   #Head_of_Robotics {
-    left: 110px;
-    top: 5715px;
+    left: 130px;
+    top: 6500px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -3870,8 +4489,8 @@ a.btn-elven{
   }
   
   #DR_SASCHA_GRIFFITHS {
-    left: 93px;
-    top: 5785px;
+    left: 115px;
+    top: 6570px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -3884,8 +4503,8 @@ a.btn-elven{
     color: black;
   }
   #PhD_at_Universittt____Hamburg {
-    left: 80px;
-    top: 5840px;
+    left: 100px;
+    top: 6625px;
     position: absolute;
     overflow: visible;
     width: 111px;
@@ -3904,7 +4523,7 @@ a.btn-elven{
     width: 350px;
     height: 456px;
     left: 13px;
-    top: 5985px;}
+    top: 6770px;}
   
   #Rectangle_46{
     fill: white;
@@ -3921,7 +4540,7 @@ a.btn-elven{
     object-fit: cover;
     height: 350px;
     left: 13px;
-    top: 5985px;
+    top: 6770px;
     overflow: visible; 
   }
   
@@ -3930,16 +4549,16 @@ a.btn-elven{
     overflow: visible;
     width: 195px;
     height: 28px;
-    left: 80px;
-    top: 6355px; }
+    left: 100px;
+    top: 7140px; }
   
   #Rectangle_51{
     fill: gainsboro; 
   }
   
   #Head_of_Data_Science {
-    left: 95px;
-    top: 6355px;
+    left: 115px;
+    top: 7140px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -3952,8 +4571,8 @@ a.btn-elven{
     color: black;
   }
   #BHAVNA_BHAISARE {
-    left: 100px;
-    top: 6430px;
+    left: 120px;
+    top: 7215px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -3970,11 +4589,11 @@ a.btn-elven{
     display: none;
   }
   #IIT_Bombay_Indian__School_of_{
-    left: 65px;
-    top: 6480px;
+    left: 85px;
+    top: 7265px;
     position: absolute;
     overflow: visible;
-    width: 111px;
+    width: 80px;
     white-space: nowrap;
     text-align: center;
     font-family: Segoe UI;
@@ -3989,7 +4608,7 @@ a.btn-elven{
     width: 350px;
     height: 456px;
     left: 13px;
-    top: 6620px;
+    top: 7405px;
 }
   #Rectangle_47{
     fill: white;
@@ -4005,7 +4624,7 @@ a.btn-elven{
     width: 375px;
     height: 350px;
     left: 13px;
-    top: 6620px;
+    top: 7405px;
     overflow: visible; 
   }
   
@@ -4014,16 +4633,16 @@ a.btn-elven{
     overflow: visible;
     width: 110px;
     height: 28px;
-    left: 80px;
-    top: 6990px;  }
+    left: 90px;
+    top: 7775px;  }
   
   #Rectangle_52{
     fill: gainsboro; 
   }
   
   #Head_of_Career_Guidance {
-    left: 85px;
-    top: 6995px;
+    left: 95px;
+    top: 7780px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -4036,8 +4655,8 @@ a.btn-elven{
     color: black;
   }
   #ROBERT_J_LUEBKE{
-    left: 100px;
-    top: 7070px;
+    left: 120px;
+    top: 7855px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -4054,11 +4673,11 @@ a.btn-elven{
     display: none;
   }
   #BS_Psychology_Honors__College_1{
-    left: 70px;
-    top: 7120px;
+    left: 80px;
+    top: 7905px;
     position: absolute;
     overflow: visible;
-    width: 111px;
+    width: 51px;
     white-space: nowrap;
     text-align: center;
     font-family: Segoe UI;
@@ -4074,7 +4693,7 @@ a.btn-elven{
     width: 350px;
     height: 456px;
     left: 13px;
-    top: 7260px;}
+    top: 8045px;}
   
   #Rectangle_48{
     fill: white;
@@ -4090,7 +4709,7 @@ a.btn-elven{
     width: 375px;
     height: 350px;
     left: 13px;
-    top: 7260px;
+    top: 8045px;
     overflow: visible; 
   }
   
@@ -4099,16 +4718,16 @@ a.btn-elven{
     overflow: visible;
     width: 110px;
     height: 28px;
-    left: 90px;
-    top: 7625px;  }
+    left: 110px;
+    top: 8410px;  }
   
   #Rectangle_53{
     fill: gainsboro; 
   }
   
   #Head_of_AI__ML{
-    left: 110px;
-    top: 7628px;
+    left: 130px;
+    top: 8413px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -4121,8 +4740,8 @@ a.btn-elven{
     color: black;
   }
   #NITIN_P {
-    left: 150px;
-    top: 7685px;
+    left: 160px;
+    top: 8470px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -4139,8 +4758,8 @@ a.btn-elven{
   }
   
   #Bachelors_of_Computer__Enginee1{
-    left: 40px;
-    top: 7740px;
+    left: 55px;
+    top:8525px;
     position: absolute;
     overflow: visible;
     width: 111px;
@@ -4159,7 +4778,7 @@ a.btn-elven{
     width: 288px;
     height: 60px;
     left: 50px;
-    top: 7900px; }
+    top: 8685px; }
   
   #Rectangle_30 {
     fill: #c0ffcc; 
@@ -4167,7 +4786,7 @@ a.btn-elven{
   
   #Parent_Feedback {
     left: 105px;
-    top: 7905px;
+    top: 8690px;
     position: absolute;
     overflow: visible;
     width: 233px;
@@ -4189,7 +4808,7 @@ a.btn-elven{
     width: 240px;
     height: 300px;
     left: 65px;
-    top: 8000px; 
+    top: 8785px; 
   }
   
   
@@ -4211,7 +4830,7 @@ a.btn-elven{
     width: 220px;
     height: 171px;
     left: 65px;
-    top: 8020px; 
+    top: 8805px; 
   }
   #shayari-2-8 {
     position: absolute;
@@ -4219,14 +4838,14 @@ a.btn-elven{
     height: auto;
     object-fit: cover;
     left: 15px;
-    top: 7980px;
+    top: 8765px;
     border-radius: 10px;
     overflow: visible;
   }
   
   #My_6-year-old_nephew_Rahul_is_ {
     left: 25px;
-    top: 8250px;
+    top: 9035px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -4242,7 +4861,7 @@ a.btn-elven{
 
   a.btn7{
     left: 50px;
-    top: 8505px;
+    top: 9290px;
     margin: 30px 20px;
     width: 290px;
     height: 90px;
@@ -4262,12 +4881,12 @@ a.btn-elven{
     width: 221px;
     height: 60px;
     left: 80px;
-    top: 8450px;
+    top: 9235px;
   }
   
   #Recent_Blog {
     left: 90px;
-    top: 8550px;
+    top: 9335px;
     position: absolute;
     overflow: visible;
     width: 100px;
@@ -4285,14 +4904,14 @@ a.btn-elven{
     width: 92%;
     height: auto;
     left: 13px;
-    top: 8650px;
+    top: 9435px;
     overflow: visible;
   }
   
  
   #How_to_get_your_child_interest {
     left: 20px;
-    top: 8940px;
+    top: 9725px;
     position: absolute;
     overflow: visible;
     width: 350px;
@@ -4308,7 +4927,7 @@ a.btn-elven{
   }
   #Schools_are_a_major_part_of_ev {
     left: 40px;
-    top: 8975px;
+    top: 9750px;
     position: absolute;
     width: 340px;
     overflow: visible;
@@ -4331,14 +4950,14 @@ a.btn-elven{
     width: 166px;
     height: 47px;
     left: 20px;
-    top: 9050px;
+    top: 9835px;
   }
   #Read_More a{
     display: inline-block;
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 10300px;
+    top: 11085px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -4357,12 +4976,12 @@ a.btn-elven{
     width: 230px;
     height: 60px;
     left: 75px;
-    top: 9145px;
+    top: 9930px;
   }
 
   a.btn8{
     left: 60px;
-    top: 9130px;
+    top: 9915px;
     margin: 30px 20px;
     width: 235px;
     height: 100px;
@@ -4376,7 +4995,7 @@ a.btn-elven{
   
   #Our_Alumni {
     left: 110px;
-    top: 9165px;
+    top: 9950px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -4395,13 +5014,13 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 9285px;
+    top: 10070px;
     overflow: visible; 
   }
 
   #your_kid {
     left: 60px;
-    top: 9560px;
+    top: 10345px;
     position: absolute;
     overflow: visible;
     width: 287px;
@@ -4418,7 +5037,7 @@ a.btn-elven{
   
   #Schools_are_a_major_part_of_ev1 {
     left: 40px;
-    top: 9650px;
+    top: 10435px;
     position: absolute;
     width: 340px;
     overflow: visible;
@@ -4434,7 +5053,7 @@ a.btn-elven{
 
   a.btn9{
     left: 60px;
-    top: 9790px;
+    top: 10575px;
     margin: 30px 20px;
     width: 200px;
     height: 50px;
@@ -4448,7 +5067,7 @@ a.btn-elven{
 
   #Our_Alumni1 {
     left: 125px;
-    top: 9825px;
+    top: 10610px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -4466,13 +5085,13 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 9890px;
+    top: 10675px;
     overflow: visible; 
   }
 
   #Kid_intern {
     left:30px;
-    top: 10090px;
+    top: 10875px;
     position: absolute;
     overflow: visible;
     width: 350px;
@@ -4495,7 +5114,7 @@ a.btn-elven{
 
   a.btn10{
     left: 60px;
-    top: 10340px;
+    top: 11125px;
     margin: 30px 20px;
     width: 230px;
     height: 90px;
@@ -4508,7 +5127,7 @@ a.btn-elven{
   }
   #Entrepreneurship {
     left: 95px;
-    top: 10375px;
+    top: 11160px;
     position: absolute;
     overflow: visible;
     width: 200px;
@@ -4526,12 +5145,12 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 10480px;
+    top: 11265px;
     overflow: visible; 
   }
   #Entrepreneurship1 {
     left:40px;
-    top: 10680px;
+    top: 11465px;
     position: absolute;
     overflow: visible;
     width: 350px;
@@ -4550,7 +5169,7 @@ a.btn-elven{
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 10850px;
+    top: 11635px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -4561,8 +5180,8 @@ a.btn-elven{
     color: white; 
   }
   a.btn11{
-    left: 30px;
-    top: 10870px;
+    left: 70px;
+    top: 11655px;
     margin: 30px 20px;
     width: 220px;
     height: 50px;
@@ -4574,8 +5193,8 @@ a.btn-elven{
       background-color:  #c0ffcc;
   }
   #Isro {
-    left: 55px;
-    top: 10905px;
+    left: 95px;
+    top: 11695px;
     position: absolute;
     overflow: visible;
     width: 200px;
@@ -4592,13 +5211,13 @@ a.btn-elven{
     width: 93%;
     height: 300px;
     left: 10px;
-    top: 10980px;
+    top: 11765px;
     overflow: visible; 
   }
    
   #Isro_visit {
     left:30px;
-    top: 11300px;
+    top: 12085px;
     position: absolute;
     overflow: visible;
     width: 280px;
@@ -4616,7 +5235,7 @@ a.btn-elven{
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 11430px;
+    top: 12215px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -4627,19 +5246,138 @@ a.btn-elven{
     color: white; 
   }
   #Cancel_Anytime_Same_day_100_re {
-    left: 12px;
-    top: 4505px;
+    display: none;
+  }
+  a.btn12{
+    left: 70px;
+    top: 12275px;
+    margin: 30px 20px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-twelv{
+      background-color:   rgb(199, 199, 255);
+  }
+  
+  #Parent {
+    left: 100px;
+    top: 12310px;
     position: absolute;
     overflow: visible;
-    width: 356px;
+    width: 200px;
     white-space: nowrap;
     text-align: center;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: rgba(112,112,112,1);
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
   }
+  /* Caption text */
+#slider .text1 {
+  color: black;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'lobster';
+  margin-left: 10%;
+  text-align: left;
+  width: 350px;
+  margin-top: 15%;
+}
+#slider .text2 {
+  color: black;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  font-family: 'lobster';
+  margin-left: 10%;
+  text-align: left;
+  width: 350px;
+  margin-top: 15%;
+}
+
+#slider .img1{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 0%;
+  margin-top: 11650px;
+}
+#slider .img2{
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 20%;
+  margin-top: 11650px;
+}
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+#slider .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#slider .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#slider .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+a.btn13{
+  left: 70px;
+  top: 13065px;
+  margin: 30px 20px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-thirteen{
+    background-color:   rgb(199, 199, 255);
+}
+#kids {
+  left: 100px;
+  top: 13100px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+ font-weight: bold;
+  font-size: 25px;
+  color: black; 
+}
+
+
   
   /* .Line_3 {
     overflow: visible;
@@ -5197,7 +5935,7 @@ a.btn-elven{
     }
     a.btn3{
       left: 45px;
-      top: 4570px;
+      top: 5280px;
       margin: 30px 20px;
       width: 280px;
       height: 50px;
@@ -5453,7 +6191,7 @@ a.btn-elven{
       height: 727px;
       left: 13px;
       top: 2245px;
-      background-color:  rgba(41, 245, 255, 0.149);
+      background-color: skyblue;
       border-radius: 25px;
     }
     #Rectangle_60 {
@@ -5473,7 +6211,7 @@ a.btn-elven{
       fill: white; 
     }
     #Ofcourse_Coder {
-      left: 100px;
+      left: 120px;
       top: 2250px;
       position: absolute;
       overflow: visible;
@@ -5486,7 +6224,7 @@ a.btn-elven{
       color: black;
     }
     #ID10_Classes {
-      left: 135px;
+      left: 145px;
       top: 2310px;
       position: absolute;
       overflow: visible;
@@ -5531,7 +6269,7 @@ a.btn-elven{
       color: rgb(0, 0, 0);
     }
     #Achievement {
-      left: 130px;
+      left: 140px;
       top: 2510px;
       position: absolute;
       overflow: visible;
@@ -5545,13 +6283,13 @@ a.btn-elven{
       color: rgb(0, 0, 0);
     }
     #Build_First_Bot__First_webpage {
-      left: 70px;
+      left: 80px;
       top: 2560px;
       position: absolute;
       overflow: visible;
-      width: 180px;
+      width: 230px;
       white-space: nowrap;
-      text-align: left;
+      text-align: center;
       font-family: Segoe UI;
       font-style: normal;
       font-size: 18px;
@@ -5560,7 +6298,7 @@ a.btn-elven{
   }
     
     #_one_ {
-      left: 85px;
+      left: 95px;
       top: 2615px;
       position: absolute;
       overflow: visible;
@@ -5586,7 +6324,7 @@ a.btn-elven{
     }
     
     #_Certificate_1{
-      left: 95px;
+      left: 100px;
       top: 2655px;
       position: absolute;
       overflow: visible;
@@ -5613,8 +6351,8 @@ a.btn-elven{
       color: rgb(0, 0, 0);
     }
     #View_CRIRICULUM_details {
-      left: 70px;
-      top: 2730px;
+      left: 80px;
+      top: 2720px;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -5691,7 +6429,9 @@ a.btn-elven{
     .Rectangle_9{
       display: none;
     }
-    
+    #_Certificate__bzz{
+      display: none;
+    }
     .Rectangle_13{
       display: none;
     }
@@ -5713,7 +6453,7 @@ a.btn-elven{
     }
     
     #Register_for_Demo_Class {
-      left: 75px;
+      left: 95px;
       top: 2925px;
       position: absolute;
       overflow: visible;
@@ -5724,13 +6464,11 @@ a.btn-elven{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: #52dce5;
+      color: black;
     }
     
     
-    #Rectangle_62 {
-      fill:  rgba(220, 95, 252, 0.149); }
-    
+  
     .Rectangle_62 {
       position: absolute;
       overflow: visible;
@@ -5740,7 +6478,7 @@ a.btn-elven{
       top: 3000px;
       box-shadow: 25px;
       border-radius: 25px;
-      background-color:rgba(220, 95, 252, 0.149); ;
+      background-color:skyblue;
     }
     
     .Rectangle_63 {
@@ -5758,7 +6496,7 @@ a.btn-elven{
     }
     
     #Base_Builder {
-      left: 115px;
+      left: 125px;
       top: 3005px;
       position: absolute;
       overflow: visible;
@@ -5772,7 +6510,7 @@ a.btn-elven{
     }
     
     #ID49_Classes {
-      left: 135px;
+      left: 145px;
       top: 3070px;
       position: absolute;
       overflow: visible;
@@ -5805,9 +6543,9 @@ a.btn-elven{
       top: 3160px;
       position: absolute;
       overflow: visible;
-      width: 180px;
+      width: 200px;
       white-space: nowrap;
-      text-align: left;
+      text-align: center;
       font-family: Segoe UI;
       font-style: normal;
       font-size: 20px;
@@ -5957,7 +6695,7 @@ a.btn-elven{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: #1e1bc2;
+      color: black;
     }
     
     .Rectangle_64{
@@ -5968,13 +6706,11 @@ a.btn-elven{
       left: 13px;
       top: 3760px;
       box-shadow: 25px;
-    background-color: #fb1745;
+    background-color:skyblue;
     border-radius: 25px;
     }
     
-    #Rectangle_64 {
-      fill: #fb1745; 
-    }
+  
     .Rectangle_65 {
       position: absolute;
       overflow: visible;
@@ -5988,7 +6724,7 @@ a.btn-elven{
       fill: white; 
     }
     #Inbetweener {
-      left: 120px;
+      left: 150px;
       top: 3765px;
       position: absolute;
       overflow: visible;
@@ -5998,11 +6734,11 @@ a.btn-elven{
       font-family: Segoe UI;
       font-style: normal;
       font-size: 25px;
-      color: white;
+      color: black;
     }
     
     #ID147_Classes {
-      left: 135px;
+      left: 145px;
       top: 3830px;
       position: absolute;
       overflow: visible;
@@ -6012,10 +6748,10 @@ a.btn-elven{
       font-family: Segoe UI;
       font-style: normal;
       font-size: 20px;
-      color: white;
+      color: black;
     }
     #Base_Bulider_ {
-      left: 125px;
+      left: 135px;
       top: 3880px;
       position: absolute;
       overflow: visible;
@@ -6026,11 +6762,11 @@ a.btn-elven{
       font-style: normal;
       /* font-weight: bold; */
       font-size: 20px;
-      color: #0b18d4;
+      color: skyblue;
     }
     
     #Artificial_Intelligence___Robo1 {
-      left: 50px;
+      left: 105px;
       top: 3925px;
       position: absolute;
       overflow: visible;
@@ -6048,8 +6784,8 @@ a.btn-elven{
     }
     
     #Achievement_bu {
-      left: 123px;
-      top: 4035px;
+      left: 135px;
+      top: 4025px;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -6078,7 +6814,7 @@ a.btn-elven{
     }
     
     #_three_ {
-      left: 165px;
+      left: 175px;
       top: 4160px;
       position: absolute;
       overflow: visible;
@@ -6190,10 +6926,252 @@ a.btn-elven{
       font-size: 20px;
       color: white; 
     }
-    
+    .buynow{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 75px;
+      margin-top: 2165px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow1{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 75px;
+      margin-top: 2940px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow2{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 75px;
+      margin-top: 3700px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow3{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: crimson;
+      font-weight: bold;
+      margin-left: 75px;
+      margin-top: 4475px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .Rectangle_96{
+      position: absolute;
+      overflow: visible;
+      width: 370px;
+      height: 727px;
+      left: 13px;
+      top: 4530px;
+      box-shadow: 25px;
+    background-color:crimson;
+    border-radius: 25px;
+    }
+    .Rectangle_97 {
+      position: absolute;
+      overflow: visible;
+      width: 370px;
+      height: 562px;
+      left: 13px;
+      top: 4640px;
+      background-color: white;
+    }
+    #Legendary {
+      left: 120px;
+      top: 4535px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 25px;
+      color: white;
+    }
+    #ID300_Classes {
+      left: 135px;
+      top: 4600px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: white;
+    }
+    #Course {
+      left: 155px;
+      top: 4650px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      /* font-weight: bold; */
+      font-size: 20px;
+      color: skyblue;
+    }
+    #Artificial_Intelligence___Robo2 {
+      left: 120px;
+      top: 4700px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: black;
+    }
+    #Achievement_but {
+      left: 140px;
+      top: 4800px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      /* font-weight: bold; */
+      font-style: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    #Your_Child_will_Build_a_voice_1 {
+      left: 100px;
+      top: 4850px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    #_four_ {
+      left: 175px;
+      top: 4950px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      text-align: center;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+  }
+  #_Certificate_4 {
+    left: 95px;
+    top: 5000px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #View_CRIRICULUM_details2 {
+    left: 80px;
+    top: 5050px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(61, 182, 230);
+  }
+  #Rs5000 {
+    left: 25px;
+    top: 5100px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);}
+  
+  #Rs25000 {
+    left: 190px;
+    top: 5106px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #Register_for_Demo_Class_bzz {
+    left: 90px;
+    top: 5210px;
+    position: absolute;
+    overflow: visible;
+    width: 258px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 20px;
+    color: white; 
+  }
+  .Rectangle_1{
+    display: none;
+  } .Rectangle_2{
+    display: none;
+  }
+  
     .Rectangle_18 {
       left: 45px;
-      top: 4590px;
+      top: 5375px;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -6207,10 +7185,14 @@ a.btn-elven{
     #Rectangle_18 {
       fill: #c0ffcc; 
     }
-    
+    .Rectangle_1{
+      display: none;
+    } .Rectangle_2{
+      display: none;
+    }
     #About_Edurific {
-      left: 73px;
-      top: 4605px;
+      left: 80px;
+      top: 5315px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6229,19 +7211,19 @@ a.btn-elven{
       width: 92%;
       height: auto;
       left: 15px;
-      top: 4695px;
+      top: 5430px;
       overflow: visible;
     }
     
     #Edurific_is_founded_by_the_Alu {
       left: 15px;
-      top: 4970px;
+      top: 5710px;
       position: absolute;
       width: 200px;
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family:  'Lobster';
+      font-family: 'Lobster' ;
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
@@ -6257,13 +7239,13 @@ a.btn-elven{
       overflow: visible;
       width: 338px;
       height: 60px;
-      left: 35px;
-      top: 5240px; 
+      left: 50px;
+      top: 6030px; 
     }
     
     #Our_Curriculum_Heads {
-      left: 50px;
-      top: 5250px;
+      left: 60px;
+      top: 6040px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6311,10 +7293,10 @@ a.btn-elven{
     .Rectangle_45{
       position: absolute;
         overflow: visible;
-        width: 226px;
-        height: 456px;
+        width: 375px;
+        height: 600px;
         left: 13px;
-        top: 5340px;}
+        top: 6125px;}
     
     #Rectangle_45 {
       fill: white;
@@ -6333,7 +7315,7 @@ a.btn-elven{
       object-fit: cover;
       height: 350px;
       left: 15px;
-      top: 5340px;
+      top: 6125px;
       overflow: visible; 
     }
     #Rectangle_50 {
@@ -6344,12 +7326,12 @@ a.btn-elven{
       overflow: visible;
       width: 110px;
       height: 28px;
-      left: 100px;
-      top: 5715px; 
+      left: 120px;
+      top: 6500px; 
     }
     #Head_of_Robotics {
-      left: 110px;
-      top: 5715px;
+      left: 130px;
+      top: 6500px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6363,8 +7345,8 @@ a.btn-elven{
     }
     
     #DR_SASCHA_GRIFFITHS {
-      left: 93px;
-      top: 5785px;
+      left: 115px;
+      top: 6570px;
       position: absolute;
       overflow: visible;
       width: 135px;
@@ -6377,8 +7359,8 @@ a.btn-elven{
       color: black;
     }
     #PhD_at_Universittt____Hamburg {
-      left: 80px;
-      top: 5840px;
+      left: 100px;
+      top: 6625px;
       position: absolute;
       overflow: visible;
       width: 111px;
@@ -6397,7 +7379,7 @@ a.btn-elven{
       width: 350px;
       height: 456px;
       left: 13px;
-      top: 5985px;}
+      top: 6770px;}
     
     #Rectangle_46{
       fill: white;
@@ -6414,7 +7396,7 @@ a.btn-elven{
       object-fit: cover;
       height: 350px;
       left: 13px;
-      top: 5985px;
+      top: 6770px;
       overflow: visible; 
     }
     
@@ -6423,16 +7405,16 @@ a.btn-elven{
       overflow: visible;
       width: 195px;
       height: 28px;
-      left: 80px;
-      top: 6355px; }
+      left: 100px;
+      top: 7140px; }
     
     #Rectangle_51{
       fill: gainsboro; 
     }
     
     #Head_of_Data_Science {
-      left: 95px;
-      top: 6355px;
+      left: 115px;
+      top: 7140px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6445,8 +7427,8 @@ a.btn-elven{
       color: black;
     }
     #BHAVNA_BHAISARE {
-      left: 100px;
-      top: 6430px;
+      left: 120px;
+      top: 7215px;
       position: absolute;
       overflow: visible;
       width: 135px;
@@ -6462,18 +7444,16 @@ a.btn-elven{
     #IIT_Bombay_Indian__School_of_B1 {
       display: none;
     }
-    #IIT_Bombay_Indian__School_of_ {
-      left: 75px;
-      top: 6480px;
+    #IIT_Bombay_Indian__School_of_{
+      left: 85px;
+      top: 7265px;
       position: absolute;
       overflow: visible;
-      text-align: center;
-      width: 111px;
+      width: 80px;
       white-space: nowrap;
-      text-align: left;
+      text-align: center;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
       font-size: 18px;
       color: black;
     }
@@ -6484,7 +7464,7 @@ a.btn-elven{
       width: 350px;
       height: 456px;
       left: 13px;
-      top: 6620px;
+      top: 7405px;
   }
     #Rectangle_47{
       fill: white;
@@ -6500,7 +7480,7 @@ a.btn-elven{
       width: 375px;
       height: 350px;
       left: 13px;
-      top: 6620px;
+      top: 7405px;
       overflow: visible; 
     }
     
@@ -6509,16 +7489,16 @@ a.btn-elven{
       overflow: visible;
       width: 110px;
       height: 28px;
-      left: 80px;
-      top: 6990px;  }
+      left: 90px;
+      top: 7775px;  }
     
     #Rectangle_52{
       fill: gainsboro; 
     }
     
     #Head_of_Career_Guidance {
-      left: 85px;
-      top: 6995px;
+      left: 95px;
+      top: 7780px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6531,8 +7511,8 @@ a.btn-elven{
       color: black;
     }
     #ROBERT_J_LUEBKE{
-      left: 100px;
-      top: 7070px;
+      left: 120px;
+      top: 7855px;
       position: absolute;
       overflow: visible;
       width: 135px;
@@ -6549,11 +7529,11 @@ a.btn-elven{
       display: none;
     }
     #BS_Psychology_Honors__College_1{
-      left: 70px;
-      top: 7120px;
+      left: 80px;
+      top: 7905px;
       position: absolute;
       overflow: visible;
-      width: 111px;
+      width: 51px;
       white-space: nowrap;
       text-align: center;
       font-family: Segoe UI;
@@ -6563,14 +7543,13 @@ a.btn-elven{
       color: black;
     }
     
-    
     .Rectangle_48{
       position: absolute;
       overflow: visible;
       width: 350px;
       height: 456px;
       left: 13px;
-      top: 7260px;}
+      top: 8045px;}
     
     #Rectangle_48{
       fill: white;
@@ -6586,7 +7565,7 @@ a.btn-elven{
       width: 375px;
       height: 350px;
       left: 13px;
-      top: 7260px;
+      top: 8045px;
       overflow: visible; 
     }
     
@@ -6595,16 +7574,16 @@ a.btn-elven{
       overflow: visible;
       width: 110px;
       height: 28px;
-      left: 90px;
-      top: 7625px;  }
+      left: 110px;
+      top: 8410px;  }
     
     #Rectangle_53{
       fill: gainsboro; 
     }
     
     #Head_of_AI__ML{
-      left: 110px;
-      top: 7628px;
+      left: 130px;
+      top: 8413px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -6617,8 +7596,8 @@ a.btn-elven{
       color: black;
     }
     #NITIN_P {
-      left: 150px;
-      top: 7685px;
+      left: 160px;
+      top: 8470px;
       position: absolute;
       overflow: visible;
       width: 135px;
@@ -6635,8 +7614,8 @@ a.btn-elven{
     }
     
     #Bachelors_of_Computer__Enginee1{
-      left: 40px;
-      top: 7740px;
+      left: 55px;
+      top:8525px;
       position: absolute;
       overflow: visible;
       width: 111px;
@@ -6655,7 +7634,7 @@ a.btn-elven{
       width: 288px;
       height: 60px;
       left: 50px;
-      top: 7900px; }
+      top: 8685px; }
     
     #Rectangle_30 {
       fill: #c0ffcc; 
@@ -6663,7 +7642,7 @@ a.btn-elven{
     
     #Parent_Feedback {
       left: 105px;
-      top: 7905px;
+      top: 8690px;
       position: absolute;
       overflow: visible;
       width: 233px;
@@ -6685,7 +7664,7 @@ a.btn-elven{
       width: 240px;
       height: 300px;
       left: 65px;
-      top: 8000px; 
+      top: 8785px; 
     }
     
     
@@ -6707,7 +7686,7 @@ a.btn-elven{
       width: 220px;
       height: 171px;
       left: 65px;
-      top: 8020px; 
+      top: 8805px; 
     }
     #shayari-2-8 {
       position: absolute;
@@ -6715,14 +7694,14 @@ a.btn-elven{
       height: auto;
       object-fit: cover;
       left: 15px;
-      top: 7980px;
+      top: 8765px;
       border-radius: 10px;
       overflow: visible;
     }
     
     #My_6-year-old_nephew_Rahul_is_ {
       left: 25px;
-      top: 8250px;
+      top: 9035px;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -6737,8 +7716,8 @@ a.btn-elven{
     }
   
     a.btn7{
-      left: 30px;
-      top: 8505px;
+      left: 50px;
+      top: 9290px;
       margin: 30px 20px;
       width: 290px;
       height: 90px;
@@ -6758,12 +7737,12 @@ a.btn-elven{
       width: 221px;
       height: 60px;
       left: 80px;
-      top: 8450px;
+      top: 9235px;
     }
     
     #Recent_Blog {
-      left: 80px;
-      top: 8550px;
+      left: 90px;
+      top: 9335px;
       position: absolute;
       overflow: visible;
       width: 100px;
@@ -6781,14 +7760,14 @@ a.btn-elven{
       width: 92%;
       height: auto;
       left: 13px;
-      top: 8650px;
+      top: 9435px;
       overflow: visible;
     }
     
    
     #How_to_get_your_child_interest {
-      left: 25px;
-      top: 8940px;
+      left: 20px;
+      top: 9725px;
       position: absolute;
       overflow: visible;
       width: 350px;
@@ -6803,8 +7782,8 @@ a.btn-elven{
       color: black;
     }
     #Schools_are_a_major_part_of_ev {
-      left: 30px;
-      top: 8975px;
+      left: 40px;
+      top: 9750px;
       position: absolute;
       width: 340px;
       overflow: visible;
@@ -6827,14 +7806,14 @@ a.btn-elven{
       width: 166px;
       height: 47px;
       left: 20px;
-      top: 9050px;
+      top: 9835px;
     }
     #Read_More a{
       display: inline-block;
     padding: 5px 20px;
     background-color: crimson;
       left: 35px;
-      top: 10300px;
+      top: 11085px;
       position: absolute;
       overflow: visible;
       white-space: nowrap;
@@ -6853,12 +7832,12 @@ a.btn-elven{
       width: 230px;
       height: 60px;
       left: 75px;
-      top: 9145px;
+      top: 9930px;
     }
   
     a.btn8{
       left: 60px;
-      top: 9130px;
+      top: 9915px;
       margin: 30px 20px;
       width: 235px;
       height: 100px;
@@ -6872,7 +7851,7 @@ a.btn-elven{
     
     #Our_Alumni {
       left: 110px;
-      top: 9165px;
+      top: 9950px;
       position: absolute;
       overflow: visible;
       width: 164px;
@@ -6891,13 +7870,13 @@ a.btn-elven{
       width: 93%;
       height: auto;
       left: 15px;
-      top: 9285px;
+      top: 10070px;
       overflow: visible; 
     }
   
     #your_kid {
-      left: 50px;
-      top: 9560px;
+      left: 60px;
+      top: 10345px;
       position: absolute;
       overflow: visible;
       width: 287px;
@@ -6913,8 +7892,8 @@ a.btn-elven{
     
     
     #Schools_are_a_major_part_of_ev1 {
-      left: 35px;
-      top: 9650px;
+      left: 40px;
+      top: 10435px;
       position: absolute;
       width: 340px;
       overflow: visible;
@@ -6930,7 +7909,7 @@ a.btn-elven{
   
     a.btn9{
       left: 60px;
-      top: 9790px;
+      top: 10575px;
       margin: 30px 20px;
       width: 200px;
       height: 50px;
@@ -6944,7 +7923,7 @@ a.btn-elven{
   
     #Our_Alumni1 {
       left: 125px;
-      top: 9825px;
+      top: 10610px;
       position: absolute;
       overflow: visible;
       width: 164px;
@@ -6962,13 +7941,13 @@ a.btn-elven{
       width: 93%;
       height: auto;
       left: 15px;
-      top: 9890px;
+      top: 10675px;
       overflow: visible; 
     }
   
     #Kid_intern {
       left:30px;
-      top: 10090px;
+      top: 10875px;
       position: absolute;
       overflow: visible;
       width: 350px;
@@ -6991,7 +7970,7 @@ a.btn-elven{
   
     a.btn10{
       left: 60px;
-      top: 10340px;
+      top: 11125px;
       margin: 30px 20px;
       width: 230px;
       height: 90px;
@@ -7004,7 +7983,7 @@ a.btn-elven{
     }
     #Entrepreneurship {
       left: 95px;
-      top: 10377px;
+      top: 11160px;
       position: absolute;
       overflow: visible;
       width: 200px;
@@ -7022,12 +8001,12 @@ a.btn-elven{
       width: 93%;
       height: auto;
       left: 15px;
-      top: 10480px;
+      top: 11265px;
       overflow: visible; 
     }
     #Entrepreneurship1 {
-      left:30px;
-      top: 10680px;
+      left:40px;
+      top: 11465px;
       position: absolute;
       overflow: visible;
       width: 350px;
@@ -7046,7 +8025,7 @@ a.btn-elven{
     padding: 5px 20px;
     background-color: crimson;
       left: 35px;
-      top: 10850px;
+      top: 11635px;
       position: absolute;
       overflow: visible;
       white-space: nowrap;
@@ -7057,8 +8036,8 @@ a.btn-elven{
       color: white; 
     }
     a.btn11{
-      left: 65px;
-      top: 10870px;
+      left: 70px;
+      top: 11655px;
       margin: 30px 20px;
       width: 220px;
       height: 50px;
@@ -7070,8 +8049,8 @@ a.btn-elven{
         background-color:  #c0ffcc;
     }
     #Isro {
-      left: 90px;
-      top: 10905px;
+      left: 95px;
+      top: 11695px;
       position: absolute;
       overflow: visible;
       width: 200px;
@@ -7088,13 +8067,13 @@ a.btn-elven{
       width: 93%;
       height: 300px;
       left: 10px;
-      top: 10980px;
+      top: 11765px;
       overflow: visible; 
     }
      
     #Isro_visit {
       left:30px;
-      top: 11300px;
+      top: 12085px;
       position: absolute;
       overflow: visible;
       width: 280px;
@@ -7112,7 +8091,7 @@ a.btn-elven{
     padding: 5px 20px;
     background-color: crimson;
       left: 35px;
-      top: 11430px;
+      top: 12215px;
       position: absolute;
       overflow: visible;
       white-space: nowrap;
@@ -7123,19 +8102,138 @@ a.btn-elven{
       color: white; 
     }
     #Cancel_Anytime_Same_day_100_re {
-      left: 12px;
-      top: 4505px;
+      display: none;
+    }
+    a.btn12{
+      left: 70px;
+      top: 12275px;
+      margin: 30px 20px;
+      width: 220px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 20px;
+      position: absolute;
+    }
+    a.btn-twelv{
+        background-color:   rgb(199, 199, 255);
+    }
+    
+    #Parent {
+      left: 100px;
+      top: 12310px;
       position: absolute;
       overflow: visible;
-      width: 356px;
+      width: 200px;
       white-space: nowrap;
       text-align: center;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      color: rgba(112,112,112,1);
+     font-weight: bold;
+      font-size: 25px;
+      color: black; 
     }
+    /* Caption text */
+  #slider .text1 {
+    color: black;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 10%;
+    text-align: left;
+    width: 350px;
+    margin-top: 15%;
+  }
+  #slider .text2 {
+    color: black;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 10%;
+    text-align: left;
+    width: 350px;
+    margin-top: 15%;
+  }
+  
+  #slider .img1{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 0%;
+    margin-top: 11345px;
+  }
+  #slider .img2{
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 20%;
+    margin-top: 11345px;
+  }
+  
+  /* Number text (1/3 etc) */
+  
+  /* The dots/bullets/indicators */
+  #slider .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  #slider .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  #slider .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  a.btn13{
+    left: 70px;
+    top: 13065px;
+    margin: 30px 20px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-thirteen{
+      background-color:   rgb(199, 199, 255);
+  }
+  #kids {
+    left: 100px;
+    top: 13100px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
+  
+    
     
     .Line_3 {
       overflow: visible;
@@ -7664,12 +8762,6 @@ a.btn-elven{
   .Rectangle_95{
     display: none;
   }
-  .Rectangle_96{
-    display: none;
-  }
-  .Rectangle_97{
-    display: none;
-  }
   .Rectangle_12{
     display: none;
   }
@@ -7723,7 +8815,7 @@ a.btn-elven{
   }
   a.btn3{
     left: 30px;
-    top: 4570px;
+    top: 5300px;
     margin: 30px 20px;
     width: 280px;
     height: 50px;
@@ -7982,11 +9074,11 @@ a.btn-elven{
     height: 727px;
     left: 13px;
     top: 2245px;
-    background-color:  rgba(41, 245, 255, 0.149);
+    background-color:  skyblue;
     border-radius: 25px;
   }
   #Rectangle_60 {
-    fill: rgba(41, 245, 255, 0.149); 
+    fill: skyblue; 
   }
   
   .Rectangle_61 {
@@ -8002,7 +9094,7 @@ a.btn-elven{
     fill: white; 
   }
   #Ofcourse_Coder {
-    left: 100px;
+    left: 110px;
     top: 2250px;
     position: absolute;
     overflow: visible;
@@ -8074,7 +9166,7 @@ a.btn-elven{
     color: rgb(0, 0, 0);
   }
   #Build_First_Bot__First_webpage {
-    left: 70px;
+    left: 80px;
     top: 2560px;
     position: absolute;
     overflow: visible;
@@ -8089,7 +9181,7 @@ a.btn-elven{
 }
   
   #_one_ {
-    left: 85px;
+    left: 95px;
     top: 2615px;
     position: absolute;
     overflow: visible;
@@ -8211,7 +9303,9 @@ a.btn-elven{
   .Rectangle_9{
     display: none;
   }
-  
+  #_Certificate__bzz{
+    display: none;
+  }
   .Rectangle_13{
     display: none;
   }
@@ -8244,7 +9338,7 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: #52dce5;
+    color: black;
   }
   
   
@@ -8260,7 +9354,7 @@ a.btn-elven{
     top: 3000px;
     box-shadow: 25px;
     border-radius: 25px;
-    background-color:rgba(220, 95, 252, 0.149); ;
+    background-color:skyblue ;
   }
   
   .Rectangle_63 {
@@ -8327,7 +9421,7 @@ a.btn-elven{
     overflow: visible;
     width: 180px;
     white-space: nowrap;
-    text-align: left;
+    text-align: center;
     font-family: Segoe UI;
     font-style: normal;
     font-size: 20px;
@@ -8354,7 +9448,7 @@ a.btn-elven{
     top: 3320px;
     position: absolute;
     overflow: visible;
-    width: 180px;
+    width: 250px;
     white-space: nowrap;
     text-align: center;
     font-family: Segoe UI;
@@ -8477,7 +9571,7 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: #1e1bc2;
+    color: black;
   }
   
   .Rectangle_64{
@@ -8488,13 +9582,10 @@ a.btn-elven{
     left: 13px;
     top: 3760px;
     box-shadow: 25px;
-  background-color: #fb1745;
+  background-color: skyblue;
   border-radius: 25px;
   }
   
-  #Rectangle_64 {
-    fill: #fb1745; 
-  }
   .Rectangle_65 {
     position: absolute;
     overflow: visible;
@@ -8508,7 +9599,7 @@ a.btn-elven{
     fill: white; 
   }
   #Inbetweener {
-    left: 120px;
+    left: 140px;
     top: 3765px;
     position: absolute;
     overflow: visible;
@@ -8518,7 +9609,7 @@ a.btn-elven{
     font-family: Segoe UI;
     font-style: normal;
     font-size: 25px;
-    color: white;
+    color: black;
   }
   
   #ID147_Classes {
@@ -8532,10 +9623,10 @@ a.btn-elven{
     font-family: Segoe UI;
     font-style: normal;
     font-size: 20px;
-    color: white;
+    color: black;
   }
   #Base_Bulider_ {
-    left: 125px;
+    left: 135px;
     top: 3880px;
     position: absolute;
     overflow: visible;
@@ -8550,7 +9641,7 @@ a.btn-elven{
   }
   
   #Artificial_Intelligence___Robo1 {
-    left: 50px;
+    left: 105px;
     top: 3925px;
     position: absolute;
     overflow: visible;
@@ -8568,7 +9659,7 @@ a.btn-elven{
   }
   
   #Achievement_bu {
-    left: 123px;
+    left: 135px;
     top: 4035px;
     position: absolute;
     overflow: visible;
@@ -8598,7 +9689,7 @@ a.btn-elven{
   }
   
   #_three_ {
-    left: 165px;
+    left: 175px;
     top: 4160px;
     position: absolute;
     overflow: visible;
@@ -8708,9 +9799,250 @@ a.btn-elven{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: white; 
+    color: black; 
   }
-  
+  .buynow{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 2175px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow1{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 2940px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow2{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: skyblue;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 3690px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .buynow3{display: inline-block;
+    padding: 5px 60px;
+    color: white;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    background-color: crimson;
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 4480px;
+    position: absolute;
+    border-radius: 25px;
+    letter-spacing: .1rem;
+  }
+  .Rectangle_96{
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 727px;
+    left: 13px;
+    top: 4530px;
+    box-shadow: 25px;
+  background-color:crimson;
+  border-radius: 25px;
+  }
+  .Rectangle_97 {
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 562px;
+    left: 13px;
+    top: 4640px;
+    background-color: white;
+  }
+  #Legendary {
+    left: 120px;
+    top: 4535px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+  }
+  #ID300_Classes {
+    left: 135px;
+    top: 4600px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+  }
+  #Course {
+    left: 155px;
+    top: 4650px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: skyblue;
+  }
+  #Artificial_Intelligence___Robo2 {
+    left: 120px;
+    top: 4700px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+  }
+  #Achievement_but {
+    left: 140px;
+    top: 4800px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #Your_Child_will_Build_a_voice_1 {
+    left: 100px;
+    top: 4850px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+  #_four_ {
+    left: 175px;
+    top: 4950px;
+    position: absolute;
+    overflow: visible;
+    width: 150px;
+    text-align: center;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+#_Certificate_4 {
+  left: 95px;
+  top: 5000px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#View_CRIRICULUM_details2 {
+  left: 80px;
+  top: 5050px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(61, 182, 230);
+}
+#Rs5000 {
+  left: 25px;
+  top: 5100px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(0, 0, 0);}
+
+#Rs25000 {
+  left: 190px;
+  top: 5106px;
+  position: absolute;
+  overflow: visible;
+  width: 180px;
+  white-space: nowrap;
+  text-align: right;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: line-through;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+#Register_for_Demo_Class_bzz {
+  left: 90px;
+  top: 5210px;
+  position: absolute;
+  overflow: visible;
+  width: 258px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: regular;
+  font-size: 20px;
+  color: white; 
+}
+.Rectangle_1{
+  display: none;
+} .Rectangle_2{
+  display: none;
+}
   .Rectangle_18 {
     left: 45px;
     top: 4590px;
@@ -8730,7 +10062,7 @@ a.btn-elven{
   
   #About_Edurific {
     left: 60px;
-    top: 4605px;
+    top: 5335px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -8749,13 +10081,13 @@ a.btn-elven{
     width: 350px;
     height: auto;
     left: 15px;
-    top: 4695px;
+    top: 5415px;
     overflow: visible;
   }
   
   #Edurific_is_founded_by_the_Alu {
     left: 15px;
-    top: 4970px;
+    top: 5680px;
     position: absolute;
     width: 200px;
     overflow: visible;
@@ -8778,12 +10110,12 @@ a.btn-elven{
     width: 338px;
     height: 60px;
     left: 25px;
-    top: 5240px; 
+    top: 5950px; 
   }
   
   #Our_Curriculum_Heads {
     left: 40px;
-    top: 5250px;
+    top: 5960px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -8833,8 +10165,8 @@ a.btn-elven{
       overflow: visible;
       width: 226px;
       height: 456px;
-      left: 13px;
-      top: 5340px;}
+      left: 25px;
+      top: 6050px;}
   
   #Rectangle_101 {
     fill: white;
@@ -8849,11 +10181,11 @@ a.btn-elven{
   
   #Screenshot_11 {
     position: absolute;
-    width: 350px;
+    width: 330px;
     object-fit: cover;
     height: 350px;
-    left: 13px;
-    top: 5340px;
+    left: 25px;
+    top: 6050px;
     overflow: visible; 
   }
   #Rectangle_50 {
@@ -8865,11 +10197,11 @@ a.btn-elven{
     width: 110px;
     height: 28px;
     left: 100px;
-    top: 5715px; 
+    top: 6425px; 
   }
   #Head_of_Robotics {
     left: 110px;
-    top: 5715px;
+    top: 6425px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -8884,7 +10216,7 @@ a.btn-elven{
   
   #DR_SASCHA_GRIFFITHS {
     left: 93px;
-    top: 5785px;
+    top: 6495px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -8898,7 +10230,7 @@ a.btn-elven{
   }
   #PhD_at_Universittt____Hamburg {
     left: 80px;
-    top: 5840px;
+    top: 6550px;
     position: absolute;
     overflow: visible;
     width: 111px;
@@ -8928,8 +10260,8 @@ a.btn-elven{
     overflow: visible;
     width: 350px;
     height: 456px;
-    left: 13px;
-    top: 5985px;}
+    left: 25px;
+    top: 6695px;}
   
   #Rectangle_102{
     fill: white;
@@ -8942,11 +10274,11 @@ a.btn-elven{
   }
   #Screenshot_12 {
     position: absolute;
-    width: 350px;
+    width: 330px;
     object-fit: cover;
     height: 350px;
-    left: 13px;
-    top: 5985px;
+    left: 25px;
+    top: 6695px;
     overflow: visible; 
   }
   
@@ -8956,7 +10288,7 @@ a.btn-elven{
     width: 195px;
     height: 28px;
     left: 80px;
-    top: 6355px; }
+    top: 7065px; }
   
   #Rectangle_51{
     fill: gainsboro; 
@@ -8964,7 +10296,7 @@ a.btn-elven{
   
   #Head_of_Data_Science {
     left: 95px;
-    top: 6355px;
+    top: 7065px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -8978,7 +10310,7 @@ a.btn-elven{
   }
   #BHAVNA_BHAISARE {
     left: 100px;
-    top: 6430px;
+    top: 7140px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -8996,7 +10328,7 @@ a.btn-elven{
   }
   #IIT_Bombay_Indian__School_of_{
     left: 65px;
-    top: 6480px;
+    top: 7185px;
     position: absolute;
     overflow: visible;
     text-align: center;
@@ -9013,10 +10345,10 @@ a.btn-elven{
   .Rectangle_103{
     position: absolute;
     overflow: visible;
-    width: 350px;
+    width: 330px;
     height: 456px;
-    left: 13px;
-    top: 6620px;
+    left: 25px;
+    top: 7330px;
 }
   #Rectangle_103{
     fill: white;
@@ -9029,10 +10361,10 @@ a.btn-elven{
   }
   #Screenshot_13 {
     position: absolute;
-    width: 350px;
+    width: 330px;
     height: 350px;
-    left: 13px;
-    top: 6620px;
+    left: 25px;
+    top: 7330px;
     overflow: visible; 
   }
   
@@ -9042,7 +10374,7 @@ a.btn-elven{
     width: 110px;
     height: 28px;
     left: 80px;
-    top: 6990px;  }
+    top: 7700px;  }
   
   #Rectangle_52{
     fill: gainsboro; 
@@ -9050,7 +10382,7 @@ a.btn-elven{
   
   #Head_of_Career_Guidance {
     left: 85px;
-    top: 6995px;
+    top: 7705px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -9064,7 +10396,7 @@ a.btn-elven{
   }
   #ROBERT_J_LUEBKE{
     left: 100px;
-    top: 7070px;
+    top: 7780px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -9082,7 +10414,7 @@ a.btn-elven{
   }
   #BS_Psychology_Honors__College_1{
     left: 70px;
-    top: 7120px;
+    top: 7830px;
     position: absolute;
     overflow: visible;
     width: 111px;
@@ -9098,10 +10430,10 @@ a.btn-elven{
   .Rectangle_104{
     position: absolute;
     overflow: visible;
-    width: 350px;
+    width: 330px;
     height: 456px;
-    left: 13px;
-    top: 7260px;}
+    left: 25px;
+    top: 7970px;}
   
   #Rectangle_104{
     fill: white;
@@ -9114,10 +10446,10 @@ a.btn-elven{
   }
   #Screenshot_14 {
     position: absolute;
-    width: 350px;
+    width: 330px;
     height: 350px;
-    left: 13px;
-    top: 7260px;
+    left: 25px;
+    top: 7970px;
     overflow: visible; 
   }
   
@@ -9127,7 +10459,7 @@ a.btn-elven{
     width: 110px;
     height: 28px;
     left: 90px;
-    top: 7625px;  }
+    top: 8335px;  }
   
   #Rectangle_53{
     fill: gainsboro; 
@@ -9135,7 +10467,7 @@ a.btn-elven{
   
   #Head_of_AI__ML{
     left: 110px;
-    top: 7628px;
+    top: 8338px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -9149,7 +10481,7 @@ a.btn-elven{
   }
   #NITIN_P {
     left: 150px;
-    top: 7685px;
+    top: 8395px;
     position: absolute;
     overflow: visible;
     width: 135px;
@@ -9167,7 +10499,7 @@ a.btn-elven{
   
   #Bachelors_of_Computer__Enginee1{
     left: 40px;
-    top: 7740px;
+    top: 8450px;
     position: absolute;
     overflow: visible;
     width: 111px;
@@ -9186,7 +10518,7 @@ a.btn-elven{
     width: 288px;
     height: 60px;
     left: 50px;
-    top: 7900px; }
+    top: 8610px; }
   
   #Rectangle_30 {
     fill: #c0ffcc; 
@@ -9194,7 +10526,7 @@ a.btn-elven{
   
   #Parent_Feedback {
     left: 105px;
-    top: 7905px;
+    top: 8615px;
     position: absolute;
     overflow: visible;
     width: 233px;
@@ -9216,7 +10548,7 @@ a.btn-elven{
     width: 240px;
     height: 300px;
     left: 65px;
-    top: 8000px; 
+    top: 8710px; 
   }
   
   
@@ -9238,7 +10570,7 @@ a.btn-elven{
     width: 220px;
     height: 171px;
     left: 65px;
-    top: 8020px; 
+    top: 8730px; 
   }
   #shayari-2-8 {
     position: absolute;
@@ -9246,14 +10578,14 @@ a.btn-elven{
     height: auto;
     object-fit: cover;
     left: 15px;
-    top: 7980px;
+    top: 8690px;
     border-radius: 10px;
     overflow: visible;
   }
   
   #My_6-year-old_nephew_Rahul_is_ {
     left: 25px;
-    top: 8240px;
+    top: 8950px;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -9269,7 +10601,7 @@ a.btn-elven{
 
   a.btn7{
     left: 30px;
-    top: 8505px;
+    top: 9215px;
     margin: 30px 20px;
     width: 290px;
     height: 90px;
@@ -9289,12 +10621,12 @@ a.btn-elven{
     width: 221px;
     height: 60px;
     left: 80px;
-    top: 8450px;
+    top: 9160px;
   }
   
   #Recent_Blog {
     left: 80px;
-    top: 8550px;
+    top: 9260px;
     position: absolute;
     overflow: visible;
     width: 100px;
@@ -9312,14 +10644,14 @@ a.btn-elven{
     width: 92%;
     height: auto;
     left: 13px;
-    top: 8650px;
+    top: 9360px;
     overflow: visible;
   }
   
  
   #How_to_get_your_child_interest {
     left: 25px;
-    top: 8940px;
+    top: 9650px;
     position: absolute;
     overflow: visible;
     width: 350px;
@@ -9335,7 +10667,7 @@ a.btn-elven{
   }
   #Schools_are_a_major_part_of_ev {
     left: 30px;
-    top: 8975px;
+    top: 9685px;
     position: absolute;
     width: 340px;
     overflow: visible;
@@ -9358,14 +10690,14 @@ a.btn-elven{
     width: 166px;
     height: 47px;
     left: 20px;
-    top: 9050px;
+    top: 9760px;
   }
   #Read_More a{
     display: inline-block;
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 10300px;
+    top: 11010px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -9384,12 +10716,12 @@ a.btn-elven{
     width: 230px;
     height: 60px;
     left: 75px;
-    top: 9145px;
+    top: 9855px;
   }
 
   a.btn8{
     left: 60px;
-    top: 9130px;
+    top: 9840px;
     margin: 30px 20px;
     width: 235px;
     height: 100px;
@@ -9403,7 +10735,7 @@ a.btn-elven{
   
   #Our_Alumni {
     left: 110px;
-    top: 9165px;
+    top: 9875px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -9422,13 +10754,13 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 9285px;
+    top: 9995px;
     overflow: visible; 
   }
 
   #your_kid {
     left: 50px;
-    top: 9560px;
+    top: 10270px;
     position: absolute;
     overflow: visible;
     width: 287px;
@@ -9445,7 +10777,7 @@ a.btn-elven{
   
   #Schools_are_a_major_part_of_ev1 {
     left: 35px;
-    top: 9650px;
+    top: 10360px;
     position: absolute;
     width: 320px;
     overflow: visible;
@@ -9461,7 +10793,7 @@ a.btn-elven{
 
   a.btn9{
     left: 60px;
-    top: 9790px;
+    top: 10500px;
     margin: 30px 20px;
     width: 200px;
     height: 50px;
@@ -9475,7 +10807,7 @@ a.btn-elven{
 
   #Our_Alumni1 {
     left: 125px;
-    top: 9825px;
+    top: 10535px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -9493,13 +10825,13 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 9890px;
+    top: 10600px;
     overflow: visible; 
   }
 
   #Kid_intern {
     left:30px;
-    top: 10090px;
+    top: 10800px;
     position: absolute;
     overflow: visible;
     width: 320px;
@@ -9522,7 +10854,7 @@ a.btn-elven{
 
   a.btn10{
     left: 60px;
-    top: 10340px;
+    top: 11050px;
     margin: 30px 20px;
     width: 230px;
     height: 90px;
@@ -9535,7 +10867,7 @@ a.btn-elven{
   }
   #Entrepreneurship {
     left: 95px;
-    top: 10377px;
+    top: 11087px;
     position: absolute;
     overflow: visible;
     width: 200px;
@@ -9553,12 +10885,12 @@ a.btn-elven{
     width: 93%;
     height: auto;
     left: 15px;
-    top: 10480px;
+    top: 11190px;
     overflow: visible; 
   }
   #Entrepreneurship1 {
     left:30px;
-    top: 10680px;
+    top: 11390px;
     position: absolute;
     overflow: visible;
     width: 330px;
@@ -9577,7 +10909,7 @@ a.btn-elven{
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 10850px;
+    top: 11560px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -9588,8 +10920,8 @@ a.btn-elven{
     color: white; 
   }
   a.btn11{
-    left: 30px;
-    top: 10870px;
+    left: 50px;
+    top: 11580px;
     margin: 30px 20px;
     width: 220px;
     height: 50px;
@@ -9601,8 +10933,8 @@ a.btn-elven{
       background-color:  #c0ffcc;
   }
   #Isro {
-    left: 55px;
-    top: 10905px;
+    left: 75px;
+    top: 11615px;
     position: absolute;
     overflow: visible;
     width: 200px;
@@ -9619,13 +10951,13 @@ a.btn-elven{
     width: 93%;
     height: 300px;
     left: 10px;
-    top: 10980px;
+    top: 11690px;
     overflow: visible; 
   }
    
   #Isro_visit {
     left:30px;
-    top: 11300px;
+    top: 12010px;
     position: absolute;
     overflow: visible;
     width: 280px;
@@ -9643,7 +10975,7 @@ a.btn-elven{
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 11430px;
+    top: 12140px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
@@ -9656,6 +10988,7 @@ a.btn-elven{
   #Cancel_Anytime_Same_day_100_re {
     left: 12px;
     top: 4505px;
+    display: none;
     position: absolute;
     overflow: visible;
     width: 356px;
@@ -9667,8 +11000,34 @@ a.btn-elven{
     font-size: 16px;
     color: rgba(112,112,112,1);
   }
+  a.btn12{
+    left: 50px;
+    top: 12200px;
+    margin: 30px 20px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-twelv{
+      background-color:   rgb(199, 199, 255);
+  }
   
-  
+  #Parent {
+    left: 80px;
+    top: 12235px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
   .Line_3 {
     overflow: visible;
     position: absolute;
@@ -9676,8 +11035,110 @@ a.btn-elven{
     height: 3px;
     left: 15px;
     top: 9490px;
-    transform: matrix(1, 0, 0, 1, 0, 0); }
+    transform: matrix(1, 0, 0, 1, 0, 0); 
+  }
+  /* Caption text */
+  #slider .text1 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 5%;
+    text-align: left;
+    width: 350px;
+    margin-top: 15%;
+  }
+  #slider .text2 {
+    color: black;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 5%;
+    text-align: left;
+    width: 350px;
+    margin-top: 15%;
+  }
   
+  #slider .img1{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 0%;
+    margin-top: 11650px;
+  }
+  #slider .img2{
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 25%;
+    margin-top: 11650px;
+  }
+  
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+#slider .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#slider .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#slider .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+a.btn13{
+  left: 50px;
+  top: 12860px;
+  margin: 30px 20px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-thirteen{
+    background-color:   rgb(199, 199, 255);
+}
+#kids {
+  left: 80px;
+  top: 12895px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+ font-weight: bold;
+  font-size: 25px;
+  color: black; 
+}
   #Line_3 {
     fill: transparent;
     stroke: #707070;
@@ -10218,7 +11679,7 @@ a.btn-elven{
     }
     a.btn3{
       left: 25px;
-      top: 4570px;
+      top: 5300px;
       margin: 30px 20px;
       width: 280px;
       height: 50px;
@@ -10483,11 +11944,11 @@ a.btn-elven{
       height: 727px;
       left: 13px;
       top: 2245px;
-      background-color:  rgba(41, 245, 255, 0.149);
+      background-color:  skyblue;
       border-radius: 25px;
     }
     #Rectangle_60 {
-      fill: rgba(41, 245, 255, 0.149); 
+      fill: skyblue; 
     }
     
     .Rectangle_61 {
@@ -10712,7 +12173,9 @@ a.btn-elven{
     .Rectangle_9{
       display: none;
     }
-    
+    #_Certificate__bzz{
+      display: none;
+    }
     .Rectangle_13{
       display: none;
     }
@@ -10745,7 +12208,7 @@ a.btn-elven{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: #52dce5;
+      color: black;
     }
     
     
@@ -10761,7 +12224,7 @@ a.btn-elven{
       top: 3000px;
       box-shadow: 25px;
       border-radius: 25px;
-      background-color:rgba(220, 95, 252, 0.149); ;
+      background-color:skyblue ;
     }
     
     .Rectangle_63 {
@@ -10769,7 +12232,7 @@ a.btn-elven{
       overflow: visible;
       width: 330px;
       height: 562px;
-      left: 13px;
+      left: 14px;
       top: 3110px;
       background-color: white;
   }
@@ -10826,9 +12289,9 @@ a.btn-elven{
       top: 3160px;
       position: absolute;
       overflow: visible;
-      width: 180px;
+      width: 200px;
       white-space: nowrap;
-      text-align: left;
+      text-align:center;
       font-family: Segoe UI;
       font-style: normal;
       font-size: 20px;
@@ -10851,11 +12314,11 @@ a.btn-elven{
     }
     
     #Your_Child_will_Create_a_Websi {
-      left: 63px;
+      left: 35px;
       top: 3320px;
       position: absolute;
       overflow: visible;
-      width: 180px;
+      width: 280px;
       white-space: nowrap;
       text-align: center;
       font-family: Segoe UI;
@@ -10894,7 +12357,7 @@ a.btn-elven{
       color: rgb(0, 0, 0);
     }
     #View_CRIRICULUM_details_b {
-      left: 85px;
+      left: 65px;
       top: 3500px;
       position: absolute;
       overflow: visible;
@@ -10978,7 +12441,7 @@ a.btn-elven{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: #1e1bc2;
+      color: black;
     }
     
     .Rectangle_64{
@@ -10989,7 +12452,7 @@ a.btn-elven{
       left: 13px;
       top: 3760px;
       box-shadow: 25px;
-    background-color: #fb1745;
+    background-color: skyblue;
     border-radius: 25px;
     }
     
@@ -11009,7 +12472,7 @@ a.btn-elven{
       fill: white; 
     }
     #Inbetweener {
-      left: 120px;
+      left: 140px;
       top: 3765px;
       position: absolute;
       overflow: visible;
@@ -11051,7 +12514,7 @@ a.btn-elven{
     }
     
     #Artificial_Intelligence___Robo1 {
-      left: 50px;
+      left: 95px;
       top: 3925px;
       position: absolute;
       overflow: visible;
@@ -11084,7 +12547,7 @@ a.btn-elven{
     }
     
     #Your_Child_will_Build_a_voice_ {
-      left: 100px;
+      left: 80px;
       top: 4075px;
       position: absolute;
       overflow: visible;
@@ -11113,7 +12576,7 @@ a.btn-elven{
       color: rgb(0, 0, 0);
   }
     #_Certificate_3 {
-      left: 95px;
+      left: 85px;
       top: 4195px;
       position: absolute;
       overflow: visible;
@@ -11127,7 +12590,7 @@ a.btn-elven{
   }
     
     #View_CRIRICULUM_details_ca {
-      left: 80px;
+      left: 70px;
       top: 4255px;
       position: absolute;
       overflow: visible;
@@ -11209,9 +12672,246 @@ a.btn-elven{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: white; 
+      color: black; 
     }
-    
+    .buynow{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 65px;
+      margin-top: 2195px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow1{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 65px;
+      margin-top: 2970px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow2{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: skyblue;
+      font-weight: bold;
+      margin-left: 65px;
+      margin-top: 3730px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .buynow3{display: inline-block;
+      padding: 5px 60px;
+      color: white;
+      font-size: 2.5rem;
+      text-transform: capitalize;
+      background-color: crimson;
+      font-weight: bold;
+      margin-left: 65px;
+      margin-top: 4510px;
+      position: absolute;
+      border-radius: 25px;
+      letter-spacing: .1rem;
+    }
+    .Rectangle_96{
+      position: absolute;
+      overflow: visible;
+      width: 330px;
+      height: 727px;
+      left: 13px;
+      top: 4530px;
+      box-shadow: 25px;
+    background-color:crimson;
+    border-radius: 25px;
+    }
+    .Rectangle_97 {
+      position: absolute;
+      overflow: visible;
+      width: 330px;
+      height: 562px;
+      left: 13px;
+      top: 4640px;
+      background-color: white;
+    }
+    #Legendary {
+      left: 110px;
+      top: 4535px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 25px;
+      color: white;
+    }
+    #ID300_Classes {
+      left: 135px;
+      top: 4600px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: white;
+    }
+    #Course {
+      left: 155px;
+      top: 4650px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      /* font-weight: bold; */
+      font-size: 20px;
+      color: skyblue;
+    }
+    #Artificial_Intelligence___Robo2 {
+      left: 120px;
+      top: 4700px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: black;
+    }
+    #Achievement_but {
+      left: 130px;
+      top: 4800px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      /* font-weight: bold; */
+      font-style: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    #Your_Child_will_Build_a_voice_1 {
+      left: 90px;
+      top: 4850px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+    #_four_ {
+      left: 175px;
+      top: 4950px;
+      position: absolute;
+      overflow: visible;
+      width: 150px;
+      text-align: center;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+  }
+  #_Certificate_4 {
+    left: 95px;
+    top: 5000px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #View_CRIRICULUM_details2 {
+    left: 70px;
+    top: 5050px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(61, 182, 230);
+  }
+  #Rs5000 {
+    left: 25px;
+    top: 5100px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(0, 0, 0);}
+  
+  #Rs25000 {
+    left: 150px;
+    top: 5106px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  #Register_for_Demo_Class_bzz {
+    left: 70px;
+    top: 5210px;
+    position: absolute;
+    overflow: visible;
+    width: 258px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 20px;
+    color: white; 
+  }
+  
     .Rectangle_18 {
       left: 35px;
       top: 4590px;
@@ -11230,8 +12930,8 @@ a.btn-elven{
     }
     
     #About_Edurific {
-      left: 50px;
-      top: 4605px;
+      left: 60px;
+      top: 5335px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -11239,34 +12939,34 @@ a.btn-elven{
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      
-      font-size: 30px;
+      font-weight: bold;
+      font-size: 28px;
       color: black;
     }
     
     
     #ceritificate {
       position: absolute;
-      width: 92%;
+      width: 93%;
       height: auto;
-      left: 15px;
-      top: 4695px;
+      left: 13px;
+      top: 5415px;
       overflow: visible;
     }
     
     #Edurific_is_founded_by_the_Alu {
       left: 15px;
-      top: 4970px;
+      top: 5680px;
       position: absolute;
       width: 200px;
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family:  'Lobster';
+      font-family:'Lobster';
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       color: black;
     }
     
@@ -11278,13 +12978,13 @@ a.btn-elven{
       overflow: visible;
       width: 338px;
       height: 60px;
-      left: 20px;
-      top: 5240px; 
+      left: 25px;
+      top: 5950px; 
     }
     
     #Our_Curriculum_Heads {
-      left: 30px;
-      top: 5250px;
+      left: 40px;
+      top: 5960px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -11295,880 +12995,1025 @@ a.btn-elven{
       
       font-size: 30px;
   }
-    .Rectangle_20{
-      display: none;
-    }
-    
-    .Rectangle_22{
-      display: none;
-    }
-    .Rectangle_24{
-      display: none;
-    }
-    .Rectangle_28{
-      display: none;
-    }
-    .Rectangle_21{
-      display: none;
-    }
-    
-    .Rectangle_25{
-      display: none;
-    }
-    .Rectangle_23{
-      display: none;
-    }
-    .Rectangle_29{
-      display: none;
-    }
-    .Rectangle_7{
-      display: none;
-    }
-    
-    .Rectangle_8{
-      display: none;
-    }
-    
-    .Rectangle_101{
-      position: absolute;
-        overflow: visible;
-        width: 226px;
-        height: 456px;
-        left: 5px;
-        top: 5340px;}
-    
-    #Rectangle_101 {
-      fill: white;
-      stroke: #707070;
-      stroke-width: 1px;
-      stroke-linejoin: miter;
-      stroke-linecap: butt;
-      stroke-miterlimit: 4;
-      shape-rendering: auto; 
-      color: black;  
-    }
-    
-    #Screenshot_11 {
-      position: absolute;
-      width: 345px;
-      object-fit: cover;
-      height: 350px;
-      left: 8px;
-      top: 5340px;
-      overflow: visible; 
-    }
-    #Rectangle_50 {
-      fill: #fff9c0; }
-    
-    .Rectangle_50 {
-      position: absolute;
-      overflow: visible;
-      width: 110px;
-      height: 28px;
-      left: 100px;
-      top: 5715px; 
-    }
-    #Head_of_Robotics {
-      left: 110px;
-      top: 5715px;
-      position: absolute;
-      overflow: visible;
-      width: 99px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    
-    #DR_SASCHA_GRIFFITHS {
-      left: 93px;
-      top: 5785px;
-      position: absolute;
-      overflow: visible;
-      width: 135px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black;
-    }
-    #PhD_at_Universittt____Hamburg {
-      left: 80px;
-      top: 5840px;
-      position: absolute;
-      overflow: visible;
-      width: 111px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black; 
-    }
-    .Rectangle_45{
+  .Rectangle_20{
     display: none;
   }
-  .Rectangle_46{
-    display: none;
-  }
-  .Rectangle_47{
-    display: none;
-  }
-  .Rectangle_48{
-    display: none;
-  }
-    
-    .Rectangle_102{
-      position: absolute;
-      overflow: visible;
-      width: 350px;
-      height: 456px;
-      left: 5px;
-      top: 5985px;}
-    
-    #Rectangle_102{
-      fill: white;
-      stroke: #707070;
-      stroke-width: 1px;
-      stroke-linejoin: miter;
-      stroke-linecap: butt;
-      stroke-miterlimit: 4;
-      shape-rendering: auto; 
-    }
-    #Screenshot_12 {
-      position: absolute;
-      width: 345px;
-      object-fit: cover;
-      height: 350px;
-      left: 8px;
-      top: 5985px;
-      overflow: visible; 
-    }
-    
-    .Rectangle_51 {
-      position: absolute;
-      overflow: visible;
-      width: 195px;
-      height: 28px;
-      left: 80px;
-      top: 6355px; }
-    
-    #Rectangle_51{
-      fill: gainsboro; 
-    }
-    
-    #Head_of_Data_Science {
-      left: 95px;
-      top: 6355px;
-      position: absolute;
-      overflow: visible;
-      width: 99px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    #BHAVNA_BHAISARE {
-      left: 100px;
-      top: 6430px;
-      position: absolute;
-      overflow: visible;
-      width: 135px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    
-    #IIT_Bombay_Indian__School_of_B1 {
-      display: none;
-    }
-    #IIT_Bombay_Indian__School_of_B {
-      left: 35px;
-      top: 6480px;
-      position: absolute;
-      overflow: visible;
-      text-align: center;
-      width: 111px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black;
-    }
-    
-    .Rectangle_103{
-      position: absolute;
-      overflow: visible;
-      width: 350px;
-      height: 456px;
-      left: 5px;
-      top: 6620px;
-  }
-    #Rectangle_103{
-      fill: white;
-      stroke: #707070;
-      stroke-width: 1px;
-      stroke-linejoin: miter;
-      stroke-linecap: butt;
-      stroke-miterlimit: 4;
-      shape-rendering: auto; 
-    }
-    #Screenshot_13 {
-      position: absolute;
-      width: 345px;
-      height: 350px;
-      left: 8px;
-      top: 6620px;
-      overflow: visible; 
-    }
-    
-    .Rectangle_52 {
-      position: absolute;
-      overflow: visible;
-      width: 110px;
-      height: 28px;
-      left: 80px;
-      top: 6990px;  }
-    
-    #Rectangle_52{
-      fill: gainsboro; 
-    }
-    
-    #Head_of_Career_Guidance {
-      left: 85px;
-      top: 6995px;
-      position: absolute;
-      overflow: visible;
-      width: 99px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 19px;
-      color: black;
-    }
-    #ROBERT_J_LUEBKE{
-      left: 100px;
-      top: 7070px;
-      position: absolute;
-      overflow: visible;
-      width: 135px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    
-    #BS_Psychology_Honors__College_{
-      display: none;
-    }
-    #BS_Psychology_Honors__College_1{
-      left: 70px;
-      top: 7120px;
-      position: absolute;
-      overflow: visible;
-      width: 111px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black;
-    }
-    
-    .Rectangle_104{
-      position: absolute;
-      overflow: visible;
-      width: 350px;
-      height: 456px;
-      left: 5px;
-      top: 7260px;}
-    
-    #Rectangle_104{
-      fill: white;
-      stroke: #707070;
-      stroke-width: 1px;
-      stroke-linejoin: miter;
-      stroke-linecap: butt;
-      stroke-miterlimit: 4;
-      shape-rendering: auto; 
-    }
-    #Screenshot_14 {
-      position: absolute;
-      width: 345px;
-      height: 350px;
-      left: 8px;
-      top: 7260px;
-      overflow: visible; 
-    }
-    
-    .Rectangle_53 {
-      position: absolute;
-      overflow: visible;
-      width: 110px;
-      height: 28px;
-      left: 90px;
-      top: 7625px;  }
-    
-    #Rectangle_53{
-      fill: gainsboro; 
-    }
-    
-    #Head_of_AI__ML{
-      left: 110px;
-      top: 7628px;
-      position: absolute;
-      overflow: visible;
-      width: 99px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    #NITIN_P {
-      left: 150px;
-      top: 7685px;
-      position: absolute;
-      overflow: visible;
-      width: 135px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 20px;
-      color: black;
-    }
-    #Bachelors_of_Computer__Enginee{
-      display: none;
-    }
-    
-    #Bachelors_of_Computer__Enginee1{
-      left: 40px;
-      top: 7740px;
-      position: absolute;
-      overflow: visible;
-      width: 111px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 19px;
-      color: black;
-    }
-    
-    .Rectangle_30 {
-      position: absolute;
-      overflow: visible;
-      width: 288px;
-      height: 60px;
-      left: 50px;
-      top: 7900px; }
-    
-    #Rectangle_30 {
-      fill: #c0ffcc; 
-    }
-    
-    #Parent_Feedback {
-      left: 105px;
-      top: 7905px;
-      position: absolute;
-      overflow: visible;
-      width: 233px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 30px;
-      color: black; 
-    }
-    #Rectangle_55_dy {
-      fill: url(#Rectangle_55_dy); }
-    
-    .Rectangle_55_dy {
-      filter: drop-shadow(18px 18px 19px rgba(0, 0, 0, 0.161));
-      position: absolute;
-      overflow: visible;
-      width: 240px;
-      height: 300px;
-      left: 65px;
-      top: 8000px; 
-    }
-    
-    
-    #Rectangle_56 {
-      fill: white; 
-    }
-    
-    .Rectangle_31_dy {
-      display: none;
-    }
-    
-    .Rectangle_32 {
-      display: none;
-    }
-    
-    .Rectangle_56 {
-      position: absolute;
-      overflow: visible;
-      width: 220px;
-      height: 171px;
-      left: 65px;
-      top: 8020px; 
-    }
-    #shayari-2-8 {
-      position: absolute;
-      width: 93%;
-      height: auto;
-      object-fit: cover;
-      left: 15px;
-      top: 7980px;
-      border-radius: 10px;
-      overflow: visible;
-    }
-    
-    #My_6-year-old_nephew_Rahul_is_ {
-      left: 20px;
-      top: 8240px;
-      position: absolute;
-      overflow: visible;
-      width: 180px;
-      white-space: nowrap;
-      line-height: 18px;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 12px;
-      color: black;
-    }
   
-    a.btn7{
-      left: 15px;
-      top: 8505px;
-      margin: 30px 20px;
-      width: 290px;
-      height: 90px;
-      padding: 10px;
-      border-radius: 20px;
-      position: absolute;
-    }
-    a.btn-seven{
-        background-color:#f5d3de;
-    }
-    #Rectangle_34 {
-      fill: #f5d3de; }
-    
-    .Rectangle_34 {
-      position: absolute;
+  .Rectangle_22{
+    display: none;
+  }
+  .Rectangle_24{
+    display: none;
+  }
+  .Rectangle_28{
+    display: none;
+  }
+  .Rectangle_21{
+    display: none;
+  }
+  
+  .Rectangle_25{
+    display: none;
+  }
+  .Rectangle_23{
+    display: none;
+  }
+  .Rectangle_29{
+    display: none;
+  }
+  .Rectangle_7{
+    display: none;
+  }
+  
+  .Rectangle_8{
+    display: none;
+  }
+  
+  .Rectangle_101{
+    position: absolute;
       overflow: visible;
-      width: 221px;
-      height: 60px;
-      left: 80px;
-      top: 8450px;
-    }
-    
-    #Recent_Blog {
-      left: 60px;
-      top: 8550px;
-      position: absolute;
-      overflow: visible;
-      width: 100px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 22px;
-      color: black;
-    }
-    
-    #Screenshot_18 {
-      position: absolute;
-      width: 92%;
-      height: auto;
+      width: 226px;
+      height: 456px;
       left: 13px;
-      top: 8650px;
-      overflow: visible;
-    }
-    
+      top: 6050px;}
+  
+  #Rectangle_101 {
+    fill: white;
+    stroke: #707070;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto; 
+    color: black;  
+  }
+  
+  #Screenshot_11 {
+    position: absolute;
+    width: 330px;
+    object-fit: cover;
+    height: 350px;
+    left: 13px;
+    top: 6050px;
+    overflow: visible; 
+  }
+  #Rectangle_50 {
+    fill: #fff9c0; }
+  
+  .Rectangle_50 {
+    position: absolute;
+    overflow: visible;
+    width: 110px;
+    height: 28px;
+    left: 100px;
+    top: 6425px; 
+  }
+  #Head_of_Robotics {
+    left: 110px;
+    top: 6425px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  
+  #DR_SASCHA_GRIFFITHS {
+    left: 93px;
+    top: 6495px;
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  #PhD_at_Universittt____Hamburg {
+    left: 80px;
+    top: 6550px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black; 
+  }
+  .Rectangle_45{
+  display: none;
+}
+.Rectangle_46{
+  display: none;
+}
+.Rectangle_47{
+  display: none;
+}
+.Rectangle_48{
+  display: none;
+}
+  
+  .Rectangle_102{
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 456px;
+    left: 13px;
+    top: 6695px;}
+  
+  #Rectangle_102{
+    fill: white;
+    stroke: #707070;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto; 
+  }
+  #Screenshot_12 {
+    position: absolute;
+    width: 330px;
+    object-fit: cover;
+    height: 350px;
+    left: 13px;
+    top: 6695px;
+    overflow: visible; 
+  }
+  
+  .Rectangle_51 {
+    position: absolute;
+    overflow: visible;
+    width: 195px;
+    height: 28px;
+    left: 80px;
+    top: 7065px; }
+  
+  #Rectangle_51{
+    fill: gainsboro; 
+  }
+  
+  #Head_of_Data_Science {
+    left: 95px;
+    top: 7065px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  #BHAVNA_BHAISARE {
+    left: 100px;
+    top: 7140px;
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  
+  #IIT_Bombay_Indian__School_of_B1 {
+    display: none;
+  }
+  #IIT_Bombay_Indian__School_of_{
+    left: 55px;
+    top: 7190px;
+    position: absolute;
+    overflow: visible;
+    text-align: center;
+    width: 111px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .Rectangle_103{
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 456px;
+    left: 13px;
+    top: 7330px;
+}
+  #Rectangle_103{
+    fill: white;
+    stroke: #707070;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto; 
+  }
+  #Screenshot_13 {
+    position: absolute;
+    width: 330px;
+    height: 350px;
+    left: 13px;
+    top: 7330px;
+    overflow: visible; 
+  }
+  
+  .Rectangle_52 {
+    position: absolute;
+    overflow: visible;
+    width: 110px;
+    height: 28px;
+    left: 80px;
+    top: 7700px;  }
+  
+  #Rectangle_52{
+    fill: gainsboro; 
+  }
+  
+  #Head_of_Career_Guidance {
+    left: 85px;
+    top: 7705px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: black;
+  }
+  #ROBERT_J_LUEBKE{
+    left: 100px;
+    top: 7780px;
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  
+  #BS_Psychology_Honors__College_{
+    display: none;
+  }
+  #BS_Psychology_Honors__College_1{
+    left: 70px;
+    top: 7830px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .Rectangle_104{
+    position: absolute;
+    overflow: visible;
+    width: 330px;
+    height: 456px;
+    left: 13px;
+    top: 7970px;}
+  
+  #Rectangle_104{
+    fill: white;
+    stroke: #707070;
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto; 
+  }
+  #Screenshot_14 {
+    position: absolute;
+    width: 330px;
+    height: 350px;
+    left: 13px;
+    top: 7970px;
+    overflow: visible; 
+  }
+  
+  .Rectangle_53 {
+    position: absolute;
+    overflow: visible;
+    width: 110px;
+    height: 28px;
+    left: 90px;
+    top: 8335px;  }
+  
+  #Rectangle_53{
+    fill: gainsboro; 
+  }
+  
+  #Head_of_AI__ML{
+    left: 110px;
+    top: 8338px;
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  #NITIN_P {
+    left: 150px;
+    top: 8395px;
+    position: absolute;
+    overflow: visible;
+    width: 135px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+  }
+  #Bachelors_of_Computer__Enginee{
+    display: none;
+  }
+  
+  #Bachelors_of_Computer__Enginee1{
+    left: 40px;
+    top: 8450px;
+    position: absolute;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color: black;
+  }
+  
+  .Rectangle_30 {
+    position: absolute;
+    overflow: visible;
+    width: 288px;
+    height: 60px;
+    left: 40px;
+    top: 8610px; }
+  
+  #Rectangle_30 {
+    fill: #c0ffcc; 
+  }
+  
+  #Parent_Feedback {
+    left: 95px;
+    top: 8615px;
+    position: absolute;
+    overflow: visible;
+    width: 233px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: black; 
+  }
+  #Rectangle_55_dy {
+    fill: url(#Rectangle_55_dy); }
+  
+  .Rectangle_55_dy {
+    filter: drop-shadow(18px 18px 19px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 240px;
+    height: 300px;
+    left: 65px;
+    top: 8710px; 
+  }
+  
+  
+  #Rectangle_56 {
+    fill: white; 
+  }
+  
+  .Rectangle_31_dy {
+    display: none;
+  }
+  
+  .Rectangle_32 {
+    display: none;
+  }
+  
+  .Rectangle_56 {
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    height: 171px;
+    left: 65px;
+    top: 8730px; 
+  }
+  #shayari-2-8 {
+    position: absolute;
+    width: 93%;
+    height: auto;
+    object-fit: cover;
+    left: 15px;
+    top: 8690px;
+    border-radius: 10px;
+    overflow: visible;
+  }
+  
+  #My_6-year-old_nephew_Rahul_is_ {
+    left: 25px;
+    top: 8950px;
+    position: absolute;
+    overflow: visible;
+    width: 180px;
+    white-space: nowrap;
+    line-height: 18px;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+  }
+
+  a.btn7{
+    left: 15px;
+    top: 9215px;
+    margin: 30px 20px;
+    width: 290px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-seven{
+      background-color:#f5d3de;
+  }
+  #Rectangle_34 {
+    fill: #f5d3de; }
+  
+  .Rectangle_34 {
+    position: absolute;
+    overflow: visible;
+    width: 221px;
+    height: 60px;
+    left: 80px;
+    top: 9160px;
+  }
+  
+  #Recent_Blog {
+    left: 65px;
+    top: 9260px;
+    position: absolute;
+    overflow: visible;
+    width: 100px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+  }
+  
+  #Screenshot_18 {
+    position: absolute;
+    width: 92%;
+    height: auto;
+    left: 13px;
+    top: 9360px;
+    overflow: visible;
+  }
+  
+ 
+  #How_to_get_your_child_interest {
+    left: 20px;
+    top: 9650px;
+    position: absolute;
+    overflow: visible;
+    width: 350px;
+    height: 105px;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: regular;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  #Schools_are_a_major_part_of_ev {
+    left: 20px;
+    top: 9685px;
+    position: absolute;
+    width: 340px;
+    overflow: visible;
+    height: 127px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: black;
+  }
+  
+  #Rectangle_35 {
+    fill: #fb1745; }
+  
+  .Rectangle_35 {
+    position: absolute;
+    overflow: visible;
+    width: 166px;
+    height: 47px;
+    left: 20px;
+    top: 9760px;
+  }
+  #Read_More a{
+    display: inline-block;
+  padding: 5px 20px;
+  background-color: crimson;
+    left: 35px;
+    top: 11010px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-size: 18px;
+    color: white; 
+  }
+  #Rectangle_36 {
+    fill: #c0ffcc; }
+  
+  .Rectangle_36 {
+    position: absolute;
+    overflow: visible;
+    width: 230px;
+    height: 60px;
+    left: 75px;
+    top: 9855px;
+  }
+
+  a.btn8{
+    left: 50px;
+    top: 9840px;
+    margin: 30px 20px;
+    width: 235px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-eight{
+      background-color:#c0ffcc;
+  }
+  
+  #Our_Alumni {
+    left: 100px;
+    top: 9875px;
+    position: absolute;
+    overflow: visible;
+    width: 164px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 22px;
+    color: black; 
+  }
+  
+  
+  #Screenshot_20 {
+    position: absolute;
+    width: 93%;
+    height: auto;
+    left: 15px;
+    top: 9995px;
+    overflow: visible; 
+  }
+
+  #your_kid {
+    left: 30px;
+    top: 10270px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    height: 105px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: black; 
+  }
+  
+  
+  
+  #Schools_are_a_major_part_of_ev1 {
+    left: 25px;
+    top: 10360px;
+    position: absolute;
+    width: 320px;
+    overflow: visible;
+    height: 127px;
+    line-height: 22px;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+  }
+
+  a.btn9{
+    left: 60px;
+    top: 10500px;
+    margin: 30px 20px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-nine{
+      background-color:#fff9c0;
+  }
+
+  #Our_Alumni1 {
+    left: 125px;
+    top: 10535px;
+    position: absolute;
+    overflow: visible;
+    width: 164px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
+
+  #Screenshot_21 {
+    position: absolute;
+    width: 93%;
+    height: auto;
+    left: 15px;
+    top: 10600px;
+    overflow: visible; 
+  }
+
+  #Kid_intern {
+    left:30px;
+    top: 10800px;
+    position: absolute;
+    overflow: visible;
+    width: 320px;
+    height: 127px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color:black; 
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    background-color:rgb(233, 80, 111);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  a.btn10{
+    left: 50px;
+    top: 11050px;
+    margin: 30px 20px;
+    width: 230px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-ten{
+      background-color:#f5d3de;
+  }
+  #Entrepreneurship {
+    left: 85px;
+    top: 11087px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
+
+  #Screenshot_35 {
+    position: absolute;
+    width: 93%;
+    height: auto;
+    left: 15px;
+    top: 11190px;
+    overflow: visible; 
+  }
+  #Entrepreneurship1 {
+    left:30px;
+    top: 11390px;
+    position: absolute;
+    overflow: visible;
+    width: 318px;
+    height: 127px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    color:black; 
+  }
+
+  #Entrepreneur a{
+    display: inline-block;
+  padding: 5px 20px;
+  background-color: crimson;
+    left: 35px;
+    top: 11560px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-size: 18px;
+    color: white; 
+  }
+  a.btn11{
+    left: 50px;
+    top: 11580px;
+    margin: 30px 20px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-elven{
+      background-color:  #c0ffcc;
+  }
+  #Isro {
+    left: 75px;
+    top: 11615px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
+  #Screenshot_36 {
+    position: absolute;
+    width: 93%;
+    height: 300px;
+    left: 10px;
+    top: 11690px;
+    overflow: visible; 
+  }
    
-    #How_to_get_your_child_interest {
-      left: 15px;
-      top: 8940px;
-      position: absolute;
-      overflow: visible;
-      width: 330px;
-      height: 105px;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: regular;
-      line-height: 25px;
-      font-size: 18px;
-      font-weight: bold;
-      color: black;
-    }
-    #Schools_are_a_major_part_of_ev {
-      left: 20px;
-      top: 8975px;
-      position: absolute;
-      width: 320px;
-      overflow: visible;
-      height: 127px;
-      line-height: 22px;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black;
-    }
-    
-    #Rectangle_35 {
-      fill: #fb1745; }
-    
-    .Rectangle_35 {
-      position: absolute;
-      overflow: visible;
-      width: 166px;
-      height: 47px;
-      left: 20px;
-      top: 9050px;
-    }
-    #Read_More a{
-      display: inline-block;
-    padding: 5px 20px;
-    background-color: crimson;
-      left: 35px;
-      top: 10300px;
-      position: absolute;
-      overflow: visible;
-      white-space: nowrap;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-size: 18px;
-      color: white; 
-    }
-    #Rectangle_36 {
-      fill: #c0ffcc; }
-    
-    .Rectangle_36 {
-      position: absolute;
-      overflow: visible;
-      width: 230px;
-      height: 60px;
-      left: 75px;
-      top: 9145px;
-    }
+  #Isro_visit {
+    left:30px;
+    top: 12010px;
+    position: absolute;
+    overflow: visible;
+    width: 280px;
+    height: 127px;
+    text-align: left;
+    line-height: 40px;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color:black; 
+  }
+  #issro a{
+    display: inline-block;
+  padding: 5px 20px;
+  background-color: crimson;
+    left: 35px;
+    top: 12140px;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'lobster';
+    font-style: normal;
+    font-size: 18px;
+    color: white; 
+  }
+  #Cancel_Anytime_Same_day_100_re {
+    left: 12px;
+    top: 4505px;
+    display: none;
+    position: absolute;
+    overflow: visible;
+    width: 356px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(112,112,112,1);
+  }
+  a.btn12{
+    left: 50px;
+    top: 12200px;
+    margin: 30px 20px;
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+  }
+  a.btn-twelv{
+      background-color:   rgb(199, 199, 255);
+  }
   
-    a.btn8{
-      left: 45px;
-      top: 9130px;
-      margin: 30px 20px;
-      width: 235px;
-      height: 100px;
-      padding: 10px;
-      border-radius: 20px;
-      position: absolute;
-    }
-    a.btn-eight{
-        background-color:#c0ffcc;
-    }
-    
-    #Our_Alumni {
-      left: 95px;
-      top: 9165px;
-      position: absolute;
-      overflow: visible;
-      width: 164px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-     font-weight: bold;
-      font-size: 22px;
-      color: black; 
-    }
-    
-    
-    #Screenshot_20 {
-      position: absolute;
-      width: 93%;
-      height: auto;
-      left: 15px;
-      top: 9285px;
-      overflow: visible; 
-    }
+  #Parent {
+    left: 80px;
+    top: 12235px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+   font-weight: bold;
+    font-size: 25px;
+    color: black; 
+  }
+  .Line_3 {
+    overflow: visible;
+    position: absolute;
+    width: 330px;
+    height: 3px;
+    left: 15px;
+    top: 9490px;
+    transform: matrix(1, 0, 0, 1, 0, 0); 
+  }
+  /* Caption text */
+  #slider .text1 {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 3%;
+    text-align: left;
+    width: 330px;
+    margin-top: 15%;
+  }
+  #_Certificate__bzz{display: none;}
+  #slider .text2 {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    font-family: 'lobster';
+    margin-left: 3%;
+    text-align: left;
+    width: 330px;
+    margin-top: 15%;
+  }
+  .Rectangle_1{
+    display: none;
+  } .Rectangle_2{
+    display: none;
+  }
   
-    #your_kid {
-      left: 40px;
-      top: 9540px;
-      position: absolute;
-      overflow: visible;
-      width: 287px;
-      height: 105px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      color: black; 
-    }
-    
-    
-    
-    #Schools_are_a_major_part_of_ev1 {
-      left: 30px;
-      top: 9640px;
-      position: absolute;
-      width: 320px;
-      overflow: visible;
-      height: 127px;
-      line-height: 22px;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color: black;
-    }
+  #slider .img1{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 10%;
+    margin-top: 11740px;
+  }
+  #slider .img2{
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 15%;
+    margin-top: 11700px;
+  }
   
-    a.btn9{
-      left: 60px;
-      top: 9790px;
-      margin: 30px 20px;
-      width: 200px;
-      height: 50px;
-      padding: 10px;
-      border-radius: 20px;
-      position: absolute;
-    }
-    a.btn-nine{
-        background-color:#fff9c0;
-    }
-  
-    #Our_Alumni1 {
-      left: 125px;
-      top: 9825px;
-      position: absolute;
-      overflow: visible;
-      width: 164px;
-      white-space: nowrap;
-      text-align: left;
-      font-family: Segoe UI;
-      font-style: normal;
-     font-weight: bold;
-      font-size: 25px;
-      color: black; 
-    }
-  
-    #Screenshot_21 {
-      position: absolute;
-      width: 93%;
-      height: auto;
-      left: 15px;
-      top: 9890px;
-      overflow: visible; 
-    }
-  
-    #Kid_intern {
-      left:30px;
-      top: 10090px;
-      position: absolute;
-      overflow: visible;
-      width: 320px;
-      height: 127px;
-      text-align: left;
-      line-height: 40px;
-      font-family: 'Lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 22px;
-      color:black; 
-    }
-    .dot {
-      height: 15px;
-      width: 15px;
-      background-color:rgb(233, 80, 111);
-      border-radius: 50%;
-      display: inline-block;
-    }
-  
-    a.btn10{
-      left: 60px;
-      top: 10340px;
-      margin: 30px 20px;
-      width: 230px;
-      height: 90px;
-      padding: 10px;
-      border-radius: 20px;
-      position: absolute;
-    }
-    a.btn-ten{
-        background-color:#f5d3de;
-    }
-    #Entrepreneurship {
-      left: 95px;
-      top: 10377px;
-      position: absolute;
-      overflow: visible;
-      width: 200px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-     font-weight: bold;
-      font-size: 25px;
-      color: black; 
-    }
-  
-    #Screenshot_35 {
-      position: absolute;
-      width: 93%;
-      height: auto;
-      left: 15px;
-      top: 10480px;
-      overflow: visible; 
-    }
-    #Entrepreneurship1 {
-      left:30px;
-      top: 10680px;
-      position: absolute;
-      overflow: visible;
-      width: 320px;
-      height: 127px;
-      text-align: left;
-      line-height: 40px;
-      font-family: 'Lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color:black; 
-    }
-  
-    #Entrepreneur a{
-      display: inline-block;
-    padding: 5px 20px;
-    background-color: crimson;
-      left: 35px;
-      top: 10850px;
-      position: absolute;
-      overflow: visible;
-      white-space: nowrap;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-size: 18px;
-      color: white; 
-    }
-    a.btn11{
-      left: 30px;
-      top: 10870px;
-      margin: 30px 20px;
-      width: 220px;
-      height: 50px;
-      padding: 10px;
-      border-radius: 20px;
-      position: absolute;
-    }
-    a.btn-elven{
-        background-color:  #c0ffcc;
-    }
-    #Isro {
-      left: 55px;
-      top: 10905px;
-      position: absolute;
-      overflow: visible;
-      width: 200px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-     font-weight: bold;
-      font-size: 25px;
-      color: black; 
-    }
-    #Screenshot_36 {
-      position: absolute;
-      width: 93%;
-      height: 300px;
-      left: 10px;
-      top: 10980px;
-      overflow: visible; 
-    }
-     
-    #Isro_visit {
-      left:30px;
-      top: 11300px;
-      position: absolute;
-      overflow: visible;
-      width: 280px;
-      height: 127px;
-      text-align: left;
-      line-height: 40px;
-      font-family: 'Lobster';
-      font-style: normal;
-      font-weight: normal;
-      font-size: 18px;
-      color:black; 
-    }
-    #issro a{
-      display: inline-block;
-    padding: 5px 20px;
-    background-color: crimson;
-      left: 35px;
-      top: 11430px;
-      position: absolute;
-      overflow: visible;
-      white-space: nowrap;
-      text-align: left;
-      font-family: 'lobster';
-      font-style: normal;
-      font-size: 18px;
-      color: white; 
-    }
-    #Cancel_Anytime_Same_day_100_re {
-      left: 12px;
-      top: 4505px;
-      position: absolute;
-      overflow: visible;
-      width: 356px;
-      white-space: nowrap;
-      text-align: center;
-      font-family: Segoe UI;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      color: rgba(112,112,112,1);
-    }
-    
+
+/* Number text (1/3 etc) */
+
+/* The dots/bullets/indicators */
+#slider .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#slider .active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#slider .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+a.btn13{
+  left: 50px;
+  top: 12860px;
+  margin: 30px 20px;
+  width: 220px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+a.btn-thirteen{
+    background-color:   rgb(199, 199, 255);
+}
+#kids {
+  left: 80px;
+  top: 12895px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Segoe UI;
+  font-style: normal;
+ font-weight: bold;
+  font-size: 25px;
+  color: black; 
+}
     .Line_3 {
       overflow: visible;
       position: absolute;
@@ -12616,12 +14461,6 @@ a.btn-elven{
     .Rectangle_95{
       display: none;
     }
-    .Rectangle_96{
-      display: none;
-    }
-    .Rectangle_97{
-      display: none;
-    }
       .Rectangle_12{
         display: none;
       }
@@ -12791,16 +14630,15 @@ a.btn-elven{
           background-color:#b2f2f1;
       }
       a.btn3{
-        left: 25px;
-        top: 4570px;
-        margin: 30px 20px;
-        width: 250px;
-        height: 50px;
-        padding: 10px;
-        border-radius: 15px;
-        position: absolute;
-      }
-      
+        left: 15px;
+      top: 5300px;
+      margin: 30px 20px;
+      width: 250px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 15px;
+      position: absolute;
+    }
       a.btn-third{
         background-color: #a0ffc8; 
         color: white;
@@ -13048,13 +14886,11 @@ a.btn-elven{
         height: 727px;
         left: 13px;
         top: 2245px;
-        background-color:  rgba(41, 245, 255, 0.149);
+        background-color:  skyblue;
         border-radius: 25px;
       }
-      #Rectangle_60 {
-        fill: rgba(41, 245, 255, 0.149); 
-      }
-      
+    
+
       .Rectangle_61 {
         position: absolute;
         overflow: visible;
@@ -13310,7 +15146,7 @@ a.btn-elven{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: #52dce5;
+        color: black;
       }
       
       
@@ -13326,7 +15162,7 @@ a.btn-elven{
         top: 3000px;
         box-shadow: 25px;
         border-radius: 25px;
-        background-color:rgba(220, 95, 252, 0.149); ;
+        background-color:skyblue ;
       }
       
       .Rectangle_63 {
@@ -13387,13 +15223,13 @@ a.btn-elven{
       }
       
       #HTML_JavaScript_CSS {
-        left: 80px;
+        left: 60px;
         top: 3160px;
         position: absolute;
         overflow: visible;
-        width: 180px;
+        width: 200px;
         white-space: nowrap;
-        text-align: left;
+        text-align: center;
         font-family: Segoe UI;
         font-style: normal;
         font-size: 20px;
@@ -13416,11 +15252,11 @@ a.btn-elven{
       }
       
       #Your_Child_will_Create_a_Websi {
-        left: 55px;
+        left: 35px;
         top: 3320px;
         position: absolute;
         overflow: visible;
-        width: 180px;
+        width: 250px;
         white-space: nowrap;
         text-align: center;
         font-family: Segoe UI;
@@ -13459,7 +15295,7 @@ a.btn-elven{
         color: rgb(0, 0, 0);
       }
       #View_CRIRICULUM_details_b {
-        left: 55px;
+        left: 45px;
         top: 3500px;
         position: absolute;
         overflow: visible;
@@ -13543,7 +15379,7 @@ a.btn-elven{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: #1e1bc2;
+        color: black;
       }
       
       .Rectangle_64{
@@ -13554,7 +15390,7 @@ a.btn-elven{
         left: 13px;
         top: 3760px;
         box-shadow: 25px;
-      background-color: #fb1745;
+      background-color: skyblue;
       border-radius: 25px;
       }
       
@@ -13574,7 +15410,7 @@ a.btn-elven{
         fill: white; 
       }
       #Inbetweener {
-        left: 100px;
+        left: 120px;
         top: 3765px;
         position: absolute;
         overflow: visible;
@@ -13584,7 +15420,7 @@ a.btn-elven{
         font-family: Segoe UI;
         font-style: normal;
         font-size: 25px;
-        color: white;
+        color: black;
       }
       
       #ID147_Classes {
@@ -13598,7 +15434,7 @@ a.btn-elven{
         font-family: Segoe UI;
         font-style: normal;
         font-size: 20px;
-        color: white;
+        color: black;
       }
       #Base_Bulider_ {
         left: 105px;
@@ -13616,7 +15452,7 @@ a.btn-elven{
       }
       
       #Artificial_Intelligence___Robo1 {
-        left: 40px;
+        left: 90px;
         top: 3925px;
         position: absolute;
         overflow: visible;
@@ -13664,7 +15500,7 @@ a.btn-elven{
       }
       
       #_three_ {
-        left: 155px;
+        left: 145px;
         top: 4160px;
         position: absolute;
         overflow: visible;
@@ -13678,7 +15514,7 @@ a.btn-elven{
         color: rgb(0, 0, 0);
     }
       #_Certificate_3 {
-        left: 85px;
+        left: 65px;
         top: 4195px;
         position: absolute;
         overflow: visible;
@@ -13774,9 +15610,246 @@ a.btn-elven{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: white; 
+        color: black; 
       }
-      
+      .buynow{display: inline-block;
+        padding: 5px 60px;
+        color: white;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        background-color: skyblue;
+        font-weight: bold;
+        margin-left: 45px;
+        margin-top: 2350px;
+        position: absolute;
+        border-radius: 25px;
+        letter-spacing: .1rem;
+      }
+      .buynow1{display: inline-block;
+        padding: 5px 60px;
+        color: white;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        background-color: skyblue;
+        font-weight: bold;
+        margin-left: 45px;
+        margin-top: 3120px;
+        position: absolute;
+        border-radius: 25px;
+        letter-spacing: .1rem;
+      }
+      .buynow2{display: inline-block;
+        padding: 5px 60px;
+        color: white;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        background-color: skyblue;
+        font-weight: bold;
+        margin-left: 45px;
+        margin-top: 3880px;
+        position: absolute;
+        border-radius: 25px;
+        letter-spacing: .1rem;
+      }
+      .buynow3{display: inline-block;
+        padding: 5px 60px;
+        color: white;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        background-color: crimson;
+        font-weight: bold;
+        margin-left: 45px;
+        margin-top: 4660px;
+        position: absolute;
+        border-radius: 25px;
+        letter-spacing: .1rem;
+      }
+      .Rectangle_96{
+        position: absolute;
+        overflow: visible;
+        width: 295px;
+        height: 727px;
+        left: 13px;
+        top: 4530px;
+        box-shadow: 25px;
+      background-color:crimson;
+      border-radius: 25px;
+      }
+      .Rectangle_97 {
+        position: absolute;
+        overflow: visible;
+        width: 295px;
+        height: 562px;
+        left: 13px;
+        top: 4640px;
+        background-color: white;
+      }
+      #Legendary {
+        left: 90px;
+        top: 4535px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 25px;
+        color: white;
+      }
+      #ID300_Classes {
+        left: 115px;
+        top: 4600px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+      }
+      #Course {
+        left: 135px;
+        top: 4650px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        /* font-weight: bold; */
+        font-size: 20px;
+        color: skyblue;
+      }
+      #Artificial_Intelligence___Robo2 {
+        left: 100px;
+        top: 4700px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 20px;
+        color: black;
+      }
+      #Achievement_but {
+        left: 100px;
+        top: 4800px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        /* font-weight: bold; */
+        font-style: normal;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+      }
+      #Your_Child_will_Build_a_voice_1 {
+        left: 65px;
+        top: 4850px;
+        position: absolute;
+        overflow: visible;
+        width: 180px;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+      }
+      #_four_ {
+        left: 155px;
+        top: 4950px;
+        position: absolute;
+        overflow: visible;
+        width: 150px;
+        text-align: center;
+        white-space: nowrap;
+        text-align: left;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #_Certificate_4 {
+      left: 75px;
+      top: 5000px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      text-align: center;
+      white-space: nowrap;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+    }
+    #View_CRIRICULUM_details2 {
+      left: 50px;
+      top: 5050px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(61, 182, 230);
+    }
+    #Rs5000 {
+      left: 25px;
+      top: 5100px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      color: rgb(0, 0, 0);}
+    
+    #Rs25000 {
+      left: 110px;
+      top: 5106px;
+      position: absolute;
+      overflow: visible;
+      width: 180px;
+      white-space: nowrap;
+      text-align: right;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: line-through;
+      font-size: 18px;
+      color: rgb(0, 0, 0);
+    }
+    #Register_for_Demo_Class_bzz {
+      left: 50px;
+      top: 5210px;
+      position: absolute;
+      overflow: visible;
+      width: 258px;
+      white-space: nowrap;
+      text-align: left;
+      font-family: Segoe UI;
+      font-style: normal;
+      font-weight: regular;
+      font-size: 20px;
+      color: white; 
+    }
+    
       .Rectangle_18 {
         left: 15px;
         top: 4590px;
@@ -13795,8 +15868,8 @@ a.btn-elven{
       }
       
       #About_Edurific {
-        left: 55px;
-        top: 4605px;
+        left: 40px;
+        top: 5335px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -13805,34 +15878,43 @@ a.btn-elven{
         font-family: Segoe UI;
         font-style: normal;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 26px;
         color: black;
       }
       
       
       #ceritificate {
         position: absolute;
-        width: 92%;
+        width: 93%;
         height: auto;
-        left: 15px;
-        top: 4695px;
+        left: 13px;
+        top: 5415px;
         overflow: visible;
       }
       
       #Edurific_is_founded_by_the_Alu {
         left: 15px;
-        top: 4950px;
+        top: 5660px;
         position: absolute;
         width: 200px;
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family:  'Lobster';
+        font-family:'Lobster';
         line-height: 22px;
         font-style: normal;
         font-weight: normal;
         font-size: 1.1rem;
         color: black;
+      }
+      .Rectangle_1{
+        display: none;
+      }
+      .Rectangle_2{
+        display: none;
+      }
+      #_Certificate__bzz{
+        display: none;
       }
       
       #Rectangle_19 {
@@ -13841,15 +15923,15 @@ a.btn-elven{
       .Rectangle_19 {
         position: absolute;
         overflow: visible;
-        width: 290px;
+        width: 280px;
         height: 60px;
-        left: 2px;
-        top: 5240px; 
+        left: 2.5px;
+        top: 5950px; 
       }
       
       #Our_Curriculum_Heads {
-        left: 10px;
-        top: 5250px;
+        left: 18px;
+        top: 5960px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -13900,7 +15982,7 @@ a.btn-elven{
           width: 226px;
           height: 456px;
           left: 10px;
-          top: 5340px;}
+          top:6050px;}
       
       #Rectangle_105 {
         fill: white;
@@ -13919,7 +16001,7 @@ a.btn-elven{
         object-fit: cover;
         height: 350px;
         left: 18px;
-        top: 5345px;
+        top: 6050px;
         overflow: visible; 
       }
       #Rectangle_50 {
@@ -13931,11 +16013,11 @@ a.btn-elven{
         width: 110px;
         height: 28px;
         left: 75px;
-        top: 5715px; 
+        top: 6425px; 
       }
       #Head_of_Robotics {
         left: 90px;
-        top: 5720px;
+        top: 6430px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -13950,7 +16032,7 @@ a.btn-elven{
       
       #DR_SASCHA_GRIFFITHS {
         left: 75px;
-        top: 5780px;
+        top: 6490px;
         position: absolute;
         overflow: visible;
         width: 135px;
@@ -13964,7 +16046,7 @@ a.btn-elven{
       }
       #PhD_at_Universittt____Hamburg {
         left: 50px;
-        top: 5840px;
+        top: 6550px;
         position: absolute;
         overflow: visible;
         width: 111px;
@@ -13995,7 +16077,7 @@ a.btn-elven{
         width: 300px;
         height: 456px;
         left: 10px;
-        top: 5985px;}
+        top: 6695px;}
       
       #Rectangle_106{
         fill: white;
@@ -14012,7 +16094,7 @@ a.btn-elven{
         object-fit: cover;
         height: 350px;
         left: 18px;
-        top: 5990px;
+        top: 6695px;
         overflow: visible; 
       }
       
@@ -14022,7 +16104,7 @@ a.btn-elven{
         width: 195px;
         height: 28px;
         left: 45px;
-        top: 6355px; }
+        top: 7065px; }
       
       #Rectangle_51{
         fill: gainsboro; 
@@ -14030,7 +16112,7 @@ a.btn-elven{
       
       #Head_of_Data_Science {
         left: 65px;
-        top: 6355px;
+        top: 7065px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -14044,7 +16126,7 @@ a.btn-elven{
       }
       #BHAVNA_BHAISARE {
         left: 80px;
-        top: 6430px;
+        top: 7140px;
         position: absolute;
         overflow: visible;
         width: 135px;
@@ -14062,7 +16144,7 @@ a.btn-elven{
       }
       #IIT_Bombay_Indian__School_of_ {
         left: 65px;
-        top: 6480px;
+        top: 7190px;
         position: absolute;
         overflow: visible;
         text-align: center;
@@ -14082,7 +16164,7 @@ a.btn-elven{
         width: 300px;
         height: 456px;
         left: 10px;
-        top: 6620px;
+        top: 7330px;
     }
       #Rectangle_107{
         fill: white;
@@ -14098,7 +16180,7 @@ a.btn-elven{
         width: 300px;
         height: 350px;
         left: 10px;
-        top: 6620px;
+        top:7330px;
         overflow: visible; 
       }
       
@@ -14108,7 +16190,7 @@ a.btn-elven{
         width: 110px;
         height: 28px;
         left: 50px;
-        top: 6990px;  }
+        top: 7700px;  }
       
       #Rectangle_52{
         fill: gainsboro; 
@@ -14116,7 +16198,7 @@ a.btn-elven{
       
       #Head_of_Career_Guidance {
         left: 55px;
-        top: 6995px;
+        top: 7705px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -14130,7 +16212,7 @@ a.btn-elven{
       }
       #ROBERT_J_LUEBKE{
         left: 80px;
-        top: 7070px;
+        top: 7780px;
         position: absolute;
         overflow: visible;
         width: 135px;
@@ -14148,7 +16230,7 @@ a.btn-elven{
       }
       #BS_Psychology_Honors__College_1{
         left: 50px;
-        top: 7120px;
+        top: 7830px;
         position: absolute;
         overflow: visible;
         width: 111px;
@@ -14167,7 +16249,7 @@ a.btn-elven{
         width: 300px;
         height: 456px;
         left: 10px;
-        top: 7260px;}
+        top: 7970px;}
       
       #Rectangle_108{
         fill: white;
@@ -14183,7 +16265,7 @@ a.btn-elven{
         width: 300px;
         height: 350px;
         left: 10px;
-        top: 7260px;
+        top: 7970px;
         overflow: visible; 
       }
       
@@ -14193,7 +16275,7 @@ a.btn-elven{
         width: 110px;
         height: 28px;
         left: 65px;
-        top: 7625px;  }
+        top: 8335px;  }
       
       #Rectangle_53{
         fill: gainsboro; 
@@ -14201,7 +16283,7 @@ a.btn-elven{
       
       #Head_of_AI__ML{
         left: 90px;
-        top: 7628px;
+        top: 8338px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -14215,7 +16297,7 @@ a.btn-elven{
       }
       #NITIN_P {
         left: 120px;
-        top: 7685px;
+        top: 8395px;
         position: absolute;
         overflow: visible;
         width: 135px;
@@ -14233,7 +16315,7 @@ a.btn-elven{
       
       #Bachelors_of_Computer__Enginee1{
         left: 30px;
-        top: 7740px;
+        top: 8450px;
         position: absolute;
         overflow: visible;
         width: 111px;
@@ -14249,22 +16331,21 @@ a.btn-elven{
       .Rectangle_30 {
         position: absolute;
         overflow: visible;
-        width: 288px;
+        width: 280px;
         height: 60px;
         left: 20px;
-        top: 7900px;
-      border-radius: 25px; }
+        top: 8610px; }
       
       #Rectangle_30 {
         fill: #c0ffcc; 
       }
       
       #Parent_Feedback {
-        left: 65px;
-        top: 7905px;
+        left: 75px;
+        top: 8615px;
         position: absolute;
         overflow: visible;
-        width: 220px;
+        width: 233px;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -14282,8 +16363,8 @@ a.btn-elven{
         overflow: visible;
         width: 240px;
         height: 300px;
-        left: 40px;
-        top: 8000px; 
+        left: 65px;
+        top: 8710px; 
       }
       
       
@@ -14304,26 +16385,26 @@ a.btn-elven{
         overflow: visible;
         width: 220px;
         height: 171px;
-        left: 40px;
-        top: 8020px; 
+        left: 65px;
+        top: 8730px; 
       }
       #shayari-2-8 {
         position: absolute;
         width: 93%;
         height: auto;
         object-fit: cover;
-        left: 10px;
-        top: 7980px;
+        left: 15px;
+        top: 8690px;
         border-radius: 10px;
         overflow: visible;
       }
       
       #My_6-year-old_nephew_Rahul_is_ {
-        left: 10px;
-        top: 8220px;
+        left: 15px;
+        top: 8950px;
         position: absolute;
         overflow: visible;
-        width: 80px;
+        width: 180px;
         white-space: nowrap;
         line-height: 18px;
         text-align: left;
@@ -14335,10 +16416,10 @@ a.btn-elven{
       }
     
       a.btn7{
-        left: -5px;
-        top: 8525px;
+        left: 5px;
+        top: 9215px;
         margin: 30px 20px;
-        width: 290px;
+        width: 270px;
         height: 90px;
         padding: 10px;
         border-radius: 20px;
@@ -14355,13 +16436,13 @@ a.btn-elven{
         overflow: visible;
         width: 221px;
         height: 60px;
-        left: 50px;
-        top: 8470px;
+        left: 80px;
+        top: 9160px;
       }
       
       #Recent_Blog {
-        left: 35px;
-        top: 8570px;
+        left: 45px;
+        top: 9260px;
         position: absolute;
         overflow: visible;
         width: 100px;
@@ -14379,14 +16460,14 @@ a.btn-elven{
         width: 92%;
         height: auto;
         left: 13px;
-        top: 8670px;
+        top: 9360px;
         overflow: visible;
       }
       
      
       #How_to_get_your_child_interest {
-        left: 15px;
-        top: 8920px;
+        left: 10px;
+        top: 9620px;
         position: absolute;
         overflow: visible;
         width: 280px;
@@ -14402,7 +16483,7 @@ a.btn-elven{
       }
       #Schools_are_a_major_part_of_ev {
         left: 20px;
-        top: 8955px;
+        top: 9675px;
         position: absolute;
         width: 280px;
         overflow: visible;
@@ -14425,14 +16506,14 @@ a.btn-elven{
         width: 166px;
         height: 47px;
         left: 20px;
-        top: 9050px;
+        top: 9760px;
       }
       #Read_More a{
         display: inline-block;
       padding: 5px 20px;
       background-color: crimson;
         left: 35px;
-        top: 10280px;
+        top: 11010px;
         position: absolute;
         overflow: visible;
         white-space: nowrap;
@@ -14451,12 +16532,12 @@ a.btn-elven{
         width: 230px;
         height: 60px;
         left: 75px;
-        top: 9145px;
+        top: 9855px;
       }
     
       a.btn8{
         left: 25px;
-        top: 9130px;
+        top: 9840px;
         margin: 30px 20px;
         width: 235px;
         height: 100px;
@@ -14469,8 +16550,8 @@ a.btn-elven{
       }
       
       #Our_Alumni {
-        left: 75px;
-        top: 9165px;
+        left: 85px;
+        top: 9875px;
         position: absolute;
         overflow: visible;
         width: 164px;
@@ -14489,16 +16570,17 @@ a.btn-elven{
         width: 93%;
         height: auto;
         left: 15px;
-        top: 9285px;
+        top: 9995px;
         overflow: visible; 
       }
     
       #your_kid {
-        left: 15px;
-        top: 9540px;
+        left: 20px;
+        top: 10230px;
         position: absolute;
         overflow: visible;
-        width: 287px;
+        width: 280px;
+        height: 105px;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-style: normal;
@@ -14510,10 +16592,10 @@ a.btn-elven{
       
       
       #Schools_are_a_major_part_of_ev1 {
-        left: 25px;
-        top: 9620px;
+        left: 20px;
+        top: 10330px;
         position: absolute;
-        width: 280px;
+        width: 270px;
         overflow: visible;
         height: 127px;
         line-height: 22px;
@@ -14526,8 +16608,8 @@ a.btn-elven{
       }
     
       a.btn9{
-        left: 30px;
-        top: 9790px;
+        left: 40px;
+        top: 10500px;
         margin: 30px 20px;
         width: 200px;
         height: 50px;
@@ -14540,8 +16622,8 @@ a.btn-elven{
       }
     
       #Our_Alumni1 {
-        left: 95px;
-        top: 9825px;
+        left: 105px;
+        top: 10535px;
         position: absolute;
         overflow: visible;
         width: 164px;
@@ -14559,16 +16641,16 @@ a.btn-elven{
         width: 93%;
         height: auto;
         left: 15px;
-        top: 9890px;
+        top: 10600px;
         overflow: visible; 
       }
     
       #Kid_intern {
-        left:30px;
-        top: 10070px;
+        left:20px;
+        top: 10780px;
         position: absolute;
         overflow: visible;
-        width: 280px;
+        width: 260px;
         height: 127px;
         text-align: left;
         line-height: 40px;
@@ -14587,8 +16669,8 @@ a.btn-elven{
       }
     
       a.btn10{
-        left:25px;
-        top: 10340px;
+        left: 30px;
+        top: 11050px;
         margin: 30px 20px;
         width: 230px;
         height: 90px;
@@ -14600,8 +16682,8 @@ a.btn-elven{
           background-color:#f5d3de;
       }
       #Entrepreneurship {
-        left: 55px;
-        top: 10377px;
+        left: 65px;
+        top: 11087px;
         position: absolute;
         overflow: visible;
         width: 200px;
@@ -14619,15 +16701,15 @@ a.btn-elven{
         width: 93%;
         height: auto;
         left: 15px;
-        top: 10480px;
+        top: 11190px;
         overflow: visible; 
       }
       #Entrepreneurship1 {
-        left:30px;
-        top: 10650px;
+        left:15px;
+        top: 11370px;
         position: absolute;
         overflow: visible;
-        width: 280px;
+        width: 275px;
         height: 127px;
         text-align: left;
         line-height: 40px;
@@ -14642,8 +16724,8 @@ a.btn-elven{
         display: inline-block;
       padding: 5px 20px;
       background-color: crimson;
-        left: 35px;
-        top: 10820px;
+        left: 25px;
+        top: 11540px;
         position: absolute;
         overflow: visible;
         white-space: nowrap;
@@ -14653,23 +16735,9 @@ a.btn-elven{
         font-size: 18px;
         color: white; 
       }
-      #Cancel_Anytime_Same_day_100_re {
-        left: 12px;
-        top: 4505px;
-        position: absolute;
-        overflow: visible;
-        width: 356px;
-        white-space: nowrap;
-        text-align: center;
-        font-family: Segoe UI;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        color: rgba(112,112,112,1);
-      }
       a.btn11{
         left: 30px;
-        top: 10870px;
+        top: 11580px;
         margin: 30px 20px;
         width: 220px;
         height: 50px;
@@ -14681,8 +16749,8 @@ a.btn-elven{
           background-color:  #c0ffcc;
       }
       #Isro {
-        left: 55px;
-        top: 10905px;
+        left: 65px;
+        top: 11615px;
         position: absolute;
         overflow: visible;
         width: 200px;
@@ -14699,16 +16767,16 @@ a.btn-elven{
         width: 93%;
         height: 300px;
         left: 10px;
-        top: 10980px;
+        top: 11690px;
         overflow: visible; 
       }
        
       #Isro_visit {
         left:30px;
-        top: 11300px;
+        top: 12010px;
         position: absolute;
         overflow: visible;
-        width: 280px;
+        width: 260px;
         height: 127px;
         text-align: left;
         line-height: 40px;
@@ -14723,7 +16791,7 @@ a.btn-elven{
       padding: 5px 20px;
       background-color: crimson;
         left: 35px;
-        top: 11430px;
+        top: 12140px;
         position: absolute;
         overflow: visible;
         white-space: nowrap;
@@ -14733,6 +16801,162 @@ a.btn-elven{
         font-size: 18px;
         color: white; 
       }
+      #Cancel_Anytime_Same_day_100_re {
+        left: 12px;
+        top: 4505px;
+        display: none;
+        position: absolute;
+        overflow: visible;
+        width: 260px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: rgba(112,112,112,1);
+      }
+      a.btn12{
+        left: 30px;
+        top: 12200px;
+        margin: 30px 20px;
+        width: 220px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+      }
+      a.btn-twelv{
+          background-color:   rgb(199, 199, 255);
+      }
+      
+      #Parent {
+        left: 60px;
+        top: 12235px;
+        position: absolute;
+        overflow: visible;
+        width: 200px;
+        white-space: nowrap;
+        text-align: center;
+        font-family: Segoe UI;
+        font-style: normal;
+       font-weight: bold;
+        font-size: 25px;
+        color: black; 
+      }
+      .Line_3 {
+        overflow: visible;
+        position: absolute;
+        width: 340px;
+        height: 3px;
+        left: 15px;
+        top: 9490px;
+        transform: matrix(1, 0, 0, 1, 0, 0); 
+      }
+      /* Caption text */
+      #slider .text1 {
+        color: black;
+        font-size: 16px;
+        padding: 8px 12px;
+        position: absolute;
+        font-family: 'lobster';
+        margin-left: 3%;
+        text-align: left;
+        width: 280px;
+        margin-top: 15%;
+      }
+      #slider .text2 {
+        color: black;
+        font-size: 16px;
+        padding: 8px 12px;
+        position: absolute;
+        font-family: 'lobster';
+        margin-left: 3%;
+        text-align: left;
+        width: 280px;
+        margin-top: 15%;
+      }
+      
+      #slider .img1{
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 10%;
+        margin-top: 11795px;
+      }
+      #slider .img2{
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 13%;
+        margin-top: 11750px;
+      }
+      
+    
+    /* Number text (1/3 etc) */
+    
+    /* The dots/bullets/indicators */
+    #slider .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    #slider .active {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    #slider .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    a.btn13{
+      left: 30px;
+      top: 12800px;
+      margin: 30px 20px;
+      width: 220px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 20px;
+      position: absolute;
+    }
+    a.btn-thirteen{
+        background-color:   rgb(199, 199, 255);
+    }
+    #kids {
+      left: 60px;
+      top: 12835px;
+      position: absolute;
+      overflow: visible;
+      width: 200px;
+      white-space: nowrap;
+      text-align: center;
+      font-family: Segoe UI;
+      font-style: normal;
+     font-weight: bold;
+      font-size: 25px;
+      color: black; 
+    }
+
+
       .Line_3 {
         overflow: visible;
         position: absolute;

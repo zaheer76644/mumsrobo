@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EDUCATION APPOINTMENT FORM</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <form method="POST" class="appointment-form" id="appointment-form">
+                <img class="img" src="./img/logo.jpg">
+                <h2 class="h2">appointment form</h2>
+                <div class="form-group-1">
+                    <input type="text" name="title" id="title" placeholder="Firstname" required autocomplete="off" />
+                    <input type="text" name="name" id="name" placeholder="Kid Name & Age" required autocomplete="off" />
+                    <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off" />
+                    <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required autocomplete="off" />
+                    <input type="date" name="phone_number" id="phone_number" placeholder="Phone number" required autocomplete="off" />
+                   
+                </div>
+                <div class="form-group-2">
+                    <div class="select-list">
+                        <select name="hour_appointment" id="hour_appointment">
+                            <option seleected value="">Hours : 11am 12pm</option>
+                            <option value="12h-1h">Hours : 12pm 01pm</option>
+                            <option value="1h-2h">Hours : 01pm 02pm</option>
+                            <option value="2h-3h">Hours : 02pm 03pm</option>
+                            <option value="3h-4h">Hours : 03pm 04pm</option>
+                            <option value="4h-5h">Hours : 04pm 05pm</option>
+                            <option value="5h-6h">Hours : 05pm 06pm</option>
+                            <option value="6h-7h">Hours : 06pm 07pm</option>
+                            <option value="7h-8h">Hours : 07pm 08pm</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                    <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" name="submit" id="submit" class="submit" value="Book Appointment" />
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
