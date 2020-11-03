@@ -185,7 +185,7 @@ a{
 #abouts h1{
     display: inline-block;
     padding: 5px 20px;
-    color: white;
+    color: black;
     font-size: 3rem;
     text-transform: cap;
     background-color: royalblue;
@@ -2970,8 +2970,8 @@ a.btn-thirteen{
     padding: 5px 20px;
     color: black;
     font-size: 3rem;
-    text-transform: uppercase;
-    background-color: #c0ffcc;
+    text-transform: capitalize;
+    background-color: royalblue;
     font-weight: bold;
     margin-top: 20%;
     letter-spacing: .1rem;
@@ -6054,8 +6054,8 @@ img {
       padding: 5px 20px;
       color: black;
       font-size: 3rem;
-      text-transform: uppercase;
-      background-color: #c0ffcc;
+      text-transform: capitalize;
+      background-color: royalblue;
       font-weight: bold;
       margin-top: 20%;
       letter-spacing: .1rem;
@@ -9149,8 +9149,8 @@ img {
     padding: 5px 20px;
     color: black;
     font-size: 3rem;
-    text-transform: uppercase;
-    background-color: #c0ffcc;
+    text-transform: capitalize;
+    background-color: royalblue;
     font-weight: bold;
     margin-top: 20%;
     letter-spacing: .1rem;
@@ -12192,7 +12192,7 @@ a.btn-thirteen{
     position: relative;
     width: 160px;
     min-height: 56px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 0px;
     float: right;
@@ -12237,8 +12237,8 @@ a.btn-thirteen{
       padding: 5px 20px;
       color: black;
       font-size: 2.5rem;
-      text-transform: uppercase;
-      background-color: #c0ffcc;
+      text-transform: capitalize;
+      background-color: royalblue;
       font-weight: bold;
       margin-top: 20%;
       letter-spacing: .1rem;
@@ -15300,7 +15300,7 @@ a.btn-thirteen{
       position: relative;
       width: 140px;
       min-height: 56px;
-      font-size: 14px;
+      font-size: 12px;
       font-weight: bold;
       line-height: 0px;
       float: right;
@@ -15344,8 +15344,8 @@ a.btn-thirteen{
     padding: 5px 20px;
     color: black;
     font-size: 2.5rem;
-    text-transform: uppercase;
-    background-color: #c0ffcc;
+    text-transform: capitalize;
+    background-color:royalblue;
     font-weight: bold;
     margin-top: 20%;
     letter-spacing: .1rem;
@@ -18441,6 +18441,7 @@ a.btn-thirteen{
       }
       #desktop-container #form-section #form-footer #fin-logo {
         margin-top: 20px;
+        margin-left: -16px;
       }
       #form-section .form-footer-payment #fin-logo {
         width: 180px;
@@ -18453,7 +18454,7 @@ a.btn-thirteen{
       }
       #desktop-container #form-section #form-footer .btn {
         position: relative;
-        width: 107px;
+        width: 115px;
         min-height: 40px;
         font-size: 9px;
         font-weight: bold;
