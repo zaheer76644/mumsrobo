@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -141,7 +144,8 @@ a{
     padding: 0px 20px;
     text-decoration: none;
     font-size: 3.5rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-family: 'Eagle Lake';
     letter-spacing: .2rem;
     font-weight: bold;
     margin-left: -6%;
@@ -181,10 +185,10 @@ a{
 #abouts h1{
     display: inline-block;
     padding: 5px 20px;
-    color: black;
+    color: white;
     font-size: 3rem;
-    text-transform: uppercase;
-    background-color: #c0ffcc;
+    text-transform: cap;
+    background-color: royalblue;
     font-weight: bold;
     margin-left: -60%;
     margin-top: 50px;
@@ -199,9 +203,10 @@ a{
   margin-left: -25%;
 }
 #header .logo{
-  margin-top: 10px;
-  width: 10%;
-  height: 10%;
+  margin-top: 5px;
+  width: 5%;
+  height: auto;
+  margin-left: 50px;
 }
 #abouts .img{
     height: auto;
@@ -212,9 +217,10 @@ a{
 #abouts p{
     margin-left: 50%;
     width: 500px;
-    margin-top:-28%; 
-    font-size: 2rem;
-    font-family: 'Lobster' ;
+    margin-top:-30%; 
+    font-size: 1.8rem;
+    color: royalblue;
+    font-family: 'Kanit', sans-serif;
 }
 #header .humburger{
    display: none;
@@ -234,7 +240,9 @@ a{
 #header .nav-list ul li a {
    font-size: 2rem;
 }
-
+.btn-fixed{
+  display: none;
+}
 #ourcourse .course {
    flex-direction: column;
    text-align: center;
@@ -343,7 +351,7 @@ a.btn-second{
   padding: 10px;
   border-radius: 20px;
   position: absolute;
-    background-color:#a0ffc8;
+    background-color:violet;
   }
   
 
@@ -385,7 +393,7 @@ a.btn-fifth{
   white-space: nowrap;
   text-decoration: none;
   text-align: left;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 30px;
@@ -513,18 +521,19 @@ a.btn-six{
 
 
 #Real-life_Coding_HTML_CSS_Java {
-  left: 805px;
-  top: 1460px;
+  left: 780px;
+  top: 1480px;
   position: absolute;
   overflow: visible;
   width: 250px;
   white-space: nowrap;
   text-align: left;
-  font-family: 'Lobster';
+  font-family: 'Kanit', sans-serif;
+  line-height: 30px;
   font-style: normal;
   font-weight: normal;
-  font-size: 23px;
-  color: black; }
+  font-size: 21px;
+  color: 	#1b7776; }
 
   #Real-life_Coding_HTML_CSS_Java1 {
     left: 805px;
@@ -534,11 +543,11 @@ a.btn-six{
     width: 250px;
     white-space: nowrap;
     text-align: left;
-    font-family: 'Lobster';
+    font-family:'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 26px;
-    color: black; }
+    font-size: 24px;
+    color: rgb(199, 47, 70); }
   
 .Rectangle_9 {
   filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
@@ -635,7 +644,7 @@ a.btn-six{
   font-size: 23px;
   color: #52dce5; }
 
-#Register_for_Demo_Class {
+#Register_for_Demo_Class a{
   left: 55px;
   top: 3165px;
   position: absolute;
@@ -647,10 +656,10 @@ a.btn-six{
   font-style: normal;
   font-weight: regular;
   font-size: 23px;
-  color: #52dce5; }
+  color: black; }
 
-#View_CRIRICULUM_details {
-  left: 60px;
+#View_CRIRICULUM_details a{
+  left: 50px;
   top: 2986px;
   position: absolute;
   overflow: visible;
@@ -940,7 +949,7 @@ a.btn-six{
   font-size: 20px;
   color: black; }
 
-#Register_for_Demo_Class_b {
+#Register_for_Demo_Class_b a{
   left: 700px;
   top: 3165px;
   position: absolute;
@@ -952,7 +961,7 @@ a.btn-six{
   font-style: normal;
  
   font-size: 23px;
-  color: skyblue; }
+  color: black; }
 
 #ChatbotCoding_ScratchPython_b {
   left: 350px;
@@ -1083,7 +1092,7 @@ a.btn-six{
   font-size: 23px;
   color: black; }
 
-#View_CRIRICULUM_details_b {
+#View_CRIRICULUM_details_b a{
   left: 370px;
   top: 2986px;
   position: absolute;
@@ -1137,34 +1146,65 @@ a.btn-six{
   fill: url(#Rectangle_14_cp); 
 }
 
-.buynow{display: inline-block;
+#buy_now  a{
+  display: inline-block;
   padding: 5px 60px;
   color: white;
   font-size: 2.5rem;
   text-transform: capitalize;
   background-color: skyblue;
   font-weight: bold;
-  margin-left: 380px;
-  margin-top: 2435px;
+  top: 3095px;
+  left: 50px;
   position: absolute;
   border-radius: 25px;
   letter-spacing: .1rem;
 }
-.buynow1{display: inline-block;
+#buy_now1  a{
+  display: inline-block;
   padding: 5px 60px;
   color: white;
   font-size: 2.5rem;
   text-transform: capitalize;
   background-color: skyblue;
   font-weight: bold;
-  margin-left: 50px;
-  margin-top: 2435px;
+  top: 3095px;
+  left: 380px;
+  position: absolute;
+  border-radius: 25px;
+  letter-spacing: .1rem;
+}
+#buy_now2  a{
+  display: inline-block;
+  padding: 5px 60px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: skyblue;
+  font-weight: bold;
+  top: 3095px;
+  left: 710px;
+  position: absolute;
+  border-radius: 25px;
+  letter-spacing: .1rem;
+}
+#buy_now3  a{
+  display: inline-block;
+  padding: 5px 60px;
+  color: white;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  background-color: crimson;
+  font-weight: bold;
+  top: 3095px;
+  left: 1050px;
   position: absolute;
   border-radius: 25px;
   letter-spacing: .1rem;
 }
 
-#Register_for_Demo_Class_bz {
+
+#Register_for_Demo_Class_bz a{
   left: 380px;
   top: 3165px;
   position: absolute;
@@ -1176,7 +1216,7 @@ a.btn-six{
   font-style: normal;
   font-weight: regular;
   font-size: 23px;
-  color: #1e1bc2; }
+  color: black; }
 
 .Rectangle_15 {
   filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
@@ -1204,7 +1244,7 @@ a.btn-six{
   font-size: 23px;
   color: black; }
 
-#View_CRIRICULUM_details_ca {
+#View_CRIRICULUM_details_ca a{
   left: 700px;
   top: 2986px;
   position: absolute;
@@ -1230,19 +1270,7 @@ a.btn-six{
   font-weight: bold;
   font-size: 26px;
   color: black; }
-  .buynow2{display: inline-block;
-    padding: 5px 60px;
-    color: white;
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    background-color: skyblue;
-    font-weight: bold;
-    margin-left: 710px;
-    margin-top: 2435px;
-    position: absolute;
-    border-radius: 25px;
-    letter-spacing: .1rem;
-  }
+
 #Rs147000 {
   left: 860px;
   top: 3040px;
@@ -1263,6 +1291,7 @@ a.btn-six{
   top: 3240px;
   position: absolute;
   overflow: visible;
+  display: none;
   width: 356px;
   white-space: nowrap;
   text-align: center;
@@ -1275,7 +1304,7 @@ a.btn-six{
 .Rectangle_1 {
   position: absolute;
   overflow: visible;
-  width: 351px;
+  width: 300px;
   height: 787px;
   left: 1015px;
   top: 2483px; }
@@ -1286,7 +1315,7 @@ a.btn-six{
 .Rectangle_2 {
   position: absolute;
   overflow: visible;
-  width: 351px;
+  width: 300px;
   height: 562px;
   left: 1015px;
   top: 2597px; }
@@ -1363,7 +1392,7 @@ a.btn4{
   font-size: 23px;
   color: #52dce5; 
 }
-#Register_for_Demo_Class_bzz {
+#Register_for_Demo_Class_bzz a{
   left: 1040px;
   top: 3165px;
   position: absolute;
@@ -1377,8 +1406,8 @@ a.btn4{
   font-size: 23px;
   color: white; 
 }
-#View_CRIRICULUM_details2 {
-  left: 1030px;
+#View_CRIRICULUM_details2 a{
+  left: 1040px;
   top: 2986px;
   position: absolute;
   overflow: visible;
@@ -1406,7 +1435,7 @@ a.btn4{
 }
 
 #_Certificate__bzz {
-  left: 1110px;
+  left: 1120px;
   top: 2880px;
   position: absolute;
   overflow: visible;
@@ -1420,7 +1449,7 @@ a.btn4{
   color: black; 
 }
 #Your_Child_will_Build_a_voice_1 {
-  left: 1080px;
+  left: 1070px;
   top: 2802px;
   position: absolute;
   overflow: visible;
@@ -1448,11 +1477,11 @@ a.btn4{
   color: black; 
 }
 #Rs25000 {
-  left: 1210px;
+  left: 1190px;
   top: 3040px;
   position: absolute;
   overflow: visible;
-  width: 138px;
+  width: 100px;
   white-space: nowrap;
   text-align: left;
   text-decoration: line-through black;
@@ -1462,19 +1491,7 @@ a.btn4{
   font-size: 24px;
   color: #707070; 
 }
-.buynow3{display: inline-block;
-  padding: 5px 60px;
-  color: white;
-  font-size: 2.5rem;
-  text-transform: capitalize;
-  background-color: skyblue;
-  font-weight: bold;
-  margin-left: 1060px;
-  margin-top: 2435px;
-  position: absolute;
-  border-radius: 25px;
-  letter-spacing: .1rem;
-}
+
 
 
 
@@ -1504,7 +1521,7 @@ a.btn4{
   fill: #c0ffcc; }
 
 #About_Edurific {
-  left: 130px;
+  left: 140px;
   top: 3355px;
   position: absolute;
   overflow: visible;
@@ -1526,7 +1543,7 @@ a.btn4{
   overflow: visible; }
 
 #Edurific_is_founded_by_the_Alu {
-  left: 727px;
+  left: 710px;
   top: 3548px;
   position: absolute;
   overflow: visible;
@@ -1534,8 +1551,9 @@ a.btn4{
   white-space: nowrap;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Lobster' ;
-  color: black; }
+  line-height: 35px;
+  font-family: 'Kanit', sans-serif;
+  color: purple; }
 
 #Our_Curriculum_Heads {
   left: 510px;
@@ -1901,7 +1919,7 @@ a.btn4{
   top: 4777px; }
 
 #Rectangle_30 {
-  fill: #c0ffcc; }
+  fill: grey; }
 
 #Parent_Feedback {
   left: 130px;
@@ -1960,7 +1978,7 @@ a.btn4{
   overflow: visible; }
 
 #My_6-year-old_nephew_Rahul_is_ {
-  left: 762px;
+  left: 750px;
   top: 4885px;
   position: absolute;
   overflow: visible;
@@ -1968,11 +1986,11 @@ a.btn4{
   white-space: nowrap;
   line-height: 23px;
   text-align: center;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
-  color: black; 
+  color: rgb(49, 49, 49); 
 }
 
 a.btn7{
@@ -1985,7 +2003,7 @@ a.btn7{
   border-radius: 20px;
 }
 a.btn-seven{
-  background-color: #f5d3de;
+  background-color: skyblue;
 }
 
 #Recent_Blog {
@@ -2025,13 +2043,13 @@ a.btn-seven{
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  color: black; 
+  color: rgb(0, 17, 250); 
 }
 #your_kid {
   transform: matrix(1, 0, 0, 1, 761.5369, 5473.3687) rotate(0deg);
   transform-origin: center;
   left: 10px;
-  top: 620px;
+  top: 580px;
   position: absolute;
   overflow: visible;
   width: 450px;
@@ -2041,22 +2059,23 @@ a.btn-seven{
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  color: black; 
+  color: #006a4e; 
 }
 
 #Schools_are_a_major_part_of_ev {
-  left: 842px;
-  top: 5600px;
+  left: 840px;
+  top: 5560px;
   position: absolute;
   overflow: visible;
   width: 300px;
   height: 127px;
   text-align: center;
-  font-family: 'Lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
+  line-height: 25px;
   font-weight: normal;
   font-size: 19px;
-  color:black; }
+  color:rgb(0, 100, 250); }
 
 #Rectangle_35 {
   fill: #fb1745; }
@@ -2082,7 +2101,7 @@ a.btn8{
   position: absolute;
 }
 a.btn-eight{
-    background-color:  #c0ffcc;
+    background-color:  #28eeb9;
 }
 #Our_Alumni {
   left: 150px;
@@ -2117,17 +2136,18 @@ a.btn-eight{
 }
 #Schools_are_a_major_part_of_ev1 {
   left: 842px;
-  top: 6220px;
+  top: 6180px;
   position: absolute;
   overflow: visible;
   width: 300px;
   height: 127px;
   text-align: center;
-  font-family: 'Lobster';
+  line-height: 28px;
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  color:black; 
+  color:#006a4e; 
 }
 
 #Kid_intern {
@@ -2135,7 +2155,7 @@ a.btn-eight{
   top: 6700px;
   position: absolute;
   overflow: visible;
-  width: 500px;
+  width: 400px;
   height: 127px;
   text-align: left;
   line-height: 60px;
@@ -2164,7 +2184,7 @@ a.btn9{
   position: absolute;
 }
 a.btn-nine{
-    background-color:  #fff9c0;
+    background-color:  #fff175;
 }
 #Our_Alumni1 {
   left: 150px;
@@ -2218,10 +2238,10 @@ a.btn-ten{
 }
 #Entrepreneurship1 {
   left:850px;
-  top: 7450px;
+  top: 7480px;
   position: absolute;
   overflow: visible;
-  width: 500px;
+  width: 450px;
   height: 127px;
   text-align: left;
   line-height: 60px;
@@ -2234,7 +2254,7 @@ a.btn-ten{
 
 #Read_More a{
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 15px;
   background-color: crimson;
   left: 855px;
   top: 7020px;
@@ -2244,7 +2264,7 @@ a.btn-ten{
   white-space: nowrap;
   text-decoration: none;
   text-align: left;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 30px;
@@ -2253,7 +2273,7 @@ a.btn-ten{
 
 #Entrepreneur a{
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 15px;
   background-color: crimson;
   left: 855px;
   top: 7700px;
@@ -2263,7 +2283,7 @@ a.btn-ten{
   white-space: nowrap;
   text-decoration: none;
   text-align: left;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 30px;
@@ -2311,7 +2331,7 @@ a.btn-elven{
   top: 8200px;
   position: absolute;
   overflow: visible;
-  width: 500px;
+  width: 400px;
   height: 127px;
   text-align: left;
   line-height: 60px;
@@ -2333,7 +2353,7 @@ a.btn-elven{
   white-space: nowrap;
   text-decoration: none;
   text-align: left;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 30px;
@@ -2377,22 +2397,22 @@ a.btn-twelv{
 }
 /* Caption text */
 #slider .text1 {
-  color: black;
+  color: crimson;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   margin-left: 55%;
   text-align: left;
   width: 550px;
   margin-top: -30%;
 }
 #slider .text2 {
-  color: black;
+  color: darkorange;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   margin-left: 55%;
   text-align: left;
   width: 550px;
@@ -2421,7 +2441,7 @@ a.btn-twelv{
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   margin-left: 55%;
   text-align: left;
   width: 550px;
@@ -2930,7 +2950,7 @@ a.btn-thirteen{
     text-transform: uppercase;
     background-color: #c0ffcc;
     font-weight: bold;
-    margin-top: 15%;
+    margin-top: 20%;
     letter-spacing: .1rem;
 }
 #abouts .img{
@@ -2944,22 +2964,24 @@ a.btn-thirteen{
     width: 350px;
     margin-top:5%; 
     font-size: 1.4rem;
-    font-family: 'Lobster' ;
+    line-height: 25px;
+    font-family: 'Kanit', sans-serif;
+    color: royalblue;
     /* text-align: center; */
 }
 #header .brand{
   margin-left: -5%;
 }
 #header .logo{
-  width: 15%;
-  height: 10%;
+  width: 12%;
+  height: auto;
 }
 #header h1{
     color: black;
     padding: 0px 20px;
     text-decoration: none;
     font-size: 2.3rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .2rem;
     font-weight: bold;
     margin-left: -7%;
@@ -3098,7 +3120,7 @@ a.btn-thirteen{
   }
   
   a.btn-third{
-    background-color: #a0ffc8; 
+    background-color: violet; 
     color: white;
   }
   
@@ -3248,7 +3270,7 @@ a.btn-thirteen{
     white-space: nowrap;
     text-decoration: none;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -3256,7 +3278,7 @@ a.btn-thirteen{
   
   
   #Real-life_Coding_HTML_CSS_Java {
-    left: 40px;
+    left: 20px;
     top: 1330px;
     position: absolute;
     overflow: visible;
@@ -3264,11 +3286,11 @@ a.btn-thirteen{
     line-height: 18px;
     white-space: nowrap;
     text-align: left;
-    font-family: 'Lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    color: black; }
+    font-size: 17px;
+    color: #1b7776; }
 
     a.btn6{
       left: 70px;
@@ -3284,18 +3306,19 @@ a.btn-thirteen{
         background-color:lightpink;
     }
     #Real-life_Coding_HTML_CSS_Java1 {
-      left: 40px;
+      left: 20px;
       top: 1930px;
       position: absolute;
       overflow: visible;
       width: 250px;
       white-space: nowrap;
+      line-height: 22px;
       text-align: left;
-      font-family: 'Lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 19px;
-      color: black; }
+      font-size: 18px;
+      color:  rgb(199, 47, 70); }
   
   a.btn4{
     left: 25px;
@@ -3504,7 +3527,7 @@ a.btn-thirteen{
     font-size: 30px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details {
+  #View_CRIRICULUM_details a{
     left: 90px;
     top: 2730px;
     position: absolute;
@@ -3611,7 +3634,7 @@ a.btn-thirteen{
     display: none;
   }
   
-  #Register_for_Demo_Class {
+  #Register_for_Demo_Class a{
     left: 95px;
     top: 2925px;
     position: absolute;
@@ -3771,7 +3794,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details_b {
+  #View_CRIRICULUM_details_b a{
     left: 85px;
     top: 3500px;
     position: absolute;
@@ -3816,58 +3839,63 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  .buynow{display: inline-block;
+  #buy_now  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 2095px;
+    top: 2850px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow1{display: inline-block;
+  #buy_now1  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 2870px;
+    top: 3610px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow2{display: inline-block;
+  #buy_now2  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 3625px;
+    top: 4370px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow3{display: inline-block;
+  #buy_now3  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: crimson;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 4410px;
+    top: 5145px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
+  
 
   .Rectangle_96 {
    position: absolute;
@@ -3896,7 +3924,7 @@ a.btn-thirteen{
     color: white;
   }
   
-  #Register_for_Demo_Class_bz {
+  #Register_for_Demo_Class_bz a{
     left: 95px;
     top: 3685px;
     position: absolute;
@@ -4054,7 +4082,7 @@ a.btn-thirteen{
     color: rgb(0, 0, 0);
 }
   
-  #View_CRIRICULUM_details_ca {
+  #View_CRIRICULUM_details_ca a{
     left: 80px;
     top: 4255px;
     position: absolute;
@@ -4125,7 +4153,7 @@ a.btn-thirteen{
     color: white; 
   }
   
-  #Register_for_Demo_Class_b {
+  #Register_for_Demo_Class_b a{
     left: 90px;
     top: 4445px;
     position: absolute;
@@ -4268,7 +4296,7 @@ a.btn-thirteen{
   font-size: 20px;
   color: rgb(0, 0, 0);
 }
-#View_CRIRICULUM_details2 {
+#View_CRIRICULUM_details2 a{
   left: 80px;
   top: 5050px;
   position: absolute;
@@ -4311,7 +4339,7 @@ a.btn-thirteen{
   font-size: 20px;
   color: rgb(0, 0, 0);
 }
-#Register_for_Demo_Class_bzz {
+#Register_for_Demo_Class_bzz a{
   left: 90px;
   top: 5210px;
   position: absolute;
@@ -4339,7 +4367,7 @@ a.btn-thirteen{
   }
   
   a.btn-third{
-    background-color: #a0ffc8; 
+    background-color:violet; 
     color: white;
   }
   
@@ -4369,19 +4397,19 @@ a.btn-thirteen{
   }
   
   #Edurific_is_founded_by_the_Alu {
-    left: 15px;
+    left: 20px;
     top: 5710px;
     position: absolute;
     width: 200px;
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'Lobster' ;
+    font-family:'Kanit', sans-serif ;
     line-height: 22px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5rem;
-    color: black;
+    font-size: 1.2rem;
+    color: purple;
   }
   
   #Rectangle_19 {
@@ -4790,7 +4818,7 @@ a.btn-thirteen{
     top: 8685px; }
   
   #Rectangle_30 {
-    fill: #c0ffcc; 
+    fill:grey; 
   }
   
   #Parent_Feedback {
@@ -4861,15 +4889,15 @@ a.btn-thirteen{
     white-space: nowrap;
     line-height: 18px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 13px;
-    color: black;
+    font-size: 12px;
+    color: rgb(49, 49, 49);
   }
 
   a.btn7{
-    left: 50px;
+    left: 35px;
     top: 9290px;
     margin: 30px 20px;
     width: 290px;
@@ -4879,7 +4907,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-seven{
-      background-color:#f5d3de;
+      background-color:skyblue;
   }
   #Rectangle_34 {
     fill: #f5d3de; }
@@ -4919,12 +4947,12 @@ a.btn-thirteen{
   
  
   #How_to_get_your_child_interest {
-    left: 20px;
+    left: 40px;
     top: 9725px;
     position: absolute;
     overflow: visible;
     width: 350px;
-    height: 105px;
+    height: 25px;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -4932,7 +4960,7 @@ a.btn-thirteen{
     line-height: 25px;
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color:  rgb(0, 17, 250);
   }
   #Schools_are_a_major_part_of_ev {
     left: 40px;
@@ -4943,11 +4971,11 @@ a.btn-thirteen{
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: black;
+    color: rgb(0, 100, 250);
   }
   
   #Rectangle_35 {
@@ -4971,7 +4999,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -4999,7 +5027,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-eight{
-      background-color:#c0ffcc;
+      background-color:#28eeb9;
   }
   
   #Our_Alumni {
@@ -5039,29 +5067,29 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    color: black; 
+    color: #006a4e; 
   }
   
   
   
   #Schools_are_a_major_part_of_ev1 {
     left: 40px;
-    top: 10435px;
+    top: 10415px;
     position: absolute;
     width: 340px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: black;
+    color: #006a4e;
   }
 
   a.btn9{
-    left: 60px;
+    left: 80px;
     top: 10575px;
     margin: 30px 20px;
     width: 200px;
@@ -5071,11 +5099,11 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-nine{
-      background-color:#fff9c0;
+      background-color:#fff175;
   }
 
   #Our_Alumni1 {
-    left: 125px;
+    left: 145px;
     top: 10610px;
     position: absolute;
     overflow: visible;
@@ -5183,7 +5211,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Lobster';
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -5249,7 +5277,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -5289,26 +5317,26 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 11650px;
+    margin-top: 11670px;
   }
   /* Caption text */
 #slider .text1 {
-  color: black;
-  font-size: 22px;
+  color:crimson;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   margin-left: 10%;
   text-align: left;
   width: 350px;
   margin-top: 15%;
 }
 #slider .text2 {
-  color: black;
-  font-size: 22px;
+  color: darkorange;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
-  font-family: 'lobster';
+  font-family: 'Kanit', sans-serif;
   margin-left: 10%;
   text-align: left;
   width: 350px;
@@ -5392,7 +5420,217 @@ a.btn-thirteen{
   color: black; 
 }
 
+#desktop-container #main-view {
+  padding: 30px 32px;
+  width: 100%;
+  float: right;
+  top: -22px;
+  margin-top: 25%;
+}
+#main-view {
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+  background: #fff;
+}
+.slider-view {
+  background: #fff;
+  position: relative;
+  transition: 0.2s;
+}
+.title {
+  position: relative;
+  color: #0d2366;
+  overflow-wrap: break-word;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
 
+
+#paymentpage-container .title-underline {
+  border-color: crimson;
+}
+.title-underline {
+  display: block;
+  width: 28px;
+  border-bottom: 5px solid;
+  margin-top: 20px;
+  border-color: #528ff0;
+}
+#desktop-container #form-section {
+  height: 100%;
+}
+.title + #form-section {
+  margin-top: 36px;
+}
+#form-section {
+  position: relative;
+}
+.UI-form.UI-form {
+  position: relative;
+  color: #515978;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.UI-form.UI-form .Field-label {
+  position: relative;
+  float: left;
+  width: 140px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #515978;
+  word-break: break-word;
+}
+.UI-form.UI-form .Field-addon--before {
+  left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.UI-form.UI-form .Field-addon {
+  position: absolute;
+  top: 0;
+  display: table;
+  height: 100%;
+}
+.UI-form.UI-form .Field-addon > span> * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.UI-form.UI-form .currency-symbol {
+  margin-top: 0px;
+  margin-left: -5px;
+}
+.UI-form.UI-form .Field-addon > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+  background: #fcfdff;
+  border: 1px solid #dae7fc;
+}
+.UI-form.UI-form .Field-el {
+  line-height: 16px;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  overflow: hidden;
+  font-size: 14px;
+  padding: 0 9px;
+  outline: none;
+  color: inherit;
+}
+.UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+  padding-left: 13px;
+}
+.UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+  background: #fcfdff;
+  border: 1px solid #dae7fc;
+}
+.UI-form.UI-form .Field-wrapper .Field-el label {
+  line-height: 36px;
+}
+.UI-form.UI-form .Field--amount div.Field-el {
+  pointer-events: none;
+}
+b {
+  font-weight: bold;
+}
+.UI-form.UI-form .Field-wrapper {
+  position: relative;
+  height: 36px;
+  min-width: 160px;
+  max-width: 360px;
+  color: #0d2366;
+}
+  .UI-form.UI-form .Field {
+  position: relative;
+  display: block;
+  margin: 24px 0 -21px;
+  transition: 0.12s;
+}
+.UI-form.UI-form .Field-content {
+  margin-left: 164px;
+}
+.UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+  font-size: 12px;
+  margin: 4px 0;
+  line-height: 16px;
+}
+.UI-form.UI-form .Field::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#desktop-container #form-section #form-footer {
+  margin: 48px -32px -30px -32px;
+}
+#form-section #form-footer {
+  position: relative;
+}
+#form-section .form-footer-payment {
+  position: relative;
+  background: #f5f6f7;
+  text-align: center;
+}
+#desktop-container #form-section #form-footer .form-footer-payment {
+  min-height: 56px;
+  padding-left: 32px;
+  overflow: auto;
+}
+#desktop-container #form-section #form-footer #fin-logo {
+  margin-top: 20px;
+}
+#form-section .form-footer-payment #fin-logo {
+  width: 180px;
+  float: left;
+}
+img {
+  font-size: 12px;
+  color: #515978;
+  line-height: 20px;
+}
+#desktop-container #form-section #form-footer .btn {
+  position: relative;
+  width: 180px;
+  min-height: 56px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 0px;
+  float: right;
+  border-radius: 0;
+  text-align: center;
+  color: #fff;
+}
+#form-section .form-footer-payment .btn span {
+  display: inline-block;
+}   
+#form-section .form-footer-payment .btn {
+  white-space: pre-wrap;
+}
+#paymentpage-container .btn {
+  background-color: crimson;
+  color: #fff !important;
+}
+.btn--gradient {
+  background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+}
+.btn {
+  color: #fff;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 10px 16px;
+  border-radius: 2px;
+  transition: all 0.3s;
+  text-align: center;
+  margin: 0;
+}
   
   /* .Line_3 {
     overflow: visible;
@@ -5796,7 +6034,7 @@ a.btn-thirteen{
       text-transform: uppercase;
       background-color: #c0ffcc;
       font-weight: bold;
-      margin-top: 15%;
+      margin-top: 20%;
       letter-spacing: .1rem;
   }
   #abouts .img{
@@ -5810,22 +6048,23 @@ a.btn-thirteen{
       width: 350px;
       margin-top:5%; 
       font-size: 1.5rem;
-      font-family: 'Lobster' ;
+      font-family: 'Kanit', sans-serif ;
+      color: royalblue;
       /* text-align: center; */
   }
   #header .brand{
     margin-left: -5%;
   }
   #header .logo{
-    width: 15%;
-    height: 10%;
+    width: 12%;
+    height: auto;
   }
   #header h1{
       color: black;
       padding: 0px 20px;
       text-decoration: none;
       font-size: 2.3rem;
-      text-transform: uppercase;
+      text-transform:capitalize;
       letter-spacing: .2rem;
       font-weight: bold;
       margin-left: -7%;
@@ -5960,7 +6199,7 @@ a.btn-thirteen{
     }
     
     a.btn-third{
-      background-color: #a0ffc8; 
+      background-color: violet; 
       color: white;
     }
     
@@ -6100,7 +6339,7 @@ a.btn-thirteen{
       white-space: nowrap;
       text-decoration: none;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: 100;
       font-size: 20px;
@@ -6108,7 +6347,7 @@ a.btn-thirteen{
     
     
     #Real-life_Coding_HTML_CSS_Java {
-      left: 30px;
+      left: 15px;
       top: 1340px;
       position: absolute;
       overflow: visible;
@@ -6116,11 +6355,11 @@ a.btn-thirteen{
       line-height: 18px;
       white-space: nowrap;
       text-align: left;
-      font-family: 'Lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
-      color: black; }
+      font-size: 17px;
+      color: #1b7776; }
   
       a.btn6{
         left: 70px;
@@ -6136,18 +6375,19 @@ a.btn-thirteen{
           background-color:lightpink;
       }
       #Real-life_Coding_HTML_CSS_Java1 {
-        left: 40px;
+        left: 20px;
         top: 1930px;
         position: absolute;
         overflow: visible;
         width: 250px;
         white-space: nowrap;
+        line-height: 22px;
         text-align: left;
-        font-family: 'Lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
-        color: black; }
+        font-size: 17px;
+        color:  rgb(199, 47, 70); }
     
     a.btn4{
       left: 25px;
@@ -6365,7 +6605,7 @@ a.btn-thirteen{
       font-size: 30px;
       color: rgb(0, 0, 0);
     }
-    #View_CRIRICULUM_details {
+    #View_CRIRICULUM_details a{
       left: 80px;
       top: 2720px;
       position: absolute;
@@ -6467,7 +6707,7 @@ a.btn-thirteen{
       display: none;
     }
     
-    #Register_for_Demo_Class {
+    #Register_for_Demo_Class a{
       left: 95px;
       top: 2925px;
       position: absolute;
@@ -6625,7 +6865,7 @@ a.btn-thirteen{
       font-size: 20px;
       color: rgb(0, 0, 0);
     }
-    #View_CRIRICULUM_details_b {
+    #View_CRIRICULUM_details_b a{
       left: 85px;
       top: 3500px;
       position: absolute;
@@ -6698,7 +6938,7 @@ a.btn-thirteen{
       color: white;
     }
     
-    #Register_for_Demo_Class_bz {
+    #Register_for_Demo_Class_bz a{
       left: 75px;
       top: 3685px;
       position: absolute;
@@ -6856,7 +7096,7 @@ a.btn-thirteen{
       color: rgb(0, 0, 0);
   }
     
-    #View_CRIRICULUM_details_ca {
+    #View_CRIRICULUM_details_ca a{
       left: 80px;
       top: 4255px;
       position: absolute;
@@ -6927,7 +7167,7 @@ a.btn-thirteen{
       color: white; 
     }
     
-    #Register_for_Demo_Class_b {
+    #Register_for_Demo_Class_b a{
       left: 90px;
       top: 4445px;
       position: absolute;
@@ -6941,58 +7181,64 @@ a.btn-thirteen{
       font-size: 20px;
       color: white; 
     }
-    .buynow{display: inline-block;
+    
+    #buy_now  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 75px;
-      margin-top: 2000px;
+      top: 2850px;
+      left: 75px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow1{display: inline-block;
+    #buy_now1  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 75px;
-      margin-top: 2775px;
+      top: 3610px;
+      left: 75px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow2{display: inline-block;
+    #buy_now2  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 75px;
-      margin-top: 3535px;
+      top: 4370px;
+      left: 75px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow3{display: inline-block;
+    #buy_now3  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: crimson;
       font-weight: bold;
-      margin-left: 75px;
-      margin-top: 4310px;
+      top: 5145px;
+      left: 75px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
+    
     .Rectangle_96{
       position: absolute;
       overflow: visible;
@@ -7121,7 +7367,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details2 {
+  #View_CRIRICULUM_details2 a{
     left: 80px;
     top: 5050px;
     position: absolute;
@@ -7164,7 +7410,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #Register_for_Demo_Class_bzz {
+  #Register_for_Demo_Class_bzz a{
     left: 90px;
     top: 5210px;
     position: absolute;
@@ -7238,12 +7484,12 @@ a.btn-thirteen{
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: 'Lobster' ;
+      font-family: 'Kanit', sans-serif ;
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
-      font-size: 1.4rem;
-      color: black;
+      font-size: 1.2rem;
+      color: purple;
     }
     
     #Rectangle_19 {
@@ -7652,7 +7898,7 @@ a.btn-thirteen{
       top: 8685px; }
     
     #Rectangle_30 {
-      fill: #c0ffcc; 
+      fill: grey; 
     }
     
     #Parent_Feedback {
@@ -7723,11 +7969,11 @@ a.btn-thirteen{
       white-space: nowrap;
       line-height: 18px;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 13px;
-      color: black;
+      font-size: 11px;
+      color: rgb(49, 49, 49);
     }
   
     a.btn7{
@@ -7741,7 +7987,7 @@ a.btn-thirteen{
       position: absolute;
     }
     a.btn-seven{
-        background-color:#f5d3de;
+        background-color:skyblue;
     }
     #Rectangle_34 {
       fill: #f5d3de; }
@@ -7781,12 +8027,12 @@ a.btn-thirteen{
     
    
     #How_to_get_your_child_interest {
-      left: 20px;
+      left: 30px;
       top: 9725px;
       position: absolute;
       overflow: visible;
       width: 350px;
-      height: 105px;
+      height: 50px;
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
@@ -7794,10 +8040,10 @@ a.btn-thirteen{
       line-height: 25px;
       font-size: 18px;
       font-weight: bold;
-      color: black;
+      color:  rgb(0, 17, 250);
     }
     #Schools_are_a_major_part_of_ev {
-      left: 40px;
+      left: 30px;
       top: 9750px;
       position: absolute;
       width: 340px;
@@ -7805,11 +8051,11 @@ a.btn-thirteen{
       height: 127px;
       line-height: 22px;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
-      color: black;
+      color: rgb(0, 100, 250);
     }
     
     #Rectangle_35 {
@@ -7833,7 +8079,7 @@ a.btn-thirteen{
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-size: 18px;
       color: white; 
@@ -7861,7 +8107,7 @@ a.btn-thirteen{
       position: absolute;
     }
     a.btn-eight{
-        background-color:#c0ffcc;
+        background-color:#28eeb9;
     }
     
     #Our_Alumni {
@@ -7890,7 +8136,7 @@ a.btn-thirteen{
     }
   
     #your_kid {
-      left: 60px;
+      left: 50px;
       top: 10345px;
       position: absolute;
       overflow: visible;
@@ -7901,25 +8147,25 @@ a.btn-thirteen{
       font-style: normal;
       font-weight: bold;
       font-size: 18px;
-      color: black; 
+      color: #006a4e; 
     }
     
     
     
     #Schools_are_a_major_part_of_ev1 {
-      left: 40px;
-      top: 10435px;
+      left: 30px;
+      top: 10415px;
       position: absolute;
-      width: 340px;
+      width: 350px;
       overflow: visible;
       height: 127px;
       line-height: 22px;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 18px;
-      color: black;
+      color:#006a4e;
     }
   
     a.btn9{
@@ -7933,7 +8179,7 @@ a.btn-thirteen{
       position: absolute;
     }
     a.btn-nine{
-        background-color:#fff9c0;
+        background-color:#fff175;
     }
   
     #Our_Alumni1 {
@@ -8045,7 +8291,7 @@ a.btn-thirteen{
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-size: 18px;
       color: white; 
@@ -8111,7 +8357,7 @@ a.btn-thirteen{
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-size: 18px;
       color: white; 
@@ -8155,22 +8401,22 @@ a.btn-thirteen{
     }
     /* Caption text */
   #slider .text1 {
-    color: black;
-    font-size: 22px;
+    color: crimson;
+    font-size: 18px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 10%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
   }
   #slider .text2 {
-    color: black;
-    font-size: 22px;
+    color: darkorange;
+    font-size: 18px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 10%;
     text-align: left;
     width: 350px;
@@ -8650,6 +8896,217 @@ a.btn-thirteen{
     .Rectangle_108{
       display: none;
     }
+    #desktop-container #main-view {
+      padding: 30px 32px;
+      width: 100%;
+      float: right;
+      top: -22px;
+      margin-top: 25%;
+    }
+    #main-view {
+      position: relative;
+      border-radius: 2px;
+      box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+      background: #fff;
+    }
+    .slider-view {
+      background: #fff;
+      position: relative;
+      transition: 0.2s;
+    }
+    .title {
+      position: relative;
+      color: #0d2366;
+      overflow-wrap: break-word;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    
+    
+    #paymentpage-container .title-underline {
+      border-color: crimson;
+    }
+    .title-underline {
+      display: block;
+      width: 28px;
+      border-bottom: 5px solid;
+      margin-top: 20px;
+      border-color: #528ff0;
+    }
+    #desktop-container #form-section {
+      height: 100%;
+    }
+    .title + #form-section {
+      margin-top: 36px;
+    }
+    #form-section {
+      position: relative;
+    }
+    .UI-form.UI-form {
+      position: relative;
+      color: #515978;
+    }
+    form {
+      display: block;
+      margin-top: 0em;
+    }
+    .UI-form.UI-form .Field-label {
+      position: relative;
+      float: left;
+      width: 140px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #515978;
+      word-break: break-word;
+    }
+    .UI-form.UI-form .Field-addon--before {
+      left: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .UI-form.UI-form .Field-addon {
+      position: absolute;
+      top: 0;
+      display: table;
+      height: 100%;
+    }
+    .UI-form.UI-form .Field-addon > span> * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .UI-form.UI-form .currency-symbol {
+      margin-top: 0px;
+      margin-left: -5px;
+    }
+    .UI-form.UI-form .Field-addon > * {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+      background: #fcfdff;
+      border: 1px solid #dae7fc;
+    }
+    .UI-form.UI-form .Field-el {
+      line-height: 16px;
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      border-radius: 2px;
+      overflow: hidden;
+      font-size: 14px;
+      padding: 0 9px;
+      outline: none;
+      color: inherit;
+    }
+    .UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+      padding-left: 13px;
+    }
+    .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+      background: #fcfdff;
+      border: 1px solid #dae7fc;
+    }
+    .UI-form.UI-form .Field-wrapper .Field-el label {
+      line-height: 36px;
+    }
+    .UI-form.UI-form .Field--amount div.Field-el {
+      pointer-events: none;
+    }
+    b {
+      font-weight: bold;
+    }
+    .UI-form.UI-form .Field-wrapper {
+      position: relative;
+      height: 36px;
+      min-width: 160px;
+      max-width: 360px;
+      color: #0d2366;
+    }
+      .UI-form.UI-form .Field {
+      position: relative;
+      display: block;
+      margin: 24px 0 -21px;
+      transition: 0.12s;
+    }
+    .UI-form.UI-form .Field-content {
+      margin-left: 164px;
+    }
+    .UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+      font-size: 12px;
+      margin: 4px 0;
+      line-height: 16px;
+    }
+    .UI-form.UI-form .Field::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    #desktop-container #form-section #form-footer {
+      margin: 48px -32px -30px -32px;
+    }
+    #form-section #form-footer {
+      position: relative;
+    }
+    #form-section .form-footer-payment {
+      position: relative;
+      background: #f5f6f7;
+      text-align: center;
+    }
+    #desktop-container #form-section #form-footer .form-footer-payment {
+      min-height: 56px;
+      padding-left: 32px;
+      overflow: auto;
+    }
+    #desktop-container #form-section #form-footer #fin-logo {
+      margin-top: 20px;
+    }
+    #form-section .form-footer-payment #fin-logo {
+      width: 180px;
+      float: left;
+    }
+    img {
+      font-size: 12px;
+      color: #515978;
+      line-height: 20px;
+    }
+    #desktop-container #form-section #form-footer .btn {
+      position: relative;
+      width: 180px;
+      min-height: 56px;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 0px;
+      float: right;
+      border-radius: 0;
+      text-align: center;
+      color: #fff;
+    }
+    #form-section .form-footer-payment .btn span {
+      display: inline-block;
+    }   
+    #form-section .form-footer-payment .btn {
+      white-space: pre-wrap;
+    }
+    #paymentpage-container .btn {
+      background-color: crimson;
+      color: #fff !important;
+    }
+    .btn--gradient {
+      background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+    }
+    .btn {
+      color: #fff;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 10px 16px;
+      border-radius: 2px;
+      transition: all 0.3s;
+      text-align: center;
+      margin: 0;
+    }
     
   }
   
@@ -8672,7 +9129,7 @@ a.btn-thirteen{
     text-transform: uppercase;
     background-color: #c0ffcc;
     font-weight: bold;
-    margin-top: 15%;
+    margin-top: 20%;
     letter-spacing: .1rem;
 }
 #abouts .img{
@@ -8686,7 +9143,8 @@ a.btn-thirteen{
     width: 350px;
     margin-top:5%; 
     font-size: 1.3rem;
-    font-family: 'Lobster' ;
+    font-family: 'Kanit', sans-serif ;
+    color: royalblue;
     /* text-align: center; */
 }
 #header h1{
@@ -8694,7 +9152,7 @@ a.btn-thirteen{
     padding: 0px 20px;
     text-decoration: none;
     font-size: 2.3rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .2rem;
     font-weight: bold;
     margin-left: -8%;
@@ -8704,8 +9162,8 @@ a.btn-thirteen{
     margin-left: -5%;
   }
   #header .logo{
-    width: 15%;
-    height: 10%;
+    width: 12%;
+    height: auto;
   }
   #header h2{
     display: inline-block;
@@ -8846,7 +9304,7 @@ a.btn-thirteen{
   }
   
   a.btn-third{
-    background-color: #a0ffc8; 
+    background-color: violet; 
     color: white;
   }
   
@@ -8997,7 +9455,7 @@ a.btn-thirteen{
     white-space: nowrap;
     text-decoration: none;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
@@ -9005,7 +9463,7 @@ a.btn-thirteen{
   
   
   #Real-life_Coding_HTML_CSS_Java {
-    left: 20px;
+    left: 15px;
     top: 1340px;
     position: absolute;
     overflow: visible;
@@ -9013,11 +9471,11 @@ a.btn-thirteen{
     line-height: 18px;
     white-space: nowrap;
     text-align: left;
-    font-family: 'Lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    color: black; }
+    font-size: 16px;
+    color: #1b7776; }
 
     a.btn6{
       left: 60px;
@@ -9033,18 +9491,18 @@ a.btn-thirteen{
         background-color:lightpink;
     }
     #Real-life_Coding_HTML_CSS_Java1 {
-      left: 40px;
-      top: 1910px;
+      left: 20px;
+      top: 1900px;
       position: absolute;
       overflow: visible;
       width: 250px;
       white-space: nowrap;
       text-align: left;
-      font-family: 'Lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 18px;
-      color: black; }
+      font-size: 16px;
+      color:  rgb(199, 47, 70); }
   
   a.btn4{
     left: 15px;
@@ -9254,7 +9712,7 @@ a.btn-thirteen{
     font-size: 30px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details {
+  #View_CRIRICULUM_details a{
     left: 70px;
     top: 2730px;
     position: absolute;
@@ -9347,7 +9805,7 @@ a.btn-thirteen{
     display: none;
   }
   
-  #Register_for_Demo_Class {
+  #Register_for_Demo_Class a{
     left: 75px;
     top: 2925px;
     position: absolute;
@@ -9507,7 +9965,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details_b {
+  #View_CRIRICULUM_details_b a{
     left: 85px;
     top: 3500px;
     position: absolute;
@@ -9580,7 +10038,7 @@ a.btn-thirteen{
     color: white;
   }
   
-  #Register_for_Demo_Class_bz {
+  #Register_for_Demo_Class_bz a{
     left: 75px;
     top: 3685px;
     position: absolute;
@@ -9737,7 +10195,7 @@ a.btn-thirteen{
     color: rgb(0, 0, 0);
 }
   
-  #View_CRIRICULUM_details_ca {
+  #View_CRIRICULUM_details_ca a{
     left: 80px;
     top: 4255px;
     position: absolute;
@@ -9808,7 +10266,7 @@ a.btn-thirteen{
     color: white; 
   }
   
-  #Register_for_Demo_Class_b {
+  #Register_for_Demo_Class_b a{
     left: 90px;
     top: 4445px;
     position: absolute;
@@ -9822,58 +10280,63 @@ a.btn-thirteen{
     font-size: 20px;
     color: black; 
   }
-  .buynow{display: inline-block;
+  #buy_now  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 2175px;
+    top: 2850px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow1{display: inline-block;
+  #buy_now1  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 2940px;
+    top: 3610px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow2{display: inline-block;
+  #buy_now2  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: skyblue;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 3690px;
+    top: 4370px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
-  .buynow3{display: inline-block;
+  #buy_now3  a{
+    display: inline-block;
     padding: 5px 60px;
     color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color: crimson;
     font-weight: bold;
-    margin-left: 75px;
-    margin-top: 4480px;
+    top: 5145px;
+    left: 70px;
     position: absolute;
     border-radius: 25px;
     letter-spacing: .1rem;
   }
+  
   .Rectangle_96{
     position: absolute;
     overflow: visible;
@@ -10002,7 +10465,7 @@ a.btn-thirteen{
   font-size: 20px;
   color: rgb(0, 0, 0);
 }
-#View_CRIRICULUM_details2 {
+#View_CRIRICULUM_details2 a{
   left: 80px;
   top: 5050px;
   position: absolute;
@@ -10045,7 +10508,7 @@ a.btn-thirteen{
   font-size: 20px;
   color: rgb(0, 0, 0);
 }
-#Register_for_Demo_Class_bzz {
+#Register_for_Demo_Class_bzz a{
   left: 90px;
   top: 5210px;
   position: absolute;
@@ -10114,12 +10577,12 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family:'Lobster';
+    font-family:'Kanit', sans-serif;
     line-height: 22px;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.3rem;
-    color: black;
+    font-size: 1.1rem;
+    color: purple;
   }
   
   #Rectangle_19 {
@@ -10542,7 +11005,7 @@ a.btn-thirteen{
     top: 8610px; }
   
   #Rectangle_30 {
-    fill: #c0ffcc; 
+    fill: grey; 
   }
   
   #Parent_Feedback {
@@ -10613,11 +11076,11 @@ a.btn-thirteen{
     white-space: nowrap;
     line-height: 18px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    color: black;
+    font-size: 10px;
+    color:  rgb(49, 49, 49);
   }
 
   a.btn7{
@@ -10631,7 +11094,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-seven{
-      background-color:#f5d3de;
+      background-color:skyblue;
   }
   #Rectangle_34 {
     fill: #f5d3de; }
@@ -10676,7 +11139,7 @@ a.btn-thirteen{
     position: absolute;
     overflow: visible;
     width: 350px;
-    height: 105px;
+    height: 50px;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -10684,22 +11147,22 @@ a.btn-thirteen{
     line-height: 25px;
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color:  rgb(0, 17, 250);
   }
   #Schools_are_a_major_part_of_ev {
     left: 30px;
-    top: 9685px;
+    top: 9680px;
     position: absolute;
-    width: 340px;
+    width: 320px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: black;
+    color: rgb(0, 100, 250);
   }
   
   #Rectangle_35 {
@@ -10723,7 +11186,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -10751,7 +11214,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-eight{
-      background-color:#c0ffcc;
+      background-color:#28eeb9;
   }
   
   #Our_Alumni {
@@ -10781,7 +11244,7 @@ a.btn-thirteen{
 
   #your_kid {
     left: 50px;
-    top: 10270px;
+    top: 10250px;
     position: absolute;
     overflow: visible;
     width: 287px;
@@ -10791,25 +11254,25 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    color: black; 
+    color: #006a4e; 
   }
   
   
   
   #Schools_are_a_major_part_of_ev1 {
     left: 35px;
-    top: 10360px;
+    top: 10340px;
     position: absolute;
     width: 320px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: black;
+    color:#006a4e;
   }
 
   a.btn9{
@@ -10823,7 +11286,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-nine{
-      background-color:#fff9c0;
+      background-color:#fff175;
   }
 
   #Our_Alumni1 {
@@ -10935,7 +11398,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -11001,7 +11464,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -11066,22 +11529,22 @@ a.btn-thirteen{
   }
   /* Caption text */
   #slider .text1 {
-    color: black;
-    font-size: 18px;
+    color: crimson;
+    font-size: 16px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 5%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
   }
   #slider .text2 {
-    color: black;
-    font-size: 18px;
+    color: darkorange;
+    font-size: 16px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 5%;
     text-align: left;
     width: 350px;
@@ -11535,6 +11998,217 @@ a.btn-thirteen{
   }
   .Rectangle_108{
     display: none;
+  }
+  #desktop-container #main-view {
+    padding: 30px 32px;
+    width: 100%;
+    float: right;
+    top: -22px;
+    margin-top: 25%;
+  }
+  #main-view {
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+    background: #fff;
+  }
+  .slider-view {
+    background: #fff;
+    position: relative;
+    transition: 0.2s;
+  }
+  .title {
+    position: relative;
+    color: #0d2366;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  
+  #paymentpage-container .title-underline {
+    border-color: crimson;
+  }
+  .title-underline {
+    display: block;
+    width: 28px;
+    border-bottom: 5px solid;
+    margin-top: 20px;
+    border-color: #528ff0;
+  }
+  #desktop-container #form-section {
+    height: 100%;
+  }
+  .title + #form-section {
+    margin-top: 36px;
+  }
+  #form-section {
+    position: relative;
+  }
+  .UI-form.UI-form {
+    position: relative;
+    color: #515978;
+  }
+  form {
+    display: block;
+    margin-top: 0em;
+  }
+  .UI-form.UI-form .Field-label {
+    position: relative;
+    float: left;
+    width: 140px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515978;
+    word-break: break-word;
+  }
+  .UI-form.UI-form .Field-addon--before {
+    left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .UI-form.UI-form .Field-addon {
+    position: absolute;
+    top: 0;
+    display: table;
+    height: 100%;
+  }
+  .UI-form.UI-form .Field-addon > span> * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .UI-form.UI-form .currency-symbol {
+    margin-top: 0px;
+    margin-left: -5px;
+  }
+  .UI-form.UI-form .Field-addon > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+    background: #fcfdff;
+    border: 1px solid #dae7fc;
+  }
+  .UI-form.UI-form .Field-el {
+    line-height: 16px;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 0 9px;
+    outline: none;
+    color: inherit;
+  }
+  .UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+    padding-left: 13px;
+  }
+  .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+    background: #fcfdff;
+    border: 1px solid #dae7fc;
+  }
+  .UI-form.UI-form .Field-wrapper .Field-el label {
+    line-height: 36px;
+  }
+  .UI-form.UI-form .Field--amount div.Field-el {
+    pointer-events: none;
+  }
+  b {
+    font-weight: bold;
+  }
+  .UI-form.UI-form .Field-wrapper {
+    position: relative;
+    height: 36px;
+    min-width: 160px;
+    max-width: 360px;
+    color: #0d2366;
+  }
+    .UI-form.UI-form .Field {
+    position: relative;
+    display: block;
+    margin: 24px 0 -21px;
+    transition: 0.12s;
+  }
+  .UI-form.UI-form .Field-content {
+    margin-left: 164px;
+  }
+  .UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+    font-size: 12px;
+    margin: 4px 0;
+    line-height: 16px;
+  }
+  .UI-form.UI-form .Field::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  #desktop-container #form-section #form-footer {
+    margin: 48px -32px -30px -32px;
+  }
+  #form-section #form-footer {
+    position: relative;
+  }
+  #form-section .form-footer-payment {
+    position: relative;
+    background: #f5f6f7;
+    text-align: center;
+  }
+  #desktop-container #form-section #form-footer .form-footer-payment {
+    min-height: 56px;
+    padding-left: 32px;
+    overflow: auto;
+  }
+  #desktop-container #form-section #form-footer #fin-logo {
+    margin-top: 20px;
+  }
+  #form-section .form-footer-payment #fin-logo {
+    width: 180px;
+    float: left;
+  }
+  img {
+    font-size: 12px;
+    color: #515978;
+    line-height: 20px;
+  }
+  #desktop-container #form-section #form-footer .btn {
+    position: relative;
+    width: 160px;
+    min-height: 56px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 0px;
+    float: right;
+    border-radius: 0;
+    text-align: center;
+    color: #fff;
+  }
+  #form-section .form-footer-payment .btn span {
+    display: inline-block;
+  }   
+  #form-section .form-footer-payment .btn {
+    white-space: pre-wrap;
+  }
+  #paymentpage-container .btn {
+    background-color: crimson;
+    color: #fff !important;
+  }
+  .btn--gradient {
+    background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+  }
+  .btn {
+    color: #fff;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 16px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    text-align: center;
+    margin: 0;
   }}
 
 
@@ -11551,7 +12225,7 @@ a.btn-thirteen{
       text-transform: uppercase;
       background-color: #c0ffcc;
       font-weight: bold;
-      margin-top: 10%;
+      margin-top: 20%;
       letter-spacing: .1rem;
   }
   #abouts .img{
@@ -11565,22 +12239,23 @@ a.btn-thirteen{
       width: 350px;
       margin-top:5%; 
       font-size: 1.3rem;
-      font-family: 'Lobster' ;
+      font-family: 'Kanit', sans-serif ;
+      color: royalblue;
       /* text-align: center; */
   }
   #header .brand{
     margin-left: -5%;
   }
   #header .logo{
-    width: 15%;
-    height: 10%;
+    width: 12%;
+    height: auto;
   }
   #header h1{
       color: black;
       padding: 0px 20px;
       text-decoration: none;
       font-size: 1.8rem;
-      text-transform: uppercase;
+      text-transform: capitalize;
       letter-spacing: .2rem;
       font-weight: bold;
       margin-left: -10%;
@@ -11716,7 +12391,7 @@ a.btn-thirteen{
     }
     
     a.btn-third{
-      background-color: #a0ffc8; 
+      background-color: violet; 
       color: white;
     }
     
@@ -11865,7 +12540,7 @@ a.btn-thirteen{
       white-space: nowrap;
       text-decoration: none;
       text-align: left;
-      font-family: 'lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: 100;
       font-size: 20px;
@@ -11873,7 +12548,7 @@ a.btn-thirteen{
     
     
     #Real-life_Coding_HTML_CSS_Java {
-      left: 30px;
+      left: 15px;
       top: 1330px;
       position: absolute;
       overflow: visible;
@@ -11881,11 +12556,11 @@ a.btn-thirteen{
       line-height: 18px;
       white-space: nowrap;
       text-align: left;
-      font-family: 'Lobster';
+      font-family: 'Kanit', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
-      color: black; }
+      font-size: 15px;
+      color: #1b7776; }
   
       a.btn6{
         left: 60px;
@@ -11901,18 +12576,18 @@ a.btn-thirteen{
           background-color:lightpink;
       }
       #Real-life_Coding_HTML_CSS_Java1 {
-        left: 30px;
-        top: 1930px;
+        left: 20px;
+        top: 1910px;
         position: absolute;
         overflow: visible;
         width: 250px;
         white-space: nowrap;
         text-align: left;
-        font-family: 'Lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 17px;
-        color: black; }
+        font-size: 15px;
+        color:  rgb(199, 47, 70); }
     
     a.btn4{
       left: 15px;
@@ -12130,7 +12805,7 @@ a.btn-thirteen{
       font-size: 30px;
       color: rgb(0, 0, 0);
     }
-    #View_CRIRICULUM_details {
+    #View_CRIRICULUM_details a{
       left: 70px;
       top: 2730px;
       position: absolute;
@@ -12223,7 +12898,7 @@ a.btn-thirteen{
       display: none;
     }
     
-    #Register_for_Demo_Class {
+    #Register_for_Demo_Class a{
       left: 75px;
       top: 2925px;
       position: absolute;
@@ -12383,7 +13058,7 @@ a.btn-thirteen{
       font-size: 20px;
       color: rgb(0, 0, 0);
     }
-    #View_CRIRICULUM_details_b {
+    #View_CRIRICULUM_details_b a{
       left: 65px;
       top: 3500px;
       position: absolute;
@@ -12456,7 +13131,7 @@ a.btn-thirteen{
       color: white;
     }
     
-    #Register_for_Demo_Class_bz {
+    #Register_for_Demo_Class_bz a{
       left: 75px;
       top: 3685px;
       position: absolute;
@@ -12616,7 +13291,7 @@ a.btn-thirteen{
       color: rgb(0, 0, 0);
   }
     
-    #View_CRIRICULUM_details_ca {
+    #View_CRIRICULUM_details_ca a{
       left: 70px;
       top: 4255px;
       position: absolute;
@@ -12687,7 +13362,7 @@ a.btn-thirteen{
       color: white; 
     }
     
-    #Register_for_Demo_Class_b {
+    #Register_for_Demo_Class_b a{
       left: 90px;
       top: 4445px;
       position: absolute;
@@ -12701,58 +13376,64 @@ a.btn-thirteen{
       font-size: 20px;
       color: black; 
     }
-    .buynow{display: inline-block;
+    #buy_now  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 65px;
-      margin-top: 2195px;
+      top: 2850px;
+      left: 60px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow1{display: inline-block;
+    #buy_now1  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 65px;
-      margin-top: 2970px;
+      top: 3610px;
+      left: 60px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow2{display: inline-block;
+    #buy_now2  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: skyblue;
       font-weight: bold;
-      margin-left: 65px;
-      margin-top: 3730px;
+      top: 4370px;
+      left: 60px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
-    .buynow3{display: inline-block;
+    #buy_now3  a{
+      display: inline-block;
       padding: 5px 60px;
       color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: crimson;
       font-weight: bold;
-      margin-left: 65px;
-      margin-top: 4510px;
+      top: 5145px;
+      left: 60px;
       position: absolute;
       border-radius: 25px;
       letter-spacing: .1rem;
     }
+    
+    
     .Rectangle_96{
       position: absolute;
       overflow: visible;
@@ -12881,7 +13562,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #View_CRIRICULUM_details2 {
+  #View_CRIRICULUM_details2 a{
     left: 70px;
     top: 5050px;
     position: absolute;
@@ -12924,7 +13605,7 @@ a.btn-thirteen{
     font-size: 20px;
     color: rgb(0, 0, 0);
   }
-  #Register_for_Demo_Class_bzz {
+  #Register_for_Demo_Class_bzz a{
     left: 70px;
     top: 5210px;
     position: absolute;
@@ -12982,19 +13663,19 @@ a.btn-thirteen{
     }
     
     #Edurific_is_founded_by_the_Alu {
-      left: 15px;
+      left: 10px;
       top: 5680px;
       position: absolute;
       width: 200px;
       overflow: visible;
       white-space: nowrap;
       text-align: left;
-      font-family:'Lobster';
+      font-family:'Kanit', sans-serif;
       line-height: 22px;
       font-style: normal;
       font-weight: normal;
-      font-size: 1.3rem;
-      color: black;
+      font-size: 1.1rem;
+      color: purple;
     }
     
     #Rectangle_19 {
@@ -13417,7 +14098,7 @@ a.btn-thirteen{
     top: 8610px; }
   
   #Rectangle_30 {
-    fill: #c0ffcc; 
+    fill:grey; 
   }
   
   #Parent_Feedback {
@@ -13488,11 +14169,11 @@ a.btn-thirteen{
     white-space: nowrap;
     line-height: 18px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    color: black;
+    font-size: 10px;
+    color:  rgb(49, 49, 49);
   }
 
   a.btn7{
@@ -13506,7 +14187,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-seven{
-      background-color:#f5d3de;
+      background-color:skyblue;
   }
   #Rectangle_34 {
     fill: #f5d3de; }
@@ -13550,8 +14231,8 @@ a.btn-thirteen{
     top: 9650px;
     position: absolute;
     overflow: visible;
-    width: 350px;
-    height: 105px;
+    width: 330px;
+    height: 50px;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -13559,22 +14240,22 @@ a.btn-thirteen{
     line-height: 25px;
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color:  rgb(0, 17, 250);
   }
   #Schools_are_a_major_part_of_ev {
-    left: 20px;
+    left: 35px;
     top: 9685px;
     position: absolute;
-    width: 340px;
+    width: 300px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: black;
+    color: rgb(0, 100, 250);
   }
   
   #Rectangle_35 {
@@ -13598,7 +14279,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -13626,7 +14307,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-eight{
-      background-color:#c0ffcc;
+      background-color:#28eeb9;
   }
   
   #Our_Alumni {
@@ -13656,7 +14337,7 @@ a.btn-thirteen{
 
   #your_kid {
     left: 30px;
-    top: 10270px;
+    top: 10250px;
     position: absolute;
     overflow: visible;
     width: 287px;
@@ -13666,25 +14347,25 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    color: black; 
+    color: #006a4e; 
   }
   
   
   
   #Schools_are_a_major_part_of_ev1 {
     left: 25px;
-    top: 10360px;
+    top: 10340px;
     position: absolute;
     width: 320px;
     overflow: visible;
     height: 127px;
     line-height: 22px;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    color: black;
+    color:#006a4e;
   }
 
   a.btn9{
@@ -13698,7 +14379,7 @@ a.btn-thirteen{
     position: absolute;
   }
   a.btn-nine{
-      background-color:#fff9c0;
+      background-color:#fff175;
   }
 
   #Our_Alumni1 {
@@ -13805,12 +14486,12 @@ a.btn-thirteen{
   padding: 5px 20px;
   background-color: crimson;
     left: 35px;
-    top: 11560px;
+    top: 11520px;
     position: absolute;
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -13876,7 +14557,7 @@ a.btn-thirteen{
     overflow: visible;
     white-space: nowrap;
     text-align: left;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     font-style: normal;
     font-size: 18px;
     color: white; 
@@ -13937,15 +14618,15 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 11740px;
+    margin-top: 11700px;
   }
   /* Caption text */
   #slider .text1 {
-    color: black;
+    color:crimson;
     font-size: 16px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 3%;
     text-align: left;
     width: 330px;
@@ -13953,15 +14634,15 @@ a.btn-thirteen{
   }
   #_Certificate__bzz{display: none;}
   #slider .text2 {
-    color: black;
+    color: darkorange;
     font-size: 16px;
     padding: 8px 12px;
     position: absolute;
-    font-family: 'lobster';
+    font-family: 'Kanit', sans-serif;
     margin-left: 3%;
     text-align: left;
     width: 330px;
-    margin-top: 15%;
+    margin-top: 0%;
   }
   .Rectangle_1{
     display: none;
@@ -13970,7 +14651,7 @@ a.btn-thirteen{
   }
   
   #slider .img1{
-    width: 80%;
+    width: 70%;
     height: auto;
     object-fit: cover;
     margin-left: 10%;
@@ -14425,6 +15106,217 @@ a.btn-thirteen{
     }
     .Rectangle_108{
       display: none;
+    }
+    #desktop-container #main-view {
+      padding: 30px 32px;
+      width: 100%;
+      float: right;
+      top: -22px;
+      margin-top: 25%;
+    }
+    #main-view {
+      position: relative;
+      border-radius: 2px;
+      box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+      background: #fff;
+    }
+    .slider-view {
+      background: #fff;
+      position: relative;
+      transition: 0.2s;
+    }
+    .title {
+      position: relative;
+      color: #0d2366;
+      overflow-wrap: break-word;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    
+    
+    #paymentpage-container .title-underline {
+      border-color: crimson;
+    }
+    .title-underline {
+      display: block;
+      width: 28px;
+      border-bottom: 5px solid;
+      margin-top: 20px;
+      border-color: #528ff0;
+    }
+    #desktop-container #form-section {
+      height: 100%;
+    }
+    .title + #form-section {
+      margin-top: 36px;
+    }
+    #form-section {
+      position: relative;
+    }
+    .UI-form.UI-form {
+      position: relative;
+      color: #515978;
+    }
+    form {
+      display: block;
+      margin-top: 0em;
+    }
+    .UI-form.UI-form .Field-label {
+      position: relative;
+      float: left;
+      width: 140px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #515978;
+      word-break: break-word;
+    }
+    .UI-form.UI-form .Field-addon--before {
+      left: 10px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .UI-form.UI-form .Field-addon {
+      position: absolute;
+      top: 0;
+      display: table;
+      height: 100%;
+    }
+    .UI-form.UI-form .Field-addon > span> * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .UI-form.UI-form .currency-symbol {
+      margin-top: 0px;
+      margin-left: -5px;
+    }
+    .UI-form.UI-form .Field-addon > * {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+      background: #fcfdff;
+      border: 1px solid #dae7fc;
+    }
+    .UI-form.UI-form .Field-el {
+      line-height: 16px;
+      height: 100%;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #e2e2e2;
+      border-radius: 2px;
+      overflow: hidden;
+      font-size: 14px;
+      padding: 0 9px;
+      outline: none;
+      color: inherit;
+    }
+    .UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+      padding-left: 13px;
+    }
+    .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+      background: #fcfdff;
+      border: 1px solid #dae7fc;
+    }
+    .UI-form.UI-form .Field-wrapper .Field-el label {
+      line-height: 36px;
+    }
+    .UI-form.UI-form .Field--amount div.Field-el {
+      pointer-events: none;
+    }
+    b {
+      font-weight: bold;
+    }
+    .UI-form.UI-form .Field-wrapper {
+      position: relative;
+      height: 36px;
+      min-width: 160px;
+      max-width: 360px;
+      color: #0d2366;
+    }
+      .UI-form.UI-form .Field {
+      position: relative;
+      display: block;
+      margin: 24px 0 -21px;
+      transition: 0.12s;
+    }
+    .UI-form.UI-form .Field-content {
+      margin-left: 164px;
+    }
+    .UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+      font-size: 12px;
+      margin: 4px 0;
+      line-height: 16px;
+    }
+    .UI-form.UI-form .Field::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    #desktop-container #form-section #form-footer {
+      margin: 48px -32px -30px -32px;
+    }
+    #form-section #form-footer {
+      position: relative;
+    }
+    #form-section .form-footer-payment {
+      position: relative;
+      background: #f5f6f7;
+      text-align: center;
+    }
+    #desktop-container #form-section #form-footer .form-footer-payment {
+      min-height: 56px;
+      padding-left: 32px;
+      overflow: auto;
+    }
+    #desktop-container #form-section #form-footer #fin-logo {
+      margin-top: 20px;
+    }
+    #form-section .form-footer-payment #fin-logo {
+      width: 180px;
+      float: left;
+    }
+    img {
+      font-size: 12px;
+      color: #515978;
+      line-height: 20px;
+    }
+    #desktop-container #form-section #form-footer .btn {
+      position: relative;
+      width: 140px;
+      min-height: 56px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 0px;
+      float: right;
+      border-radius: 0;
+      text-align: center;
+      color: #fff;
+    }
+    #form-section .form-footer-payment .btn span {
+      display: inline-block;
+    }   
+    #form-section .form-footer-payment .btn {
+      white-space: pre-wrap;
+    }
+    #paymentpage-container .btn {
+      background-color: crimson;
+      color: #fff !important;
+    }
+    .btn--gradient {
+      background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+    }
+    .btn {
+      color: #fff;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      font-size: 14px;
+      padding: 10px 16px;
+      border-radius: 2px;
+      transition: all 0.3s;
+      text-align: center;
+      margin: 0;
     }}
   
   
@@ -14450,26 +15342,27 @@ a.btn-thirteen{
 }
 
 #abouts p{
-    margin-left: 5%;
+    margin-left: 2%;
     width: 300px;
     margin-top:5%; 
     font-size: 1rem;
-    font-family: 'Lobster' ;
+    font-family: 'Kanit', sans-serif ;
+    color: royalblue;
     /* text-align: center; */
 }
 #header .brand{
   margin-left: 0%;
 }
 #header .logo{
-  width: 15%;
-  height: 10%;
+  width: 12%;
+  height: auto;
 }
 #header h1{
     color: black;
     padding: 0px 20px;
     text-decoration: none;
     font-size: 1.8rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .2rem;
     font-weight: bold;
     margin-left: -10%;
@@ -14604,7 +15497,7 @@ a.btn-thirteen{
       }
       
       #Coding_Concepts {
-        left: 50px;
+        left: 70px;
         top: 980px;
         position: absolute;
         overflow: visible;
@@ -14673,7 +15566,7 @@ a.btn-thirteen{
       position: absolute;
     }
       a.btn-third{
-        background-color: #a0ffc8; 
+        background-color: violet; 
         color: white;
       }
       
@@ -14822,7 +15715,7 @@ a.btn-thirteen{
         white-space: nowrap;
         text-decoration: none;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: 100;
         font-size: 20px;
@@ -14830,7 +15723,7 @@ a.btn-thirteen{
       
       
       #Real-life_Coding_HTML_CSS_Java {
-        left: 30px;
+        left: 15px;
         top: 1340px;
         position: absolute;
         overflow: visible;
@@ -14838,11 +15731,11 @@ a.btn-thirteen{
         line-height: 18px;
         white-space: nowrap;
         text-align: left;
-        font-family: 'Lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
-        color: black; }
+        font-size: 13px;
+        color: #1b7776; }
     
         a.btn6{
           left: 30px;
@@ -14858,18 +15751,18 @@ a.btn-thirteen{
             background-color:lightpink;
         }
         #Real-life_Coding_HTML_CSS_Java1 {
-          left: 30px;
-          top: 1930px;
+          left: 20px;
+          top: 1910px;
           position: absolute;
           overflow: visible;
           width: 250px;
           white-space: nowrap;
           text-align: left;
-          font-family: 'Lobster';
+          font-family: 'Kanit', sans-serif;
           font-style: normal;
           font-weight: normal;
-          font-size: 16px;
-          color: black; }
+          font-size: 14px;
+          color:  rgb(199, 47, 70); }
       
       a.btn4{
         left: -10px;
@@ -15076,7 +15969,7 @@ a.btn-thirteen{
         font-size: 27px;
         color: rgb(0, 0, 0);
       }
-      #View_CRIRICULUM_details {
+      #View_CRIRICULUM_details a{
         left: 50px;
         top: 2730px;
         position: absolute;
@@ -15167,7 +16060,7 @@ a.btn-thirteen{
         display: none;
       }
       
-      #Register_for_Demo_Class {
+      #Register_for_Demo_Class a{
         left: 55px;
         top: 2925px;
         position: absolute;
@@ -15327,7 +16220,7 @@ a.btn-thirteen{
         font-size: 20px;
         color: rgb(0, 0, 0);
       }
-      #View_CRIRICULUM_details_b {
+      #View_CRIRICULUM_details_b a{
         left: 45px;
         top: 3500px;
         position: absolute;
@@ -15400,7 +16293,7 @@ a.btn-thirteen{
         color: white;
       }
       
-      #Register_for_Demo_Class_bz {
+      #Register_for_Demo_Class_bz a{
         left: 55px;
         top: 3685px;
         position: absolute;
@@ -15560,7 +16453,7 @@ a.btn-thirteen{
         color: rgb(0, 0, 0);
     }
       
-      #View_CRIRICULUM_details_ca {
+      #View_CRIRICULUM_details_ca a{
         left: 50px;
         top: 4255px;
         position: absolute;
@@ -15631,7 +16524,7 @@ a.btn-thirteen{
         color: white; 
       }
       
-      #Register_for_Demo_Class_b {
+      #Register_for_Demo_Class_b a{
         left: 65px;
         top: 4445px;
         position: absolute;
@@ -15645,58 +16538,63 @@ a.btn-thirteen{
         font-size: 20px;
         color: black; 
       }
-      .buynow{display: inline-block;
+      #buy_now  a{
+        display: inline-block;
         padding: 5px 60px;
         color: white;
         font-size: 2.5rem;
         text-transform: capitalize;
         background-color: skyblue;
         font-weight: bold;
-        margin-left: 45px;
-        margin-top: 2350px;
+        top: 2850px;
+        left: 40px;
         position: absolute;
         border-radius: 25px;
         letter-spacing: .1rem;
       }
-      .buynow1{display: inline-block;
+      #buy_now1  a{
+        display: inline-block;
         padding: 5px 60px;
         color: white;
         font-size: 2.5rem;
         text-transform: capitalize;
         background-color: skyblue;
         font-weight: bold;
-        margin-left: 45px;
-        margin-top: 3120px;
+        top: 3610px;
+        left: 40px;
         position: absolute;
         border-radius: 25px;
         letter-spacing: .1rem;
       }
-      .buynow2{display: inline-block;
+      #buy_now2  a{
+        display: inline-block;
         padding: 5px 60px;
         color: white;
         font-size: 2.5rem;
         text-transform: capitalize;
         background-color: skyblue;
         font-weight: bold;
-        margin-left: 45px;
-        margin-top: 3880px;
+        top: 4370px;
+        left: 40px;
         position: absolute;
         border-radius: 25px;
         letter-spacing: .1rem;
       }
-      .buynow3{display: inline-block;
+      #buy_now3  a{
+        display: inline-block;
         padding: 5px 60px;
         color: white;
         font-size: 2.5rem;
         text-transform: capitalize;
         background-color: crimson;
         font-weight: bold;
-        margin-left: 45px;
-        margin-top: 4660px;
+        top: 5145px;
+        left: 40px;
         position: absolute;
         border-radius: 25px;
         letter-spacing: .1rem;
       }
+      
       .Rectangle_96{
         position: absolute;
         overflow: visible;
@@ -15825,7 +16723,7 @@ a.btn-thirteen{
       font-size: 20px;
       color: rgb(0, 0, 0);
     }
-    #View_CRIRICULUM_details2 {
+    #View_CRIRICULUM_details2 a{
       left: 50px;
       top: 5050px;
       position: absolute;
@@ -15868,7 +16766,7 @@ a.btn-thirteen{
       font-size: 18px;
       color: rgb(0, 0, 0);
     }
-    #Register_for_Demo_Class_bzz {
+    #Register_for_Demo_Class_bzz a{
       left: 50px;
       top: 5210px;
       position: absolute;
@@ -15926,19 +16824,19 @@ a.btn-thirteen{
       }
       
       #Edurific_is_founded_by_the_Alu {
-        left: 15px;
+        left: 20px;
         top: 5660px;
         position: absolute;
         width: 200px;
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family:'Lobster';
+        font-family:'Kanit', sans-serif;
         line-height: 22px;
         font-style: normal;
         font-weight: normal;
-        font-size: 1.1rem;
-        color: black;
+        font-size: 9px;
+        color: purple;
       }
       .Rectangle_1{
         display: none;
@@ -16370,7 +17268,7 @@ a.btn-thirteen{
         top: 8610px; }
       
       #Rectangle_30 {
-        fill: #c0ffcc; 
+        fill: grey; 
       }
       
       #Parent_Feedback {
@@ -16433,19 +17331,19 @@ a.btn-thirteen{
       }
       
       #My_6-year-old_nephew_Rahul_is_ {
-        left: 15px;
-        top: 8950px;
+        left: 25px;
+        top: 8930px;
         position: absolute;
         overflow: visible;
         width: 180px;
         white-space: nowrap;
         line-height: 18px;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 11px;
-        color: black;
+        font-size: 9px;
+        color:  rgb(49, 49, 49);
       }
     
       a.btn7{
@@ -16459,7 +17357,7 @@ a.btn-thirteen{
         position: absolute;
       }
       a.btn-seven{
-          background-color:#f5d3de;
+          background-color:skyblue;
       }
       #Rectangle_34 {
         fill: #f5d3de; }
@@ -16499,7 +17397,7 @@ a.btn-thirteen{
       
      
       #How_to_get_your_child_interest {
-        left: 10px;
+        left: 20px;
         top: 9620px;
         position: absolute;
         overflow: visible;
@@ -16512,7 +17410,7 @@ a.btn-thirteen{
         line-height: 25px;
         font-size: 15px;
         font-weight: bold;
-        color: black;
+        color:  rgb(0, 17, 250);
       }
       #Schools_are_a_major_part_of_ev {
         left: 20px;
@@ -16523,11 +17421,11 @@ a.btn-thirteen{
         height: 127px;
         line-height: 22px;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        color: black;
+        color: rgb(0, 100, 250);
       }
       
       #Rectangle_35 {
@@ -16546,12 +17444,12 @@ a.btn-thirteen{
       padding: 5px 20px;
       background-color: crimson;
         left: 35px;
-        top: 11010px;
+        top: 10990px;
         position: absolute;
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-size: 18px;
         color: white; 
@@ -16579,7 +17477,7 @@ a.btn-thirteen{
         position: absolute;
       }
       a.btn-eight{
-          background-color:#c0ffcc;
+          background-color:#28eeb9;
       }
       
       #Our_Alumni {
@@ -16608,36 +17506,36 @@ a.btn-thirteen{
       }
     
       #your_kid {
-        left: 20px;
+        left: 15px;
         top: 10230px;
         position: absolute;
         overflow: visible;
-        width: 280px;
+        width: 290px;
         height: 105px;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
-        color: black; 
+        color: #006a4e; 
       }
       
       
       
       #Schools_are_a_major_part_of_ev1 {
         left: 20px;
-        top: 10330px;
+        top: 10320px;
         position: absolute;
-        width: 270px;
+        width: 280px;
         overflow: visible;
         height: 127px;
         line-height: 22px;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        color: black;
+        color:#006a4e;
       }
     
       a.btn9{
@@ -16651,7 +17549,7 @@ a.btn-thirteen{
         position: absolute;
       }
       a.btn-nine{
-          background-color:#fff9c0;
+          background-color:#fff175;
       }
     
       #Our_Alumni1 {
@@ -16758,12 +17656,12 @@ a.btn-thirteen{
       padding: 5px 20px;
       background-color: crimson;
         left: 25px;
-        top: 11540px;
+        top: 11500px;
         position: absolute;
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-size: 18px;
         color: white; 
@@ -16829,7 +17727,7 @@ a.btn-thirteen{
         overflow: visible;
         white-space: nowrap;
         text-align: left;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         font-style: normal;
         font-size: 18px;
         color: white; 
@@ -16890,30 +17788,30 @@ a.btn-thirteen{
         max-width: 1000px;
         position: relative;
         margin: auto;
-        margin-top: 11795px;
+        margin-top: 11755px;
       }
       /* Caption text */
       #slider .text1 {
-        color: black;
-        font-size: 16px;
+        color: crimson;
+        font-size: 14px;
         padding: 8px 12px;
         position: absolute;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         margin-left: 3%;
         text-align: left;
         width: 280px;
-        margin-top: 15%;
+        margin-top: 18%;
       }
       #slider .text2 {
-        color: black;
-        font-size: 16px;
+        color: darkorange;
+        font-size: 14px;
         padding: 8px 12px;
         position: absolute;
-        font-family: 'lobster';
+        font-family: 'Kanit', sans-serif;
         margin-left: 3%;
         text-align: left;
         width: 280px;
-        margin-top: 15%;
+        margin-top: 10%;
       }
       
       #slider .img1{
@@ -17362,6 +18260,218 @@ a.btn-thirteen{
         left: 200px;
         top: 10620px;
         overflow: visible; 
+      }
+      #desktop-container #main-view {
+        padding: 30px 45px;
+        width: 108%;
+        float: right;
+        top: -22px;
+        margin-top: 25%;
+      }
+      #main-view {
+        position: relative;
+        border-radius: 2px;
+        box-shadow: 6px 11px 24px 0 rgba(23,31,37,0.12);
+        background: #fff;
+      }
+      .slider-view {
+        background: #fff;
+        position: relative;
+        transition: 0.2s;
+      }
+      .title {
+        position: relative;
+        color: #0d2366;
+        overflow-wrap: break-word;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+      }
+      
+      
+      #paymentpage-container .title-underline {
+        border-color: crimson;
+      }
+      .title-underline {
+        display: block;
+        width: 28px;
+        border-bottom: 5px solid;
+        margin-top: 20px;
+        border-color: #528ff0;
+      }
+      #desktop-container #form-section {
+        height: 100%;
+      }
+      .title + #form-section {
+        margin-top: 36px;
+      }
+      #form-section {
+        position: relative;
+      }
+      .UI-form.UI-form {
+        position: relative;
+        color: #515978;
+      }
+      form {
+        display: block;
+        margin-top: 0em;
+      }
+      .UI-form.UI-form .Field-label {
+        position: relative;
+        float: left;
+        width: 140px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #515978;
+        word-break: break-word;
+      }
+      .UI-form.UI-form .Field-addon--before {
+        left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .UI-form.UI-form .Field-addon {
+        position: absolute;
+        top: 0;
+        display: table;
+        height: 100%;
+      }
+      .UI-form.UI-form .Field-addon > span> * {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .UI-form.UI-form .currency-symbol {
+        margin-top: 0px;
+        margin-left: -5px;
+      }
+      .UI-form.UI-form .Field-addon > * {
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+        background: #fcfdff;
+        border: 1px solid #dae7fc;
+      }
+      .UI-form.UI-form .Field-el {
+        line-height: 16px;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        border: 1px solid #e2e2e2;
+        border-radius: 2px;
+        overflow: hidden;
+        font-size: 14px;
+        padding: 0 9px;
+        outline: none;
+        color: inherit;
+      }
+      .UI-form.UI-form .Field--currency-1 .Field-addon--before + .Field-el {
+        padding-left: 13px;
+      }
+      .UI-form.UI-form .Field--amount--selected div.Field-el, .UI-form.UI-form .Field--amount--selected input.Field-el {
+        background: #fcfdff;
+        border: 1px solid #dae7fc;
+      }
+      .UI-form.UI-form .Field-wrapper .Field-el label {
+        line-height: 36px;
+      }
+      .UI-form.UI-form .Field--amount div.Field-el {
+        pointer-events: none;
+      }
+      b {
+        font-weight: bold;
+      }
+      .UI-form.UI-form .Field-wrapper {
+        position: relative;
+        height: 36px;
+        min-width: 160px;
+        max-width: 360px;
+        color: #0d2366;
+        left: -30px;
+      }
+        .UI-form.UI-form .Field {
+        position: relative;
+        display: block;
+        margin: 24px 0 -21px;
+        transition: 0.12s;
+      }
+      .UI-form.UI-form .Field-content {
+        margin-left: 164px;
+      }
+      .UI-form.UI-form .Field-error, .UI-form.UI-form .Field-description {
+        font-size: 12px;
+        margin: 4px 0;
+        line-height: 16px;
+      }
+      .UI-form.UI-form .Field::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      #desktop-container #form-section #form-footer {
+        margin: 48px -32px -30px -32px;
+      }
+      #form-section #form-footer {
+        position: relative;
+      }
+      #form-section .form-footer-payment {
+        position: relative;
+        background: #f5f6f7;
+        text-align: center;
+      }
+      #desktop-container #form-section #form-footer .form-footer-payment {
+        min-height: 56px;
+        padding-left: 32px;
+        overflow: auto;
+      }
+      #desktop-container #form-section #form-footer #fin-logo {
+        margin-top: 20px;
+      }
+      #form-section .form-footer-payment #fin-logo {
+        width: 180px;
+        float: left;
+      }
+      img {
+        font-size: 12px;
+        color: #515978;
+        line-height: 20px;
+      }
+      #desktop-container #form-section #form-footer .btn {
+        position: relative;
+        width: 107px;
+        min-height: 40px;
+        font-size: 9px;
+        font-weight: bold;
+        line-height: 0px;
+        float: right;
+        border-radius: 0;
+        text-align: center;
+        color: #fff;
+      }
+      #form-section .form-footer-payment .btn span {
+        display: inline-block;
+      }   
+      #form-section .form-footer-payment .btn {
+        white-space: pre-wrap;
+      }
+      #paymentpage-container .btn {
+        background-color: crimson;
+        color: #fff !important;
+      }
+      .btn--gradient {
+        background-image: linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(0,0,0,0.1) 100%);
+      }
+      .btn {
+        color: #fff;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        font-size: 14px;
+        padding: 10px 16px;
+        border-radius: 2px;
+        transition: all 0.3s;
+        text-align: center;
+        margin: 0;
       }}
     
     

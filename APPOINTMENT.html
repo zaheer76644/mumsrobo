@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -18,17 +18,17 @@
 
         <div class="container">
             <form method="POST" class="appointment-form" id="appointment-form">
-                <img class="img" src="./img/logo.jpg">
-                <h2 class="h2">appointment form</h2>
+                <img src="./img/logo.jpg" class="img">
+                <h2 class="h2">demo Booking</h2>
                 <div class="form-group-1">
-                    <input type="text" name="title" id="title" placeholder="Firstname" required autocomplete="off" />
-                    <input type="text" name="name" id="name" placeholder="Kid Name & Age" required autocomplete="off" />
+                    <input type="text" name="title" id="title" placeholder="Title" required autocomplete="off" />
+                    <input type="text" name="name" id="name" placeholder="Your Name" required autocomplete="off" />
                     <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off" />
                     <input type="number" name="phone_number" id="phone_number" placeholder="Phone number" required autocomplete="off" />
-                    <input type="date" name="phone_number" id="phone_number" placeholder="Phone number" required autocomplete="off" />
-                   
+                    <input type="date" name="date"  required autocomplete="off" />
                 </div>
                 <div class="form-group-2">
+                    
                     <div class="select-list">
                         <select name="hour_appointment" id="hour_appointment">
                             <option seleected value="">Hours : 11am 12pm</option>
@@ -48,7 +48,7 @@
                     <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
                 </div>
                 <div class="form-submit">
-                    <input type="submit" name="submit" id="submit" class="submit" value="Book Appointment" />
+                    <input type="submit" name="submit" id="submit" class="submit" value="Request an appointment" />
                 </div>
             </form>
         </div>

@@ -1,8 +1,4 @@
 /* @extend display-flex; */
-*{
-  margin: 0;
-  padding: 0;
-}
 display-flex {
   display: flex;
   display: -webkit-flex; }
@@ -39,9 +35,8 @@ list-type-ulli, ul {
   src: url("../fonts/roboto-slab/roboto-slab-v7-latin-700.eot");
   /* IE9 Compat Modes */
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff2") format("woff2"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff") format("woff"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.ttf") format("truetype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.svg#RobotoSlab") format("svg");
-  /* Legacy iOS */ 
-}
-@media only screen and (min-width: 1366px){
+  /* Legacy iOS */ }
+  @media only screen and (min-width: 1024px){
 a:focus, a:active {
   text-decoration: none;
   outline: none;
@@ -88,6 +83,7 @@ input[type=radio] {
   -webkit-appearance: radio !important;
   -o-appearance: radio !important;
   -ms-appearance: radio !important; }
+  
 
 img {
   max-width: 100%;
@@ -112,15 +108,15 @@ h2 {
   padding: 0;
   font-weight: bold;
   color: #222;
+  margin-left: 70px;
+  margin-top: -45px;
   font-family: 'Roboto Slab';
   font-size: 20px;
   margin-bottom: 30px;
-  margin-top: -8%;
-  margin-left: 12%;
   text-transform: uppercase; }
 
   .h2{
-    color: crimson;
+    color:crimson;
   }
 
 h3 {
@@ -152,8 +148,7 @@ body {
 .main {
   margin: 0px 290px;
   padding: 60px 0;
-  position: relative; 
-}}
+  position: relative; }
 
 .container {
   width: 586px;
@@ -164,10 +159,12 @@ body {
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px; }
+  
 
 
 .appointment-form {
   padding: 50px 60px 70px 60px; }
+}
 
 input, select {
   width: 100%;
@@ -225,6 +222,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
   text-align: center;
   font-family: 'Material-Design-Iconic-Font';
   font-weight: bold; }
+  
 
 .label-agree-term {
   color: #999; }
@@ -239,6 +237,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
   padding: 16px 17px;
   font-size: 13px;
   border: none;
+  margin-top: -10px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -296,17 +295,11 @@ li.init {
     content: '\f2f9'; }
 
 #confirm_type {
-  margin-bottom: 30px; 
-}
-
-.img{
-  width: 10%;
-  height: 10%;
-}
+  margin-bottom: 30px; }
 
 .form-group-2 {
-  margin-top: 0px;
-  margin-bottom: 15px; }
+  margin-top: 15px;
+  margin-bottom: 30px; }
 
 .form-check {
   margin-bottom: 20px; }
@@ -315,7 +308,10 @@ li.init {
   position: relative;
   display: inline-block;
   width: 100%;
-  margin-bottom: 55px; }
+  margin-bottom: 25px;
+  margin-top: 10px;
+ }
+ 
 
 .list-item {
   position: absolute;
@@ -325,8 +321,11 @@ li.init {
   z-index: 99; }
 
 #hour_appointment {
-  z-index: 9; }
-
+  z-index: 9; 
+}
+.img{
+  width: 10%;
+}
 
 @media screen and (max-width: 1024px) {
   .container {
@@ -336,8 +335,7 @@ li.init {
     width: calc( 100% - 30px);
     max-width: 100%; } }
 @media screen and (max-device-width: 420px) {
-  body{
-    font-size: 13px;
+  body {font-size: 13px;
     line-height: 1.8;
     color: #fff;
     background-image: url("../img/backgrond.jpg");
@@ -353,10 +351,10 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 650px;
+    height: 680px;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 7%;
+    margin-left: 6%;
     background: #fff;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -365,7 +363,7 @@ li.init {
     -ms-border-radius: 10px; 
   }
   .appointment-form {
-    padding: 50px 30px 70px 30px; 
+    padding: 50px 30px 0px 30px; 
   }
   .h2{
     line-height: 1.8;
@@ -384,8 +382,7 @@ li.init {
   .img{
     width: 15%;
     height: 15%;
-  }
-}
+  }}
 @media screen and (max-device-width: 399px) {
   body{
     font-size: 13px;
@@ -404,7 +401,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 650px;
+    height: 680px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -416,7 +413,7 @@ li.init {
     -ms-border-radius: 10px; 
   }
   .appointment-form {
-    padding: 50px 30px 70px 30px; 
+    padding: 50px 30px 00px 30px; 
   }
   .h2{
     line-height: 1.8;
@@ -455,7 +452,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 330px;
-    height: 650px;
+    height: 670px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -467,7 +464,7 @@ li.init {
     -ms-border-radius: 10px; 
   }
   .appointment-form {
-    padding: 50px 30px 70px 30px; 
+    padding: 50px 30px 0px 30px; 
   }
   .h2{
     line-height: 1.8;
@@ -506,7 +503,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 320px;
-    height: 650px;
+    height: 670px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 5%;
@@ -518,7 +515,7 @@ li.init {
     -ms-border-radius: 10px; 
   }
   .appointment-form {
-    padding: 50px 30px 70px 30px; 
+    padding: 50px 30px 0px 30px; 
   }
   .h2{
     line-height: 1.8;
@@ -557,7 +554,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 280px;
-    height: 650px;
+    height: 670px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 5%;
@@ -569,7 +566,7 @@ li.init {
     -ms-border-radius: 10px; 
   }
   .appointment-form {
-    padding: 50px 30px 70px 30px; 
+    padding: 50px 30px 0px 30px; 
   }
   .h2{
     line-height: 1.8;
@@ -590,6 +587,3 @@ li.init {
     height: 15%;
   }
 }
-
-
-/*# sourceMappingURL=style.css.map */
