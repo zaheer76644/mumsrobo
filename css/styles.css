@@ -180,7 +180,7 @@ body{
      font-size: 2rem;
   }
 .theme-wallpaper::before{
-    background-image: url(/img/backgrond1.jpg);
+    background-image: url(../img/backgrond1.jpg);
 }
 .theme-wallpaper::before{
     content: '';
