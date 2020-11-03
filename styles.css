@@ -199,8 +199,31 @@ a{
   margin-top: 7%;
 
 }
+#header h1{
+  color: black;
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: 'Eagle Lake';
+  letter-spacing: .2rem;
+  font-weight: bold;
+  margin-left: -6%;
+  margin-top: 0%;
+}
+#header h2{
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-size: 2rem;
+  margin-left: 0%;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: crimson;
+
+}
 #header .brand{
-  margin-left: -20%;
+  margin-left: -22%;
 }
 #header .logo{
   margin-top: 5px;

@@ -778,6 +778,7 @@ a.btn1-fixed{
     font-size: 25px;
     color: white;
     cursor: pointer;
+    text-align: center;
     width: 93%;
     padding: 10px 16px;
     background-color: crimson;
@@ -860,6 +861,7 @@ a.btn1-fixed{
     font-size: 25px;
     color: white;
     cursor: pointer;
+    text-align: center;
     width: 94%;
     padding: 10px 16px;
     background-color: crimson;
@@ -941,6 +943,7 @@ a.btn1-fixed{
     text-decoration: none;
     font-size: 25px;
     color: white;
+    text-align: center;
     cursor: pointer;
     width: 90%;
     padding: 10px 16px;
@@ -1024,6 +1027,7 @@ a.btn1-fixed{
     font-size: 25px;
     color: white;
     cursor: pointer;
+    text-align: center;
     width: 94%;
     padding: 10px 16px;
     background-color: crimson;
@@ -1107,6 +1111,7 @@ a.btn1-fixed{
     font-size: 25px;
     color: white;
     cursor: pointer;
+    text-align: center;
     width: 106%;
     padding: 10px 16px;
     background-color: crimson;
