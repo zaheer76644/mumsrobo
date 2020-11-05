@@ -351,10 +351,10 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 680px;
+    height: 720px;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 6%;
+    margin-left: 8%;
     background: #fff;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -401,7 +401,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 680px;
+    height: 720px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -452,7 +452,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 330px;
-    height: 670px;
+    height: 710px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -503,7 +503,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 320px;
-    height: 670px;
+    height: 710px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 5%;
@@ -538,7 +538,7 @@ li.init {
 }
 @media screen and (max-device-width: 320px) {
   body{
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.8;
     color: #fff;
     background-image: url("../img/backgrond.jpg");
@@ -554,10 +554,10 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 280px;
-    height: 670px;
+    height: 710px;
     margin-top: 10%;
     margin-bottom: 10%;
-    margin-left: 5%;
+    margin-left: 7%;
     background: #fff;
     border-radius: 10px;
     -moz-border-radius: 10px;
