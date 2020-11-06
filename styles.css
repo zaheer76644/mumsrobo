@@ -12470,8 +12470,8 @@ a.btn-thirteen{
     }
     
     a.btn1{
-      left: 65px;
-      top: 600px;
+      left: 50px;
+      top: 630px;
       margin: 30px 20px;
       width: 200px;
       height: 90px;
@@ -12486,8 +12486,8 @@ a.btn-thirteen{
     }
     
     #Our_Courses {
-      left: 110px;
-        top: 640px;
+      left: 95px;
+        top: 670px;
         position: absolute;
         overflow: visible;
         width: 180px;
@@ -12818,7 +12818,7 @@ a.btn-thirteen{
       color: white;
     }
     #Pick_your_Package {
-      left: 45px;
+      left: 55px;
       top: 2160px;
       position: absolute;
       overflow: visible;
@@ -12827,7 +12827,7 @@ a.btn-thirteen{
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-size: 35px;
+      font-size: 30px;
       color: black;
     }
     
@@ -14810,7 +14810,7 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 11180px;
+    margin-top: 11160px;
   }
   /* Caption text */
   #slider .text1 {
@@ -14892,6 +14892,7 @@ a.btn-thirteen{
     height: auto;
     object-fit: cover;
     margin-left: 10%;
+    margin-top:100px;
     /* margin-top: 8100px; */
   }
   #slideshows1 .image2{
