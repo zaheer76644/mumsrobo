@@ -5101,7 +5101,7 @@ a.btn-thirteen{
   
   #Our_Alumni {
     left: 110px;
-    top: 9950px;
+    top: 9955px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -5395,7 +5395,7 @@ a.btn-thirteen{
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   width: 350px;
   margin-top: 15%;
@@ -5406,7 +5406,7 @@ a.btn-thirteen{
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   width: 350px;
   margin-top: 10%;
@@ -5439,7 +5439,7 @@ a.btn-thirteen{
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   width: 350px;
   margin-top: 15%;
@@ -5450,7 +5450,7 @@ a.btn-thirteen{
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
-  margin-left: 10%;
+  margin-left: 5%;
   text-align: left;
   width: 350px;
   margin-top: 15%;
@@ -7612,13 +7612,13 @@ img {
       overflow: visible;
       width: 338px;
       height: 60px;
-      left: 50px;
+      left: 40px;
       top: 6030px; 
     }
     
     #Our_Curriculum_Heads {
       left: 60px;
-      top: 6045px;
+      top: 6035px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -8224,7 +8224,7 @@ img {
     
     #Our_Alumni {
       left: 110px;
-      top: 9950px;
+      top: 9955px;
       position: absolute;
       overflow: visible;
       width: 164px;
@@ -8518,7 +8518,7 @@ img {
     padding: 8px 12px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
@@ -8529,7 +8529,7 @@ img {
     padding: 8px 12px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
@@ -8562,7 +8562,7 @@ img {
     padding: 8px 12px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
@@ -8573,7 +8573,7 @@ img {
     padding: 8px 12px;
     position: absolute;
     font-family: 'Kanit', sans-serif;
-    margin-left: 10%;
+    margin-left: 5%;
     text-align: left;
     width: 350px;
     margin-top: 15%;
@@ -11375,7 +11375,7 @@ img {
   
   #Our_Alumni {
     left: 110px;
-    top: 9875px;
+    top: 9880px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -12471,7 +12471,7 @@ a.btn-thirteen{
     
     a.btn1{
       left: 65px;
-      top: 650px;
+      top: 600px;
       margin: 30px 20px;
       width: 200px;
       height: 90px;
@@ -12487,7 +12487,7 @@ a.btn-thirteen{
     
     #Our_Courses {
       left: 110px;
-        top: 690px;
+        top: 640px;
         position: absolute;
         overflow: visible;
         width: 180px;
@@ -12560,7 +12560,7 @@ a.btn-thirteen{
     
     a.btn5{
       left: 15px;
-      top: 1020px;
+      top: 1000px;
       margin: 30px 20px;
       width: 290px;
       height: 110px;
@@ -12603,7 +12603,7 @@ a.btn-thirteen{
     }
     #Why_Edurific_1 {
       left: 65px;
-      top: 1050px;
+      top: 1030px;
       position: absolute;
       overflow: visible;
       width: 203px;
@@ -13831,7 +13831,7 @@ a.btn-thirteen{
     
     #About_Edurific {
       left: 60px;
-      top: 5320px;
+      top: 5340px;
       position: absolute;
       overflow: visible;
       width: 99px;
@@ -14065,7 +14065,7 @@ a.btn-thirteen{
   
   #Head_of_Data_Science {
     left: 95px;
-    top: 7030px;
+    top: 7070px;
     position: absolute;
     overflow: visible;
     width: 99px;
@@ -14504,7 +14504,7 @@ a.btn-thirteen{
   
   #Our_Alumni {
     left: 100px;
-    top: 9875px;
+    top: 9880px;
     position: absolute;
     overflow: visible;
     width: 164px;
@@ -14810,7 +14810,7 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 11200px;
+    margin-top: 11180px;
   }
   /* Caption text */
   #slider .text1 {
@@ -14847,14 +14847,14 @@ a.btn-thirteen{
     height: auto;
     object-fit: cover;
     margin-left: 10%;
-    /* margin-top: 11740px; */
+    margin-top: 100px;
   }
   #slider .img2{
     width: 60%;
     height: auto;
     object-fit: cover;
     margin-left: 15%;
-    /* margin-top: 11700px; */
+    margin-top: 100px;
   }
   
   #slideshows1 .slideshow2-container {
@@ -16001,10 +16001,10 @@ a.btn-thirteen{
           color:  rgb(199, 47, 70); }
       
       a.btn4{
-        left: -10px;
+        left: 0px;
         top: 2120px;
         margin: 30px 20px;
-        width: 300px;
+        width: 280px;
         height: 60px;
         padding: 10px;
         border-radius: 15px;
@@ -16027,7 +16027,7 @@ a.btn-thirteen{
         color: white;
       }
       #Pick_your_Package {
-        left: 40px;
+        left: 50px;
         top: 2165px;
         position: absolute;
         overflow: visible;
@@ -16036,7 +16036,7 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: bold;
+       
         font-size: 28px;
         color: black;
       }
@@ -17035,8 +17035,8 @@ a.btn-thirteen{
       }
       
       #About_Edurific {
-        left: 40px;
-        top: 5320px;
+        left: 50px;
+        top: 5340px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -17044,7 +17044,7 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: bold;
+        
         font-size: 26px;
         color: black;
       }
@@ -17718,7 +17718,7 @@ a.btn-thirteen{
       
       #Our_Alumni {
         left: 85px;
-        top: 9875px;
+        top: 9880px;
         position: absolute;
         overflow: visible;
         width: 164px;
@@ -18024,7 +18024,7 @@ a.btn-thirteen{
         max-width: 1000px;
         position: relative;
         margin: auto;
-        margin-top: 11000px;
+        margin-top: 10770px;
       }
       /* Caption text */
       #slider .text1 {
@@ -18033,7 +18033,7 @@ a.btn-thirteen{
         padding: 8px 12px;
         position: absolute;
         font-family: 'Kanit', sans-serif;
-        margin-left: 3%;
+        margin-left: 5%;
         text-align: left;
         width: 280px;
         margin-top: 18%;
@@ -18044,7 +18044,7 @@ a.btn-thirteen{
         padding: 8px 12px;
         position: absolute;
         font-family: 'Kanit', sans-serif;
-        margin-left: 3%;
+        margin-left: 5%;
         text-align: left;
         width: 280px;
         margin-top: 10%;
@@ -18055,20 +18055,20 @@ a.btn-thirteen{
         height: auto;
         object-fit: cover;
         margin-left: 10%;
-        /* margin-top: 11795px; */
+        /* margin-top: 50px; */
       }
       #slider .img2{
         width: 60%;
         height: auto;
         object-fit: cover;
-        margin-left: 13%;
-        /* margin-top: 11750px; */
+        margin-left: 20%;
+        /* margin-top: 50px; */
       }
       #slideshows1 .slideshow2-container {
         max-width: 1000px;
         position: relative;
         margin: auto;
-        margin-top: 500px;
+        margin-top: 400px;
       }
       /* Caption text */
       #slideshows1 .text3{
@@ -18105,8 +18105,8 @@ a.btn-thirteen{
         width: 90%;
         height: auto;
         object-fit: cover;
-        margin-left: 10%;
-        /* margin-top: 8100px; */
+        margin-left: 5%;
+        margin-top: -45px;
       }
       
     
