@@ -8734,6 +8734,7 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: -100px;
   }
   #slideshows2 .btn14{
     display: inline-block;
