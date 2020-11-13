@@ -233,20 +233,24 @@ footer{
 }
 @media(max-width:420px){
 	.box{
+		display: none;
 		width: 94%;
 		height: 200px;
 	}
 	.model{
+		display: none;
 		height:150px;
 		margin-top: 18px;
 	}
 	.details p{
 		font-size: 16px;
 		width: 250px;
+		display: none;
 		margin-top: 0px;
 		font-weight: bold;
 	}
 	.containers{
+		display: none;
 		width:100%;
 		height: 45vh;
 		background-color:white;
@@ -330,20 +334,24 @@ footer{
 }
 @media(max-width:399px){
 	.box{
+		display: none;
 		width: 94%;
 		height: 200px;
 	}
 	.model{
+		display: none;
 		height:150px;
 		margin-top: 18px;
 	}
 	.details p{
+		display: none;
 		font-size: 16px;
 		width: 250px;
 		margin-top: 0px;
 		font-weight: bold;
 	}
 	.containers{
+		display: none;
 		width:100%;
 		height: 10vh;
 		background-color:white;
@@ -355,14 +363,17 @@ footer{
 }
 @media(max-width:375px){
 	.box{
+		display: none;
 		width: 94%;
 		height: 200px;
 	}
 	.model{
 		height:150px;
+		display: none;
 		margin-top: 18px;
 	}
 	.details p{
+		display: none;
 		font-size: 16px;
 		width: 250px;
 		margin-top: 0px;
@@ -370,6 +381,7 @@ footer{
 	}
 	.containers{
 		width:100%;
+		display: none;
 		height: 75vh;
 		background-color:white;
 		display:flex;
@@ -450,21 +462,25 @@ footer{
 }
 @media(max-width:360px){
 	.box{
+		display: none;
 		width: 90%;
 		height: 120px;
 	}
 	.model{
+		display: none;
 		height:130px;
 		margin-top: 0px;
 		margin-left: 30px;
 	}
 	.details p{
+		display: none;
 		font-size: 16px;
 		width: 250px;
 		margin-top: 0px;
 		font-weight: bold;
 	}
 		.containers{
+			display: none;
 			width:100%;
 			height: 60vh;
 			background-color:white;
@@ -548,19 +564,23 @@ footer{
 @media(max-width:320px){
 	.box{
 		width: 94%;
+		display: none;
 		height: 200px;
 	}
 	.model{
+		display: none;
 		height:150px;
 		margin-top: 18px;
 	}
 	.details p{
+		display: none;
 		font-size: 16px;
 		width: 250px;
 		margin-top: 0px;
 		font-weight: bold;
 	}
 	.containers{
+		display: none;
 		width:100%;
 		height: 177vh;
 		background-color:white;
