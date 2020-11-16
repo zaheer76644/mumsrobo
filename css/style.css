@@ -1,4 +1,5 @@
 /* @extend display-flex; */
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
 display-flex {
   display: flex;
   display: -webkit-flex; }
@@ -36,6 +37,8 @@ list-type-ulli, ul {
   /* IE9 Compat Modes */
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff2") format("woff2"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff") format("woff"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.ttf") format("truetype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.svg#RobotoSlab") format("svg");
   /* Legacy iOS */ }
+ 
+
   @media only screen and (min-width: 1024px){
 a:focus, a:active {
   text-decoration: none;
@@ -109,16 +112,36 @@ h2 {
   font-weight: bold;
   color: #222;
   margin-left: 70px;
-  margin-top: -45px;
-  font-family: 'Roboto Slab';
-  font-size: 20px;
+  margin-top: -55px;
+  font-family: 'Eagle Lake';
+  font-size: 1.8rem;
   margin-bottom: 30px;
-  text-transform: uppercase; }
-
+  text-transform: uppercase;
+text-decoration: none; }
+  
+.h2 span{
+  color: crimson;
+}
   .h2{
-    color:crimson;
+    color:black;
+    font-family: 'Eagle Lake'
   }
 
+  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+  }
+  h4 {
+    display: block;
+    margin-block-start: -0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 h3 {
   font-weight: bold;
   color: #222;
@@ -352,7 +375,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 720px;
+    height: 780px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 8%;
@@ -380,6 +403,21 @@ li.init {
     text-transform: uppercase; 
     color: crimson;
   }
+  .h2 span{
+    color: crimson;
+  }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: crimson;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+    }
+  
   .img{
     width: 15%;
     height: 15%;
@@ -402,7 +440,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 350px;
-    height: 720px;
+    height: 780px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -434,6 +472,25 @@ li.init {
     width: 15%;
     height: 15%;
   }
+  .h2 span{
+    color: crimson;
+  }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: crimson;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+    }
+  
 }
 @media screen and (max-device-width: 375px) {
   body{
@@ -453,7 +510,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 330px;
-    height: 710px;
+    height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 6%;
@@ -485,6 +542,25 @@ li.init {
     width: 15%;
     height: 15%;
   }
+  .h2 span{
+    color: crimson;
+  }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: crimson;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+    }
+  
 }
 @media screen and (max-device-width: 360px) {
   body{
@@ -504,7 +580,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 320px;
-    height: 710px;
+    height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 5%;
@@ -536,6 +612,25 @@ li.init {
     width: 15%;
     height: 15%;
   }
+  .h2 span{
+    color: crimson;
+  }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: crimson;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+    }
+  
 }
 @media screen and (max-device-width: 320px) {
   body{
@@ -555,7 +650,7 @@ li.init {
     margin: 0px; 
   }
   .container{ width: 280px;
-    height: 710px;
+    height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
     margin-left: 7%;
@@ -587,4 +682,23 @@ li.init {
     width: 15%;
     height: 15%;
   }
+  .h2 span{
+    color: crimson;
+  }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    .h2{
+      color:black;
+      font-family: 'Eagle Lake'
+    }
+    h4{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: crimson;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+    }
+  
 }

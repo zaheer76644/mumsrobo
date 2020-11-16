@@ -185,19 +185,24 @@ a{
 #abouts h1{
     display: inline-block;
     padding: 5px 20px;
-    color: black;
+    color: white;
     font-size: 3rem;
     text-transform: cap;
     background-color: royalblue;
     font-weight: bold;
     margin-left: -60%;
-    margin-top: 50px;
+    margin-top: 150px;
     letter-spacing: .1rem;
 }
 #home .img{
   width: 50%;
-  margin-top: 7%;
+  margin-top: 10%;
 
+}
+#home h1{
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: left;
 }
 #header h1{
   color: black;
@@ -223,13 +228,13 @@ a{
 
 }
 #header .brand{
-  margin-left: -22%;
+  margin-left: -20%;
 }
 #header .logo{
   margin-top: 5px;
-  width: 5%;
+  width: 80px;
   height: auto;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 #abouts .img{
     height: auto;
@@ -554,7 +559,7 @@ a.btn-six{
   line-height: 30px;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 23px;
   color: 	#1b7776; }
 
   #Real-life_Coding_HTML_CSS_Java1 {
@@ -605,7 +610,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   color: black; 
 }
@@ -634,7 +639,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 23px;
   color: black; }
 
@@ -648,7 +653,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 23px;
   color: black; }
 
@@ -678,7 +683,7 @@ a.btn-six{
   font-style: normal;
   font-weight: regular;
   font-size: 23px;
-  color: black; }
+  color: blue; }
 
 #View_CRIRICULUM_details a{
   left: 50px;
@@ -691,7 +696,7 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 23px;
-  color: #52dce5; }
+  color: blue; }
 
 #ChatbotCoding_ScratchPython {
   left: 90px;
@@ -818,7 +823,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   color: black; }
 
@@ -832,7 +837,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 23px;
   color: black; }
 
@@ -920,7 +925,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   color: black; }
 
@@ -934,7 +939,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 23px;
   color: black; }
 
@@ -983,7 +988,7 @@ a.btn-six{
   font-style: normal;
  
   font-size: 23px;
-  color: black; }
+  color: blue; }
 
 #ChatbotCoding_ScratchPython_b {
   left: 350px;
@@ -1009,7 +1014,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 23px;
   color: black; }
 
@@ -1051,7 +1056,7 @@ a.btn-six{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 23px;
   color: black; 
 }
@@ -1125,7 +1130,7 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 23px;
-  color: #52dce5; }
+  color: blue; }
 
 #Rs39200 {
   left: 360px;
@@ -1238,7 +1243,7 @@ a.btn-six{
   font-style: normal;
   font-weight: regular;
   font-size: 23px;
-  color: black; }
+  color: blue; }
 
 .Rectangle_15 {
   filter: drop-shadow(14px -11px 20px rgba(172, 166, 166, 0.388));
@@ -1277,7 +1282,7 @@ a.btn-six{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 23px;
-  color: #52dce5; }
+  color: blue; }
 
 #Rs117600 {
   left: 690px;
@@ -1368,7 +1373,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 28px;
   color: white; 
 }
@@ -1382,7 +1387,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 23px;
   color: white; 
 }
@@ -1396,7 +1401,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 23px;
   color: black; 
 }
@@ -1412,7 +1417,7 @@ a.btn4{
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
-  color: #52dce5; 
+  color: crimson; 
 }
 #Register_for_Demo_Class_bzz a{
   left: 1040px;
@@ -1439,7 +1444,7 @@ a.btn4{
   font-family: Segoe UI;
   font-style: normal;
   font-size: 23px;
-  color: #52dce5; 
+  color: crimson; 
 }
 #Artificial_Intelligence___Robo2 {
   left: 1050px;
@@ -1572,7 +1577,7 @@ a.btn4{
   width: 434px;
   white-space: nowrap;
   text-align: center;
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 35px;
   font-family: 'Kanit', sans-serif;
   color: purple; }
@@ -1767,12 +1772,12 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
 #Head_of_Data_Science {
-  left: 580px;
+  left: 575px;
   top: 4473px;
   position: absolute;
   overflow: visible;
@@ -1781,7 +1786,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
@@ -1795,7 +1800,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
@@ -1815,7 +1820,7 @@ a.btn4{
   color: black; }
 
 #DR_SASCHA_GRIFFITHS {
-  left: 300px;
+  left: 320px;
   top: 4533px;
   position: absolute;
   overflow: visible;
@@ -1825,12 +1830,12 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
 #BHAVNA_BHAISARE {
-  left: 605px;
+  left: 585px;
   top: 4533px;
   position: absolute;
   overflow: visible;
@@ -1839,12 +1844,12 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
 #ROBERT_J_LUEBKE {
-  left: 886px;
+  left: 865px;
   top: 4533px;
   position: absolute;
   overflow: visible;
@@ -1853,7 +1858,7 @@ a.btn4{
   text-align: left;
   font-family: Segoe UI;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 13px;
   color: black; }
 
@@ -1873,7 +1878,7 @@ a.btn4{
   color: black; }
 
 #PhD_at_Universittt____Hamburg {
-  left: 260px;
+  left: 290px;
   top: 4570px;
   position: absolute;
   
@@ -1912,7 +1917,7 @@ a.btn4{
 }
 
 #BS_Psychology_Honors__College_ {
-  left: 840px;
+  left: 820px;
   top: 4570px;
   position: absolute;
   overflow: visible;
@@ -1922,7 +1927,7 @@ a.btn4{
   font-family: Segoe UI;
   font-style: normal;
   font-weight: normal;
-  font-size: 13px;
+  font-size: 12px;
   color: black; 
 }
 
@@ -2016,18 +2021,18 @@ a.btn4{
   overflow: visible; }
 
 #My_6-year-old_nephew_Rahul_is_ {
-  left: 750px;
+  left: 700px;
   top: 4885px;
   position: absolute;
   overflow: visible;
   width: 441px;
   white-space: nowrap;
   line-height: 23px;
-  text-align: center;
+  text-align: left;
   font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 19px;
   color: rgb(49, 49, 49); 
 }
 
@@ -2096,7 +2101,7 @@ a.btn-seven{
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 25px;
   color: #006a4e; 
 }
 
@@ -2105,14 +2110,14 @@ a.btn-seven{
   top: 5560px;
   position: absolute;
   overflow: visible;
-  width: 300px;
+  width: 350px;
   height: 127px;
-  text-align: center;
+  text-align: left;
   font-family: 'Kanit', sans-serif;
   font-style: normal;
   line-height: 25px;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 23px;
   color:rgb(0, 100, 250); }
 
 #Rectangle_35 {
@@ -2173,18 +2178,18 @@ a.btn-eight{
   overflow: visible; 
 }
 #Schools_are_a_major_part_of_ev1 {
-  left: 842px;
+  left: 800px;
   top: 6180px;
   position: absolute;
   overflow: visible;
-  width: 300px;
+  width: 450px;
   height: 127px;
-  text-align: center;
+  text-align: left;
   line-height: 28px;
   font-family: 'Kanit', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 24px;
   color:#006a4e; 
 }
 
@@ -2438,7 +2443,7 @@ a.btn-twelv{
 /* Caption text */
 #slider .text1 {
   color: crimson;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
@@ -2449,7 +2454,7 @@ a.btn-twelv{
 }
 #slider .text2 {
   color: darkorange;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
@@ -2486,7 +2491,7 @@ a.btn-twelv{
 /* Caption text */
 #slideshows1 .text3{
   color: crimson;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
@@ -2497,13 +2502,13 @@ a.btn-twelv{
 }
 #slideshows1 .text4 {
   color: darkblue;
-  font-size: 20px;
+  font-size: 22px;
   padding: 8px 12px;
   position: absolute;
   font-family: 'Kanit', sans-serif;
   margin-left: 55%;
   text-align: left;
-  width: 550px;
+  width: 560px;
   margin-top: -30%;
 }
 
@@ -3064,6 +3069,7 @@ a.btn-thirteen{
 }
 #header .logo{
   width: 12%;
+  margin-left: 30px;
   height: auto;
 }
 #header h1{
@@ -3492,6 +3498,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
+    font-weight: bold;
     font-size: 25px;
     color: black;
   }
@@ -3505,6 +3512,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -3547,7 +3555,7 @@ a.btn-thirteen{
     overflow: visible;
     width: 180px;
     white-space: nowrap;
-    /* font-weight: bold; */
+    font-weight: 300;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -3634,7 +3642,7 @@ a.btn-thirteen{
     /* font-style: normal; */
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: blue;
   }
   
   #Rs10000 {
@@ -3741,7 +3749,7 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black;
+    color: blue;
   }
   
   
@@ -3779,6 +3787,7 @@ a.btn-thirteen{
     top: 3005px;
     position: absolute;
     overflow: visible;
+    font-weight: bold;
     width: 180px;
     white-space: nowrap;
     text-align: left;
@@ -3794,6 +3803,7 @@ a.btn-thirteen{
     position: absolute;
     overflow: visible;
     width: 180px;
+    font-weight: bold;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
@@ -3901,7 +3911,7 @@ a.btn-thirteen{
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color:blue;
   }
   
   #Rs39200 {
@@ -4031,7 +4041,7 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black;
+    color: blue;
   }
   
   .Rectangle_64{
@@ -4066,6 +4076,7 @@ a.btn-thirteen{
     overflow: visible;
     width: 180px;
     white-space: nowrap;
+    font-weight: bold;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -4079,6 +4090,7 @@ a.btn-thirteen{
     position: absolute;
     overflow: visible;
     width: 180px;
+    font-weight: bold;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
@@ -4189,7 +4201,7 @@ a.btn-thirteen{
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: blue;
   }
   
   
@@ -4260,7 +4272,7 @@ a.btn-thirteen{
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black; 
+    color: blue; 
   }
 
   .Rectangle_96{
@@ -4289,6 +4301,7 @@ a.btn-thirteen{
     position: absolute;
     overflow: visible;
     width: 180px;
+    font-weight: bold;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
@@ -4301,6 +4314,7 @@ a.btn-thirteen{
     top: 4600px;
     position: absolute;
     overflow: visible;
+    font-weight: bold;
     width: 180px;
     white-space: nowrap;
     text-align: left;
@@ -4321,7 +4335,7 @@ a.btn-thirteen{
     font-style: normal;
     /* font-weight: bold; */
     font-size: 20px;
-    color: skyblue;
+    color: crimson;
   }
   #Artificial_Intelligence___Robo2 {
     left: 120px;
@@ -4403,7 +4417,7 @@ a.btn-thirteen{
   font-style: normal;
   font-size: 20px;
   text-align: center;
-  color: rgb(61, 182, 230);
+  color:crimson;
 }
 #Rs5000 {
   left: 25px;
@@ -4611,7 +4625,7 @@ a.btn-thirteen{
     top: 6500px; 
   }
   #Head_of_Robotics {
-    left: 130px;
+    left: 125px;
     top: 6505px;
     position: absolute;
     overflow: visible;
@@ -4621,13 +4635,13 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
   
   #DR_SASCHA_GRIFFITHS {
-    left: 115px;
+    left: 145px;
     top: 6570px;
     position: absolute;
     overflow: visible;
@@ -4637,12 +4651,12 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     color: black;
   }
   #PhD_at_Universittt____Hamburg {
-    left: 60px;
+    left:90px;
     top: 6625px;
     position: absolute;
     overflow: visible;
@@ -4707,7 +4721,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -4721,7 +4735,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -4730,7 +4744,7 @@ a.btn-thirteen{
     display: none;
   }
   #IIT_Bombay_Indian__School_of_{
-    left: 85px;
+    left: 75px;
     top: 7265px;
     position: absolute;
     overflow: visible;
@@ -4779,7 +4793,7 @@ a.btn-thirteen{
     top: 7775px;  }
   
   #Rectangle_52{
-    fill: gainsboro; 
+    fill: #fdceff; 
   }
   
   #Head_of_Career_Guidance {
@@ -4792,12 +4806,12 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 19px;
     color: black;
   }
   #ROBERT_J_LUEBKE{
-    left: 150px;
+    left: 120px;
     top: 7855px;
     position: absolute;
     overflow: visible;
@@ -4806,7 +4820,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -4815,7 +4829,7 @@ a.btn-thirteen{
     display: none;
   }
   #BS_Psychology_Honors__College_1{
-    left: 100px;
+    left: 60px;
     top: 7905px;
     position: absolute;
     overflow: visible;
@@ -5431,7 +5445,7 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 10550px;
+    margin-top: 10570px;
   }
   /* Caption text */
 #slider .text1 {
@@ -6256,7 +6270,7 @@ img {
   #abouts h1{
       display: inline-block;
       padding: 5px 20px;
-      color: black;
+      color:white;
       font-size: 3rem;
       text-transform: capitalize;
       background-color: royalblue;
@@ -6706,6 +6720,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
+      font-weight: bold;
       font-size: 25px;
       color: black;
     }
@@ -6719,6 +6734,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
@@ -6761,7 +6777,7 @@ img {
       overflow: visible;
       width: 180px;
       white-space: nowrap;
-      /* font-weight: bold; */
+      font-weight: 300;
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
@@ -6848,7 +6864,7 @@ img {
       /* font-style: normal; */
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color: blue;
     }
     
     #Rs10000 {
@@ -6950,7 +6966,7 @@ img {
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: black;
+      color: blue;
     }
     
     
@@ -6987,6 +7003,7 @@ img {
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -7005,6 +7022,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
@@ -7108,7 +7126,7 @@ img {
       font-style: normal;
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color: blue;
     }
     
     #Rs39200 {
@@ -7181,7 +7199,7 @@ img {
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: black;
+      color: blue;
     }
     
     .Rectangle_64{
@@ -7215,6 +7233,7 @@ img {
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -7229,6 +7248,7 @@ img {
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -7339,7 +7359,7 @@ img {
       font-style: normal;
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color:blue;
     }
     
     
@@ -7410,7 +7430,7 @@ img {
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: white; 
+      color: blue; 
     }
     
     #buy_now  a{
@@ -7493,6 +7513,7 @@ img {
     #Legendary {
       left: 120px;
       top: 4535px;
+      font-weight: bold;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -7509,6 +7530,7 @@ img {
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -7528,7 +7550,7 @@ img {
       font-style: normal;
       /* font-weight: bold; */
       font-size: 20px;
-      color: skyblue;
+      color: crimson;
     }
     #Artificial_Intelligence___Robo2 {
       left: 120px;
@@ -7610,7 +7632,7 @@ img {
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: crimson;
   }
   #Rs5000 {
     left: 25px;
@@ -7826,7 +7848,7 @@ img {
       
     }
     #Head_of_Robotics {
-      left: 130px;
+      left: 125px;
       top: 6505px;
       position: absolute;
       overflow: visible;
@@ -7836,13 +7858,13 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
     
     #DR_SASCHA_GRIFFITHS {
-      left: 115px;
+      left: 145px;
       top: 6570px;
       
       position: absolute;
@@ -7852,12 +7874,12 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 18px;
       color: black;
     }
     #PhD_at_Universittt____Hamburg {
-      left: 50px;
+      left: 80px;
       top: 6625px;
       position: absolute;
       overflow: visible;
@@ -7922,7 +7944,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
@@ -7936,7 +7958,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
@@ -7945,7 +7967,7 @@ img {
       display: none;
     }
     #IIT_Bombay_Indian__School_of_{
-      left: 75px;
+      left: 65px;
       top: 7265px;
       position: absolute;
       overflow: visible;
@@ -7994,7 +8016,7 @@ img {
       top: 7775px;  }
     
     #Rectangle_52{
-      fill: gainsboro; 
+      fill: #fdceff; 
     }
     
     #Head_of_Career_Guidance {
@@ -8007,12 +8029,12 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 19px;
       color: black;
     }
     #ROBERT_J_LUEBKE{
-      left: 140px;
+      left: 110px;
       top: 7855px;
       position: absolute;
       overflow: visible;
@@ -8021,7 +8043,7 @@ img {
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 20px;
       color: black;
     }
@@ -8030,7 +8052,7 @@ img {
       display: none;
     }
     #BS_Psychology_Honors__College_1{
-      left: 90px;
+      left: 50px;
       top: 7905px;
       position: absolute;
       overflow: visible;
@@ -8646,7 +8668,7 @@ img {
       max-width: 1000px;
       position: relative;
       margin: auto;
-      margin-top: 10750px;
+      margin-top: 10770px;
     }
     /* Caption text */
   #slider .text1 {
@@ -9488,7 +9510,7 @@ img {
 #abouts h1{
     display: inline-block;
     padding: 5px 20px;
-    color: black;
+    color: white;
     font-size: 3rem;
     text-transform: capitalize;
     background-color: royalblue;
@@ -9948,6 +9970,7 @@ img {
     width: 180px;
     white-space: nowrap;
     text-align: left;
+    font-weight: bold;
     font-family: Segoe UI;
     font-style: normal;
     font-size: 25px;
@@ -9961,6 +9984,7 @@ img {
     width: 180px;
     white-space: nowrap;
     text-align: left;
+    font-weight: bold;
     font-family: Segoe UI;
     font-style: normal;
     font-size: 20px;
@@ -10005,7 +10029,7 @@ img {
     overflow: visible;
     width: 180px;
     white-space: nowrap;
-    /* font-weight: bold; */
+    font-weight: 300;
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
@@ -10092,7 +10116,7 @@ img {
     /* font-style: normal; */
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color:blue;
   }
   
   #Rs10000 {
@@ -10185,7 +10209,7 @@ img {
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black;
+    color: blue;
   }
   
   
@@ -10224,6 +10248,7 @@ img {
     position: absolute;
     overflow: visible;
     width: 180px;
+    font-weight: bold;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
@@ -10240,6 +10265,7 @@ img {
     width: 180px;
     white-space: nowrap;
     text-align: left;
+    font-weight: bold;
     font-family: Segoe UI;
     font-style: normal;
     font-size: 20px;
@@ -10345,7 +10371,7 @@ img {
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: blue;
   }
   
   #Rs39200 {
@@ -10418,7 +10444,7 @@ img {
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black;
+    color:blue;
   }
   
   .Rectangle_64{
@@ -10448,6 +10474,7 @@ img {
   #Inbetweener {
     left: 140px;
     top: 3765px;
+    font-weight: bold;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -10465,6 +10492,7 @@ img {
     position: absolute;
     overflow: visible;
     width: 180px;
+    font-weight: bold;
     white-space: nowrap;
     text-align: left;
     font-family: Segoe UI;
@@ -10575,7 +10603,7 @@ img {
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: blue;
   }
   
   
@@ -10646,7 +10674,7 @@ img {
     font-style: normal;
     font-weight: regular;
     font-size: 20px;
-    color: black; 
+    color:blue; 
   }
   #buy_now  a{
     display: inline-block;
@@ -10728,6 +10756,7 @@ img {
   #Legendary {
     left: 120px;
     top: 4535px;
+    font-weight: bold;
     position: absolute;
     overflow: visible;
     width: 180px;
@@ -10743,6 +10772,7 @@ img {
     top: 4600px;
     position: absolute;
     overflow: visible;
+    font-weight: bold;
     width: 180px;
     white-space: nowrap;
     text-align: left;
@@ -10763,7 +10793,7 @@ img {
     font-style: normal;
     /* font-weight: bold; */
     font-size: 20px;
-    color: skyblue;
+    color: crimson;
   }
   #Artificial_Intelligence___Robo2 {
     left: 120px;
@@ -11055,7 +11085,7 @@ img {
     top: 6425px; 
   }
   #Head_of_Robotics {
-    left: 110px;
+    left: 105px;
     top: 6430px;
     position: absolute;
     overflow: visible;
@@ -11065,13 +11095,13 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
   
   #DR_SASCHA_GRIFFITHS {
-    left: 93px;
+    left: 125px;
     top: 6495px;
    
     position: absolute;
@@ -11081,12 +11111,12 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     color: black;
   }
   #PhD_at_Universittt____Hamburg {
-    left: 40px;
+    left: 70px;
    
     top: 6550px;
     position: absolute;
@@ -11154,7 +11184,7 @@ img {
   }
   
   #Head_of_Data_Science {
-    left: 95px;
+    left: 90px;
     top: 7070px;
     position: absolute;
     overflow: visible;
@@ -11163,7 +11193,7 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -11177,7 +11207,7 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -11186,7 +11216,7 @@ img {
     display: none;
   }
   #IIT_Bombay_Indian__School_of_{
-    left: 65px;
+    left: 50px;
     top: 7185px;
     position: absolute;
     overflow: visible;
@@ -11236,7 +11266,7 @@ img {
     top: 7700px;  }
   
   #Rectangle_52{
-    fill: gainsboro; 
+    fill: #fdceff; 
   }
   
   #Head_of_Career_Guidance {
@@ -11249,12 +11279,12 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 19px;
     color: black;
   }
   #ROBERT_J_LUEBKE{
-    left: 130px;
+    left: 100px;
     top: 7780px;
     position: absolute;
     overflow: visible;
@@ -11263,7 +11293,7 @@ img {
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -11272,7 +11302,7 @@ img {
     display: none;
   }
   #BS_Psychology_Honors__College_1{
-    left: 80px;
+    left: 50px;
     top: 7830px;
     position: absolute;
     overflow: visible;
@@ -11282,7 +11312,7 @@ img {
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
   }
   
@@ -11909,7 +11939,7 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 10300px;
+    margin-top: 10320px;
   }
   /* Caption text */
   #slider .text1 {
@@ -12710,7 +12740,7 @@ a.btn-thirteen{
   #abouts h1{
       display: inline-block;
       padding: 5px 20px;
-      color: black;
+      color: white;
       font-size: 2.5rem;
       text-transform: capitalize;
       background-color: royalblue;
@@ -13167,6 +13197,7 @@ a.btn-thirteen{
       width: 180px;
       white-space: nowrap;
       text-align: left;
+      font-weight: bold;
       font-family: Segoe UI;
       font-style: normal;
       font-size: 25px;
@@ -13178,6 +13209,7 @@ a.btn-thirteen{
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -13224,7 +13256,7 @@ a.btn-thirteen{
       overflow: visible;
       width: 180px;
       white-space: nowrap;
-      /* font-weight: bold; */
+      font-weight: 300;
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
@@ -13311,7 +13343,7 @@ a.btn-thirteen{
       /* font-style: normal; */
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color:blue;
     }
     
     #Rs10000 {
@@ -13404,7 +13436,7 @@ a.btn-thirteen{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: black;
+      color: blue;
     }
     
     
@@ -13447,6 +13479,7 @@ a.btn-thirteen{
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
+      font-weight: bold;
       font-size: 25px;
       color: black;
     }
@@ -13458,6 +13491,7 @@ a.btn-thirteen{
       overflow: visible;
       width: 180px;
       white-space: nowrap;
+      font-weight: bold;
       text-align: left;
       font-family: Segoe UI;
       font-style: normal;
@@ -13564,7 +13598,7 @@ a.btn-thirteen{
       font-style: normal;
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color: blue;
     }
     
     #Rs39200 {
@@ -13637,7 +13671,7 @@ a.btn-thirteen{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: black;
+      color: blue;
     }
     
     .Rectangle_64{
@@ -13670,6 +13704,7 @@ a.btn-thirteen{
     #Inbetweener {
       left: 140px;
       top: 3765px;
+      font-weight: bold;
       position: absolute;
       overflow: visible;
       width: 180px;
@@ -13685,6 +13720,7 @@ a.btn-thirteen{
       left: 135px;
       top: 3830px;
       position: absolute;
+      font-weight: bold;
       overflow: visible;
       width: 180px;
       white-space: nowrap;
@@ -13797,7 +13833,7 @@ a.btn-thirteen{
       font-style: normal;
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color: blue;
     }
     
     
@@ -13868,7 +13904,7 @@ a.btn-thirteen{
       font-style: normal;
       font-weight: regular;
       font-size: 20px;
-      color: black; 
+      color: blue; 
     }
     #buy_now  a{
       display: inline-block;
@@ -13954,6 +13990,7 @@ a.btn-thirteen{
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -13967,6 +14004,7 @@ a.btn-thirteen{
       position: absolute;
       overflow: visible;
       width: 180px;
+      font-weight: bold;
       white-space: nowrap;
       text-align: left;
       font-family: Segoe UI;
@@ -13986,7 +14024,7 @@ a.btn-thirteen{
       font-style: normal;
       /* font-weight: bold; */
       font-size: 20px;
-      color: skyblue;
+      color: crimson;
     }
     #Artificial_Intelligence___Robo2 {
       left: 120px;
@@ -14068,7 +14106,7 @@ a.btn-thirteen{
     font-style: normal;
     font-size: 20px;
     text-align: center;
-    color: rgb(61, 182, 230);
+    color: crimson;
   }
   #Rs5000 {
     left: 25px;
@@ -14274,7 +14312,7 @@ a.btn-thirteen{
     top: 6425px; 
   }
   #Head_of_Robotics {
-    left: 110px;
+    left: 105px;
     top: 6430px;
     position: absolute;
     overflow: visible;
@@ -14284,13 +14322,13 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
   
   #DR_SASCHA_GRIFFITHS {
-    left: 93px;
+    left: 125px;
     top: 6495px;
     
     position: absolute;
@@ -14300,12 +14338,12 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 18px;
     color: black;
   }
   #PhD_at_Universittt____Hamburg {
-    left: 40px;
+    left: 80px;
     top: 6550px;
     position: absolute;
     overflow: visible;
@@ -14373,7 +14411,7 @@ a.btn-thirteen{
   }
   
   #Head_of_Data_Science {
-    left: 95px;
+    left: 90px;
     top: 7070px;
     position: absolute;
     overflow: visible;
@@ -14382,12 +14420,12 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
   #BHAVNA_BHAISARE {
-    left: 120px;
+    left: 90px;
     top: 7140px;
     position: absolute;
     overflow: visible;
@@ -14396,7 +14434,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -14405,7 +14443,7 @@ a.btn-thirteen{
     display: none;
   }
   #IIT_Bombay_Indian__School_of_{
-    left: 55px;
+    left: 40px;
     top: 7190px;
     position: absolute;
     overflow: visible;
@@ -14456,7 +14494,7 @@ a.btn-thirteen{
     top: 7700px;  }
   
   #Rectangle_52{
-    fill: gainsboro; 
+    fill: #fdceff; 
   }
   
   #Head_of_Career_Guidance {
@@ -14469,12 +14507,12 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 19px;
     color: black;
   }
   #ROBERT_J_LUEBKE{
-    left: 110px;
+    left: 85px;
     top: 7780px;
     position: absolute;
     overflow: visible;
@@ -14483,7 +14521,7 @@ a.btn-thirteen{
     text-align: left;
     font-family: Segoe UI;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 20px;
     color: black;
   }
@@ -14492,7 +14530,7 @@ a.btn-thirteen{
     display: none;
   }
   #BS_Psychology_Honors__College_1{
-    left: 60px;
+    left: 40px;
     top: 7830px;
     position: absolute;
     overflow: visible;
@@ -14502,7 +14540,7 @@ a.btn-thirteen{
     font-family: Segoe UI;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
   }
   
@@ -15128,7 +15166,7 @@ a.btn-thirteen{
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 10370px;
+    margin-top: 10400px;
   }
   /* Caption text */
   #slider .text1 {
@@ -15952,7 +15990,7 @@ a.btn-thirteen{
 #abouts h1{
     display: inline-block;
     padding: 5px 20px;
-    color: black;
+    color: white;
     font-size: 2.5rem;
     text-transform: capitalize;
     background-color:royalblue;
@@ -16466,6 +16504,7 @@ a.btn-thirteen{
         width: 180px;
         white-space: nowrap;
         text-align: left;
+        font-weight: bold;
         font-family: Segoe UI;
         font-style: normal;
         font-size: 25px;
@@ -16477,6 +16516,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -16523,7 +16563,7 @@ a.btn-thirteen{
         overflow: visible;
         width: 180px;
         white-space: nowrap;
-        /* font-weight: bold; */
+        font-weight: 300;
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
@@ -16610,7 +16650,7 @@ a.btn-thirteen{
         /* font-style: normal; */
         font-size: 20px;
         text-align: center;
-        color: rgb(61, 182, 230);
+        color: blue;
       }
       
       #Rs10000 {
@@ -16701,7 +16741,7 @@ a.btn-thirteen{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: black;
+        color: blue;
       }
       
       
@@ -16740,6 +16780,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -16754,6 +16795,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -16861,7 +16903,7 @@ a.btn-thirteen{
         font-style: normal;
         font-size: 20px;
         text-align: center;
-        color: rgb(61, 182, 230);
+        color: blue;
       }
       
       #Rs39200 {
@@ -16934,7 +16976,7 @@ a.btn-thirteen{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: black;
+        color: blue;
       }
       
       .Rectangle_64{
@@ -16970,6 +17012,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -16984,6 +17027,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -17094,7 +17138,7 @@ a.btn-thirteen{
         font-style: normal;
         font-size: 20px;
         text-align: center;
-        color: rgb(61, 182, 230);
+        color: blue;
       }
       
       
@@ -17165,7 +17209,7 @@ a.btn-thirteen{
         font-style: normal;
         font-weight: regular;
         font-size: 20px;
-        color: black; 
+        color:blue; 
       }
       #buy_now  a{
         display: inline-block;
@@ -17250,6 +17294,7 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 180px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
@@ -17260,6 +17305,7 @@ a.btn-thirteen{
       #ID300_Classes {
         left: 115px;
         top: 4600px;
+        font-weight: bold;
         position: absolute;
         overflow: visible;
         width: 180px;
@@ -17282,7 +17328,7 @@ a.btn-thirteen{
         font-style: normal;
         /* font-weight: bold; */
         font-size: 20px;
-        color: skyblue;
+        color: crimson;
       }
       #Artificial_Intelligence___Robo2 {
         left: 100px;
@@ -17364,7 +17410,7 @@ a.btn-thirteen{
       font-style: normal;
       font-size: 20px;
       text-align: center;
-      color: rgb(61, 182, 230);
+      color: crimson;
     }
     #Rs5000 {
       left: 25px;
@@ -17579,7 +17625,7 @@ a.btn-thirteen{
         top: 6425px; 
       }
       #Head_of_Robotics {
-        left: 90px;
+        left: 80px;
         top: 6430px;
         
         position: absolute;
@@ -17589,13 +17635,13 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 20px;
         color: black;
       }
       
       #DR_SASCHA_GRIFFITHS {
-        left: 75px;
+        left: 100px;
         top: 6490px;
         
         position: absolute;
@@ -17605,12 +17651,12 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 18px;
         color: black;
       }
       #PhD_at_Universittt____Hamburg {
-        left: 25px;
+        left: 55px;
         top: 6550px;
         position: absolute;
         overflow: visible;
@@ -17678,8 +17724,8 @@ a.btn-thirteen{
       }
       
       #Head_of_Data_Science {
-        left: 65px;
-        top: 7065px;
+        left: 55px;
+        top: 7070px;
         position: absolute;
         overflow: visible;
         width: 99px;
@@ -17687,13 +17733,14 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+        font-weight: bold;
         font-size: 20px;
         color: black;
       }
       #BHAVNA_BHAISARE {
-        left: 100px;
+        left: 80px;
         top: 7140px;
+        font-weight: bold;
         position: absolute;
         overflow: visible;
         width: 135px;
@@ -17701,7 +17748,7 @@ a.btn-thirteen{
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+        
         font-size: 18px;
         color: black;
       }
@@ -17710,7 +17757,7 @@ a.btn-thirteen{
         display: none;
       }
       #IIT_Bombay_Indian__School_of_ {
-        left: 65px;
+        left: 50px;
         top: 7190px;
         position: absolute;
         overflow: visible;
@@ -17761,7 +17808,7 @@ a.btn-thirteen{
         top: 7700px;  }
       
       #Rectangle_52{
-        fill: gainsboro; 
+        fill: #fdceff; 
       }
       
       #Head_of_Career_Guidance {
@@ -17770,25 +17817,27 @@ a.btn-thirteen{
         position: absolute;
         overflow: visible;
         width: 99px;
+        font-weight: bold;
         white-space: nowrap;
         text-align: left;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+       
         font-size: 19px;
         color: black;
       }
       #ROBERT_J_LUEBKE{
-        left: 105px;
+        left: 80px;
         top: 7780px;
         position: absolute;
         overflow: visible;
         width: 135px;
         white-space: nowrap;
         text-align: left;
+        font-weight: bold;
         font-family: Segoe UI;
         font-style: normal;
-        font-weight: normal;
+        
         font-size: 18px;
         color: black;
       }
@@ -17797,7 +17846,7 @@ a.btn-thirteen{
         display: none;
       }
       #BS_Psychology_Honors__College_1{
-        left: 60px;
+        left: 30px;
         top: 7830px;
         position: absolute;
         overflow: visible;
@@ -18434,7 +18483,7 @@ a.btn-thirteen{
         max-width: 1000px;
         position: relative;
         margin: auto;
-        margin-top: 9800px;
+        margin-top: 9830px;
       }
       /* Caption text */
       #slider .text1 {
