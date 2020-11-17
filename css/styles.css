@@ -222,21 +222,13 @@ body{
     position: relative;
 }
 #desktop-container #header-details #header-logo img {
-    width: 64px;
-    height: 64px;
+    width: 50px;
+    height: 50px;
     line-height: 62px;
-    display: inline-block;
-    vertical-align: middle;
+    object-fit: cover;
+   
 }
-#header-details #header-logo {
-    text-align: center;
-    position: relative;
-    border-radius: 3px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
-    background: #fff;
-    padding: 8px;
-    display: inline-block;
-}
+
 #desktop-container #header-details {
     padding: 24px 0;
     color: #0d2366;
@@ -694,6 +686,8 @@ a {
     color: #528ff0;
     display: inline-block;
 }
+
+
 
 @media screen and (min-device-width: 1020px) {
 a.btn1-fixed{

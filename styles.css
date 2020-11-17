@@ -175,7 +175,7 @@ a{
 
 
 /* Caption text */
-@media only screen and (min-device-width:1366px) and (max-device-width: 1600px){
+@media only screen and (min-device-width:1440px) and (max-device-width: 1600px){
   #abouts .about{
     flex-direction: column;
 }
@@ -188,7 +188,7 @@ a{
     background-color: royalblue;
     font-weight: bold;
     margin-left: -60%;
-    margin-top: 150px;
+    margin-top: -50px;
     letter-spacing: .1rem;
 }
 #home .img{
@@ -234,6 +234,7 @@ a{
   margin-left: 0px;
 }
 #abouts .img{
+  width: 700px;
     height: auto;
     margin-top: 50px;
     margin-left: -45%;
@@ -241,9 +242,9 @@ a{
 
 #abouts p{
     margin-left: 50%;
-    width: 500px;
-    margin-top:-30%; 
-    font-size: 1.8rem;
+    width: 640px;
+    margin-top:-27%; 
+    font-size: 2rem;
     color: royalblue;
     font-family: 'Kanit', sans-serif;
 }
@@ -529,6 +530,7 @@ a.btn-six{
   width: 700px;
   height: 380px;
   left: 94px;
+  border-radius: 25px;
   top: 1680px;
   overflow: visible; 
 }
@@ -539,6 +541,7 @@ a.btn-six{
   width: 700px;
   height: 380px;
   left: 94px;
+  border-radius: 25px;
   top: 2270px;
   overflow: visible; }
 
@@ -1563,6 +1566,7 @@ a.btn4{
   width: 700px;
   height: 457px;
   left: 120px;
+  border-radius: 25px;
   top: 3750px;
   overflow: visible; }
 
@@ -2013,6 +2017,7 @@ a.btn4{
   width: 700px;
   height: 370px;
   left: 105px;
+  border-radius: 25px;
   object-fit: cover;
   top: 5070px;
   overflow: visible; }
@@ -2064,10 +2069,11 @@ a.btn-seven{
 #Screenshot_18 {
   position: absolute;
   width: 700px;
-  height: 350px;
+  height: 370px;
   left: 120px;
+  border-radius: 25px;
   object-fit: cover;
-  top: 5650px;
+  top: 5640px;
   overflow: visible; }
 
 #How_to_get_your_child_interest {
@@ -2163,13 +2169,16 @@ a.btn-eight{
   position: absolute;
   width: 700px;
   height: 450px;
+  
   left: 120px;
   top: 6850px;
+  border-radius: 25px;
   overflow: visible; }
 
 #Screenshot_20 {
   position: absolute;
   width: 700px;
+  border-radius: 25px;
   object-fit: cover;
   height: 450px;
   left: 120px;
@@ -2274,6 +2283,7 @@ a.btn-ten{
   width: 700px;
   height: 450px;
   left: 120px;
+  border-radius: 25px;
   top: 7540px;
   object-fit: cover;
   overflow: visible; 
@@ -2362,9 +2372,10 @@ a.btn-elven{
   position: absolute;
   width: 700px;
   height: 450px;
+  object-fit: cover;
   left: 120px;
   top: 8250px;
- 
+ border-radius: 25px;
   overflow: visible; 
 }
  
@@ -3026,13 +3037,339 @@ a.btn-thirteen{
 .Rectangle_108{
   display: none;
 }
-
-
-
-
   
 }
+@media only screen and (min-device-width:1366px) and (max-device-width: 1440px){
+  #Real-life_Coding_HTML_CSS_Java {
+    left: 800px;
+    top: 1700px;
+    position: absolute;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: 	#1b7776; 
+  }
+  
+#seventh {
+  position: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 380px;
+  left: 94px;
+  border-radius: 25px;
+  top: 1680px;
+  overflow: visible; 
+}
+#Create_Website a{
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: crimson;
+  left: 800px;
+  top: 1990px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  color: white; 
+}
+#eight {
+  position: absolute;
+  object-fit: cover;
+  width: 600px;
+  height: 380px;
+  left: 94px;
+  border-radius: 25px;
+  top: 2270px;
+  overflow: visible; 
+}
+#Real-life_Coding_HTML_CSS_Java1 {
+  left: 800px;
+  top: 2300px;
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+  white-space: nowrap;
+  text-align: left;
+  font-family:'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: rgb(199, 47, 70); 
+}
+#ceritificate {
+  position: absolute;
+  width: 600px;
+  height: 457px;
+  left: 120px;
+  border-radius: 25px;
+  top: 3750px;
+  overflow: visible; 
+}
+#Edurific_is_founded_by_the_Alu {
+  left: 800px;
+  top: 3800px;
+  position: absolute;
+  overflow: visible;
+  width: 434px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 20px;
+  line-height: 35px;
+  font-family: 'Kanit', sans-serif;
+  color: purple; 
+}
+#shayari-2-8 {
+  position: absolute;
+  width: 600px;
+  height: 370px;
+  left: 105px;
+  border-radius: 25px;
+  object-fit: cover;
+  top: 5070px;
+  overflow: visible; }
 
+#My_6-year-old_nephew_Rahul_is_ {
+  left: 800px;
+  top: 5085px;
+  position: absolute;
+  overflow: visible;
+  width: 441px;
+  white-space: nowrap;
+  line-height: 23px;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  color: rgb(49, 49, 49); 
+}
+#Screenshot_18 {
+  position: absolute;
+  width: 600px;
+  height: 370px;
+  left: 120px;
+  border-radius: 25px;
+  object-fit: cover;
+  top: 5640px;
+  overflow: visible; 
+}
+#How_to_get_your_child_interest {
+  transform: matrix(1, 0, 0, 1, 761.5369, 5473.3687) rotate(0deg);
+  transform-origin: center;
+  left: 100px;
+  top: 200px;
+  position: absolute;
+  overflow: visible;
+  width: 460px;
+  height: 105px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(0, 17, 250); 
+}
+#your_kid {
+  transform: matrix(1, 0, 0, 1, 761.5369, 5473.3687) rotate(0deg);
+  transform-origin: center;
+  left: 110px;
+  top: 780px;
+  position: absolute;
+  overflow: visible;
+  width: 450px;
+  height: 105px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #006a4e; 
+}
+
+#Schools_are_a_major_part_of_ev {
+  left: 880px;
+  top: 5760px;
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 127px;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  line-height: 25px;
+  font-weight: normal;
+  font-size: 27px;
+  color:rgb(0, 100, 250); 
+}
+#Screenshot_21 {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  
+  left: 120px;
+  top: 6850px;
+  border-radius: 25px;
+  overflow: visible; }
+
+#Screenshot_20 {
+  position: absolute;
+  width: 600px;
+  border-radius: 25px;
+  object-fit: cover;
+  height: 450px;
+  left: 120px;
+  top: 6220px;
+  overflow: visible; 
+}
+#Schools_are_a_major_part_of_ev1 {
+  left: 850px;
+  top: 6380px;
+  position: absolute;
+  overflow: visible;
+  width: 550px;
+  height: 127px;
+  text-align: left;
+  line-height: 28px;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  color:#006a4e; 
+}
+
+#Kid_intern {
+  left:900px;
+  top: 6900px;
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 127px;
+  text-align: left;
+  line-height: 60px;
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color:black; 
+}
+#Read_More a{
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: crimson;
+  left: 905px;
+  top: 7220px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  color: white; 
+}
+
+#Entrepreneur a{
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: crimson;
+  left: 905px;
+  top: 7850px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  color: white; 
+}
+#Screenshot_35 {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  left: 120px;
+  border-radius: 25px;
+  top: 7540px;
+  object-fit: cover;
+  overflow: visible; 
+}
+#Entrepreneurship1 {
+  left:900px;
+  top: 7630px;
+  position: absolute;
+  overflow: visible;
+  width: 450px;
+  height: 127px;
+  text-align: left;
+  line-height: 60px;
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color:black; 
+}
+#Screenshot_36 {
+  position: absolute;
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  left: 120px;
+  top: 8250px;
+ border-radius: 25px;
+  overflow: visible; 
+}
+#Isro_visit {
+  left:900px;
+  top: 8400px;
+  position: absolute;
+  overflow: visible;
+  width: 400px;
+  height: 127px;
+  text-align: left;
+  line-height: 60px;
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  color:black; 
+}
+#issro a{
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: crimson;
+  left: 905px;
+  top: 8600px;
+  position: absolute;
+  overflow: visible;
+  width: 103px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 30px;
+  color: white; 
+}
+}
 
 @media only screen and (min-device-width:1024px) and (max-device-width: 1366px){
   #abouts .about{
@@ -3388,6 +3725,7 @@ a.btn-six{
   width: 550px;
   height: 350px;
   left: 94px;
+  border-radius: 25px;
   top: 1460px;
   overflow: visible; 
 }
@@ -3397,6 +3735,7 @@ a.btn-six{
   object-fit: cover;
   width: 550px;
   height: 350px;
+  border-radius: 25px;
   left: 94px;
   top: 1970px;
   overflow: visible; }
@@ -4421,6 +4760,7 @@ a.btn4{
   position: absolute;
   width: 529px;
   height: 457px;
+  border-radius: 25px;
   left: 120px;
   top: 3498px;
   overflow: visible; }
@@ -4870,6 +5210,7 @@ a.btn4{
 #shayari-2-8 {
   position: absolute;
   width: 500px;
+  border-radius: 25px;
   height: 370px;
   left: 105px;
   object-fit: cover;
@@ -4926,6 +5267,7 @@ a.btn-seven{
   height: 350px;
   left: 120px;
   top: 5450px;
+  border-radius: 25px;
   overflow: visible; }
 
 #How_to_get_your_child_interest {
@@ -5021,6 +5363,7 @@ a.btn-eight{
   position: absolute;
   width: 536px;
   height: 450px;
+  border-radius: 25px;
   left: 120px;
   top: 6650px;
   overflow: visible; }
@@ -5029,6 +5372,7 @@ a.btn-eight{
   position: absolute;
   width: 536px;
   height: 450px;
+  border-radius: 25px;
   left: 120px;
   top: 6020px;
   overflow: visible; 
@@ -5130,6 +5474,7 @@ a.btn-ten{
   position: absolute;
   width: 536px;
   height: 450px;
+  border-radius: 25px;
   left: 120px;
   top: 7340px;
   object-fit: cover;
@@ -5220,6 +5565,7 @@ a.btn-elven{
   width: 536px;
   height: 450px;
   left: 120px;
+  border-radius: 25px;
   top: 8050px;
  
   overflow: visible; 
@@ -6239,6 +6585,7 @@ a.btn-six{
   height: 350px;
   left: 94px;
   top: 1460px;
+  border-radius: 25px;
   overflow: visible; 
 }
 
@@ -6248,6 +6595,7 @@ a.btn-six{
   width: 350px;
   height: 350px;
   left: 94px;
+  border-radius: 25px;
   top: 1970px;
   overflow: visible; }
 
@@ -7273,6 +7621,7 @@ a.btn4{
   height: 457px;
   left: 120px;
   top: 3498px;
+  border-radius: 25px;
   overflow: visible; }
 
 #Edurific_is_founded_by_the_Alu {
@@ -7723,6 +8072,7 @@ a.btn4{
   height: 370px;
   left: 105px;
   object-fit: cover;
+  border-radius: 25px;
   top: 4870px;
   overflow: visible; }
 
@@ -7775,6 +8125,7 @@ a.btn-seven{
   width: 536px;
   height: 350px;
   left: 120px;
+  border-radius: 25px;
   top: 5450px;
   overflow: visible; }
 
@@ -7873,6 +8224,7 @@ a.btn-eight{
   height: 450px;
   left: 120px;
   top: 6650px;
+  border-radius: 25px;
   overflow: visible; }
 
 #Screenshot_20 {
@@ -7880,6 +8232,7 @@ a.btn-eight{
   width: 536px;
   height: 450px;
   left: 120px;
+  border-radius: 25px;
   top: 6020px;
   overflow: visible; 
 }
@@ -7977,6 +8330,7 @@ a.btn-ten{
   color: black; 
 }
 #Screenshot_35 {
+  border-radius: 25px;
   position: absolute;
   width: 536px;
   height: 450px;
@@ -8071,7 +8425,7 @@ a.btn-elven{
   height: 450px;
   left: 120px;
   top: 8050px;
- 
+  border-radius: 25px;
   overflow: visible; 
 }
  
@@ -8966,6 +9320,7 @@ a.btn-thirteen{
     height: auto;
     object-fit: cover;
     left: 10px;
+    border-radius: 25px;
     top: 1150px;
     overflow: visible;
   }
@@ -9141,9 +9496,11 @@ a.btn-thirteen{
     position: absolute;
     width: 93%;
     height: auto;
+    
     object-fit: cover;
     left: 10px;
     top: 1670px;
+    border-radius: 25px;
     overflow: visible;
   }
   
@@ -10206,6 +10563,7 @@ a.btn-thirteen{
     position: absolute;
     width: 92%;
     height: auto;
+    border-radius: 25px;
     left: 15px;
     top: 5430px;
     overflow: visible;
@@ -10707,7 +11065,7 @@ a.btn-thirteen{
     object-fit: cover;
     left: 15px;
     top: 8165px;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: visible;
   }
   
@@ -10774,6 +11132,7 @@ a.btn-thirteen{
     left: 13px;
     top: 8835px;
     overflow: visible;
+    border-radius: 25px;
   }
   
  
@@ -10884,6 +11243,7 @@ a.btn-thirteen{
     left: 15px;
     top: 9470px;
     overflow: visible; 
+    border-radius: 25px;
   }
 
   #your_kid {
@@ -10954,6 +11314,7 @@ a.btn-thirteen{
     height: auto;
     left: 15px;
     top: 10095px;
+    border-radius: 25px;
     overflow: visible; 
   }
 
@@ -11010,6 +11371,7 @@ a.btn-thirteen{
 
   #Screenshot_35 {
     position: absolute;
+    border-radius: 25px;
     width: 93%;
     height: auto;
     left: 15px;
@@ -11080,6 +11442,7 @@ a.btn-thirteen{
     height: 300px;
     left: 10px;
     top: 11165px;
+    border-radius: 25px;
     overflow: visible; 
   }
    
@@ -12190,6 +12553,7 @@ img {
       object-fit: cover;
       left: 10px;
       top: 1150px;
+      border-radius: 25px;
       overflow: visible;
     }
     
@@ -12354,6 +12718,7 @@ img {
       position: absolute;
       width: 93%;
       height: auto;
+      border-radius: 25px;
       object-fit: cover;
       left: 10px;
       top: 1670px;
@@ -13431,6 +13796,7 @@ img {
       width: 92%;
       height: auto;
       left: 15px;
+      border-radius: 25px;
       top: 5430px;
       overflow: visible;
     }
@@ -13930,7 +14296,7 @@ img {
       object-fit: cover;
       left: 15px;
       top: 8165px;
-      border-radius: 10px;
+      border-radius: 25px;
       overflow: visible;
     }
     
@@ -13997,6 +14363,7 @@ img {
       left: 13px;
       top: 8835px;
       overflow: visible;
+      border-radius: 25px;
     }
     
    
@@ -14106,6 +14473,7 @@ img {
       height: auto;
       left: 15px;
       top: 9470px;
+      border-radius: 25px;
       overflow: visible; 
     }
   
@@ -14176,6 +14544,7 @@ img {
       width: 93%;
       height: auto;
       left: 15px;
+      border-radius: 25px;
       top: 10095px;
       overflow: visible; 
     }
@@ -14233,6 +14602,7 @@ img {
   
     #Screenshot_35 {
       position: absolute;
+      border-radius: 25px;
       width: 93%;
       height: auto;
       left: 15px;
@@ -14302,6 +14672,7 @@ img {
       width: 93%;
       height: 300px;
       left: 10px;
+      border-radius: 25px;
       top: 11165px;
       overflow: visible; 
     }
@@ -15440,6 +15811,7 @@ img {
     height: auto;
     object-fit: cover;
     left: 10px;
+    border-radius: 25px;
     top: 1170px;
     overflow: visible;
   }
@@ -15615,6 +15987,7 @@ img {
     position: absolute;
     width: 93%;
     height: auto;
+    border-radius: 25px;
     object-fit: cover;
     left: 10px;
     top: 1670px;
@@ -16671,6 +17044,7 @@ img {
     height: auto;
     left: 15px;
     top: 5415px;
+    border-radius: 25px;
     overflow: visible;
   }
   
@@ -17181,7 +17555,7 @@ img {
     object-fit: cover;
     left: 15px;
     top: 8090px;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: visible;
   }
   
@@ -17248,6 +17622,7 @@ img {
     left: 13px;
     top: 8760px;
     overflow: visible;
+    border-radius: 25px;
   }
   
  
@@ -17357,7 +17732,8 @@ img {
     height: auto;
     left: 15px;
     top: 9395px;
-    overflow: visible; 
+    overflow: visible;
+    border-radius: 25px; 
   }
 
   #your_kid {
@@ -17428,6 +17804,7 @@ img {
     height: auto;
     left: 15px;
     top: 10030px;
+    border-radius: 25px;
     overflow: visible; 
   }
 
@@ -17486,6 +17863,7 @@ img {
     position: absolute;
     width: 93%;
     height: auto;
+    border-radius: 25px;
     left: 15px;
     top: 10590px;
     overflow: visible; 
@@ -17554,6 +17932,7 @@ img {
     height: 300px;
     left: 10px;
     top: 11090px;
+    border-radius: 25px;
     overflow: visible; 
   }
    
@@ -18657,6 +19036,7 @@ a.btn-thirteen{
     
     #seventh{
       position: absolute;
+      border-radius: 25px;
       width: 93%;
       height: auto;
       object-fit: cover;
@@ -18832,6 +19212,7 @@ a.btn-thirteen{
     }
     #eight{
       position: absolute;
+      border-radius: 25px;
       width: 93%;
       height: auto;
       object-fit: cover;
@@ -19897,6 +20278,7 @@ a.btn-thirteen{
       width: 93%;
       height: auto;
       left: 13px;
+      border-radius: 25px;
       top: 5415px;
       overflow: visible;
     }
@@ -20409,7 +20791,7 @@ a.btn-thirteen{
     object-fit: cover;
     left: 15px;
     top: 8190px;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: visible;
   }
   
@@ -20475,6 +20857,7 @@ a.btn-thirteen{
     left: 13px;
     top: 8760px;
     overflow: visible;
+    border-radius: 25px;
   }
   
  
@@ -20585,6 +20968,7 @@ a.btn-thirteen{
     left: 15px;
     top: 9395px;
     overflow: visible; 
+    border-radius: 25px;
   }
 
   #your_kid {
@@ -20654,6 +21038,7 @@ a.btn-thirteen{
     width: 93%;
     height: auto;
     left: 15px;
+    border-radius: 25px;
     top: 10000px;
     overflow: visible; 
   }
@@ -20713,6 +21098,7 @@ a.btn-thirteen{
     position: absolute;
     width: 93%;
     height: auto;
+    border-radius: 25px;
     left: 15px;
     top: 10590px;
     overflow: visible; 
@@ -20778,6 +21164,7 @@ a.btn-thirteen{
   #Screenshot_36 {
     position: absolute;
     width: 93%;
+    border-radius: 25px;
     height: 300px;
     left: 10px;
     top: 11090px;
@@ -21981,6 +22368,7 @@ a.btn-thirteen{
         left: 10px;
         top: 1190px;
         overflow: visible;
+        border-radius: 25px;
       }
       #girl{
         position: absolute;
@@ -22156,6 +22544,7 @@ a.btn-thirteen{
         left: 10px;
         top: 1710px;
         overflow: visible;
+        border-radius: 25px;
       }
       
       
@@ -23203,6 +23592,7 @@ a.btn-thirteen{
         left: 13px;
         top: 5415px;
         overflow: visible;
+        border-radius: 25px;
       }
       
       #Edurific_is_founded_by_the_Alu {
@@ -23725,7 +24115,7 @@ a.btn-thirteen{
         object-fit: cover;
         left: 15px;
         top: 8090px;
-        border-radius: 10px;
+        border-radius: 25px;
         overflow: visible;
       }
       
@@ -23791,6 +24181,7 @@ a.btn-thirteen{
         height: auto;
         left: 13px;
         top: 8760px;
+        border-radius: 25px;
         overflow: visible;
       }
       
@@ -23898,6 +24289,7 @@ a.btn-thirteen{
       #Screenshot_20 {
         position: absolute;
         width: 93%;
+        border-radius: 25px;
         height: auto;
         left: 15px;
         top: 9395px;
@@ -23971,6 +24363,7 @@ a.btn-thirteen{
         width: 93%;
         height: auto;
         left: 15px;
+        border-radius: 25px;
         top: 10000px;
         overflow: visible; 
       }
@@ -24033,6 +24426,7 @@ a.btn-thirteen{
         left: 15px;
         top: 10590px;
         overflow: visible; 
+        border-radius: 25px;
       }
       #Entrepreneurship1 {
         left:15px;
@@ -24096,6 +24490,7 @@ a.btn-thirteen{
         position: absolute;
         width: 93%;
         height: 300px;
+        border-radius: 25px;
         left: 10px;
         top: 11090px;
         overflow: visible; 

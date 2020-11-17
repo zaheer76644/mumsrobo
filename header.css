@@ -158,8 +158,61 @@ a{
     margin-top: 8%;
   
   }
+  @media screen and (min-width: 1600px) {
+   
+    #header h1{
+      color: black;
+      padding: 0px 20px;
+      text-decoration: none;
+      font-size: 3.5rem;
+      text-transform: capitalize;
+      font-family: 'Eagle Lake';
+      letter-spacing: .2rem;
+      font-weight: bold;
+      margin-left: -6%;
+      margin-top: 0%;
+    }
+    #header h2{
+      display: inline-block;
+      padding: 5px 10px;
+      color: white;
+      font-size: 2rem;
+      margin-left: 0%;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: crimson;
+    
+    }
+    #header .brand{
+      margin-left: -17%;
+    }
+    #header .logo{
+      margin-top: -1%;
+      width: 80px;
+      height: auto;
+      margin-left: 0px;
+    }
+    #header .humburger{
+       display: none;
+    }
+    
+    #header .nav-list ul{
+       position: initial;
+       display: block;
+       height: auto;
+       width: fit-content;
+       background-color: transparent;
+    }
+    #header .nav-list ul li{
+       display: inline-block;
+    }
+    
+    #header .nav-list ul li a {
+       font-size: 2rem;
+    }
+  }
 
-  @media screen and (min-width: 1366px) {
+  @media screen and (max-width: 1366px) {
   #header .brand{
     margin-left:-10%;
   }
