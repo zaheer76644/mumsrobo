@@ -11,15 +11,37 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="header.css">
+    
 </head>
 <body>
-
+    <section id="header">
+		<div class="header container">
+			<div class="nav-bar">
+                <img class="logo" src="./img/logo.png">
+				<div class="brand">
+					<a href="index.html"><h1>M<span>u</span>m<span>s</span> R<span>o</span>b<span>o</span></h1></a>
+					<h2>the future of kid's Technology</h2>
+				</div>
+				<div class="nav-list">
+					<div class="humburger"><div class="bar"></div></div>
+					<ul>
+                        <li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">Aboutus</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="APPOINTMENT.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
     <div class="main">
-
-        <div class="container">
+        <div class="containers">
             <form method="POST" class="appointment-form" id="appointment-form">
                 <a href="index.html">
-                <img src="./img/logo.png" class="img"></a>
+                <img src="./img/logo.png" class="Logo3"></a>
                 <h2 class="h2">M<span>u</span>m<span>s</span> R<span>o</span>b<span>o</span></h2>
                 <h4 class="h4">demo Booking</h4>
                 <div class="form-group-1">
@@ -27,7 +49,7 @@
                     <input type="text" name="Student Middle Name" id="Student Middle Name" placeholder="Student Middle Name" required autocomplete="off" />
                     <input type="text" name="Parent" id="Parent First Name" placeholder="Parent First Name" required autocomplete="off" />
                     <input type="number" name="phone_number" id="phone_number" placeholder="Parent/Student Phone number" required autocomplete="off" />
-                    <input type="email" name="email" id="email" placeholder="Email" required autocomplete="off" />
+                    <input type="email" name="email1" id="email1" placeholder="Email" required autocomplete="off" />
                     <input type="date" name="date"  required autocomplete="off" />
                 </div>
                 <div class="form-group-2">
@@ -59,6 +81,7 @@
     </div>
 
     <!-- JS -->
+    <script src="app.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>

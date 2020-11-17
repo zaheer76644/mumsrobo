@@ -37,9 +37,10 @@ list-type-ulli, ul {
   /* IE9 Compat Modes */
   src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff2") format("woff2"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.woff") format("woff"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.ttf") format("truetype"), url("../fonts/roboto-slab/roboto-slab-v7-latin-700.svg#RobotoSlab") format("svg");
   /* Legacy iOS */ }
- 
 
-  @media only screen and (min-width: 1024px){
+
+  @media only screen and (min-width: 1366px){
+    
 a:focus, a:active {
   text-decoration: none;
   outline: none;
@@ -88,9 +89,6 @@ input[type=radio] {
   -ms-appearance: radio !important; }
   
 
-img {
-  max-width: 100%;
-  height: auto; }
 
 figure {
   margin: 0; }
@@ -173,9 +171,10 @@ body {
   padding: 60px 0;
   position: relative; }
 
-.container {
+.containers {
   width: 586px;
   background: #fff;
+  margin-top: 100px;
   margin-left: 165px;
   border-radius: 10px;
   -moz-border-radius: 10px;
@@ -275,35 +274,37 @@ input[type=checkbox]:not(old):checked + label > span:before {
   .submit:hover {
     background: #3a518d; }
 
-ul {
+.select-list ul {
   background: 0 0;
   z-index: 9; }
 
-ul li {
+.select-list ul li {
   padding: 3px 0px;
   z-index: 2;
   color: #999; }
-  ul li:last-child {
-    border-bottom: 1px solid #ebebeb; }
+  .select-list ul li:last-child {
+    border-bottom: 0px solid #ebebeb; }
 
-ul li:not(.init) {
+.select-list ul li:not(.init) {
   display: none;
   background: #fff;
   color: #222;
   padding: 5px 10px;
   border-left: 1px solid #ebebeb;
   border-right: 1px solid #ebebeb;
-  border-top: 1px solid #ebebeb; }
+  border-top: 1px solid #ebebeb;
+   }
 
-ul li:not(.init):hover, ul li.selected:not(.init) {
+.select-list ul li:not(.init):hover,.select-list ul li.selected:not(.init) {
   background: #4966b1;
+
   color: #fff; }
 
-li.init {
+.select-list li.init {
   cursor: pointer;
   position: relative;
   border-bottom: 2px solid #ebebeb; }
-  li.init:after {
+  .select-list li.init:after {
     position: absolute;
     right: 0;
     top: 50%;
@@ -346,16 +347,16 @@ li.init {
 #hour_appointment {
   z-index: 9; 
 }
-.img{
+.Logo3{
   width: 10%;
 }
 
 
 @media screen and (max-width: 1024px) {
-  .container {
+  .containers {
     margin: 0 auto; } }
 @media screen and (max-width: 768px) {
-  .container {
+  .containers {
     width: calc( 100% - 30px);
     max-width: 100%; } }
 @media screen and (max-device-width: 420px) {
@@ -373,8 +374,9 @@ li.init {
     font-weight: 400;
     font-family: 'Roboto Slab';
     margin: 0px; 
+    margin-top: 120px;
   }
-  .container{ width: 350px;
+  .containers{ width: 350px;
     height: 780px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -415,10 +417,11 @@ li.init {
       font-weight: bold;
       color: crimson;
       text-transform: capitalize;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
     }
   
-  .img{
+  .Logo3{
     width: 15%;
     height: 15%;
   }}
@@ -438,8 +441,9 @@ li.init {
     font-weight: 400;
     font-family: 'Roboto Slab';
     margin: 0px; 
+    margin-top: 120px;
   }
-  .container{ width: 350px;
+  .containers{ width: 350px;
     height: 780px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -468,7 +472,7 @@ li.init {
     text-transform: uppercase; 
     color: crimson;
   }
-  .img{
+  .Logo3{
     width: 15%;
     height: 15%;
   }
@@ -488,7 +492,8 @@ li.init {
       font-weight: bold;
       color: crimson;
       text-transform: capitalize;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
     }
   
 }
@@ -508,8 +513,9 @@ li.init {
     font-weight: 400;
     font-family: 'Roboto Slab';
     margin: 0px; 
+    margin-top: 120px;
   }
-  .container{ width: 330px;
+  .containers{ width: 330px;
     height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -538,7 +544,7 @@ li.init {
     text-transform: uppercase; 
     color: crimson;
   }
-  .img{
+  .Logo3{
     width: 15%;
     height: 15%;
   }
@@ -558,7 +564,8 @@ li.init {
       font-weight: bold;
       color: crimson;
       text-transform: capitalize;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
     }
   
 }
@@ -578,8 +585,9 @@ li.init {
     font-weight: 400;
     font-family: 'Roboto Slab';
     margin: 0px; 
+    margin-top: 120px;
   }
-  .container{ width: 320px;
+  .containers{ width: 320px;
     height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -608,7 +616,7 @@ li.init {
     text-transform: uppercase; 
     color: crimson;
   }
-  .img{
+  .Logo3{
     width: 15%;
     height: 15%;
   }
@@ -628,7 +636,8 @@ li.init {
       font-weight: bold;
       color: crimson;
       text-transform: capitalize;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
     }
   
 }
@@ -648,8 +657,10 @@ li.init {
     font-weight: 400;
     font-family: 'Roboto Slab';
     margin: 0px; 
+    margin-top: 120px;
+   
   }
-  .container{ width: 280px;
+  .containers{ width: 280px;
     height: 770px;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -678,7 +689,7 @@ li.init {
     text-transform: uppercase; 
     color: crimson;
   }
-  .img{
+  .Logo3{
     width: 15%;
     height: 15%;
   }
@@ -698,7 +709,8 @@ li.init {
       font-weight: bold;
       color: crimson;
       text-transform: capitalize;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
     }
   
 }
