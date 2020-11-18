@@ -158,39 +158,29 @@ a{
     margin-top: 8%;
   
   }
-  @media screen and (min-width: 1600px) {
-   
-    #header h1{
-      color: black;
-      padding: 0px 20px;
-      text-decoration: none;
-      font-size: 3.5rem;
-      text-transform: capitalize;
-      font-family: 'Eagle Lake';
-      letter-spacing: .2rem;
-      font-weight: bold;
-      margin-left: -6%;
-      margin-top: 0%;
-    }
-    #header h2{
-      display: inline-block;
-      padding: 5px 10px;
-      color: white;
-      font-size: 2rem;
-      margin-left: 0%;
-      text-decoration: none;
-      text-transform: uppercase;
-      background-color: crimson;
-    
-    }
+  @media screen and (min-width: 1366px) {
     #header .brand{
-      margin-left: -17%;
+      margin-left:-20%;
     }
     #header .logo{
-      margin-top: -1%;
+      margin-top:-15px;
       width: 80px;
       height: auto;
-      margin-left: 0px;
+      margin-left: 100px;
+    }
+    #abouts .img{
+        height: auto;
+        margin-top: 50px;
+        margin-left: -45%;
+    }
+    
+    #abouts p{
+        margin-left: 50%;
+        width: 500px;
+        margin-top:-30%; 
+        font-size: 1.8rem;
+        color: royalblue;
+        font-family: 'Kanit', sans-serif;
     }
     #header .humburger{
        display: none;
@@ -211,16 +201,16 @@ a{
        font-size: 2rem;
     }
   }
-
-  @media screen and (max-width: 1366px) {
+  
+  @media screen and (min-width: 1600px) {
   #header .brand{
-    margin-left:-10%;
+    margin-left:-27%;
   }
   #header .logo{
-    margin-top:-8px;
+    margin-top:-20px;
     width: 80px;
     height: auto;
-    margin-left: 100px;
+    margin-left: 0px;
   }
   #abouts .img{
       height: auto;
