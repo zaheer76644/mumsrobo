@@ -5,13 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Mums Robo Demo Booking</title>
-
-    <!-- Font Icon -->
     <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-
-    <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="styles.css"> -->
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -47,17 +42,29 @@
                 <h2 class="h2">M<span>u</span>m<span>s</span> R<span>o</span>b<span>o</span></h2>
                 <h4 class="h4">demo Booking</h4>
                 <div class="form-group-1">
-                    <input type="text" name="Student First Name" id="Student First Name" placeholder="Student First Name" required autocomplete="off" />
-                    <input type="text" name="Student Middle Name" id="Student Middle Name" placeholder="Student Middle Name" required autocomplete="off" />
-                    <input type="text" name="Parent" id="Parent First Name" placeholder="Parent First Name" required autocomplete="off" />
-                    <input type="number" name="phone_number" id="phone_number" placeholder="Parent/Student Phone number" required autocomplete="off" />
-                    <input type="email" name="email1" id="email1" placeholder="Email" required autocomplete="off" />
-                    <input type="date" name="date"  required autocomplete="off" />
+                    <span>
+                        <input type="text" name="studentFirstName" id="Student First Name" class="formRequired" placeholder="Student First Name" required autocomplete="off" />
+                    </span>
+                    <span>
+                        <input type="text" name="studentMiddleName" id="Student Middle Name" class="formRequired" placeholder="Student Middle Name" required autocomplete="off" />
+                    </span>
+                    <span>
+                        <input type="text" name="parent" id="Parent First Name" placeholder="Parent First Name" class="formRequired" required autocomplete="off" />
+                    </span>
+                    <span>
+                        <input type="number" name="phoneNumber" id="phone_number" placeholder="Parent/Student Phone number" class="formRequired" required autocomplete="off" />
+                    </span>
+                    <span>
+                        <input type="email" name="email1" id="email1" placeholder="Email" class="formRequired" required autocomplete="off" />
+                    </span>
+                    <span>
+                        <input type="date" name="date" class="formRequired" required autocomplete="off" />
+                    </span>
                 </div>
                 <div class="form-group-2">
                     
                     <div class="select-list">
-                        <select name="hour_appointment" id="hour_appointment">
+                        <select name="hourAppointment" class="formRequired"m0=id="hour_appointment">
                             <option seleected value="">Hours : 11am 12pm</option>
                             <option value="12h-1h">Hours : 12pm 01pm</option>
                             <option value="1h-2h">Hours : 01pm 02pm</option>
@@ -75,7 +82,7 @@
                     <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
                 </div>
                 <div class="form-submit">
-                    <input type="submit" name="submit" id="submit" class="submit" value="Request an appointment" />
+                    <input type="submit" name="submit" id="submit" class="submitButtonClass" value="Request an appointment" />
                 </div>
             </form>
         </div>
@@ -119,5 +126,6 @@
     <script src="app.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="./js/formJquery.js"></script>
 </body>
 </html>

@@ -252,7 +252,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
 .term-service {
   color: #222; }
 
-.submit {
+.submitButtonClass {
   width: auto;
   background: #4966b1;
   color: #fff;
@@ -271,7 +271,7 @@ input[type=checkbox]:not(old):checked + label > span:before {
   -webkit-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
   -o-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
   -ms-box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7); }
-  .submit:hover {
+  .submitButtonClass:hover {
     background: #3a518d; }
 
 .select-list ul {
