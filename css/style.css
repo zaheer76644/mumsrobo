@@ -195,7 +195,7 @@ input, select {
   border-bottom: 2px solid #ebebeb;
   padding: 5px 0;
   color: #222;
-  margin-bottom: 31px;
+  margin-top: 31px;
   font-family: 'Roboto Slab'; }
   input:focus, select:focus {
     color: #222;
@@ -350,7 +350,15 @@ input[type=checkbox]:not(old):checked + label > span:before {
 .Logo3{
   width: 10%;
 }
-
+.error{
+  position: absolute;
+  font-size: 10px;
+  color: red;
+}
+.submitMsg{
+  color: #000;
+  margin-top: 15px;
+}
 
 @media screen and (max-width: 1024px) {
   .containers {
